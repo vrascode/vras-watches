@@ -1,0 +1,64 @@
+{% extends "loja/base.html" %}
+{% load static %}
+
+{% block title %}Produtos | Vras Watches{% endblock %}
+
+{% block content %}
+<section class="page-title">
+    <p class="eyebrow">Colecao</p>
+    <h1>Relogios Vras</h1>
+    <p class="page-subtitle">Explore por categoria, encontre seu estilo e adicione ao carrinho em poucos cliques.</p>
+</section>
+
+<section class="section section-tight">
+    <div class="category-pills" aria-label="Categorias">
+        <a class="{% if not selected_category %}is-active{% endif %}" href="{% url 'loja:products' %}">Todos</a>
+        {% for category in categories %}
+            <a class="{% if category == selected_category %}is-active{% endif %}" href="{% url 'loja:products' %}?categoria={{ category|urlencode }}">{{ category }}</a>
+        {% endfor %}
+    </div>
+
+    <form class="filters" action="{% url 'loja:products' %}" method="get">
+        <label>
+            Buscar
+            <input type="search" name="q" value="{{ search_query }}" placeholder="Nome, linha ou descricao">
+        </label>
+        <label>
+            Categoria
+            <select name="categoria">
+                <option value="">Todas</option>
+                {% for category in categories %}
+                    <option value="{{ category }}" {% if category == selected_category %}selected{% endif %}>{{ category }}</option>
+                {% endfor %}
+            </select>
+        </label>
+        <button class="button button-primary" type="submit">Filtrar</button>
+        <a class="button button-ghost" href="{% url 'loja:products' %}">Limpar</a>
+    </form>
+    <p class="result-count">{{ product_count }} produto{{ product_count|pluralize }} encontrado{{ product_count|pluralize }}.</p>
+</section>
+
+<section class="section section-tight">
+    <div class="product-grid">
+        {% for product in products %}
+            <article class="product-card">
+                <a href="{% url 'loja:product_detail' product.id %}">
+                    <img src="{% static 'img/products/' %}{{ product.imagem }}" alt="{{ product.nome }}">
+                    <div class="product-card-body">
+                        <span>{{ product.categoria }}</span>
+                        <h2>{{ product.nome }}</h2>
+                        <p class="product-description">{{ product.descricao }}</p>
+                        <p class="product-price">{{ product.preco_brl }}</p>
+                    </div>
+                </a>
+                <form action="{% url 'loja:add_to_cart' product.id %}" method="post">
+                    {% csrf_token %}
+                    <button class="button button-secondary" type="submit">Adicionar ao carrinho</button>
+                </form>
+            </article>
+        {% empty %}
+            <p class="empty-state">Nenhum relogio encontrado para esse filtro.</p>
+        {% endfor %}
+    </div>
+</section>
+{% endblock %}

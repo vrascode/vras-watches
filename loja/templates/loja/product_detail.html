@@ -1,0 +1,45 @@
+{% extends "loja/base.html" %}
+{% load static %}
+
+{% block title %}{{ product.nome }} | Vras Watches{% endblock %}
+
+{% block content %}
+<section class="product-detail">
+    <div class="product-detail-image">
+        <img src="{% static 'img/products/' %}{{ product.imagem }}" alt="{{ product.nome }}">
+    </div>
+    <div class="product-detail-info">
+        <p class="eyebrow">{{ product.categoria }}</p>
+        <h1>{{ product.nome }}</h1>
+        <p class="price">{{ product.preco_brl }}</p>
+        <p>{{ product.descricao }}</p>
+        <div class="detail-panel">
+            <div>
+                <span>Entrega</span>
+                <strong>Envio nacional</strong>
+            </div>
+            <div>
+                <span>Estilo</span>
+                <strong>{{ product.categoria }}</strong>
+            </div>
+            <div>
+                <span>Compra</span>
+                <strong>Sessao segura</strong>
+            </div>
+        </div>
+        <ul class="features">
+            <li>Acabamento premium e visual refinado.</li>
+            <li>Design elegante e versatil para uso diario.</li>
+            <li>Carrinho simples, sem dependencia de JavaScript.</li>
+        </ul>
+        <form action="{% url 'loja:add_to_cart' product.id %}" method="post">
+            {% csrf_token %}
+            <button class="button button-primary" type="submit">Adicionar ao carrinho</button>
+        </form>
+        <div class="action-row">
+            <a class="button button-ghost" href="{% url 'loja:products' %}">Continuar comprando</a>
+            <a class="back-link" href="{% url 'loja:cart' %}">Ver carrinho</a>
+        </div>
+    </div>
+</section>
+{% endblock %}

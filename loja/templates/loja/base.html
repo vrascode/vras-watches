@@ -1,0 +1,48 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}Vras Watches{% endblock %}</title>
+    <link rel="icon" href="{% static 'img/products/FavIconNoBG_2d8dc902-14bf-4159-af5e-52981b699360_96x96.png' %}">
+    <link rel="stylesheet" href="{% static 'css/theme.css' %}">
+    <link rel="stylesheet" href="{% static 'css/swiper-reviews.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+<body>
+    <div class="announcement">Frete gratis para todo o Brasil em pedidos selecionados</div>
+
+    <header class="site-header-vras">
+        <a class="brand" href="{% url 'loja:home' %}">Vras Watches</a>
+        <nav class="nav">
+            <a href="{% url 'loja:home' %}">Inicio</a>
+            <a href="{% url 'loja:products' %}">Relogios</a>
+            <a href="{% url 'loja:cart' %}">Carrinho ({{ cart_count|default:0 }})</a>
+        </nav>
+    </header>
+
+    {% if messages %}
+        <div class="messages" role="status" aria-live="polite">
+            {% for message in messages %}
+                <p class="message message-{{ message.tags }}">{{ message }}</p>
+            {% endfor %}
+        </div>
+    {% endif %}
+
+    <main>
+        {% block content %}{% endblock %}
+    </main>
+
+    <footer class="footer-vras">
+        <div>
+            <strong>Vras Watches</strong>
+            <p>Relogios de presenca, acabamento premium e design atemporal.</p>
+        </div>
+        <div>
+            <span>Atendimento</span>
+            <p>Segunda a sexta, 9h as 18h</p>
+        </div>
+    </footer>
+</body>
+</html>

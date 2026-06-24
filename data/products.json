@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "nome": "Vras Flyback 42mm",
+    "preco": 359.0,
+    "descricao": "Relogio de linhas esportivas e caixa marcante, criado para uso diario com presenca discreta.",
+    "imagem": "41_1200x.webp",
+    "categoria": "Classicos",
+    "destaque": true
+  },
+  {
+    "id": 2,
+    "nome": "Vras Genius 42mm",
+    "preco": 389.0,
+    "descricao": "Mostrador verde profundo, acabamento polido e visual elegante para ocasioes formais.",
+    "imagem": "0be87f4f-f1d0-4858-b062-1c7c756e4075_1200x.png",
+    "categoria": "Maestro",
+    "destaque": true
+  },
+  {
+    "id": 3,
+    "nome": "Vras Imperium 41mm",
+    "preco": 589.0,
+    "descricao": "Modelo premium com composicao refinada, ideal para quem prefere um relogio robusto e sofisticado.",
+    "imagem": "Imperium_1200x.jpg",
+    "categoria": "Maestro",
+    "destaque": true
+  },
+  {
+    "id": 4,
+    "nome": "Vras Winner 40mm",
+    "preco": 529.0,
+    "descricao": "Relogio versatil com visual contemporaneo e contraste forte para combinar com producoes urbanas.",
+    "imagem": "FotosPNGTOP_bd9537fc-04bb-4d0c-ab13-ca227d7b784e_1200x.png",
+    "categoria": "Best Sellers",
+    "destaque": true
+  },
+  {
+    "id": 5,
+    "nome": "Vras Legacy 42mm",
+    "preco": 389.0,
+    "descricao": "Design limpo com inspiracao classica, pulseira elegante e proporcao equilibrada no pulso.",
+    "imagem": "1_9eff571c-24cd-4281-b16d-c43038dea5ac_1200x.png",
+    "categoria": "Classicos",
+    "destaque": false
+  },
+  {
+    "id": 6,
+    "nome": "Vras Cadence 39mm",
+    "preco": 369.0,
+    "descricao": "Uma peca compacta e refinada, pensada para quem busca elegancia sem excesso.",
+    "imagem": "43_cd351668-10cd-411d-b375-ac05281c4c42_1200x.jpg",
+    "categoria": "Classicos",
+    "destaque": false
+  },
+  {
+    "id": 7,
+    "nome": "Vras Navigator 42mm",
+    "preco": 449.0,
+    "descricao": "Relogio com personalidade nautica, leitura clara e acabamento de impacto visual.",
+    "imagem": "Navigator_768x.png",
+    "categoria": "Lancamentos",
+    "destaque": true
+  },
+  {
+    "id": 8,
+    "nome": "Vras Dominus 40mm",
+    "preco": 429.0,
+    "descricao": "Modelo imponente com linhas modernas, criado para vestir bem do trabalho ao jantar.",
+    "imagem": "Dominus_1200x.jpg",
+    "categoria": "Best Sellers",
+    "destaque": false
+  },
+  {
+    "id": 9,
+    "nome": "Vras Monarch 40mm",
+    "preco": 479.0,
+    "descricao": "Relogio elegante com detalhes sobrios e acabamento pensado para composicoes premium.",
+    "imagem": "88_fbbced28-dfa4-4ef6-ba7d-961bc3338663_1200x.jpg",
+    "categoria": "Lancamentos",
+    "destaque": false
+  },
+  {
+    "id": 10,
+    "nome": "Vras Palazzo 40mm",
+    "preco": 459.0,
+    "descricao": "Um classico de visual limpo com caixa equilibrada e brilho moderado.",
+    "imagem": "Gemini_Generated_Image_kqspgxkqspgxkqsp_1200x.png",
+    "categoria": "Maestro",
+    "destaque": false
+  },
+  {
+    "id": 11,
+    "nome": "Vras Megir 42mm",
+    "preco": 399.0,
+    "descricao": "Relogio de presenca forte, com perfil esportivo e boa versatilidade para o dia a dia.",
+    "imagem": "128_667d1500-87fc-497a-bad6-93746f7d9e7c_1200x.jpg",
+    "categoria": "Esportivos",
+    "destaque": false
+  },
+  {
+    "id": 12,
+    "nome": "Vras Berny 38mm",
+    "preco": 329.0,
+    "descricao": "Peca compacta com acabamento preciso e proposta minimalista para uso continuo.",
+    "imagem": "50_4c9ee022-801b-49a0-ac53-aec57125b2c9_1200x.jpg",
+    "categoria": "Esportivos",
+    "destaque": false
+  }
+]
