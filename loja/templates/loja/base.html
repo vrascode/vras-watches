@@ -11,12 +11,46 @@
     <link rel="stylesheet" href="{% static 'css/style.css' %}">
 </head>
 <body>
-    <div class="announcement">Frete gratis para todo o Brasil em pedidos selecionados</div>
+    <div class="announcement" aria-label="Promocoes Vras Watches">
+        <div class="announcement-track">
+            <div class="announcement-group">
+                <span>Frete gratis em compras acima de R$399,90</span>
+                <span>5% OFF via Pix</span>
+                <span>10% de Cashback</span>
+                <span>Mais de 5.000 clientes</span>
+            </div>
+            <div class="announcement-group" aria-hidden="true">
+                <span>Frete gratis em compras acima de R$399,90</span>
+                <span>5% OFF via Pix</span>
+                <span>10% de Cashback</span>
+                <span>Mais de 5.000 clientes</span>
+            </div>
+            <div class="announcement-group" aria-hidden="true">
+                <span>Frete gratis em compras acima de R$399,90</span>
+                <span>5% OFF via Pix</span>
+                <span>10% de Cashback</span>
+                <span>Mais de 5.000 clientes</span>
+            </div>
+            <div class="announcement-group" aria-hidden="true">
+                <span>Frete gratis em compras acima de R$399,90</span>
+                <span>5% OFF via Pix</span>
+                <span>10% de Cashback</span>
+                <span>Mais de 5.000 clientes</span>
+            </div>
+        </div>
+    </div>
 
     <header class="site-header-vras">
+        <nav class="header-side header-side-left" aria-label="Menu principal">
+            <a class="menu-link" href="{% url 'loja:home' %}">
+                <span class="hamburger" aria-hidden="true"></span>
+                <span>Inicio</span>
+            </a>
+        </nav>
+
         <a class="brand" href="{% url 'loja:home' %}">Vras Watches</a>
-        <nav class="nav">
-            <a href="{% url 'loja:home' %}">Inicio</a>
+
+        <nav class="header-side header-side-right" aria-label="Links da loja">
             <a href="{% url 'loja:products' %}">Relogios</a>
             <a href="{% url 'loja:cart' %}">Carrinho ({{ cart_count|default:0 }})</a>
         </nav>
