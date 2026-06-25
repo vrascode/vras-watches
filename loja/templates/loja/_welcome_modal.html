@@ -1,0 +1,37 @@
+{% load static %}
+
+<div class="welcome-modal" data-welcome-modal aria-hidden="true">
+    <div class="welcome-modal__backdrop" data-welcome-close></div>
+
+    <section class="welcome-modal__dialog" role="dialog" aria-modal="true" aria-labelledby="welcome-modal-title">
+        <button class="welcome-modal__close" type="button" data-welcome-close aria-label="Fechar popup">
+            <span aria-hidden="true">&times;</span>
+        </button>
+
+        <div class="welcome-modal__image">
+            <img src="{% static 'img/products/IMG_9047_1000x.jpg' %}" alt="Relogio premium Vras Watches">
+        </div>
+
+        <div class="welcome-modal__content">
+            <p class="welcome-modal__brand">Vras Watches</p>
+            <h2 id="welcome-modal-title">PRIMEIRA VEZ NA VRAS WATCHES?</h2>
+            <p class="welcome-modal__text">Cadastre-se e receba um benefício exclusivo para sua primeira compra.</p>
+
+            <form class="welcome-modal__form" data-welcome-form novalidate>
+                <label class="welcome-modal__label" for="welcome-email">E-mail</label>
+                <input
+                    id="welcome-email"
+                    class="welcome-modal__input"
+                    type="email"
+                    name="email"
+                    placeholder="Seu melhor e-mail"
+                    autocomplete="email"
+                    data-welcome-email
+                    required
+                >
+                <p class="welcome-modal__feedback" data-welcome-feedback aria-live="polite"></p>
+                <button class="welcome-modal__button" type="submit">QUERO MEU BENEFÍCIO</button>
+            </form>
+        </div>
+    </section>
+</div>

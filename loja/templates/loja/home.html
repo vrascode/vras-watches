@@ -3,7 +3,13 @@
 
 {% block title %}Vras Watches | Relogios Premium{% endblock %}
 
+{% block extra_css %}
+    <link rel="stylesheet" href="{% static 'css/welcome-modal.css' %}">
+{% endblock %}
+
 {% block content %}
+{% include "loja/_welcome_modal.html" %}
+
 <section class="hero">
     <img src="{% static 'img/products/DSC00761.png' %}" alt="Relogio Vras em destaque">
     <div class="hero-content">
@@ -49,4 +55,8 @@
 <section class="brand-band">
     <p>Design limpo. Paleta azul e branco. Presenca premium em cada pulso.</p>
 </section>
+{% endblock %}
+
+{% block extra_js %}
+    <script src="{% static 'js/welcome-modal.js' %}" defer></script>
 {% endblock %}
