@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{% block title %}Vras Watches{% endblock %}</title>
     <link rel="icon" href="{% static 'img/products/FavIconNoBG_2d8dc902-14bf-4159-af5e-52981b699360_96x96.png' %}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
     <link rel="stylesheet" href="{% static 'css/theme.css' %}">
     <link rel="stylesheet" href="{% static 'css/swiper-reviews.min.css' %}">
     <link rel="stylesheet" href="{% static 'css/style.css' %}">
@@ -70,13 +71,64 @@
     </main>
 
     <footer class="footer-vras">
-        <div>
-            <strong>Vras Watches</strong>
-            <p>Relogios de presenca, acabamento premium e design atemporal.</p>
-        </div>
-        <div>
-            <span>Atendimento</span>
-            <p>Segunda a sexta, 9h as 18h</p>
+        <div class="footer-vras__inner">
+            <div class="footer-vras__grid">
+                <section class="footer-vras__brand" aria-label="VRAS Watches">
+                    <a class="footer-vras__logo footer-vras__title" href="{% url 'loja:home' %}">VRAS Watches</a>
+                    <p>Rel&oacute;gios premium desenvolvidos para quem valoriza eleg&acirc;ncia, precis&atilde;o e exclusividade.</p>
+                </section>
+
+                <section class="footer-vras__column footer-vras__about" aria-label="Sobre nós">
+                    <h2 class="footer-vras__title">SOBRE N&Oacute;S</h2>
+                    <div class="footer-vras__links">
+                        <p>VRAS COMPANY NEG&Oacute;CIOS DIGITAIS</p>
+                        <p>Palmas, Tocantins, Brasil</p>
+                        <p><strong>E-mail:</strong> <a href="mailto:vrascompany@gmail.com">vrascompany@gmail.com</a></p>
+                        <p><strong>WhatsApp:</strong> <a href="https://wa.me/5563992254787" target="_blank" rel="noopener noreferrer">(63) 99225-4787</a></p>
+                    </div>
+                </section>
+
+                <nav class="footer-vras__column" aria-label="Suporte">
+                    <h2 class="footer-vras__title">SUPORTE</h2>
+                    <div class="footer-vras__links">
+                        <a href="#">Pol&iacute;tica de Privacidade</a>
+                        <a href="#">Pol&iacute;tica de Trocas</a>
+                        <a href="#">Pol&iacute;tica de Reembolso</a>
+                        <a href="#">Pol&iacute;tica de Envio</a>
+                        <a href="#">Termos de Uso</a>
+                    </div>
+                </nav>
+
+                <section class="footer-vras__social-column" aria-label="Redes sociais">
+                    <h2 class="footer-vras__title">REDES SOCIAIS</h2>
+                    <div class="footer-vras__social">
+                        <a href="https://www.instagram.com/usevras/" target="_blank" rel="noopener noreferrer" aria-label="Instagram da VRAS Watches">
+                            <i class="fa-brands fa-instagram" aria-hidden="true"></i>
+                        </a>
+                        <a href="#" aria-label="Facebook da VRAS Watches">
+                            <i class="fa-brands fa-facebook-f" aria-hidden="true"></i>
+                        </a>
+                        <a href="#" aria-label="YouTube da VRAS Watches">
+                            <i class="fa-brands fa-youtube" aria-hidden="true"></i>
+                        </a>
+                        <a href="#" aria-label="TikTok da VRAS Watches">
+                            <i class="fa-brands fa-tiktok" aria-hidden="true"></i>
+                        </a>
+                        <a href="#" aria-label="LinkedIn da VRAS Watches">
+                            <i class="fa-brands fa-linkedin-in" aria-hidden="true"></i>
+                        </a>
+                    </div>
+
+                    <div class="footer-vras__secure" aria-label="Google Site Seguro">
+                        <span class="footer-vras__secure-icon" aria-hidden="true"></span>
+                        <span>
+                            <strong>Google</strong>
+                            <small>Site Seguro</small>
+                        </span>
+                    </div>
+                </section>
+            </div>
+
         </div>
     </footer>
     {% block extra_js %}{% endblock %}
