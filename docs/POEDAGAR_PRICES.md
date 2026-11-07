@@ -1,6 +1,6 @@
 # Pesquisa Poedagar e comparação de preços
 
-Consulta pública: 2026-11-07T22:42:49.293306+00:00 (UTC). Os horários individuais também estão registrados no snapshot.
+Consulta pública: 2026-11-07T23:09:14.812893+00:00 (UTC). Os horários individuais também estão registrados no snapshot.
 Fonte principal de preço: [https://lojaspoedagar.com.br/masculinos?sort_by=best_sellers](https://lojaspoedagar.com.br/masculinos?sort_by=best_sellers). Cada página individual foi consultada; horários e hashes SHA-256 estão em `data/poedagar_sources.json`.
 
 ## Resultado e limite da identificação
@@ -8,6 +8,8 @@ Fonte principal de preço: [https://lojaspoedagar.com.br/masculinos?sort_by=best
 18 anúncios/modelos comerciais e 82 variantes identificados no site 2. Dez candidatos por nome foram consultados no site 1; isso não é um inventário completo desse site nem comprova equivalência. Nenhum dos 12 produtos VRAS foi associado com segurança. Zero fotografias autorizadas incorporadas. Nenhum preço publicado foi alterado.
 
 Os nomes são nomes comerciais das lojas, não referências oficiais do fabricante. O SKU `201447598` aparece em anúncios diferentes do site 2; os IDs de variante identificam registros dessa loja e não referências do fabricante. Cor semelhante ou nome parecido não comprovam o mesmo modelo, acabamento ou pulseira. Valores de estoque da fonte são apenas evidência da consulta e nunca foram copiados como estoque VRAS.
+
+O [inventário de identidade por variante](POEDAGAR_VARIANT_IDENTITY.csv) registra marca anunciada, nome comercial, SKU/ID interno, rótulo de cor, quantidade de fotografias, disponibilidade, URL e data. Referência do fabricante, cor da caixa, cor e tipo de pulseira ficam explicitamente não confirmados quando não há evidência inequívoca; o rótulo “Azul” não foi reinterpretado como cor da caixa ou da pulseira.
 
 ## Preços encontrados por anúncio
 
@@ -44,20 +46,22 @@ Um preço cadastrado para variante indisponível é apenas evidência histórica
 
 Não há diferença calculada nem preço proposto por SKU enquanto não existir correspondência exata. Esta tabela preserva os preços da VRAS e explicita a lacuna, sem comparar relógios diferentes.
 
-| ID | Produto VRAS | Preço atual | Modelo/variante Poedagar | Preço correspondente no site 2 | Decisão |
-| --- | --- | --- | --- | --- | --- |
-| 1 | Vras Flyback 42mm | R$ 359,00 | Não confirmados | Não localizado com segurança | Preservar; confirmar identidade |
-| 2 | Vras Genius 42mm | R$ 389,00 | Não confirmados | Não localizado com segurança | Preservar; confirmar identidade |
-| 3 | Vras Imperium 41mm | R$ 589,00 | Não confirmados | Não localizado com segurança | Preservar; confirmar identidade |
-| 4 | Vras Winner 40mm | R$ 529,00 | Não confirmados | Não localizado com segurança | Preservar; confirmar identidade |
-| 5 | Vras Legacy 42mm | R$ 389,00 | Não confirmados | Não localizado com segurança | Preservar; confirmar identidade |
-| 6 | Vras Cadence 39mm | R$ 369,00 | Não confirmados | Não localizado com segurança | Preservar; confirmar identidade |
-| 7 | Vras Navigator 42mm | R$ 449,00 | Não confirmados | Não localizado com segurança | Preservar; confirmar identidade |
-| 8 | Vras Dominus 40mm | R$ 429,00 | Não confirmados | Não localizado com segurança | Preservar; confirmar identidade |
-| 9 | Vras Monarch 40mm | R$ 479,00 | Não confirmados | Não localizado com segurança | Preservar; confirmar identidade |
-| 10 | Vras Palazzo 40mm | R$ 459,00 | Não confirmados | Não localizado com segurança | Preservar; confirmar identidade |
-| 11 | Vras Megir 42mm | R$ 399,00 | Não confirmados | Não localizado com segurança | Preservar; confirmar identidade |
-| 12 | Vras Berny 38mm | R$ 329,00 | Não confirmados | Não localizado com segurança | Preservar; confirmar identidade |
+| Produto VRAS | Modelo Poedagar | Preço atual | Preço de referência | Diferença em reais | URL correspondente | Consulta UTC |
+| --- | --- | --- | --- | --- | --- | --- |
+| Vras Flyback 42mm | Não confirmado | R$ 359,00 | Não confirmado | Não calculável | Não confirmada | 2026-11-07 |
+| Vras Genius 42mm | Não confirmado | R$ 389,00 | Não confirmado | Não calculável | Não confirmada | 2026-11-07 |
+| Vras Imperium 41mm | Não confirmado | R$ 589,00 | Não confirmado | Não calculável | Não confirmada | 2026-11-07 |
+| Vras Winner 40mm | Não confirmado | R$ 529,00 | Não confirmado | Não calculável | Não confirmada | 2026-11-07 |
+| Vras Legacy 42mm | Não confirmado | R$ 389,00 | Não confirmado | Não calculável | Não confirmada | 2026-11-07 |
+| Vras Cadence 39mm | Não confirmado | R$ 369,00 | Não confirmado | Não calculável | Não confirmada | 2026-11-07 |
+| Vras Navigator 42mm | Não confirmado | R$ 449,00 | Não confirmado | Não calculável | Não confirmada | 2026-11-07 |
+| Vras Dominus 40mm | Não confirmado | R$ 429,00 | Não confirmado | Não calculável | Não confirmada | 2026-11-07 |
+| Vras Monarch 40mm | Não confirmado | R$ 479,00 | Não confirmado | Não calculável | Não confirmada | 2026-11-07 |
+| Vras Palazzo 40mm | Não confirmado | R$ 459,00 | Não confirmado | Não calculável | Não confirmada | 2026-11-07 |
+| Vras Megir 42mm | Não confirmado | R$ 399,00 | Não confirmado | Não calculável | Não confirmada | 2026-11-07 |
+| Vras Berny 38mm | Não confirmado | R$ 329,00 | Não confirmado | Não calculável | Não confirmada | 2026-11-07 |
+
+O [CSV de comparação por produto VRAS](POEDAGAR_COMPARISON.csv) mantém os mesmos campos. Valores e URLs não correspondidos ficam vazios, em vez de presumir zero ou comparar modelos diferentes.
 
 ## Aprovação dos preços
 

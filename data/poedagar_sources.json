@@ -1,5 +1,5 @@
 {
-  "consulted_at_utc": "2026-11-07T22:42:49.293306+00:00",
+  "consulted_at_utc": "2026-11-07T23:09:14.812893+00:00",
   "category_url": "https://lojaspoedagar.com.br/masculinos?sort_by=best_sellers",
   "currency": "BRL",
   "scope": "18 linked men's listings; 10 first-site name candidates (not an exhaustive first-site inventory)",
@@ -8,8 +8,8 @@
   "products": [
     {
       "url": "https://lojaspoedagar.com.br/army/p",
-      "checked_at_utc": "2026-11-07T22:42:44.395424+00:00",
-      "html_sha256": "b27dd8d44f77ce06ec608ff9042096f0366595df4289683d04665925e30149cf",
+      "checked_at_utc": "2026-11-07T23:09:08.928544+00:00",
+      "html_sha256": "a633dcca905477ec3764d91122a418ac6582fe8150d32ba2339afc4ee2eb7107",
       "name": "Relógio Poedagar Army",
       "slug": "army",
       "variants": [
@@ -29,6 +29,10 @@
           "pix_brl": 187.07,
           "source_blocked_sale": false,
           "source_stock_status": "in_stock",
+          "case_color": null,
+          "strap_color": null,
+          "strap_type": null,
+          "attribute_status": "not_verified; source color labels do not distinguish dial/case/strap",
           "image_urls_for_review_only": [
             "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-army-relogio-masculino-vermelho-677aa45f3029a-large.png",
             "https://images.yampi.me/assets/stores/poedagar8/uploads/images/poedagar-mens-watches-brand-luxury-silicone-strap-waterproof-sport-chronograph-quartz-wristwatch-men-clock-relogio-mascu-red-6760f6b0c9b37-large.jpg",
@@ -55,6 +59,10 @@
           "pix_brl": 187.07,
           "source_blocked_sale": false,
           "source_stock_status": "in_stock",
+          "case_color": null,
+          "strap_color": null,
+          "strap_type": null,
+          "attribute_status": "not_verified; source color labels do not distinguish dial/case/strap",
           "image_urls_for_review_only": [
             "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-army-relogio-masculino-laranja-677aa460cdffa-large.png",
             "https://images.yampi.me/assets/stores/poedagar8/uploads/images/poedagar-mens-watches-brand-luxury-silicone-strap-waterproof-sport-chronograph-quartz-wristwatch-men-clock-relogio-mascu-orange-6760f6b0087ad-large.jpg",
@@ -82,6 +90,10 @@
           "pix_brl": 187.07,
           "source_blocked_sale": false,
           "source_stock_status": "in_stock",
+          "case_color": null,
+          "strap_color": null,
+          "strap_type": null,
+          "attribute_status": "not_verified; source color labels do not distinguish dial/case/strap",
           "image_urls_for_review_only": [
             "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-army-relogio-masculino-azul-677aa46059bf3-large.png",
             "https://images.yampi.me/assets/stores/poedagar8/uploads/images/poedagar-mens-watches-brand-luxury-silicone-strap-waterproof-sport-chronograph-quartz-wristwatch-men-clock-relogio-mascu-blue-6760f6af2c5e9-large.jpg",
@@ -109,6 +121,10 @@
           "pix_brl": 187.07,
           "source_blocked_sale": false,
           "source_stock_status": "in_stock",
+          "case_color": null,
+          "strap_color": null,
+          "strap_type": null,
+          "attribute_status": "not_verified; source color labels do not distinguish dial/case/strap",
           "image_urls_for_review_only": [
             "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-army-relogio-masculino-preto-676df85d3f759-large.png",
             "https://images.yampi.me/assets/stores/poedagar8/uploads/images/poedagar-mens-watches-brand-luxury-silicone-strap-waterproof-sport-chronograph-quartz-wristwatch-men-clock-relogio-mascu-green-6760f6b1c7012-large.jpg",
@@ -135,6 +151,10 @@
           "pix_brl": 187.07,
           "source_blocked_sale": false,
           "source_stock_status": "in_stock",
+          "case_color": null,
+          "strap_color": null,
+          "strap_type": null,
+          "attribute_status": "not_verified; source color labels do not distinguish dial/case/strap",
           "image_urls_for_review_only": [
             "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-army-relogio-masculino-verde-676df85d3d3af-large.png",
             "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-army-relogio-masculino-verde-676df85cd58fd-large.png",
@@ -144,6 +164,9 @@
           ]
         }
       ],
+      "marketed_brand": "Poedagar",
+      "commercial_model": "Army",
+      "manufacturer_reference": null,
       "method": "public HTML window.data.product.data.skus.data[].prices.data.price",
       "vras_product_id": null,
       "match_status": "unconfirmed",
@@ -151,8 +174,8 @@
     },
     {
       "url": "https://lojaspoedagar.com.br/deluxe-golden/p",
-      "checked_at_utc": "2026-11-07T22:42:44.396424+00:00",
-      "html_sha256": "e8067124e361cd206ad6f571c5d9a9f61c57f82455eebd24b182f041692ad5a1",
+      "checked_at_utc": "2026-11-07T23:09:08.930570+00:00",
+      "html_sha256": "e691aaff7f63e012b42f4479313f1d0a0e22b580c5f0fcc833a38c88ed42eeb5",
       "name": "Relógio Poedagar Deluxe Golden",
       "slug": "deluxe-golden",
       "variants": [
@@ -172,6 +195,10 @@
           "pix_brl": 185.16,
           "source_blocked_sale": false,
           "source_stock_status": "in_stock",
+          "case_color": null,
+          "strap_color": null,
+          "strap_type": null,
+          "attribute_status": "not_verified; source color labels do not distinguish dial/case/strap",
           "image_urls_for_review_only": [
             "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-deluxe-golden-relogio-masculino-azul-67702dc159e39-large.png",
             "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-deluxe-golden-relogio-masculino-azul-676dee2db9351-large.png",
@@ -198,6 +225,10 @@
           "pix_brl": 185.16,
           "source_blocked_sale": false,
           "source_stock_status": "in_stock",
+          "case_color": null,
+          "strap_color": null,
+          "strap_type": null,
+          "attribute_status": "not_verified; source color labels do not distinguish dial/case/strap",
           "image_urls_for_review_only": [
             "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-deluxe-golden-relogio-masculino-preto-67702dc152c34-large.png",
             "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-deluxe-golden-relogio-masculino-preto-676dee32cf02b-large.png",
@@ -209,6 +240,9 @@
           ]
         }
       ],
+      "marketed_brand": "Poedagar",
+      "commercial_model": "Deluxe Golden",
+      "manufacturer_reference": null,
       "method": "public HTML window.data.product.data.skus.data[].prices.data.price",
       "vras_product_id": null,
       "match_status": "unconfirmed",
@@ -216,8 +250,8 @@
     },
     {
       "url": "https://lojaspoedagar.com.br/deluxe-ice/p",
-      "checked_at_utc": "2026-11-07T22:42:44.396424+00:00",
-      "html_sha256": "fdb3c8325b1c277796697f6973315e77116712e5a8c367f4703d53e74a9e861f",
+      "checked_at_utc": "2026-11-07T23:09:08.930570+00:00",
+      "html_sha256": "15ec30ee02d19e442a0daf6f1f86fa230b11d9e168a488fca8236f9abd15891e",
       "name": "Relógio Poedagar Deluxe Ice",
       "slug": "deluxe-ice",
       "variants": [
@@ -237,6 +271,10 @@
           "pix_brl": 178.51,
           "source_blocked_sale": false,
           "source_stock_status": "in_stock",
+          "case_color": null,
+          "strap_color": null,
+          "strap_type": null,
+          "attribute_status": "not_verified; source color labels do not distinguish dial/case/strap",
           "image_urls_for_review_only": [
             "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-deluxe-ice-relogio-masculino-azul-677a980648694-large.png",
             "https://images.yampi.me/assets/stores/poedagar8/uploads/images/poedagar-luxury-man-wristwatch-waterproof-luminous-date-leather-mens-watches-sports-square-men-watch-casual-quartz-male-silver-blue-l-6760744626a9c-large.jpg",
@@ -264,6 +302,10 @@
           "pix_brl": 178.51,
           "source_blocked_sale": false,
           "source_stock_status": "in_stock",
+          "case_color": null,
+          "strap_color": null,
+          "strap_type": null,
+          "attribute_status": "not_verified; source color labels do not distinguish dial/case/strap",
           "image_urls_for_review_only": [
             "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-deluxe-ice-relogio-masculino-preto-677a9806617c9-large.png",
             "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-deluxe-old-relogio-masculino-preto-676ea84171b27-large.png",
@@ -291,6 +333,10 @@
           "pix_brl": 178.51,
           "source_blocked_sale": false,
           "source_stock_status": "in_stock",
+          "case_color": null,
+          "strap_color": null,
+          "strap_type": null,
+          "attribute_status": "not_verified; source color labels do not distinguish dial/case/strap",
           "image_urls_for_review_only": [
             "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-deluxe-ice-relogio-masculino-branco-677a98066ea53-large.png",
             "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-deluxe-old-relogio-masculino-branco-676ea8444d139-large.png",
@@ -317,6 +363,10 @@
           "pix_brl": 178.51,
           "source_blocked_sale": false,
           "source_stock_status": "in_stock",
+          "case_color": null,
+          "strap_color": null,
+          "strap_type": null,
+          "attribute_status": "not_verified; source color labels do not distinguish dial/case/strap",
           "image_urls_for_review_only": [
             "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-deluxe-ice-relogio-masculino-dourado-e-preto-677a980589bb6-large.png",
             "https://images.yampi.me/assets/stores/poedagar8/uploads/images/poedagar-luxury-man-wristwatch-waterproof-luminous-date-leather-mens-watches-sports-square-men-watch-casual-quartz-male-rose-gold-blue-l-6760744a45728-large.jpg",
@@ -345,6 +395,10 @@
           "pix_brl": 178.51,
           "source_blocked_sale": false,
           "source_stock_status": "in_stock",
+          "case_color": null,
+          "strap_color": null,
+          "strap_type": null,
+          "attribute_status": "not_verified; source color labels do not distinguish dial/case/strap",
           "image_urls_for_review_only": [
             "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-deluxe-ice-relogio-masculino-preto-e-verde-677a98065f466-large.png",
             "https://images.yampi.me/assets/stores/poedagar8/uploads/images/poedagar-luxury-man-wristwatch-waterproof-luminous-date-leather-mens-watches-sports-square-men-watch-casual-quartz-male-silver-green-l-6760744a61bb0-large.jpg",
@@ -373,6 +427,10 @@
           "pix_brl": 178.51,
           "source_blocked_sale": false,
           "source_stock_status": "in_stock",
+          "case_color": null,
+          "strap_color": null,
+          "strap_type": null,
+          "attribute_status": "not_verified; source color labels do not distinguish dial/case/strap",
           "image_urls_for_review_only": [
             "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-deluxe-ice-relogio-masculino-dourado-e-verde-677a9804bbf85-large.png",
             "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-deluxe-old-relogio-masculino-dourado-e-verde-676ea9f2301f3-large.png",
@@ -399,6 +457,10 @@
           "pix_brl": 178.51,
           "source_blocked_sale": false,
           "source_stock_status": "in_stock",
+          "case_color": null,
+          "strap_color": null,
+          "strap_type": null,
+          "attribute_status": "not_verified; source color labels do not distinguish dial/case/strap",
           "image_urls_for_review_only": [
             "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-deluxe-ice-relogio-masculino-dourado-e-branco-677a980661894-large.png",
             "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-deluxe-old-relogio-masculino-dourado-e-branco-676ea9f526bb7-large.png",
@@ -410,6 +472,9 @@
           ]
         }
       ],
+      "marketed_brand": "Poedagar",
+      "commercial_model": "Deluxe Ice",
+      "manufacturer_reference": null,
       "method": "public HTML window.data.product.data.skus.data[].prices.data.price",
       "vras_product_id": null,
       "match_status": "unconfirmed",
@@ -417,8 +482,8 @@
     },
     {
       "url": "https://lojaspoedagar.com.br/deluxe-old/p",
-      "checked_at_utc": "2026-11-07T22:42:44.396424+00:00",
-      "html_sha256": "c99700831419e4312542752256633b927a11e8648f515c2c0660e7606deefa59",
+      "checked_at_utc": "2026-11-07T23:09:08.931887+00:00",
+      "html_sha256": "9858c076e9c68d73a3b338efb871bc0d64725645a9c97ca590c7f740c9d4c989",
       "name": "Relógio Poedagar Deluxe Old",
       "slug": "deluxe-old",
       "variants": [
@@ -438,6 +503,10 @@
           "pix_brl": 161.41,
           "source_blocked_sale": false,
           "source_stock_status": "in_stock",
+          "case_color": null,
+          "strap_color": null,
+          "strap_type": null,
+          "attribute_status": "not_verified; source color labels do not distinguish dial/case/strap",
           "image_urls_for_review_only": [
             "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-deluxe-old-relogio-masculino-azul-677a98995661d-large.png",
             "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-deluxe-old-relogio-masculino-azul-677aa2907e681-large.png",
@@ -463,6 +532,10 @@
           "pix_brl": 161.41,
           "source_blocked_sale": false,
           "source_stock_status": "in_stock",
+          "case_color": null,
+          "strap_color": null,
+          "strap_type": null,
+          "attribute_status": "not_verified; source color labels do not distinguish dial/case/strap",
           "image_urls_for_review_only": [
             "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-deluxe-old-relogio-masculino-preto-677aa28f011b1-large.png",
             "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-deluxe-old-relogio-masculino-preto-677aa290a3129-large.png",
@@ -488,6 +561,10 @@
           "pix_brl": 161.41,
           "source_blocked_sale": false,
           "source_stock_status": "in_stock",
+          "case_color": null,
+          "strap_color": null,
+          "strap_type": null,
+          "attribute_status": "not_verified; source color labels do not distinguish dial/case/strap",
           "image_urls_for_review_only": [
             "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-deluxe-old-relogio-masculino-branco-677aa2909f298-large.png",
             "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-deluxe-old-relogio-masculino-branco-677aa28f1cf55-large.png",
@@ -513,6 +590,10 @@
           "pix_brl": 161.41,
           "source_blocked_sale": false,
           "source_stock_status": "in_stock",
+          "case_color": null,
+          "strap_color": null,
+          "strap_type": null,
+          "attribute_status": "not_verified; source color labels do not distinguish dial/case/strap",
           "image_urls_for_review_only": [
             "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-deluxe-old-relogio-masculino-verde-677aa290aa85d-large.png",
             "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-deluxe-old-relogio-masculino-verde-677bebd3b6f30-large.png",
@@ -538,6 +619,10 @@
           "pix_brl": 161.41,
           "source_blocked_sale": false,
           "source_stock_status": "in_stock",
+          "case_color": null,
+          "strap_color": null,
+          "strap_type": null,
+          "attribute_status": "not_verified; source color labels do not distinguish dial/case/strap",
           "image_urls_for_review_only": [
             "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-deluxe-old-relogio-masculino-rose-azul-677a989963f95-large.png",
             "https://images.yampi.me/assets/stores/poedagar8/uploads/images/poedagar-luxury-square-man-wristwatch-luminous-waterproof-date-men-watch-stainless-steel-mens-quartz-watches-casual-mal-rose-gold-blue-6760745c7b902-large.jpg",
@@ -563,6 +648,10 @@
           "pix_brl": 161.41,
           "source_blocked_sale": false,
           "source_stock_status": "in_stock",
+          "case_color": null,
+          "strap_color": null,
+          "strap_type": null,
+          "attribute_status": "not_verified; source color labels do not distinguish dial/case/strap",
           "image_urls_for_review_only": [
             "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-kingroyal-relogio-masculino-rose-branco-676dfc7ae2527-large.png",
             "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-deluxe-old-relogio-masculino-rose-branco-677bebd4a845f-large.png",
@@ -588,6 +677,10 @@
           "pix_brl": 161.41,
           "source_blocked_sale": false,
           "source_stock_status": "in_stock",
+          "case_color": null,
+          "strap_color": null,
+          "strap_type": null,
+          "attribute_status": "not_verified; source color labels do not distinguish dial/case/strap",
           "image_urls_for_review_only": [
             "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-kingroyal-relogio-masculino-rose-preto-676dfc7b35eed-large.png",
             "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-deluxe-old-relogio-masculino-rose-preto-677bebd50c26f-large.png",
@@ -598,6 +691,9 @@
           ]
         }
       ],
+      "marketed_brand": "Poedagar",
+      "commercial_model": "Deluxe Old",
+      "manufacturer_reference": null,
       "method": "public HTML window.data.product.data.skus.data[].prices.data.price",
       "vras_product_id": null,
       "match_status": "unconfirmed",
@@ -605,8 +701,8 @@
     },
     {
       "url": "https://lojaspoedagar.com.br/deluxe/p",
-      "checked_at_utc": "2026-11-07T22:42:44.945602+00:00",
-      "html_sha256": "8ce3ce3c9bbf7f319f6cf32cb179cc6e25f4b4c426857c85f32c0dcd1ed6329b",
+      "checked_at_utc": "2026-11-07T23:09:09.431918+00:00",
+      "html_sha256": "cea818d13d469ce879b396c022b0f6747eb5e5041faca1885fd9b4a90f7c20c6",
       "name": "Relógio Poedagar Deluxe",
       "slug": "deluxe",
       "variants": [
@@ -626,6 +722,10 @@
           "pix_brl": 189.91,
           "source_blocked_sale": false,
           "source_stock_status": "in_stock",
+          "case_color": null,
+          "strap_color": null,
+          "strap_type": null,
+          "attribute_status": "not_verified; source color labels do not distinguish dial/case/strap",
           "image_urls_for_review_only": [
             "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-deluxe-relogio-masculino-azul-677beca73025b-large.png",
             "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-deluxe-relogio-masculino-azul-676e1197ef6f8-large.png",
@@ -655,6 +755,10 @@
           "pix_brl": 189.91,
           "source_blocked_sale": false,
           "source_stock_status": "in_stock",
+          "case_color": null,
+          "strap_color": null,
+          "strap_type": null,
+          "attribute_status": "not_verified; source color labels do not distinguish dial/case/strap",
           "image_urls_for_review_only": [
             "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-deluxe-relogio-masculino-preto-677beca72a431-large.png",
             "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-deluxe-relogio-masculino-preto-676e119b0acc5-large.png",
@@ -684,6 +788,10 @@
           "pix_brl": 189.91,
           "source_blocked_sale": false,
           "source_stock_status": "in_stock",
+          "case_color": null,
+          "strap_color": null,
+          "strap_type": null,
+          "attribute_status": "not_verified; source color labels do not distinguish dial/case/strap",
           "image_urls_for_review_only": [
             "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-deluxe-relogio-masculino-verde-677beca636d1a-large.png",
             "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-deluxe-relogio-masculino-verde-676e119ce0aa3-large.png",
@@ -713,6 +821,10 @@
           "pix_brl": 189.91,
           "source_blocked_sale": false,
           "source_stock_status": "in_stock",
+          "case_color": null,
+          "strap_color": null,
+          "strap_type": null,
+          "attribute_status": "not_verified; source color labels do not distinguish dial/case/strap",
           "image_urls_for_review_only": [
             "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-deluxe-relogio-masculino-branco-677beca8b88d7-large.png",
             "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-deluxe-relogio-masculino-branco-676e119d9a3f6-large.png",
@@ -727,6 +839,9 @@
           ]
         }
       ],
+      "marketed_brand": "Poedagar",
+      "commercial_model": "Deluxe",
+      "manufacturer_reference": null,
       "method": "public HTML window.data.product.data.skus.data[].prices.data.price",
       "vras_product_id": null,
       "match_status": "unconfirmed",
@@ -734,8 +849,8 @@
     },
     {
       "url": "https://lojaspoedagar.com.br/golden-mars/p",
-      "checked_at_utc": "2026-11-07T22:42:44.964507+00:00",
-      "html_sha256": "be9d0c6e00870253adada526b32be511531b98bd7ce17240d5136209be0c183d",
+      "checked_at_utc": "2026-11-07T23:09:09.436535+00:00",
+      "html_sha256": "3f44422f5ab192c08f8814d72937ae4f10f449f5b2c52c038a5718c206d49a7a",
       "name": "Relógio Poedagar Golden Mars",
       "slug": "golden-mars",
       "variants": [
@@ -755,6 +870,10 @@
           "pix_brl": 188.01,
           "source_blocked_sale": false,
           "source_stock_status": "in_stock",
+          "case_color": null,
+          "strap_color": null,
+          "strap_type": null,
+          "attribute_status": "not_verified; source color labels do not distinguish dial/case/strap",
           "image_urls_for_review_only": [
             "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-golden-mars-relogio-masculino-dourado-677aa9bc26e3f-large.png",
             "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-golden-mars-relogio-masculino-dourado-677aa9bd6bfd2-large.png",
@@ -780,6 +899,10 @@
           "pix_brl": 188.01,
           "source_blocked_sale": false,
           "source_stock_status": "in_stock",
+          "case_color": null,
+          "strap_color": null,
+          "strap_type": null,
+          "attribute_status": "not_verified; source color labels do not distinguish dial/case/strap",
           "image_urls_for_review_only": [
             "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-golden-mars-relogio-masculino-todo-preto-677aa9ba7b599-large.png",
             "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-golden-mars-relogio-masculino-todo-preto-677aa9ba86089-large.png",
@@ -805,6 +928,10 @@
           "pix_brl": 188.01,
           "source_blocked_sale": false,
           "source_stock_status": "in_stock",
+          "case_color": null,
+          "strap_color": null,
+          "strap_type": null,
+          "attribute_status": "not_verified; source color labels do not distinguish dial/case/strap",
           "image_urls_for_review_only": [
             "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-golden-mars-relogio-masculino-prata-e-preto-677aa9ba8ba4f-large.png",
             "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-golden-mars-relogio-masculino-prata-e-preto-677aa9bcc9f5f-large.png",
@@ -815,6 +942,9 @@
           ]
         }
       ],
+      "marketed_brand": "Poedagar",
+      "commercial_model": "Golden Mars",
+      "manufacturer_reference": null,
       "method": "public HTML window.data.product.data.skus.data[].prices.data.price",
       "vras_product_id": null,
       "match_status": "unconfirmed",
@@ -822,8 +952,8 @@
     },
     {
       "url": "https://lojaspoedagar.com.br/golden-moon/p",
-      "checked_at_utc": "2026-11-07T22:42:45.015746+00:00",
-      "html_sha256": "8f434e501f320010cc30ab98c48ab1c1df678a95adbf26eecedec391112e885a",
+      "checked_at_utc": "2026-11-07T23:09:09.489130+00:00",
+      "html_sha256": "18fb322ce1b3cbe45eeaa2d15a4938ab71dae7f1dd7776f09c370633b95d4209",
       "name": "Relógio Poedagar Golden Moon",
       "slug": "golden-moon",
       "variants": [
@@ -843,6 +973,10 @@
           "pix_brl": 187.34,
           "source_blocked_sale": false,
           "source_stock_status": "in_stock",
+          "case_color": null,
+          "strap_color": null,
+          "strap_type": null,
+          "attribute_status": "not_verified; source color labels do not distinguish dial/case/strap",
           "image_urls_for_review_only": [
             "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-golden-moon-relogio-masculino-todo-preto-677aa3922c0d0-large.png",
             "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-golden-moon-relogio-masculino-todo-preto-676eb1074d7a6-large.png",
@@ -869,6 +1003,10 @@
           "pix_brl": 187.34,
           "source_blocked_sale": false,
           "source_stock_status": "in_stock",
+          "case_color": null,
+          "strap_color": null,
+          "strap_type": null,
+          "attribute_status": "not_verified; source color labels do not distinguish dial/case/strap",
           "image_urls_for_review_only": [
             "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-golden-moon-relogio-masculino-preto-677aa392ba86d-large.png",
             "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-golden-moon-relogio-masculino-preto-676eb1043c385-large.png",
@@ -895,6 +1033,10 @@
           "pix_brl": 187.34,
           "source_blocked_sale": false,
           "source_stock_status": "in_stock",
+          "case_color": null,
+          "strap_color": null,
+          "strap_type": null,
+          "attribute_status": "not_verified; source color labels do not distinguish dial/case/strap",
           "image_urls_for_review_only": [
             "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-golden-moon-relogio-masculino-azul-677aa392cbd39-large.png",
             "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-golden-moon-relogio-masculino-azul-676eb104498b3-large.png",
@@ -921,6 +1063,10 @@
           "pix_brl": 187.34,
           "source_blocked_sale": false,
           "source_stock_status": "in_stock",
+          "case_color": null,
+          "strap_color": null,
+          "strap_type": null,
+          "attribute_status": "not_verified; source color labels do not distinguish dial/case/strap",
           "image_urls_for_review_only": [
             "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-golden-moon-relogio-masculino-branco-677aa3921d293-large.png",
             "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-golden-moon-relogio-masculino-branco-676eb1043365a-large.png",
@@ -947,6 +1093,10 @@
           "pix_brl": 187.34,
           "source_blocked_sale": false,
           "source_stock_status": "in_stock",
+          "case_color": null,
+          "strap_color": null,
+          "strap_type": null,
+          "attribute_status": "not_verified; source color labels do not distinguish dial/case/strap",
           "image_urls_for_review_only": [
             "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-golden-moon-relogio-masculino-verde-677aa392ca8aa-large.png",
             "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-golden-moon-relogio-masculino-verde-676eb1073e9f1-large.png",
@@ -958,6 +1108,9 @@
           ]
         }
       ],
+      "marketed_brand": "Poedagar",
+      "commercial_model": "Golden Moon",
+      "manufacturer_reference": null,
       "method": "public HTML window.data.product.data.skus.data[].prices.data.price",
       "vras_product_id": null,
       "match_status": "unconfirmed",
@@ -965,8 +1118,8 @@
     },
     {
       "url": "https://lojaspoedagar.com.br/golden-star/p",
-      "checked_at_utc": "2026-11-07T22:42:45.029593+00:00",
-      "html_sha256": "cd8d0f562736e08ba8d748c8e093f64849f50047711ced5667efb97e1fbb4618",
+      "checked_at_utc": "2026-11-07T23:09:09.574354+00:00",
+      "html_sha256": "820cc24cd2d0d7c4927327e12b2449090ea04a1d808c8e16da3a1d086d25325e",
       "name": "Relógio Poedagar Golden Star",
       "slug": "golden-star",
       "variants": [
@@ -986,6 +1139,10 @@
           "pix_brl": 170.91,
           "source_blocked_sale": false,
           "source_stock_status": "in_stock",
+          "case_color": null,
+          "strap_color": null,
+          "strap_type": null,
+          "attribute_status": "not_verified; source color labels do not distinguish dial/case/strap",
           "image_urls_for_review_only": [
             "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-goldenstar-relogio-masculino-dourado-e-azul-677a970742739-large.png",
             "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-goldenstar-relogio-masculino-azul-676e993875634-large.png",
@@ -1011,6 +1168,10 @@
           "pix_brl": 170.91,
           "source_blocked_sale": false,
           "source_stock_status": "in_stock",
+          "case_color": null,
+          "strap_color": null,
+          "strap_type": null,
+          "attribute_status": "not_verified; source color labels do not distinguish dial/case/strap",
           "image_urls_for_review_only": [
             "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-goldenstar-relogio-masculino-dourado-e-verde-677a9708ad434-large.png",
             "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-goldenstar-relogio-masculino-verde-676e993bda285-large.png",
@@ -1036,6 +1197,10 @@
           "pix_brl": 170.91,
           "source_blocked_sale": false,
           "source_stock_status": "in_stock",
+          "case_color": null,
+          "strap_color": null,
+          "strap_type": null,
+          "attribute_status": "not_verified; source color labels do not distinguish dial/case/strap",
           "image_urls_for_review_only": [
             "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-goldenstar-relogio-masculino-dourado-e-preto-677a9709a84a7-large.png",
             "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-goldenstar-relogio-masculino-preto-676e9938ae842-large.png",
@@ -1061,6 +1226,10 @@
           "pix_brl": 170.91,
           "source_blocked_sale": false,
           "source_stock_status": "in_stock",
+          "case_color": null,
+          "strap_color": null,
+          "strap_type": null,
+          "attribute_status": "not_verified; source color labels do not distinguish dial/case/strap",
           "image_urls_for_review_only": [
             "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-goldenstar-relogio-masculino-dourado-e-branco-677a9709c78dd-large.png",
             "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-goldenstar-relogio-masculino-branco-676e9938cd1d5-large.png",
@@ -1086,6 +1255,10 @@
           "pix_brl": 170.91,
           "source_blocked_sale": false,
           "source_stock_status": "in_stock",
+          "case_color": null,
+          "strap_color": null,
+          "strap_type": null,
+          "attribute_status": "not_verified; source color labels do not distinguish dial/case/strap",
           "image_urls_for_review_only": [
             "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-goldenstar-relogio-masculino-prata-e-preto-677a970bd8bba-large.png",
             "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-goldenstar-relogio-masculino-prata-e-preto-676e993c214a8-large.png",
@@ -1111,6 +1284,10 @@
           "pix_brl": 170.91,
           "source_blocked_sale": false,
           "source_stock_status": "in_stock",
+          "case_color": null,
+          "strap_color": null,
+          "strap_type": null,
+          "attribute_status": "not_verified; source color labels do not distinguish dial/case/strap",
           "image_urls_for_review_only": [
             "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-goldenstar-relogio-masculino-todo-preto-677a9709f1e8d-large.png",
             "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-goldenstar-relogio-masculino-todo-preto-676e9a87575ec-large.png",
@@ -1121,6 +1298,9 @@
           ]
         }
       ],
+      "marketed_brand": "Poedagar",
+      "commercial_model": "Golden Star",
+      "manufacturer_reference": null,
       "method": "public HTML window.data.product.data.skus.data[].prices.data.price",
       "vras_product_id": null,
       "match_status": "unconfirmed",
@@ -1128,8 +1308,8 @@
     },
     {
       "url": "https://lojaspoedagar.com.br/king-royal/p",
-      "checked_at_utc": "2026-11-07T22:42:45.545450+00:00",
-      "html_sha256": "437607e9fa86e895b7ea3acc36200ce8bec540e9344543d13ae95d89e11afca4",
+      "checked_at_utc": "2026-11-07T23:09:10.065641+00:00",
+      "html_sha256": "2ff0819dfcbdeb1413293d9977e24f08d590a70433024442a9440cff17b8112e",
       "name": "Relógio Poedagar King Royal",
       "slug": "king-royal",
       "variants": [
@@ -1149,6 +1329,10 @@
           "pix_brl": 208.91,
           "source_blocked_sale": false,
           "source_stock_status": "in_stock",
+          "case_color": null,
+          "strap_color": null,
+          "strap_type": null,
+          "attribute_status": "not_verified; source color labels do not distinguish dial/case/strap",
           "image_urls_for_review_only": [
             "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-king-royal-relogio-masculino-azul-67702cef0296d-large.png",
             "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-king-royal-relogio-masculino-azul-67702cf03752b-large.png",
@@ -1178,6 +1362,10 @@
           "pix_brl": 208.91,
           "source_blocked_sale": false,
           "source_stock_status": "in_stock",
+          "case_color": null,
+          "strap_color": null,
+          "strap_type": null,
+          "attribute_status": "not_verified; source color labels do not distinguish dial/case/strap",
           "image_urls_for_review_only": [
             "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-king-royal-relogio-masculino-branco-67702cf3388af-large.png",
             "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-king-royal-relogio-masculino-branco-67702cf0eb7f6-large.png",
@@ -1208,6 +1396,10 @@
           "pix_brl": 208.91,
           "source_blocked_sale": false,
           "source_stock_status": "in_stock",
+          "case_color": null,
+          "strap_color": null,
+          "strap_type": null,
+          "attribute_status": "not_verified; source color labels do not distinguish dial/case/strap",
           "image_urls_for_review_only": [
             "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-king-royal-relogio-masculino-preto-67702cf10ba1a-large.png",
             "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-king-royal-relogio-masculino-preto-67702cf1410fd-large.png",
@@ -1238,6 +1430,10 @@
           "pix_brl": 208.91,
           "source_blocked_sale": false,
           "source_stock_status": "in_stock",
+          "case_color": null,
+          "strap_color": null,
+          "strap_type": null,
+          "attribute_status": "not_verified; source color labels do not distinguish dial/case/strap",
           "image_urls_for_review_only": [
             "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-king-royal-relogio-masculino-golden-e-azul-67702cf1806ca-large.png",
             "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-king-royal-relogio-masculino-golden-e-azul-67702cf515c1f-large.png",
@@ -1268,6 +1464,10 @@
           "pix_brl": 208.91,
           "source_blocked_sale": false,
           "source_stock_status": "in_stock",
+          "case_color": null,
+          "strap_color": null,
+          "strap_type": null,
+          "attribute_status": "not_verified; source color labels do not distinguish dial/case/strap",
           "image_urls_for_review_only": [
             "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-king-royal-relogio-masculino-golden-e-branco-67702cf52aac9-large.png",
             "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-king-royal-relogio-masculino-golden-e-branco-67702cf41dd00-large.png",
@@ -1297,6 +1497,10 @@
           "pix_brl": 208.91,
           "source_blocked_sale": false,
           "source_stock_status": "in_stock",
+          "case_color": null,
+          "strap_color": null,
+          "strap_type": null,
+          "attribute_status": "not_verified; source color labels do not distinguish dial/case/strap",
           "image_urls_for_review_only": [
             "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-king-royal-relogio-masculino-golden-e-preto-67702cf30d8e2-large.png",
             "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-king-royal-relogio-masculino-golden-e-preto-67702cf3c4ffa-large.png",
@@ -1327,6 +1531,10 @@
           "pix_brl": 208.91,
           "source_blocked_sale": false,
           "source_stock_status": "in_stock",
+          "case_color": null,
+          "strap_color": null,
+          "strap_type": null,
+          "attribute_status": "not_verified; source color labels do not distinguish dial/case/strap",
           "image_urls_for_review_only": [
             "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-king-royal-relogio-masculino-todo-preto-67702cf271915-large.png",
             "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-king-royal-relogio-masculino-todo-preto-67702cf680f4b-large.png",
@@ -1341,6 +1549,9 @@
           ]
         }
       ],
+      "marketed_brand": "Poedagar",
+      "commercial_model": "King Royal",
+      "manufacturer_reference": null,
       "method": "public HTML window.data.product.data.skus.data[].prices.data.price",
       "vras_product_id": null,
       "match_status": "unconfirmed",
@@ -1348,8 +1559,8 @@
     },
     {
       "url": "https://lojaspoedagar.com.br/lattitude/p",
-      "checked_at_utc": "2026-11-07T22:42:45.600312+00:00",
-      "html_sha256": "334dc0762070348aee1c0905c91b5759d86c2a124d1280aa5ea1f60942d273a6",
+      "checked_at_utc": "2026-11-07T23:09:10.082475+00:00",
+      "html_sha256": "39163376b7d8985a68c6aa6eb315d849758471b98780389bc564b9b42c323953",
       "name": "Relógio Poedagar Lattitude",
       "slug": "lattitude",
       "variants": [
@@ -1369,6 +1580,10 @@
           "pix_brl": 185.16,
           "source_blocked_sale": false,
           "source_stock_status": "in_stock",
+          "case_color": null,
+          "strap_color": null,
+          "strap_type": null,
+          "attribute_status": "not_verified; source color labels do not distinguish dial/case/strap",
           "image_urls_for_review_only": [
             "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-lattitude-relogio-masculino-azul-67720874c19f3-large.png",
             "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-latittude-relogio-masculino-azul-676eb9c1b56f4-large.png",
@@ -1396,6 +1611,10 @@
           "pix_brl": 185.16,
           "source_blocked_sale": false,
           "source_stock_status": "in_stock",
+          "case_color": null,
+          "strap_color": null,
+          "strap_type": null,
+          "attribute_status": "not_verified; source color labels do not distinguish dial/case/strap",
           "image_urls_for_review_only": [
             "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-latittude-relogio-masculino-preto-676eb9c16d940-large.png",
             "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-latittude-relogio-masculino-preto-676eb9c29d6ef-large.png",
@@ -1423,6 +1642,10 @@
           "pix_brl": 185.16,
           "source_blocked_sale": false,
           "source_stock_status": "in_stock",
+          "case_color": null,
+          "strap_color": null,
+          "strap_type": null,
+          "attribute_status": "not_verified; source color labels do not distinguish dial/case/strap",
           "image_urls_for_review_only": [
             "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-lattitude-relogio-masculino-todo-preto-6772087509ea6-large.png",
             "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-latittude-relogio-masculino-todo-preto-676eb9c67dd71-large.png",
@@ -1450,6 +1673,10 @@
           "pix_brl": 185.16,
           "source_blocked_sale": false,
           "source_stock_status": "in_stock",
+          "case_color": null,
+          "strap_color": null,
+          "strap_type": null,
+          "attribute_status": "not_verified; source color labels do not distinguish dial/case/strap",
           "image_urls_for_review_only": [
             "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-lattitude-relogio-masculino-verde-67720877a4ed7-large.png",
             "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-latittude-relogio-masculino-verde-676eb9c50be53-large.png",
@@ -1462,6 +1689,9 @@
           ]
         }
       ],
+      "marketed_brand": "Poedagar",
+      "commercial_model": "Lattitude",
+      "manufacturer_reference": null,
       "method": "public HTML window.data.product.data.skus.data[].prices.data.price",
       "vras_product_id": null,
       "match_status": "unconfirmed",
@@ -1469,8 +1699,8 @@
     },
     {
       "url": "https://lojaspoedagar.com.br/legitimus/p",
-      "checked_at_utc": "2026-11-07T22:42:45.614300+00:00",
-      "html_sha256": "2b1f4720c915cadfa50de543f7794c87c2ae954d1a841ce330cb64e0d6ea04a5",
+      "checked_at_utc": "2026-11-07T23:09:10.093754+00:00",
+      "html_sha256": "ae74bd822f0df344cc2d6df094e4d0f62e63000610ce2810d1a8ed3314bdee71",
       "name": "Relógio Poedagar Legítimu's",
       "slug": "legitimus",
       "variants": [
@@ -1490,6 +1720,10 @@
           "pix_brl": 165.21,
           "source_blocked_sale": false,
           "source_stock_status": "in_stock",
+          "case_color": null,
+          "strap_color": null,
+          "strap_type": null,
+          "attribute_status": "not_verified; source color labels do not distinguish dial/case/strap",
           "image_urls_for_review_only": [
             "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-legitimus-relogio-masculino-azul-676eb8c9c9cea-large.png",
             "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-legitimus-relogio-masculino-azul-676eb8ca43f15-large.png",
@@ -1514,6 +1748,10 @@
           "pix_brl": 165.21,
           "source_blocked_sale": false,
           "source_stock_status": "in_stock",
+          "case_color": null,
+          "strap_color": null,
+          "strap_type": null,
+          "attribute_status": "not_verified; source color labels do not distinguish dial/case/strap",
           "image_urls_for_review_only": [
             "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-legitimus-relogio-masculino-preto-676eb8ca57006-large.png",
             "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-legitimus-relogio-masculino-preto-676eb8cc95dbe-large.png",
@@ -1538,6 +1776,10 @@
           "pix_brl": 165.21,
           "source_blocked_sale": false,
           "source_stock_status": "in_stock",
+          "case_color": null,
+          "strap_color": null,
+          "strap_type": null,
+          "attribute_status": "not_verified; source color labels do not distinguish dial/case/strap",
           "image_urls_for_review_only": [
             "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-legitimus-relogio-masculino-branco-676eb8cc8c42e-large.png",
             "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-legitimus-relogio-masculino-branco-676eb8cc90130-large.png",
@@ -1547,6 +1789,9 @@
           ]
         }
       ],
+      "marketed_brand": "Poedagar",
+      "commercial_model": "Legítimu's",
+      "manufacturer_reference": null,
       "method": "public HTML window.data.product.data.skus.data[].prices.data.price",
       "vras_product_id": null,
       "match_status": "unconfirmed",
@@ -1554,8 +1799,8 @@
     },
     {
       "url": "https://lojaspoedagar.com.br/machine/p",
-      "checked_at_utc": "2026-11-07T22:42:45.780111+00:00",
-      "html_sha256": "3e488cfefdc6f3b3e7769c298f645c14a21103979b2522b0d964a0fc87ebb7d7",
+      "checked_at_utc": "2026-11-07T23:09:10.611535+00:00",
+      "html_sha256": "c58cd59b2343a6fe9a02c01c3c774b0fcc8711d952c579b7502fbab1f5b6e407",
       "name": "Relógio Poedagar Machine",
       "slug": "machine",
       "variants": [
@@ -1575,6 +1820,10 @@
           "pix_brl": 185.16,
           "source_blocked_sale": false,
           "source_stock_status": "in_stock",
+          "case_color": null,
+          "strap_color": null,
+          "strap_type": null,
+          "attribute_status": "not_verified; source color labels do not distinguish dial/case/strap",
           "image_urls_for_review_only": [
             "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-machine-relogio-masculino-preto-676eb775a44e7-large.png",
             "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-machine-relogio-masculino-preto-676eb775c29b5-large.png",
@@ -1600,6 +1849,10 @@
           "pix_brl": 185.16,
           "source_blocked_sale": false,
           "source_stock_status": "in_stock",
+          "case_color": null,
+          "strap_color": null,
+          "strap_type": null,
+          "attribute_status": "not_verified; source color labels do not distinguish dial/case/strap",
           "image_urls_for_review_only": [
             "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-machine-relogio-masculino-todo-preto-676eb505ab85a-large.png",
             "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-machine-relogio-masculino-todo-preto-676eb505b19f9-large.png",
@@ -1625,6 +1878,10 @@
           "pix_brl": 185.16,
           "source_blocked_sale": false,
           "source_stock_status": "in_stock",
+          "case_color": null,
+          "strap_color": null,
+          "strap_type": null,
+          "attribute_status": "not_verified; source color labels do not distinguish dial/case/strap",
           "image_urls_for_review_only": [
             "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-machine-relogio-masculino-dourado-676eb775c3fbe-large.png",
             "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-machine-relogio-masculino-dourado-676eb775a96ef-large.png",
@@ -1635,6 +1892,9 @@
           ]
         }
       ],
+      "marketed_brand": "Poedagar",
+      "commercial_model": "Machine",
+      "manufacturer_reference": null,
       "method": "public HTML window.data.product.data.skus.data[].prices.data.price",
       "vras_product_id": null,
       "match_status": "unconfirmed",
@@ -1642,8 +1902,8 @@
     },
     {
       "url": "https://lojaspoedagar.com.br/neptune/p",
-      "checked_at_utc": "2026-11-07T22:42:46.191884+00:00",
-      "html_sha256": "cd202142aab6e6904b6abe11bc2df8f76c04eb0d218fa71cf9307b72be285218",
+      "checked_at_utc": "2026-11-07T23:09:10.618601+00:00",
+      "html_sha256": "336ec6de65b38dd6bec198996ae5baec41990697a400aa5ca4162c368a6ed3f2",
       "name": "Relógio Poedagar Golden Neptune",
       "slug": "neptune",
       "variants": [
@@ -1663,6 +1923,10 @@
           "pix_brl": 187.53,
           "source_blocked_sale": false,
           "source_stock_status": "in_stock",
+          "case_color": null,
+          "strap_color": null,
+          "strap_type": null,
+          "attribute_status": "not_verified; source color labels do not distinguish dial/case/strap",
           "image_urls_for_review_only": [
             "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-horizont-relogio-masculino-azul-677a949edd8c7-large.png",
             "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-horizont-relogio-masculino-azul-676e0885f1f87-large.png",
@@ -1690,6 +1954,10 @@
           "pix_brl": 187.53,
           "source_blocked_sale": false,
           "source_stock_status": "in_stock",
+          "case_color": null,
+          "strap_color": null,
+          "strap_type": null,
+          "attribute_status": "not_verified; source color labels do not distinguish dial/case/strap",
           "image_urls_for_review_only": [
             "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-horizont-relogio-masculino-verde-677a949f819d1-large.png",
             "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-horizont-relogio-masculino-verde-676e08884c828-large.png",
@@ -1718,6 +1986,10 @@
           "pix_brl": 187.53,
           "source_blocked_sale": false,
           "source_stock_status": "in_stock",
+          "case_color": null,
+          "strap_color": null,
+          "strap_type": null,
+          "attribute_status": "not_verified; source color labels do not distinguish dial/case/strap",
           "image_urls_for_review_only": [
             "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-horizont-relogio-masculino-branco-677a94a0d1ac1-large.png",
             "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-horizont-relogio-masculino-branco-677a94a1dab72-large.png",
@@ -1746,6 +2018,10 @@
           "pix_brl": 187.53,
           "source_blocked_sale": false,
           "source_stock_status": "in_stock",
+          "case_color": null,
+          "strap_color": null,
+          "strap_type": null,
+          "attribute_status": "not_verified; source color labels do not distinguish dial/case/strap",
           "image_urls_for_review_only": [
             "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-horizont-relogio-masculino-preto-677a94a0c596a-large.png",
             "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-horizont-relogio-masculino-preto-676e0885642b6-large.png",
@@ -1773,6 +2049,10 @@
           "pix_brl": 187.53,
           "source_blocked_sale": false,
           "source_stock_status": "in_stock",
+          "case_color": null,
+          "strap_color": null,
+          "strap_type": null,
+          "attribute_status": "not_verified; source color labels do not distinguish dial/case/strap",
           "image_urls_for_review_only": [
             "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-horizont-relogio-masculino-todo-preto-677a94a1df5c2-large.png",
             "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-horizont-relogio-masculino-todo-preto-676e088b87c33-large.png",
@@ -1800,6 +2080,10 @@
           "pix_brl": 187.53,
           "source_blocked_sale": false,
           "source_stock_status": "in_stock",
+          "case_color": null,
+          "strap_color": null,
+          "strap_type": null,
+          "attribute_status": "not_verified; source color labels do not distinguish dial/case/strap",
           "image_urls_for_review_only": [
             "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-horizont-relogio-masculino-dourado-676e088b75869-large.png",
             "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-horizont-relogio-masculino-dourado-676e088ac3933-large.png",
@@ -1812,6 +2096,9 @@
           ]
         }
       ],
+      "marketed_brand": "Poedagar",
+      "commercial_model": "Golden Neptune",
+      "manufacturer_reference": null,
       "method": "public HTML window.data.product.data.skus.data[].prices.data.price",
       "vras_product_id": null,
       "match_status": "unconfirmed",
@@ -1819,8 +2106,8 @@
     },
     {
       "url": "https://lojaspoedagar.com.br/relogio-poedagar-nautilus-azul/p",
-      "checked_at_utc": "2026-11-07T22:42:46.198243+00:00",
-      "html_sha256": "b7c2a9f515eb22ca05154469e1db54e5f4d4215c714080b8d70d09cb49c70cdc",
+      "checked_at_utc": "2026-11-07T23:09:10.675655+00:00",
+      "html_sha256": "4c802125db2b02009dcc4d6fc207685accd99ae9aee2080ae6febaaaeff7976c",
       "name": "Relógio Poedagar Nautilus",
       "slug": "relogio-poedagar-nautilus-azul",
       "variants": [
@@ -1840,6 +2127,10 @@
           "pix_brl": 180.41,
           "source_blocked_sale": false,
           "source_stock_status": "in_stock",
+          "case_color": null,
+          "strap_color": null,
+          "strap_type": null,
+          "attribute_status": "not_verified; source color labels do not distinguish dial/case/strap",
           "image_urls_for_review_only": [
             "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-nautilus-prata-68fbdaa405780-large.png",
             "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-nautilus-prata-68fbdaa41db89-large.png",
@@ -1866,6 +2157,10 @@
           "pix_brl": 180.41,
           "source_blocked_sale": false,
           "source_stock_status": "in_stock",
+          "case_color": null,
+          "strap_color": null,
+          "strap_type": null,
+          "attribute_status": "not_verified; source color labels do not distinguish dial/case/strap",
           "image_urls_for_review_only": [
             "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-nautilus-all-black-68fbdaa4677c9-large.png",
             "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-nautilus-all-black-68fbdaa4280bd-large.png",
@@ -1891,6 +2186,10 @@
           "pix_brl": 180.41,
           "source_blocked_sale": false,
           "source_stock_status": "in_stock",
+          "case_color": null,
+          "strap_color": null,
+          "strap_type": null,
+          "attribute_status": "not_verified; source color labels do not distinguish dial/case/strap",
           "image_urls_for_review_only": [
             "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-nautilus-azul-68fbdaa4a2e3b-large.png",
             "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-nautilus-azul-68fbdaa579396-large.png",
@@ -1917,6 +2216,10 @@
           "pix_brl": 180.41,
           "source_blocked_sale": false,
           "source_stock_status": "in_stock",
+          "case_color": null,
+          "strap_color": null,
+          "strap_type": null,
+          "attribute_status": "not_verified; source color labels do not distinguish dial/case/strap",
           "image_urls_for_review_only": [
             "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-nautilus-dourado-e-azul-68fbdaa610688-large.png",
             "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-nautilus-dourado-e-azul-68fbdaa69dbb5-large.png",
@@ -1928,6 +2231,9 @@
           ]
         }
       ],
+      "marketed_brand": "Poedagar",
+      "commercial_model": "Nautilus",
+      "manufacturer_reference": null,
       "method": "public HTML window.data.product.data.skus.data[].prices.data.price",
       "vras_product_id": null,
       "match_status": "unconfirmed",
@@ -1935,8 +2241,8 @@
     },
     {
       "url": "https://lojaspoedagar.com.br/signature-vibe/p",
-      "checked_at_utc": "2026-11-07T22:42:46.285322+00:00",
-      "html_sha256": "fa310565ede4c4235e74ad7b916166ba8dbb7ff2b12e3ce07a0ae0cbe5b064ae",
+      "checked_at_utc": "2026-11-07T23:09:10.682214+00:00",
+      "html_sha256": "9cc0939db571ee37a0a478cfef07f9fe9b0c8ca7ce56e234c6a20f9fec58bebe",
       "name": "Relógio Poedagar Signature Vibe",
       "slug": "signature-vibe",
       "variants": [
@@ -1949,6 +2255,10 @@
           "pix_brl": 284.91,
           "source_blocked_sale": false,
           "source_stock_status": "in_stock",
+          "case_color": null,
+          "strap_color": null,
+          "strap_type": null,
+          "attribute_status": "not_verified; source color labels do not distinguish dial/case/strap",
           "image_urls_for_review_only": [
             "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-signature-vibe-6877d8f6d17fe-large.png",
             "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-signature-vibe-6877d8f7b24f9-large.png",
@@ -1958,6 +2268,9 @@
           ]
         }
       ],
+      "marketed_brand": "Poedagar",
+      "commercial_model": "Signature Vibe",
+      "manufacturer_reference": null,
       "method": "public HTML window.data.product.data.skus.data[].prices.data.price",
       "vras_product_id": null,
       "match_status": "unconfirmed",
@@ -1965,8 +2278,8 @@
     },
     {
       "url": "https://lojaspoedagar.com.br/signature/p",
-      "checked_at_utc": "2026-11-07T22:42:46.315830+00:00",
-      "html_sha256": "9c97a30a49ae1f5d9cd57f839c83fc27008c8f71bb4fecf09fdedde68b52d72e",
+      "checked_at_utc": "2026-11-07T23:09:11.220887+00:00",
+      "html_sha256": "3fe6c64cae91a12797cfbb7ba08738d1bc668ed3f845d41b9016a2db757c0edc",
       "name": "Relógio Poedagar Signature",
       "slug": "signature",
       "variants": [
@@ -1986,6 +2299,10 @@
           "pix_brl": 169.01,
           "source_blocked_sale": false,
           "source_stock_status": "in_stock",
+          "case_color": null,
+          "strap_color": null,
+          "strap_type": null,
+          "attribute_status": "not_verified; source color labels do not distinguish dial/case/strap",
           "image_urls_for_review_only": [
             "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-signature-relogios-masculino-verde-676df01d3fbb9-large.png",
             "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-signature-relogios-masculino-verde-676df01ca95a1-large.png",
@@ -2013,6 +2330,10 @@
           "pix_brl": 169.01,
           "source_blocked_sale": false,
           "source_stock_status": "in_stock",
+          "case_color": null,
+          "strap_color": null,
+          "strap_type": null,
+          "attribute_status": "not_verified; source color labels do not distinguish dial/case/strap",
           "image_urls_for_review_only": [
             "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-signature-relogios-masculino-branco-676df01eb07f8-large.png",
             "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-signature-relogios-masculino-branco-676df021407b1-large.png",
@@ -2040,6 +2361,10 @@
           "pix_brl": 169.01,
           "source_blocked_sale": false,
           "source_stock_status": "in_stock",
+          "case_color": null,
+          "strap_color": null,
+          "strap_type": null,
+          "attribute_status": "not_verified; source color labels do not distinguish dial/case/strap",
           "image_urls_for_review_only": [
             "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-signature-relogios-masculino-azul-676df023bf75b-large.png",
             "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-signature-relogios-masculino-azul-676df02605f99-large.png",
@@ -2067,6 +2392,10 @@
           "pix_brl": 169.01,
           "source_blocked_sale": false,
           "source_stock_status": "in_stock",
+          "case_color": null,
+          "strap_color": null,
+          "strap_type": null,
+          "attribute_status": "not_verified; source color labels do not distinguish dial/case/strap",
           "image_urls_for_review_only": [
             "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-signature-relogios-masculino-preta-676df0210c19d-large.png",
             "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-signature-relogios-masculino-preta-676df027e6933-large.png",
@@ -2079,6 +2408,9 @@
           ]
         }
       ],
+      "marketed_brand": "Poedagar",
+      "commercial_model": "Signature",
+      "manufacturer_reference": null,
       "method": "public HTML window.data.product.data.skus.data[].prices.data.price",
       "vras_product_id": null,
       "match_status": "unconfirmed",
@@ -2086,8 +2418,8 @@
     },
     {
       "url": "https://lojaspoedagar.com.br/tempus/p",
-      "checked_at_utc": "2026-11-07T22:42:46.727203+00:00",
-      "html_sha256": "2ed1c5fdb026ba920aff7ec7439b40d3f3ffb1a267f8f911f633793dee08a881",
+      "checked_at_utc": "2026-11-07T23:09:11.242265+00:00",
+      "html_sha256": "939acb047c1e8ebbcbf01ba2baea22d2e1d0f6b1cbc4546cff4fc95e481f97f1",
       "name": "Relógio Poedagar Tempus",
       "slug": "tempus",
       "variants": [
@@ -2107,6 +2439,10 @@
           "pix_brl": 178.51,
           "source_blocked_sale": false,
           "source_stock_status": "in_stock",
+          "case_color": null,
+          "strap_color": null,
+          "strap_type": null,
+          "attribute_status": "not_verified; source color labels do not distinguish dial/case/strap",
           "image_urls_for_review_only": [
             "https://images.yampi.me/assets/stores/poedagar8/uploads/images/poedagar-sport-chronograph-quartz-watch-stainless-steel-waterproof-date-mens-watches-top-brand-luxury-watch-relogio-masc-kaqi-676075088ebcc-large.jpg",
             "https://images.yampi.me/assets/stores/poedagar8/uploads/images/poedagar-sport-chronograph-quartz-watch-stainless-steel-waterproof-date-mens-watches-top-brand-luxury-watch-relogio-masc-kaqi-6760750bd39f0-large.jpg",
@@ -2133,6 +2469,10 @@
           "pix_brl": 178.51,
           "source_blocked_sale": false,
           "source_stock_status": "in_stock",
+          "case_color": null,
+          "strap_color": null,
+          "strap_type": null,
+          "attribute_status": "not_verified; source color labels do not distinguish dial/case/strap",
           "image_urls_for_review_only": [
             "https://images.yampi.me/assets/stores/poedagar8/uploads/images/poedagar-sport-chronograph-quartz-watch-stainless-steel-waterproof-date-mens-watches-top-brand-luxury-watch-relogio-masc-rose-gold-black-6760750c59a7f-large.jpg",
             "https://images.yampi.me/assets/stores/poedagar8/uploads/images/poedagar-sport-chronograph-quartz-watch-stainless-steel-waterproof-date-mens-watches-top-brand-luxury-watch-relogio-masc-rose-gold-black-6760750ef0e7a-large.jpg",
@@ -2159,6 +2499,10 @@
           "pix_brl": 178.51,
           "source_blocked_sale": false,
           "source_stock_status": "in_stock",
+          "case_color": null,
+          "strap_color": null,
+          "strap_type": null,
+          "attribute_status": "not_verified; source color labels do not distinguish dial/case/strap",
           "image_urls_for_review_only": [
             "https://images.yampi.me/assets/stores/poedagar8/uploads/images/poedagar-sport-chronograph-quartz-watch-stainless-steel-waterproof-date-mens-watches-top-brand-luxury-watch-relogio-masc-rose-gold-blue-6760750c96214-large.jpg",
             "https://images.yampi.me/assets/stores/poedagar8/uploads/images/poedagar-sport-chronograph-quartz-watch-stainless-steel-waterproof-date-mens-watches-top-brand-luxury-watch-relogio-masc-rose-gold-blue-6760750dc7f95-large.jpg",
@@ -2185,6 +2529,10 @@
           "pix_brl": 178.51,
           "source_blocked_sale": false,
           "source_stock_status": "in_stock",
+          "case_color": null,
+          "strap_color": null,
+          "strap_type": null,
+          "attribute_status": "not_verified; source color labels do not distinguish dial/case/strap",
           "image_urls_for_review_only": [
             "https://images.yampi.me/assets/stores/poedagar8/uploads/images/poedagar-sport-chronograph-quartz-watch-stainless-steel-waterproof-date-mens-watches-top-brand-luxury-watch-relogio-masc-black-6760750d1cfb3-large.jpg",
             "https://images.yampi.me/assets/stores/poedagar8/uploads/images/poedagar-sport-chronograph-quartz-watch-stainless-steel-waterproof-date-mens-watches-top-brand-luxury-watch-relogio-masc-black-6760750d376c6-large.jpg",
@@ -2211,6 +2559,10 @@
           "pix_brl": 178.51,
           "source_blocked_sale": false,
           "source_stock_status": "in_stock",
+          "case_color": null,
+          "strap_color": null,
+          "strap_type": null,
+          "attribute_status": "not_verified; source color labels do not distinguish dial/case/strap",
           "image_urls_for_review_only": [
             "https://images.yampi.me/assets/stores/poedagar8/uploads/images/poedagar-sport-chronograph-quartz-watch-stainless-steel-waterproof-date-mens-watches-top-brand-luxury-watch-relogio-masc-black-blue-6760750d362a1-large.jpg",
             "https://images.yampi.me/assets/stores/poedagar8/uploads/images/poedagar-sport-chronograph-quartz-watch-stainless-steel-waterproof-date-mens-watches-top-brand-luxury-watch-relogio-masc-black-blue-6760750ead669-large.jpg",
@@ -2237,6 +2589,10 @@
           "pix_brl": 178.51,
           "source_blocked_sale": false,
           "source_stock_status": "out_of_stock",
+          "case_color": null,
+          "strap_color": null,
+          "strap_type": null,
+          "attribute_status": "not_verified; source color labels do not distinguish dial/case/strap",
           "image_urls_for_review_only": [
             "https://images.yampi.me/assets/stores/poedagar8/uploads/images/poedagar-sport-chronograph-quartz-watch-stainless-steel-waterproof-date-mens-watches-top-brand-luxury-watch-relogio-masc-silver-black-6760750bd5513-large.jpg",
             "https://images.yampi.me/assets/stores/poedagar8/uploads/images/poedagar-sport-chronograph-quartz-watch-stainless-steel-waterproof-date-mens-watches-top-brand-luxury-watch-relogio-masc-silver-black-6760750fe6c6b-large.jpg",
@@ -2263,6 +2619,10 @@
           "pix_brl": 178.51,
           "source_blocked_sale": false,
           "source_stock_status": "in_stock",
+          "case_color": null,
+          "strap_color": null,
+          "strap_type": null,
+          "attribute_status": "not_verified; source color labels do not distinguish dial/case/strap",
           "image_urls_for_review_only": [
             "https://images.yampi.me/assets/stores/poedagar8/uploads/images/poedagar-sport-chronograph-quartz-watch-stainless-steel-waterproof-date-mens-watches-top-brand-luxury-watch-relogio-masc-silver-blue-6760750ed3727-large.jpg",
             "https://images.yampi.me/assets/stores/poedagar8/uploads/images/poedagar-sport-chronograph-quartz-watch-stainless-steel-waterproof-date-mens-watches-top-brand-luxury-watch-relogio-masc-silver-blue-6760750ee1acb-large.jpg",
@@ -2289,6 +2649,10 @@
           "pix_brl": 178.51,
           "source_blocked_sale": false,
           "source_stock_status": "in_stock",
+          "case_color": null,
+          "strap_color": null,
+          "strap_type": null,
+          "attribute_status": "not_verified; source color labels do not distinguish dial/case/strap",
           "image_urls_for_review_only": [
             "https://images.yampi.me/assets/stores/poedagar8/uploads/images/poedagar-sport-chronograph-quartz-watch-stainless-steel-waterproof-date-mens-watches-top-brand-luxury-watch-relogio-masc-silver-white-6760750e01bc4-large.jpg",
             "https://images.yampi.me/assets/stores/poedagar8/uploads/images/poedagar-sport-chronograph-quartz-watch-stainless-steel-waterproof-date-mens-watches-top-brand-luxury-watch-relogio-masc-silver-white-6760750e302e8-large.jpg",
@@ -2300,6 +2664,9 @@
           ]
         }
       ],
+      "marketed_brand": "Poedagar",
+      "commercial_model": "Tempus",
+      "manufacturer_reference": null,
       "method": "public HTML window.data.product.data.skus.data[].prices.data.price",
       "vras_product_id": null,
       "match_status": "unconfirmed",
@@ -2307,8 +2674,8 @@
     },
     {
       "url": "https://lojaspoedagar.com.br/universy/p",
-      "checked_at_utc": "2026-11-07T22:42:46.736399+00:00",
-      "html_sha256": "87611274c0fa8c77620bea46aa01dc35336a6b9814ca883b042ff517adbd0d67",
+      "checked_at_utc": "2026-11-07T23:09:11.246806+00:00",
+      "html_sha256": "4c6d923ed9845def3c0706dbbb5ccf7c86cb5668c043707a180c09cc1e62f3c7",
       "name": "Relógio Poedagar Universy",
       "slug": "universy",
       "variants": [
@@ -2328,6 +2695,10 @@
           "pix_brl": 189.91,
           "source_blocked_sale": false,
           "source_stock_status": "in_stock",
+          "case_color": null,
+          "strap_color": null,
+          "strap_type": null,
+          "attribute_status": "not_verified; source color labels do not distinguish dial/case/strap",
           "image_urls_for_review_only": [
             "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-universy-relogio-masculino-prata-e-preto-677fab07ec06c-large.png",
             "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-universy-relogio-masculino-prata-e-preto-677fab0867d1e-large.png",
@@ -2353,6 +2724,10 @@
           "pix_brl": 189.91,
           "source_blocked_sale": false,
           "source_stock_status": "in_stock",
+          "case_color": null,
+          "strap_color": null,
+          "strap_type": null,
+          "attribute_status": "not_verified; source color labels do not distinguish dial/case/strap",
           "image_urls_for_review_only": [
             "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-universy-relogio-masculino-preto-677fab085900d-large.png",
             "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-universy-relogio-masculino-preto-677fab087401a-large.png",
@@ -2378,6 +2753,10 @@
           "pix_brl": 189.91,
           "source_blocked_sale": false,
           "source_stock_status": "in_stock",
+          "case_color": null,
+          "strap_color": null,
+          "strap_type": null,
+          "attribute_status": "not_verified; source color labels do not distinguish dial/case/strap",
           "image_urls_for_review_only": [
             "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-universy-relogio-masculino-azul-677fab086d9b6-large.png",
             "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-universy-relogio-masculino-azul-677fab0aefa66-large.png",
@@ -2388,6 +2767,9 @@
           ]
         }
       ],
+      "marketed_brand": "Poedagar",
+      "commercial_model": "Universy",
+      "manufacturer_reference": null,
       "method": "public HTML window.data.product.data.skus.data[].prices.data.price",
       "vras_product_id": null,
       "match_status": "unconfirmed",
@@ -2398,10 +2780,10 @@
     {
       "second_site_slug_candidate": "deluxe",
       "url": "https://poedagareco.com/products/relogio-poedagar-deluxe-edition",
-      "checked_at_utc": "2026-11-07T22:42:47.332834+00:00",
+      "checked_at_utc": "2026-11-07T23:09:12.686827+00:00",
       "image_reuse_authorized": false,
       "match_status": "name_candidate_only_requires_reference_and_variant_confirmation",
-      "html_sha256": "425f5ba01012c469481a1f197dfe75cefc3e077e8f9c7ebe83896e18551a27d5",
+      "html_sha256": "a4c14181826455562d8c70c14d0b65d728239696cdb31c91beaa5f0a65b0f6ea",
       "schema_identity": [
         {
           "name": "Relógio Poedagar Deluxe Edition®",
@@ -2456,10 +2838,10 @@
     {
       "second_site_slug_candidate": "golden-star",
       "url": "https://poedagareco.com/products/relogio-poedagar-goldenstar",
-      "checked_at_utc": "2026-11-07T22:42:47.332834+00:00",
+      "checked_at_utc": "2026-11-07T23:09:12.686827+00:00",
       "image_reuse_authorized": false,
       "match_status": "name_candidate_only_requires_reference_and_variant_confirmation",
-      "html_sha256": "a36d8a662f4160997aca2b45d69001004f0717c0a37ed9f4149b384b7f48f3c9",
+      "html_sha256": "a58761188203eb3ba1ae9ac5a900b71928a0ac385e2ace2812c755c1cfa63d1c",
       "schema_identity": [
         {
           "name": "Relógio Poedagar GoldenStar®",
@@ -2521,10 +2903,10 @@
     {
       "second_site_slug_candidate": "signature",
       "url": "https://poedagareco.com/products/relogio-poedagar-signature",
-      "checked_at_utc": "2026-11-07T22:42:47.332834+00:00",
+      "checked_at_utc": "2026-11-07T23:09:12.686827+00:00",
       "image_reuse_authorized": false,
       "match_status": "name_candidate_only_requires_reference_and_variant_confirmation",
-      "html_sha256": "f17182dd09c93feebc3ee54fad7f41114993781b96f9ef3aa16a8d65965a2ae6",
+      "html_sha256": "a7ebaac8fe3fd92b0092f87afc03d1c09b78d3f69a7f26f1865b783fa0341e14",
       "schema_identity": [
         {
           "name": "Relógio Poedagar Signature®",
@@ -2579,10 +2961,10 @@
     {
       "second_site_slug_candidate": "king-royal",
       "url": "https://poedagareco.com/products/poedagar-kingroyal",
-      "checked_at_utc": "2026-11-07T22:42:47.332834+00:00",
+      "checked_at_utc": "2026-11-07T23:09:12.686827+00:00",
       "image_reuse_authorized": false,
       "match_status": "name_candidate_only_requires_reference_and_variant_confirmation",
-      "html_sha256": "bf2b9bb3baa85633bee2b86d8178b64b9d02a2238ff7897cf4ac3863aa8f87ee",
+      "html_sha256": "c462fa568b9e92eb97350be25a9c2fcf161944561978d9eb4fa3764dc42d9147",
       "schema_identity": [
         {
           "name": "Relógio Poedagar RoyalKing®",
@@ -2651,10 +3033,10 @@
     {
       "second_site_slug_candidate": "army",
       "url": "https://poedagareco.com/products/relogio-poedagar-army",
-      "checked_at_utc": "2026-11-07T22:42:48.066498+00:00",
+      "checked_at_utc": "2026-11-07T23:09:13.643407+00:00",
       "image_reuse_authorized": false,
       "match_status": "name_candidate_only_requires_reference_and_variant_confirmation",
-      "html_sha256": "fc8b2f7354c191a7e724497c74d4a03d05bcf89c30752c58bed2a1fc425ab026",
+      "html_sha256": "dcb75fd4d0f3ed329483d7ac3b37fbd82201241982696fa5adedf5fdc964b233",
       "schema_identity": [
         {
           "name": "Relógio Poedagar Army®",
@@ -2716,10 +3098,10 @@
     {
       "second_site_slug_candidate": "legitimus",
       "url": "https://poedagareco.com/products/relogio-poedagar-legitimo",
-      "checked_at_utc": "2026-11-07T22:42:48.092528+00:00",
+      "checked_at_utc": "2026-11-07T23:09:13.646480+00:00",
       "image_reuse_authorized": false,
       "match_status": "name_candidate_only_requires_reference_and_variant_confirmation",
-      "html_sha256": "756d0dc5adbfe5dadb9a38ace17f382db6ae72f76621d2c21b10767ba4241d24",
+      "html_sha256": "e9300ad6d5c723233c8ccd5a39aab1b759f6781be34f2b339f637c6ea96b5f10",
       "schema_identity": [
         {
           "name": "Relógio Poedagar Legítimu's®",
@@ -2788,10 +3170,10 @@
     {
       "second_site_slug_candidate": "relogio-poedagar-nautilus-azul",
       "url": "https://poedagareco.com/products/relogio-poedagar-nautilus",
-      "checked_at_utc": "2026-11-07T22:42:48.124338+00:00",
+      "checked_at_utc": "2026-11-07T23:09:13.651507+00:00",
       "image_reuse_authorized": false,
       "match_status": "name_candidate_only_requires_reference_and_variant_confirmation",
-      "html_sha256": "64f91a71135d9fa514e8e3bd36ad8e9557be7af29f23503b9871c11ac238fdfd",
+      "html_sha256": "b7f7c7b84f8255601016fd0f5e1fe3e3b02ad6df634793707911302ae0e0259b",
       "schema_identity": [
         {
           "name": "Relógio Poedagar Nautilus®",
@@ -2846,10 +3228,10 @@
     {
       "second_site_slug_candidate": "universy",
       "url": "https://poedagareco.com/products/relogio-poedagar-universo",
-      "checked_at_utc": "2026-11-07T22:42:48.144365+00:00",
+      "checked_at_utc": "2026-11-07T23:09:13.737902+00:00",
       "image_reuse_authorized": false,
       "match_status": "name_candidate_only_requires_reference_and_variant_confirmation",
-      "html_sha256": "0470a08ad2a7cf804ad49c4a2f8b6e12dd87c1632494f74e1a1bdbbb982cf231",
+      "html_sha256": "b23a739f1b5b4c518aa3b657a3ebddef3bbea0490892cc0990fb2f72649d186d",
       "schema_identity": [
         {
           "name": "Relógio Poedagar Universo®",
@@ -2890,10 +3272,10 @@
     {
       "second_site_slug_candidate": "machine",
       "url": "https://poedagareco.com/products/relogio-poedagar-machine",
-      "checked_at_utc": "2026-11-07T22:42:48.603457+00:00",
+      "checked_at_utc": "2026-11-07T23:09:14.204131+00:00",
       "image_reuse_authorized": false,
       "match_status": "name_candidate_only_requires_reference_and_variant_confirmation",
-      "html_sha256": "fab734e370a0c5a42a49868ca605b3e1508d5f4fa10b64ddd96551952a6b32e3",
+      "html_sha256": "2e4a025ae4403156cfa0c3fb5ff5c63ba422b38a3bf8d5c0c18b2d3a532952c5",
       "schema_identity": [
         {
           "name": "Relógio Poedagar Machine®",
@@ -2962,10 +3344,10 @@
     {
       "second_site_slug_candidate": "lattitude",
       "url": "https://poedagareco.com/products/relogio-poedagar-latittude",
-      "checked_at_utc": "2026-11-07T22:42:48.693077+00:00",
+      "checked_at_utc": "2026-11-07T23:09:14.208164+00:00",
       "image_reuse_authorized": false,
       "match_status": "name_candidate_only_requires_reference_and_variant_confirmation",
-      "html_sha256": "20f1030f0ec4e9612f6521e180d71d29bc48681ad69328ad9890d30865cf12f3",
+      "html_sha256": "9b2d097e2efc09355352224983ca280a1e076682950a0adf6abafb762797696c",
       "schema_identity": [
         {
           "name": "Relógio Poedagar Latittude®",

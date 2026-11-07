@@ -44,6 +44,9 @@ def capture_second(path):
             raise ValueError("Public product metadata not found; price not inferred")
         product = json.JSONDecoder().raw_decode(html[start.end():])[0]["product"]["data"]
         record.update(name=product["name"], slug=product["slug"], variants=[],
+                      marketed_brand="Poedagar" if "poedagar" in product["name"].casefold() else None,
+                      commercial_model=product["name"].removeprefix("Relógio Poedagar "),
+                      manufacturer_reference=None,
                       method="public HTML window.data.product.data.skus.data[].prices.data.price",
                       vras_product_id=None, match_status="unconfirmed",
                       price_approval="not_submitted_no_exact_match")
@@ -54,6 +57,8 @@ def capture_second(path):
                 "options": sku["variations"], "price_brl": prices["price"],
                 "pix_brl": prices.get("pix", {}).get("price"),
                 "source_blocked_sale": sku["blocked_sale"], "source_stock_status": sku["stock_status"],
+                "case_color": None, "strap_color": None, "strap_type": None,
+                "attribute_status": "not_verified; source color labels do not distinguish dial/case/strap",
                 "image_urls_for_review_only": [entry["url"] for entry in sku["images"]["data"]],
             })
     except Exception as error:
@@ -134,7 +139,7 @@ def build_reports():
     products = [entry for entry in report["products"] if "error" not in entry]
     first = {entry["second_site_slug_candidate"]: entry for entry in report["first_site_candidates"]}
     stamp = report["consulted_at_utc"]
-    rows, variants, media_rows = [], [], []
+    rows, variants, media_rows, identities = [], [], [], []
     for product in products:
         source = first.get(product["slug"])
         prices = sorted({Decimal(str(v["price_brl"])) for v in product["variants"]})
@@ -147,6 +152,12 @@ def build_reports():
                              variant["price_brl"], variant.get("pix_brl"), product["url"], product["checked_at_utc"],
                              variant["source_stock_status"], variant["source_blocked_sale"],
                              "Sem associação local; não aplicar"])
+            identities.append([product["name"], product.get("marketed_brand", "Poedagar"),
+                               product.get("commercial_model", product["name"]), product.get("manufacturer_reference") or "",
+                               variant["source_sku"], variant["source_sku_id"], color,
+                               variant.get("case_color") or "Não confirmada", variant.get("strap_color") or "Não confirmada",
+                               variant.get("strap_type") or "Não confirmado", len(variant["image_urls_for_review_only"]),
+                               variant["price_brl"], variant["source_stock_status"], product["url"], product["checked_at_utc"]])
             target = f"static/img/products/poedagar/{product['slug']}/{variant['source_sku_id']}"
             media_rows.append([product["name"], color, variant["source_sku_id"],
                                source["url"] if source else "", product["url"],
@@ -154,9 +165,13 @@ def build_reports():
                                target + "-frente.webp", target + "-lateral.webp", target + "-verso.webp",
                                "Pendente: SKU VRAS + identidade/pulseira + originais + autorização"])
     docs = ROOT / "docs"
+    comparison = [[p["id"], p["nome"], "Não confirmado", p["preco"], "", "", "", stamp,
+                   "Sem correspondência exata; preservar preço publicado"] for p in catalog]
     for filename, headers, entries in [
         ("POEDAGAR_PRICES.csv", ["produto", "variante_fonte", "id_variante_fonte", "sku_fonte_nao_referencia_fabricante", "preco_BRL", "pix_condicionado_BRL", "url", "consulta_UTC", "estoque_na_fonte_nao_VRAS", "venda_bloqueada_na_fonte", "decisao"], variants),
         ("POEDAGAR_MEDIA_PENDING.csv", ["produto", "variante_fonte", "id_variante_fonte", "pagina_site1_candidata", "pagina_site2", "urls_somente_consulta", "destino_frente_sugerido", "destino_lateral_sugerido", "destino_verso_sugerido", "pendencia"], media_rows),
+        ("POEDAGAR_COMPARISON.csv", ["id_VRAS", "produto_VRAS", "modelo_Poedagar", "preco_atual_BRL", "preco_referencia_BRL", "diferenca_BRL", "url_correspondente", "consulta_UTC", "pendencia"], comparison),
+        ("POEDAGAR_VARIANT_IDENTITY.csv", ["nome_comercial", "marca_anunciada", "modelo_comercial", "referencia_fabricante", "sku_interno_fonte", "id_variante_fonte", "rotulo_cor_fonte", "cor_caixa", "cor_pulseira", "tipo_pulseira", "quantidade_fotos_fonte", "preco_BRL", "disponibilidade_fonte", "url", "consulta_UTC"], identities),
     ]:
         with (docs / filename).open("w", encoding="utf-8-sig", newline="") as output:
             writer = csv.writer(output)
@@ -172,6 +187,8 @@ Fonte principal de preço: [{report['category_url']}]({report['category_url']}).
 {len(products)} anúncios/modelos comerciais e {len(variants)} variantes identificados no site 2. Dez candidatos por nome foram consultados no site 1; isso não é um inventário completo desse site nem comprova equivalência. Nenhum dos 12 produtos VRAS foi associado com segurança. Zero fotografias autorizadas incorporadas. Nenhum preço publicado foi alterado.
 
 Os nomes são nomes comerciais das lojas, não referências oficiais do fabricante. O SKU `201447598` aparece em anúncios diferentes do site 2; os IDs de variante identificam registros dessa loja e não referências do fabricante. Cor semelhante ou nome parecido não comprovam o mesmo modelo, acabamento ou pulseira. Valores de estoque da fonte são apenas evidência da consulta e nunca foram copiados como estoque VRAS.
+
+O [inventário de identidade por variante](POEDAGAR_VARIANT_IDENTITY.csv) registra marca anunciada, nome comercial, SKU/ID interno, rótulo de cor, quantidade de fotografias, disponibilidade, URL e data. Referência do fabricante, cor da caixa, cor e tipo de pulseira ficam explicitamente não confirmados quando não há evidência inequívoca; o rótulo “Azul” não foi reinterpretado como cor da caixa ou da pulseira.
 
 ## Preços encontrados por anúncio
 
@@ -189,7 +206,9 @@ Um preço cadastrado para variante indisponível é apenas evidência histórica
 
 Não há diferença calculada nem preço proposto por SKU enquanto não existir correspondência exata. Esta tabela preserva os preços da VRAS e explicita a lacuna, sem comparar relógios diferentes.
 
-{table(['ID', 'Produto VRAS', 'Preço atual', 'Modelo/variante Poedagar', 'Preço correspondente no site 2', 'Decisão'], [[p['id'], p['nome'], brl(p['preco']), 'Não confirmados', 'Não localizado com segurança', 'Preservar; confirmar identidade'] for p in catalog])}
+{table(['Produto VRAS', 'Modelo Poedagar', 'Preço atual', 'Preço de referência', 'Diferença em reais', 'URL correspondente', 'Consulta UTC'], [[p['nome'], 'Não confirmado', brl(p['preco']), 'Não confirmado', 'Não calculável', 'Não confirmada', stamp[:10]] for p in catalog])}
+
+O [CSV de comparação por produto VRAS](POEDAGAR_COMPARISON.csv) mantém os mesmos campos. Valores e URLs não correspondidos ficam vazios, em vez de presumir zero ou comparar modelos diferentes.
 
 ## Aprovação dos preços
 
