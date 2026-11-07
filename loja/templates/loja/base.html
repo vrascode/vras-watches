@@ -3,134 +3,64 @@
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{% block title %}Vras Watches{% endblock %}</title>
-    <link rel="icon" href="{% static 'img/products/FavIconNoBG_2d8dc902-14bf-4159-af5e-52981b699360_96x96.png' %}">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
-    <link rel="stylesheet" href="{% static 'css/theme.css' %}">
-    <link rel="stylesheet" href="{% static 'css/swiper-reviews.min.css' %}">
-    <link rel="stylesheet" href="{% static 'css/style.css' %}">
-    {% block extra_css %}{% endblock %}
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#0B0B0B">
+    <link rel="icon" href="data:,">
+    <title>{% block title %}VRAS Watches | Rel&oacute;gios{% endblock %}</title>
+    <meta name="description" content="{{ meta_description|default:'Conhe&ccedil;a os rel&oacute;gios VRAS Watches e encontre seu estilo.' }}">
+    {% if noindex %}<meta name="robots" content="noindex,follow">{% endif %}
+    {% if canonical_url %}<link rel="canonical" href="{{ canonical_url }}"><meta property="og:url" content="{{ canonical_url }}">{% endif %}
+    <meta property="og:site_name" content="VRAS Watches">
+    <meta property="og:locale" content="pt_BR">
+    <meta property="og:type" content="{% if product %}product{% else %}website{% endif %}">
+    <meta property="og:title" content="{% if product %}{{ product.nome }} | {% endif %}VRAS Watches">
+    <meta property="og:description" content="{{ meta_description|default:'O tempo &eacute; seu. O estilo tamb&eacute;m.' }}">
+    <meta name="twitter:card" content="{% if og_image and site_url %}summary_large_image{% else %}summary{% endif %}">
+    <meta name="twitter:title" content="{% if product %}{{ product.nome }} | {% endif %}VRAS Watches">
+    <meta name="twitter:description" content="{{ meta_description|default:'O tempo &eacute; seu. O estilo tamb&eacute;m.' }}">
+    {% if og_image and site_url %}<meta property="og:image" content="{{ site_url }}{{ og_image.url }}"><meta name="twitter:image" content="{{ site_url }}{{ og_image.url }}">{% endif %}
+    <link rel="preload" href="{% static 'fonts/crimsontext_n4.a9a5f5ab47c6f5346e7cd274511a5d08c59fb906.woff2' %}" as="font" type="font/woff2" crossorigin>
+    <link rel="stylesheet" href="{% static 'css/premium.css' %}">
+    {% block head %}{% endblock %}
+    <script src="{% static 'js/storefront.js' %}" defer></script>
 </head>
-<body>
-    <div class="announcement" aria-label="Promocoes Vras Watches">
-        <div class="announcement-track">
-            <div class="announcement-group">
-                <span>Frete gratis em compras acima de R$399,90</span>
-                <span>5% OFF via Pix</span>
-                <span>10% de Cashback</span>
-                <span>Mais de 5.000 clientes</span>
-            </div>
-            <div class="announcement-group" aria-hidden="true">
-                <span>Frete gratis em compras acima de R$399,90</span>
-                <span>5% OFF via Pix</span>
-                <span>10% de Cashback</span>
-                <span>Mais de 5.000 clientes</span>
-            </div>
-            <div class="announcement-group" aria-hidden="true">
-                <span>Frete gratis em compras acima de R$399,90</span>
-                <span>5% OFF via Pix</span>
-                <span>10% de Cashback</span>
-                <span>Mais de 5.000 clientes</span>
-            </div>
-            <div class="announcement-group" aria-hidden="true">
-                <span>Frete gratis em compras acima de R$399,90</span>
-                <span>5% OFF via Pix</span>
-                <span>10% de Cashback</span>
-                <span>Mais de 5.000 clientes</span>
-            </div>
+<body class="{% block body_class %}{% endblock %}">
+    <a class="skip-link" href="#conteudo">Pular para o conte&uacute;do</a>
+    <div class="brand-strip"><span>VRAS WATCHES</span><a href="{{ instagram_url }}" target="_blank" rel="noopener noreferrer">@usevras <span aria-hidden="true">&#8599;</span></a></div>
+    <header class="site-header" data-header>
+        <a class="brand" href="{% url 'loja:home' %}" aria-label="VRAS Watches, in&iacute;cio">
+            {% if brand_logo %}<img src="{{ brand_logo.url }}" width="160" height="48" alt="VRAS Watches">{% else %}<span>VRAS<span class="brand-sub">WATCHES</span></span>{% endif %}
+        </a>
+        <nav class="desktop-nav" aria-label="Navega&ccedil;&atilde;o principal">
+            <a href="{% url 'loja:home' %}" {% if request.resolver_match.url_name == 'home' %}aria-current="page"{% endif %}>In&iacute;cio</a>
+            <a href="{% url 'loja:products' %}" {% if request.resolver_match.url_name == 'products' %}aria-current="page"{% endif %}>Rel&oacute;gios</a>
+            <a href="{% url 'loja:home' %}#colecoes">Cole&ccedil;&otilde;es</a>
+            <a href="{% url 'loja:home' %}#sobre">Sobre a VRAS</a>
+            <a href="{{ instagram_url }}" target="_blank" rel="noopener noreferrer">Instagram <span aria-hidden="true">&#8599;</span></a>
+        </nav>
+        <div class="header-actions">
+            <a class="cart-link" href="{% url 'loja:cart' %}">Carrinho <span class="cart-count" data-cart-count>{{ cart_count }}</span></a>
+            <button class="icon-button menu-toggle" type="button" data-menu-toggle aria-controls="mobile-menu" aria-expanded="false" aria-label="Abrir menu" title="Abrir menu"><span aria-hidden="true">&#9776;</span></button>
         </div>
-    </div>
-
-    <header class="site-header-vras">
-        <nav class="header-side header-side-left" aria-label="Menu principal">
-            <a class="menu-link" href="{% url 'loja:home' %}">
-                <span class="hamburger" aria-hidden="true"></span>
-                <span>Inicio</span>
-            </a>
-        </nav>
-
-        <a class="brand" href="{% url 'loja:home' %}">Vras Watches</a>
-
-        <nav class="header-side header-side-right" aria-label="Links da loja">
-            <a href="{% url 'loja:products' %}">Relogios</a>
-            <a href="{% url 'loja:cart' %}">Carrinho ({{ cart_count|default:0 }})</a>
-        </nav>
     </header>
-
-    {% if messages %}
-        <div class="messages" role="status" aria-live="polite">
-            {% for message in messages %}
-                <p class="message message-{{ message.tags }}">{{ message }}</p>
-            {% endfor %}
+    <dialog class="mobile-menu" id="mobile-menu" aria-labelledby="menu-title">
+        <div class="mobile-menu-top"><span id="menu-title">VRAS WATCHES</span><button class="icon-button" type="button" data-menu-close aria-label="Fechar menu" title="Fechar menu">&#215;</button></div>
+        <nav aria-label="Navega&ccedil;&atilde;o mobile">
+            <a href="{% url 'loja:home' %}">In&iacute;cio</a><a href="{% url 'loja:products' %}">Rel&oacute;gios</a><a href="{% url 'loja:home' %}#colecoes">Cole&ccedil;&otilde;es</a><a href="{% url 'loja:home' %}#sobre">Sobre a VRAS</a><a href="{{ instagram_url }}" target="_blank" rel="noopener noreferrer">Instagram &#8599;</a><a href="{% url 'loja:cart' %}">Carrinho</a>
+        </nav>
+    </dialog>
+    <div class="notifications" role="status" aria-live="polite" aria-atomic="true" data-notifications>{% for message in messages %}<p class="notification">{{ message }}</p>{% endfor %}</div>
+    <main id="conteudo" tabindex="-1">{% block content %}{% endblock %}</main>
+    <footer class="site-footer">
+        <div class="footer-main wrap">
+            <div class="footer-brand"><a href="{% url 'loja:home' %}" class="footer-wordmark">VRAS<span>WATCHES</span></a><p>O tempo &eacute; seu.<br>O estilo tamb&eacute;m.</p></div>
+            <nav aria-label="Explore"><h2>Explore</h2><a href="{% url 'loja:home' %}">In&iacute;cio</a><a href="{% url 'loja:products' %}">Rel&oacute;gios</a><a href="{% url 'loja:home' %}#colecoes">Cole&ccedil;&otilde;es</a><a href="{% url 'loja:home' %}#sobre">Sobre n&oacute;s</a></nav>
+            <section id="contato"><h2>Contato</h2><a href="mailto:vrascompany@gmail.com">vrascompany@gmail.com</a><a href="https://wa.me/5563992254787" target="_blank" rel="noopener noreferrer">(63) 99225-4787 &#8599;</a><p>Palmas, Tocantins, Brasil</p><a href="{{ instagram_url }}" target="_blank" rel="noopener noreferrer">@usevras &#8599;</a></section>
+            {% if policies %}<nav aria-label="Informa&ccedil;&otilde;es"><h2>Informa&ccedil;&otilde;es</h2>{% for policy in policies %}<a href="{{ policy.url }}" rel="noopener noreferrer">{{ policy.label }}</a>{% endfor %}</nav>{% endif %}
         </div>
-    {% endif %}
-
-    <main>
-        {% block content %}{% endblock %}
-    </main>
-
-    <footer class="footer-vras">
-        <div class="footer-vras__inner">
-            <div class="footer-vras__grid">
-                <section class="footer-vras__brand" aria-label="VRAS Watches">
-                    <a class="footer-vras__logo footer-vras__title" href="{% url 'loja:home' %}">VRAS Watches</a>
-                    <p>Rel&oacute;gios premium desenvolvidos para quem valoriza eleg&acirc;ncia, precis&atilde;o e exclusividade.</p>
-                </section>
-
-                <section class="footer-vras__column footer-vras__about" aria-label="Sobre nós">
-                    <h2 class="footer-vras__title">SOBRE N&Oacute;S</h2>
-                    <div class="footer-vras__links">
-                        <p>VRAS COMPANY NEG&Oacute;CIOS DIGITAIS</p>
-                        <p>Palmas, Tocantins, Brasil</p>
-                        <p><strong>E-mail:</strong> <a href="mailto:vrascompany@gmail.com">vrascompany@gmail.com</a></p>
-                        <p><strong>WhatsApp:</strong> <a href="https://wa.me/5563992254787" target="_blank" rel="noopener noreferrer">(63) 99225-4787</a></p>
-                    </div>
-                </section>
-
-                <nav class="footer-vras__column" aria-label="Suporte">
-                    <h2 class="footer-vras__title">SUPORTE</h2>
-                    <div class="footer-vras__links">
-                        <a href="#">Pol&iacute;tica de Privacidade</a>
-                        <a href="#">Pol&iacute;tica de Trocas</a>
-                        <a href="#">Pol&iacute;tica de Reembolso</a>
-                        <a href="#">Pol&iacute;tica de Envio</a>
-                        <a href="#">Termos de Uso</a>
-                    </div>
-                </nav>
-
-                <section class="footer-vras__social-column" aria-label="Redes sociais">
-                    <h2 class="footer-vras__title">REDES SOCIAIS</h2>
-                    <div class="footer-vras__social">
-                        <a href="https://www.instagram.com/usevras/" target="_blank" rel="noopener noreferrer" aria-label="Instagram da VRAS Watches">
-                            <i class="fa-brands fa-instagram" aria-hidden="true"></i>
-                        </a>
-                        <a href="#" aria-label="Facebook da VRAS Watches">
-                            <i class="fa-brands fa-facebook-f" aria-hidden="true"></i>
-                        </a>
-                        <a href="#" aria-label="YouTube da VRAS Watches">
-                            <i class="fa-brands fa-youtube" aria-hidden="true"></i>
-                        </a>
-                        <a href="#" aria-label="TikTok da VRAS Watches">
-                            <i class="fa-brands fa-tiktok" aria-hidden="true"></i>
-                        </a>
-                        <a href="#" aria-label="LinkedIn da VRAS Watches">
-                            <i class="fa-brands fa-linkedin-in" aria-hidden="true"></i>
-                        </a>
-                    </div>
-
-                    <div class="footer-vras__secure" aria-label="Google Site Seguro">
-                        <span class="footer-vras__secure-icon" aria-hidden="true"></span>
-                        <span>
-                            <strong>Google</strong>
-                            <small>Site Seguro</small>
-                        </span>
-                    </div>
-                </section>
-            </div>
-
-        </div>
+        <div class="footer-bottom wrap"><span>&copy; {% now 'Y' %} VRAS Watches</span><span>VRAS COMPANY NEG&Oacute;CIOS DIGITAIS</span><a href="{{ instagram_url }}" target="_blank" rel="noopener noreferrer">Instagram &#8599;</a></div>
     </footer>
-    {% block extra_js %}{% endblock %}
+    <dialog class="zoom-dialog" data-zoom-dialog aria-label="Fotografia ampliada"><button class="icon-button zoom-close" data-zoom-close type="button" aria-label="Fechar fotografia" title="Fechar fotografia">&#215;</button><img data-zoom-image alt="" width="1200" height="1500"></dialog>
+    {% block scripts %}{% endblock %}
 </body>
 </html>

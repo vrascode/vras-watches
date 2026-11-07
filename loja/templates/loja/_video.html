@@ -1,0 +1,9 @@
+<div class="video-shell {% if decorative %}video-decorative{% endif %}" data-video-shell>
+    <video {% if decorative %}autoplay muted loop data-autoplay{% else %}controls{% endif %} playsinline preload="none" poster="{{ video.poster.url }}" data-video {% if preview %}data-preview{% endif %} aria-label="{{ video.alt|default:'V&iacute;deo VRAS Watches' }}">
+        <source data-src="{{ video.url }}" type="{{ video.mime }}">
+        {% if video.captions %}<track kind="captions" src="{{ video.captions.url }}" srclang="pt-BR" label="Portugu&ecirc;s">{% endif %}
+    </video>
+    <img class="video-fallback" src="{{ video.poster.url }}" alt="{{ video.poster.alt|default:'VRAS Watches' }}" width="900" height="1100" loading="lazy" hidden>
+    {% if decorative and not preview %}<div class="video-actions"><button class="icon-button" type="button" data-video-toggle aria-label="Reproduzir v&iacute;deo" title="Reproduzir v&iacute;deo">&#9654;</button><button class="icon-button" type="button" data-video-sound aria-label="Ativar som" title="Ativar som">&#9835;</button></div>{% endif %}
+    <span class="video-error" hidden>V&iacute;deo indispon&iacute;vel.</span>
+</div>
