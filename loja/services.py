@@ -11,7 +11,7 @@ from loja import media
 PRODUCTS_PATH = settings.BASE_DIR / "data" / "products.json"
 CART_SESSION_KEY = "cart"
 MAX_QUANTITY = 99
-CATEGORY_LABELS = {"Classicos": "Cl\u00e1ssicos", "Lancamentos": "Lan\u00e7amentos"}
+CATEGORY_LABELS = {"Classicos": "Cl\u00e1ssicos", "Lancamentos": "Lan\u00e7amentos", "Best Sellers": "Seleção VRAS"}
 SORT_OPTIONS = {"destaques": "Destaques", "preco_asc": "Menor pre\u00e7o",
                 "preco_desc": "Maior pre\u00e7o", "nome": "Nome: A a Z", "nome_desc": "Nome: Z a A"}
 
@@ -96,12 +96,22 @@ def get_products():
     return products
 
 
-def get_featured_products():
-    return [product for product in get_products() if product.get("destaque")]
+def get_featured_products(catalog=None):
+    return [product for product in (get_products() if catalog is None else catalog) if product.get("destaque")]
 
 
-def get_new_products():
-    return [product for product in get_products() if product["is_new"]]
+def get_new_products(catalog=None):
+    return [product for product in (get_products() if catalog is None else catalog) if product["is_new"]]
+
+
+def get_style_edits(catalog=None):
+    catalog = get_products() if catalog is None else catalog
+    return [{"category": category, "label": CATEGORY_LABELS.get(category, category), "title": title,
+             "description": description, "products": [p for p in catalog if p["categoria"] == category][:2]}
+            for category, title, description in [
+                ("Classicos", "Elegância em cada detalhe.", "Linhas clássicas para compor o seu estilo, no seu tempo."),
+                ("Esportivos", "Presença para cada ritmo.", "Um olhar esportivo para acompanhar suas escolhas do dia a dia."),
+            ] if any(p["categoria"] == category for p in catalog)]
 
 
 def get_product(product_id):
@@ -116,8 +126,8 @@ def get_categories():
     return sorted({product["categoria"] for product in get_products()})
 
 
-def get_collections():
-    catalog = get_products()
+def get_collections(catalog=None):
+    catalog = get_products() if catalog is None else catalog
     return [{"name": category, "label": CATEGORY_LABELS.get(category, category),
              "count": sum(product["categoria"] == category for product in catalog),
              "cover": next((product["cover"] for product in catalog

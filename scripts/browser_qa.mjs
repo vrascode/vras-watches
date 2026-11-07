@@ -69,6 +69,12 @@ try {
         await send("Emulation.setEmulatedMedia", { features: [{ name: "prefers-reduced-motion", value: "reduce" }] });
         for (const width of [360, 1440]) {
             await send("Emulation.setDeviceMetricsOverride", { width, height: 900, deviceScaleFactor: 1, mobile: width < 600 });
+            await go("/");
+            assert.ok(await evaluate("document.querySelector('.hero-picture img').complete && document.querySelector('.hero-picture img').naturalWidth > 0"));
+            assert.ok(await evaluate(`document.querySelector('.hero-picture img').currentSrc.endsWith('${width === 360 ? 'side' : 'front'}.png')`));
+            assert.equal(await evaluate("document.querySelectorAll('.instagram-item').length"), 1);
+            assert.ok(await evaluate("document.querySelector('.post-link').href.endsWith('/p/QA-test-only/')"));
+            assert.ok(await evaluate("document.querySelector('.campaign img').naturalWidth > 0"));
             await go("/produto/1/");
             assert.equal(await evaluate("document.querySelectorAll('[data-gallery-index]').length"), 2);
             assert.ok(await evaluate("[...document.images].every(i => !i.getAttribute('src') || (i.complete && i.naturalWidth > 0))"));
@@ -82,14 +88,39 @@ try {
             await waitFor("document.querySelector('[data-gallery-index=\"1\"]').hasAttribute('aria-current')");
             await evaluate("document.querySelector('[data-gallery-track]').dispatchEvent(new KeyboardEvent('keydown', { key: 'Home', bubbles: true }))");
             await waitFor("document.querySelector('[data-gallery-index=\"0\"]').hasAttribute('aria-current')");
+            assert.equal(await evaluate("document.querySelectorAll('.gallery-slide[inert]').length"), 1);
+            if (width === 360) {
+                await send("Emulation.setTouchEmulationEnabled", { enabled: true });
+                const rect = await evaluate("(() => {const r=document.querySelector('[data-gallery-track]').getBoundingClientRect(); return {x:r.left+r.width-30, y:r.top+Math.min(r.height/2,180), width:r.width};})()");
+                await send("Input.dispatchTouchEvent", { type: "touchStart", touchPoints: [{ x: rect.x, y: rect.y, id: 1 }] });
+                for (let step = 1; step <= 6; step++) {
+                    await send("Input.dispatchTouchEvent", { type: "touchMove", touchPoints: [{ x: rect.x - step * (rect.width - 65) / 6, y: rect.y, id: 1 }] });
+                    await sleep(25);
+                }
+                await send("Input.dispatchTouchEvent", { type: "touchEnd", touchPoints: [] });
+                await waitFor("document.querySelector('[data-gallery-position]').textContent === '2 / 2'");
+                await evaluate("document.querySelector('[data-gallery-index=\"0\"]').click()");
+                await waitFor("document.querySelector('[data-gallery-position]').textContent === '1 / 2'");
+                assert.equal(await evaluate("getComputedStyle(document.querySelector('.detail-purchase')).position"), "fixed");
+                await send("Emulation.setTouchEmulationEnabled", { enabled: false });
+            }
             await evaluate("document.querySelector('[data-zoom]').click()");
             await waitFor("document.querySelector('[data-zoom-dialog]').open");
             assert.ok(await evaluate("document.querySelector('[data-zoom-image]').naturalWidth > 0"));
+            await evaluate("document.querySelector('[data-zoom-next]').click()");
+            await waitFor("document.querySelector('[data-zoom-position]').textContent === '2 / 2'");
+            assert.equal(await evaluate("document.querySelector('[data-zoom-next]').disabled"), true);
+            await evaluate("document.querySelector('[data-zoom-magnify]').click()");
+            assert.equal(await evaluate("document.querySelector('[data-zoom-magnify]').getAttribute('aria-pressed')"), "true");
+            assert.ok(await evaluate("document.querySelector('[data-zoom-stage]').scrollWidth > document.querySelector('[data-zoom-stage]').clientWidth"));
+            await evaluate("document.querySelector('[data-zoom-magnify]').click()");
+            await evaluate("document.querySelector('[data-zoom-dialog]').dispatchEvent(new KeyboardEvent('keydown', { key: 'ArrowLeft', bubbles: true }))");
+            await waitFor("document.querySelector('[data-zoom-position]').textContent === '1 / 2'");
             await key("Escape");
             await waitFor("!document.querySelector('[data-zoom-dialog]').open");
             await waitFor("document.activeElement.hasAttribute('data-zoom')");
             assert.ok(await evaluate("document.documentElement.scrollWidth <= innerWidth + 1"));
-            checks.push({ width, gallery: "arrows, thumbnails, Home/End, zoom, Escape, approved fixture media" });
+            checks.push({ width, gallery: "arrows, thumbnails, Home/End, touch swipe (mobile), zoom navigation/magnification, inert slides, Escape, approved fixture media" });
         }
         // Resize while the second slide is selected must retain selection/alignment.
         await evaluate("document.querySelector('[data-gallery-next]').click()");
@@ -97,10 +128,12 @@ try {
         await send("Emulation.setDeviceMetricsOverride", { width: 390, height: 844, deviceScaleFactor: 1, mobile: true });
         await waitFor("Math.abs(document.querySelector('[data-gallery-track]').scrollLeft - document.querySelector('[data-gallery-track]').clientWidth) < 2");
         assert.equal(await evaluate("document.querySelector('.variant-options a[aria-current]').getAttribute('href')"), "/produto/1/");
+        const previousVariantPhoto = await evaluate("document.querySelector('[data-zoom] img').src");
         await evaluate("document.querySelector('.variant-options a[href=\"/produto/2/\"]').click()");
         await waitFor("location.pathname === '/produto/2/' && document.readyState === 'complete'");
         assert.ok(await evaluate("document.querySelector('.detail-price').textContent.includes('389,00')"));
         assert.equal(await evaluate("document.querySelector('[data-add-cart]').action.endsWith('/adicionar/2/')"), true);
+        assert.notEqual(await evaluate("document.querySelector('[data-zoom] img').src"), previousVariantPhoto);
         await evaluate("document.querySelector('[data-add-cart] button').click()");
         await waitFor("document.querySelector('[data-cart-count]').textContent === '1'");
         await go("/carrinho/");
@@ -140,6 +173,9 @@ try {
     await send("Emulation.setDeviceMetricsOverride", { width: 390, height: 844, deviceScaleFactor: 1, mobile: true });
     await go("/");
     assert.equal(await evaluate("document.querySelectorAll('#lancamentos [data-product-card]').length"), 2);
+    assert.equal(await evaluate("document.querySelectorAll('.collection-spotlight').length"), 2);
+    assert.ok(await evaluate("document.querySelector('#instagram-title').textContent.includes('NOSSO ESTILO')"));
+    assert.equal(await evaluate("document.querySelector('.category-nav')?.textContent.includes('Best Sellers') || false"), false);
     await evaluate("document.querySelector('[data-menu-toggle]').click()");
     assert.equal(await evaluate("document.querySelector('#mobile-menu').open"), true);
     for (let count = 0; count < 9; count++) {

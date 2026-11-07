@@ -15,10 +15,12 @@ from loja import media, services
 @never_cache
 def home(request):
     manifest = media.load_media()
+    catalog = services.get_products()
     return render(request, "loja/home.html", {
-        "featured_products": services.get_featured_products(),
-        "new_products": services.get_new_products(),
-        "collections": services.get_collections(),
+        "featured_products": services.get_featured_products(catalog),
+        "new_products": services.get_new_products(catalog),
+        "collections": services.get_collections(catalog),
+        "style_edits": services.get_style_edits(catalog),
         "hero_media": media.section_media(manifest, "hero"),
         "editorial_media": media.section_media(manifest, "editorial"),
         "campaign_media": media.section_media(manifest, "campaign"),
@@ -44,7 +46,7 @@ def products(request):
                                    if services.normalize(c) == services.normalize(category)), category),
         "search_query": query, "product_count": len(products_list),
         "sort_options": services.SORT_OPTIONS, "selected_sort": sort,
-        "meta_description": "Explore o cat\u00e1logo VRAS Watches: Cl\u00e1ssicos, Maestro, Best Sellers, Lan\u00e7amentos e Esportivos.",
+        "meta_description": "Explore o cat\u00e1logo VRAS Watches: Cl\u00e1ssicos, Maestro, Seleção VRAS, Lan\u00e7amentos e Esportivos.",
         "noindex": bool(query or category or sort != "destaques"),
     })
 

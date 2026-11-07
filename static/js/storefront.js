@@ -159,7 +159,10 @@
             entries.forEach(({ target: video, isIntersecting }) => {
                 if (!isIntersecting) { video.pause(); return; }
                 if (video.hasAttribute("data-preview")) return;
-                if (!video.hasAttribute("data-autoplay")) { loadVideo(video); return; }
+                if (!video.hasAttribute("data-autoplay")) {
+                    if (!navigator.connection?.saveData) loadVideo(video);
+                    return;
+                }
                 if (!reducedMotion.matches && !video.dataset.userPaused && !document.hidden && !navigator.connection?.saveData) playVideo(video);
             });
         }, { threshold: .3 });
@@ -173,18 +176,58 @@
     });
 
     const zoom = document.querySelector("[data-zoom-dialog]");
+    const zoomButtons = [...document.querySelectorAll("[data-zoom]")];
+    const zoomStage = zoom?.querySelector("[data-zoom-stage]");
+    const zoomMagnify = zoom?.querySelector("[data-zoom-magnify]");
+    const zoomPrevious = zoom?.querySelector("[data-zoom-prev]");
+    const zoomNext = zoom?.querySelector("[data-zoom-next]");
     let zoomTrigger;
-    document.querySelectorAll("[data-zoom]").forEach(button => {
+    let zoomIndex = 0;
+    const resetMagnification = () => {
+        zoomStage?.classList.remove("is-magnified");
+        zoomMagnify?.setAttribute("aria-pressed", "false");
+        if (zoomStage) { zoomStage.scrollTop = 0; zoomStage.scrollLeft = 0; }
+    };
+    const showZoomPhoto = index => {
+        zoomIndex = Math.max(0, Math.min(index, zoomButtons.length - 1));
+        const button = zoomButtons[zoomIndex];
+        if (!button || !zoom) return;
+        const original = button.querySelector("img");
+        const image = zoom.querySelector("[data-zoom-image]");
+        image.src = button.dataset.zoom;
+        image.alt = original.alt;
+        image.width = original.width;
+        image.height = original.height;
+        zoom.querySelector("[data-zoom-caption]").textContent = original.alt;
+        zoom.querySelector("[data-zoom-position]").textContent = `${zoomIndex + 1} / ${zoomButtons.length}`;
+        zoomPrevious.disabled = zoomIndex === 0;
+        zoomNext.disabled = zoomIndex === zoomButtons.length - 1;
+        resetMagnification();
+    };
+    zoomButtons.forEach((button, index) => {
         button.addEventListener("click", () => {
             zoomTrigger = button;
-            const image = zoom.querySelector("[data-zoom-image]");
-            image.src = button.dataset.zoom;
-            image.alt = button.querySelector("img").alt;
+            showZoomPhoto(index);
             zoom.showModal();
         });
     });
+    zoomPrevious?.addEventListener("click", () => showZoomPhoto(zoomIndex - 1));
+    zoomNext?.addEventListener("click", () => showZoomPhoto(zoomIndex + 1));
+    const magnify = () => {
+        const expanded = zoomStage?.classList.toggle("is-magnified");
+        zoomMagnify?.setAttribute("aria-pressed", String(expanded));
+    };
+    zoomMagnify?.addEventListener("click", magnify);
+    zoomStage?.addEventListener("dblclick", magnify);
+    zoom?.addEventListener("keydown", event => {
+        if (zoomStage?.classList.contains("is-magnified") && event.target === zoomStage) return;
+        if (event.key === "ArrowLeft" || event.key === "ArrowRight") {
+            event.preventDefault();
+            showZoomPhoto(zoomIndex + (event.key === "ArrowRight" ? 1 : -1));
+        }
+    });
     document.querySelector("[data-zoom-close]")?.addEventListener("click", () => zoom.close());
-    zoom?.addEventListener("close", () => zoomTrigger?.focus());
+    zoom?.addEventListener("close", () => { resetMagnification(); zoomTrigger?.focus(); });
     document.querySelectorAll("[data-gallery]").forEach(gallery => {
         const track = gallery.querySelector("[data-gallery-track]");
         const counter = gallery.querySelector("[data-gallery-position]");
@@ -206,6 +249,7 @@
                 });
             }
             activeIndex = current;
+            [...track.children].forEach((slide, index) => { slide.inert = index !== current; });
             if (counter) counter.textContent = `${current + 1} / ${track.children.length}`;
             if (previous) previous.disabled = current === 0;
             if (next) next.disabled = current >= track.children.length - 1;

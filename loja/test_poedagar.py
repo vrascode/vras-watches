@@ -154,7 +154,10 @@ class GalleryBrowserTests(StaticLiveServerTestCase):
                                        "fonte": "https://supplier.example.test/manual"}
             catalog_path = Path(data_dir) / "products.json"
             catalog_path.write_text(json.dumps(catalog), encoding="utf-8")
-            manifest = {"products": {"1": {"images": assets}, "2": {"images": assets[::-1]}}}
+            manifest = {"products": {"1": {"images": assets}, "2": {"images": assets[::-1]}},
+                        "hero": {"image": assets[0], "mobile_image": assets[1]},
+                        "editorial": {"image": assets[0]}, "campaign": {"image": assets[1]},
+                        "instagram": [{"permalink": "https://www.instagram.com/p/QA-test-only/", "image": assets[0]}]}
             env = {**os.environ, "QA_BASE_URL": self.live_server_url, "QA_CONFIRMED_FIXTURE": "1"}
             with patch("loja.services.PRODUCTS_PATH", catalog_path), patch("loja.media.load_media", return_value=manifest):
                 result = subprocess.run(["node", "scripts/browser_qa.mjs"], cwd=settings.BASE_DIR,

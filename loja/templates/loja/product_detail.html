@@ -1,6 +1,7 @@
 {% extends 'loja/base.html' %}
 {% load store_tags %}
 {% block title %}{{ product.nome }} | VRAS Watches{% endblock %}
+{% block body_class %}product-page{% endblock %}
 {% block content %}
 <nav class="breadcrumbs wrap" aria-label="Caminho da p&aacute;gina"><a href="{% url 'loja:home' %}">In&iacute;cio</a><span aria-hidden="true">/</span><a href="{% url 'loja:products' %}">Rel&oacute;gios</a><span aria-hidden="true">/</span><span>{{ product.nome }}</span></nav>
 <section class="product-detail wrap">
@@ -22,9 +23,9 @@
             {% endif %}
         </div>
         {% endif %}
-        <form action="{% url 'loja:add_to_cart' product.id %}" method="post" data-add-cart>
+        <form class="detail-purchase" action="{% url 'loja:add_to_cart' product.id %}" method="post" data-add-cart>
             {% csrf_token %}<input type="hidden" name="next" value="{{ request.path }}">
-            <button class="button button-dark full-width" type="submit">Adicionar ao carrinho <span aria-hidden="true">+</span></button>
+            <span class="mobile-purchase-price" aria-hidden="true">{{ product.preco_brl }}</span><button class="button button-dark full-width" type="submit">Adicionar ao carrinho <span aria-hidden="true">+</span></button>
         </form>
         <div class="product-secondary-actions"><a href="{% url 'loja:cart' %}" class="text-link">Ver carrinho &#8594;</a><button class="text-link" type="button" data-share data-share-title="{{ product.nome }}" title="Compartilhar produto">Compartilhar &#8599;</button></div>
         <details class="product-details" open>
