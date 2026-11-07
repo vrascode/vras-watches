@@ -6,7 +6,18 @@
     "descricao": "Relogio de linhas esportivas e caixa marcante, criado para uso diario com presenca discreta.",
     "imagem": "41_1200x.webp",
     "categoria": "Classicos",
-    "destaque": true
+    "destaque": true,
+    "identificacao": {
+      "confirmada": false,
+      "marca": null,
+      "modelo": null,
+      "referencia": null,
+      "fonte": null
+    },
+    "revisao_catalogo": {
+      "status": "sem_correspondencia_poedagar_confirmada",
+      "relatorio": "docs/POEDAGAR_CATALOG.md"
+    }
   },
   {
     "id": 2,
@@ -15,7 +26,18 @@
     "descricao": "Mostrador verde profundo, acabamento polido e visual elegante para ocasioes formais.",
     "imagem": "0be87f4f-f1d0-4858-b062-1c7c756e4075_1200x.png",
     "categoria": "Maestro",
-    "destaque": true
+    "destaque": true,
+    "identificacao": {
+      "confirmada": false,
+      "marca": null,
+      "modelo": null,
+      "referencia": null,
+      "fonte": null
+    },
+    "revisao_catalogo": {
+      "status": "sem_correspondencia_poedagar_confirmada",
+      "relatorio": "docs/POEDAGAR_CATALOG.md"
+    }
   },
   {
     "id": 3,
@@ -24,7 +46,18 @@
     "descricao": "Modelo premium com composicao refinada, ideal para quem prefere um relogio robusto e sofisticado.",
     "imagem": "Imperium_1200x.jpg",
     "categoria": "Maestro",
-    "destaque": true
+    "destaque": true,
+    "identificacao": {
+      "confirmada": false,
+      "marca": null,
+      "modelo": null,
+      "referencia": null,
+      "fonte": null
+    },
+    "revisao_catalogo": {
+      "status": "sem_correspondencia_poedagar_confirmada",
+      "relatorio": "docs/POEDAGAR_CATALOG.md"
+    }
   },
   {
     "id": 4,
@@ -33,7 +66,18 @@
     "descricao": "Relogio versatil com visual contemporaneo e contraste forte para combinar com producoes urbanas.",
     "imagem": "FotosPNGTOP_bd9537fc-04bb-4d0c-ab13-ca227d7b784e_1200x.png",
     "categoria": "Best Sellers",
-    "destaque": true
+    "destaque": true,
+    "identificacao": {
+      "confirmada": false,
+      "marca": null,
+      "modelo": null,
+      "referencia": null,
+      "fonte": null
+    },
+    "revisao_catalogo": {
+      "status": "sem_correspondencia_poedagar_confirmada",
+      "relatorio": "docs/POEDAGAR_CATALOG.md"
+    }
   },
   {
     "id": 5,
@@ -42,7 +86,18 @@
     "descricao": "Design limpo com inspiracao classica, pulseira elegante e proporcao equilibrada no pulso.",
     "imagem": "1_9eff571c-24cd-4281-b16d-c43038dea5ac_1200x.png",
     "categoria": "Classicos",
-    "destaque": false
+    "destaque": false,
+    "identificacao": {
+      "confirmada": false,
+      "marca": null,
+      "modelo": null,
+      "referencia": null,
+      "fonte": null
+    },
+    "revisao_catalogo": {
+      "status": "sem_correspondencia_poedagar_confirmada",
+      "relatorio": "docs/POEDAGAR_CATALOG.md"
+    }
   },
   {
     "id": 6,
@@ -51,7 +106,18 @@
     "descricao": "Uma peca compacta e refinada, pensada para quem busca elegancia sem excesso.",
     "imagem": "43_cd351668-10cd-411d-b375-ac05281c4c42_1200x.jpg",
     "categoria": "Classicos",
-    "destaque": false
+    "destaque": false,
+    "identificacao": {
+      "confirmada": false,
+      "marca": null,
+      "modelo": null,
+      "referencia": null,
+      "fonte": null
+    },
+    "revisao_catalogo": {
+      "status": "sem_correspondencia_poedagar_confirmada",
+      "relatorio": "docs/POEDAGAR_CATALOG.md"
+    }
   },
   {
     "id": 7,
@@ -60,7 +126,18 @@
     "descricao": "Relogio com personalidade nautica, leitura clara e acabamento de impacto visual.",
     "imagem": "Navigator_768x.png",
     "categoria": "Lancamentos",
-    "destaque": true
+    "destaque": true,
+    "identificacao": {
+      "confirmada": false,
+      "marca": null,
+      "modelo": null,
+      "referencia": null,
+      "fonte": null
+    },
+    "revisao_catalogo": {
+      "status": "sem_correspondencia_poedagar_confirmada",
+      "relatorio": "docs/POEDAGAR_CATALOG.md"
+    }
   },
   {
     "id": 8,
@@ -69,7 +146,18 @@
     "descricao": "Modelo imponente com linhas modernas, criado para vestir bem do trabalho ao jantar.",
     "imagem": "Dominus_1200x.jpg",
     "categoria": "Best Sellers",
-    "destaque": false
+    "destaque": false,
+    "identificacao": {
+      "confirmada": false,
+      "marca": null,
+      "modelo": null,
+      "referencia": null,
+      "fonte": null
+    },
+    "revisao_catalogo": {
+      "status": "sem_correspondencia_poedagar_confirmada",
+      "relatorio": "docs/POEDAGAR_CATALOG.md"
+    }
   },
   {
     "id": 9,
@@ -78,7 +166,18 @@
     "descricao": "Relogio elegante com detalhes sobrios e acabamento pensado para composicoes premium.",
     "imagem": "88_fbbced28-dfa4-4ef6-ba7d-961bc3338663_1200x.jpg",
     "categoria": "Lancamentos",
-    "destaque": false
+    "destaque": false,
+    "identificacao": {
+      "confirmada": false,
+      "marca": null,
+      "modelo": null,
+      "referencia": null,
+      "fonte": null
+    },
+    "revisao_catalogo": {
+      "status": "sem_correspondencia_poedagar_confirmada",
+      "relatorio": "docs/POEDAGAR_CATALOG.md"
+    }
   },
   {
     "id": 10,
@@ -87,7 +186,18 @@
     "descricao": "Um classico de visual limpo com caixa equilibrada e brilho moderado.",
     "imagem": "Gemini_Generated_Image_kqspgxkqspgxkqsp_1200x.png",
     "categoria": "Maestro",
-    "destaque": false
+    "destaque": false,
+    "identificacao": {
+      "confirmada": false,
+      "marca": null,
+      "modelo": null,
+      "referencia": null,
+      "fonte": null
+    },
+    "revisao_catalogo": {
+      "status": "sem_correspondencia_poedagar_confirmada",
+      "relatorio": "docs/POEDAGAR_CATALOG.md"
+    }
   },
   {
     "id": 11,
@@ -96,7 +206,18 @@
     "descricao": "Relogio de presenca forte, com perfil esportivo e boa versatilidade para o dia a dia.",
     "imagem": "128_667d1500-87fc-497a-bad6-93746f7d9e7c_1200x.jpg",
     "categoria": "Esportivos",
-    "destaque": false
+    "destaque": false,
+    "identificacao": {
+      "confirmada": false,
+      "marca": null,
+      "modelo": null,
+      "referencia": null,
+      "fonte": null
+    },
+    "revisao_catalogo": {
+      "status": "sem_correspondencia_poedagar_confirmada",
+      "relatorio": "docs/POEDAGAR_CATALOG.md"
+    }
   },
   {
     "id": 12,
@@ -105,6 +226,17 @@
     "descricao": "Peca compacta com acabamento preciso e proposta minimalista para uso continuo.",
     "imagem": "50_4c9ee022-801b-49a0-ac53-aec57125b2c9_1200x.jpg",
     "categoria": "Esportivos",
-    "destaque": false
+    "destaque": false,
+    "identificacao": {
+      "confirmada": false,
+      "marca": null,
+      "modelo": null,
+      "referencia": null,
+      "fonte": null
+    },
+    "revisao_catalogo": {
+      "status": "sem_correspondencia_poedagar_confirmada",
+      "relatorio": "docs/POEDAGAR_CATALOG.md"
+    }
   }
 ]
