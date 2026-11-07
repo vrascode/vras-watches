@@ -1,0 +1,8 @@
+{
+  "baseline_commit": "91f8988",
+  "reason": "Backup before replacing the twelve legacy products; not a model correspondence.",
+  "files": {
+    "products.json": "ff73610164769775012217286cfab028dd85aa6dbfae21f946fd38acce921e2e",
+    "media.json": "7237fc6eb595847951a056282bde1d1548088ef44052747bd96baf8d7fa1941b"
+  }
+}
