@@ -23,3 +23,8 @@ env/
 staticfiles/
 artifacts/
 node_modules/
+
+# Owner-provided originals and private rights records stay local.
+midias-instagram/*
+!midias-instagram/README.md
+!midias-instagram/manifest.example.json

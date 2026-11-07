@@ -1,0 +1,16 @@
+{
+  "assets": [
+    {
+      "id": "produto-frente",
+      "arquivo": "foto-original.jpg",
+      "tipo": "image",
+      "destino": "product",
+      "produto_id": 1,
+      "produto_confirmado": false,
+      "autorizado": false,
+      "origem": "",
+      "comprovante": "",
+      "alt": ""
+    }
+  ]
+}

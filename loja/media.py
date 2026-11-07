@@ -1,5 +1,6 @@
 """Only explicitly approved, local media may be published by the storefront."""
 import json
+import re
 from pathlib import Path, PurePosixPath
 from urllib.parse import urlsplit
 
@@ -25,6 +26,16 @@ def local_asset(entry, kind="image"):
             or path.suffix.lower() not in extensions or not target.is_file()):
         return None
     result = {**entry, "src": src, "url": static(src), "kind": kind}
+    if kind == "image":
+        candidates = {}
+        renditions = entry.get("renditions", [])
+        for rendition in renditions if isinstance(renditions, list) else []:
+            asset = local_asset(rendition)
+            if asset and type(asset.get("width")) is int and asset["width"] > 0:
+                candidates[asset["width"]] = asset["url"]
+        if type(entry.get("width")) is int and entry["width"] > 0:
+            candidates[entry["width"]] = result["url"]
+        result["srcset"] = ", ".join(f"{url} {width}w" for width, url in sorted(candidates.items()))
     if kind == "video":
         poster = local_asset(entry.get("poster"))
         if not poster:
@@ -66,15 +77,26 @@ def approved_paths():
 
 def section_media(manifest, section):
     data = manifest.get(section, {})
-    return {"image": local_asset(data.get("image")), "video": local_asset(data.get("video"), "video")}
+    return {"image": local_asset(data.get("image")), "video": local_asset(data.get("video"), "video"),
+            "mobile_image": local_asset(data.get("mobile_image"))}
+
+
+def valid_instagram_permalink(url):
+    if not isinstance(url, str):
+        return False
+    try:
+        origin = urlsplit(url)
+        return (origin.scheme == "https" and origin.hostname in {"instagram.com", "www.instagram.com"}
+                and not origin.username and not origin.password
+                and bool(re.fullmatch(r"/(?:p|reel|tv)/[A-Za-z0-9_-]+/?", origin.path)))
+    except ValueError:
+        return False
 
 
 def instagram_posts(manifest):
     posts = []
     for entry in manifest.get("instagram", []):
-        origin = urlsplit(entry.get("permalink", ""))
-        if (origin.scheme != "https" or origin.hostname not in {"instagram.com", "www.instagram.com"}
-                or not origin.path.startswith(("/p/", "/reel/", "/tv/"))):
+        if not valid_instagram_permalink(entry.get("permalink")):
             continue
         image = local_asset(entry.get("image"))
         video = local_asset(entry.get("video"), "video")
