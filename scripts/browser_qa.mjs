@@ -63,6 +63,56 @@ try {
     await send("Runtime.enable");
     await send("Network.enable");
     await send("Network.clearBrowserCookies");
+    if (process.env.QA_CONFIRMED_FIXTURE === "1") {
+        // Used only by the isolated Django live-server test, with fictional records.
+        const checks = [];
+        await send("Emulation.setEmulatedMedia", { features: [{ name: "prefers-reduced-motion", value: "reduce" }] });
+        for (const width of [360, 1440]) {
+            await send("Emulation.setDeviceMetricsOverride", { width, height: 900, deviceScaleFactor: 1, mobile: width < 600 });
+            await go("/produto/1/");
+            assert.equal(await evaluate("document.querySelectorAll('[data-gallery-index]').length"), 2);
+            assert.ok(await evaluate("[...document.images].every(i => !i.getAttribute('src') || (i.complete && i.naturalWidth > 0))"));
+            assert.equal(await evaluate("document.querySelector('[data-gallery-prev]').disabled"), true);
+            await evaluate("document.querySelector('[data-gallery-next]').click()");
+            await waitFor("document.querySelector('[data-gallery-position]').textContent === '2 / 2'");
+            assert.equal(await evaluate("document.querySelector('[data-gallery-next]').disabled"), true);
+            await evaluate("document.querySelector('[data-gallery-index=\"0\"]').click()");
+            await waitFor("document.querySelector('[data-gallery-position]').textContent === '1 / 2'");
+            await evaluate("document.querySelector('[data-gallery-track]').focus(); document.querySelector('[data-gallery-track]').dispatchEvent(new KeyboardEvent('keydown', { key: 'End', bubbles: true }))");
+            await waitFor("document.querySelector('[data-gallery-index=\"1\"]').hasAttribute('aria-current')");
+            await evaluate("document.querySelector('[data-gallery-track]').dispatchEvent(new KeyboardEvent('keydown', { key: 'Home', bubbles: true }))");
+            await waitFor("document.querySelector('[data-gallery-index=\"0\"]').hasAttribute('aria-current')");
+            await evaluate("document.querySelector('[data-zoom]').click()");
+            await waitFor("document.querySelector('[data-zoom-dialog]').open");
+            assert.ok(await evaluate("document.querySelector('[data-zoom-image]').naturalWidth > 0"));
+            await key("Escape");
+            await waitFor("!document.querySelector('[data-zoom-dialog]').open");
+            await waitFor("document.activeElement.hasAttribute('data-zoom')");
+            assert.ok(await evaluate("document.documentElement.scrollWidth <= innerWidth + 1"));
+            checks.push({ width, gallery: "arrows, thumbnails, Home/End, zoom, Escape, approved fixture media" });
+        }
+        // Resize while the second slide is selected must retain selection/alignment.
+        await evaluate("document.querySelector('[data-gallery-next]').click()");
+        await waitFor("document.querySelector('[data-gallery-position]').textContent === '2 / 2'");
+        await send("Emulation.setDeviceMetricsOverride", { width: 390, height: 844, deviceScaleFactor: 1, mobile: true });
+        await waitFor("Math.abs(document.querySelector('[data-gallery-track]').scrollLeft - document.querySelector('[data-gallery-track]').clientWidth) < 2");
+        assert.equal(await evaluate("document.querySelector('.variant-options a[aria-current]').getAttribute('href')"), "/produto/1/");
+        await evaluate("document.querySelector('.variant-options a[href=\"/produto/2/\"]').click()");
+        await waitFor("location.pathname === '/produto/2/' && document.readyState === 'complete'");
+        assert.ok(await evaluate("document.querySelector('.detail-price').textContent.includes('389,00')"));
+        assert.equal(await evaluate("document.querySelector('[data-add-cart]').action.endsWith('/adicionar/2/')"), true);
+        await evaluate("document.querySelector('[data-add-cart] button').click()");
+        await waitFor("document.querySelector('[data-cart-count]').textContent === '1'");
+        await go("/carrinho/");
+        assert.equal(await evaluate("document.querySelector('.cart-image').getAttribute('href')"), "/produto/2/");
+        assert.ok(await evaluate("document.querySelector('.cart-variant').textContent.includes('Preto de teste')"));
+        assert.ok(await evaluate("document.querySelector('.summary-total').textContent.includes('389,00')"));
+        assert.equal(browserErrors.length, 0, JSON.stringify(browserErrors));
+        assert.equal(networkErrors.length, 0, JSON.stringify(networkErrors));
+        const report = { fictionalFixturesOnly: true, checks, variantNavigationAndCart: "passed", resize: "passed", browserErrors, networkErrors };
+        await writeFile("artifacts/gallery-browser-report.json", JSON.stringify(report, null, 2));
+        console.log(JSON.stringify(report, null, 2));
+    } else {
     const results = [];
     for (const width of [360, 390, 768, 1024, 1440]) {
         await send("Emulation.setDeviceMetricsOverride", { width, height: 900, deviceScaleFactor: 1, mobile: width < 600 });
@@ -89,6 +139,7 @@ try {
     }
     await send("Emulation.setDeviceMetricsOverride", { width: 390, height: 844, deviceScaleFactor: 1, mobile: true });
     await go("/");
+    assert.equal(await evaluate("document.querySelectorAll('#lancamentos [data-product-card]').length"), 2);
     await evaluate("document.querySelector('[data-menu-toggle]').click()");
     assert.equal(await evaluate("document.querySelector('#mobile-menu').open"), true);
     for (let count = 0; count < 9; count++) {
@@ -117,11 +168,18 @@ try {
     await go("/");
     assert.equal(await evaluate("getComputedStyle(document.documentElement).scrollBehavior"), "auto");
     assert.equal(await evaluate("document.querySelectorAll('.reveal-pending').length"), 0);
+    for (let id = 1; id <= 12; id++) {
+        await go(`/produto/${id}/`);
+        assert.ok(await evaluate("document.querySelector('h1').textContent.startsWith('Vras ' )"));
+        assert.equal(await evaluate("document.querySelector('[data-add-cart]').action.endsWith('/adicionar/' + " + id + " + '/')"), true);
+        assert.equal(await evaluate("document.querySelectorAll('.variant-options').length"), 0);
+    }
     assert.equal(browserErrors.length, 0, JSON.stringify(browserErrors));
     assert.equal(networkErrors.length, 0, JSON.stringify(networkErrors));
-    const report = { results, interactions: ["mobile menu focus trap and Escape", "search and sort", "AJAX add and counter", "cart increment/decrement/remove", "keyboard skip link", "reduced motion"], browserErrors, networkErrors };
+    const report = { results, interactions: ["existing launch products", "mobile menu focus trap and Escape", "search and sort", "AJAX add and counter", "cart increment/decrement/remove", "keyboard skip link", "reduced motion", "all 12 product detail pages and cart targets", "no unconfirmed variant selectors"], browserErrors, networkErrors };
     await writeFile("artifacts/browser-report.json", JSON.stringify(report, null, 2));
     console.log(JSON.stringify({ pages: results.length, screenshots: results.length, interactions: report.interactions, browserErrors, networkErrors }, null, 2));
+    }
 } finally {
     await send("Page.close").catch(() => {});
     socket.close();
