@@ -18,3 +18,10 @@ Cadastrar cada foto em `data/media.json`, em `products.<id-vras>.images`, com `s
 exata do produto. Registrar o comprovante e a referência do fabricante na origem.
 Adicionar ângulos diferentes apenas quando realmente existirem; resoluções da
 mesma fotografia não são novos ângulos. A galeria usa a ordem do manifesto.
+
+O importador `python manage.py import_store_media --apply` prepara os arquivos
+aprovados de `midias-instagram/manifest.json` em subpastas por ID VRAS. Gera WebP
+com até 1920 px no maior lado e versões menores sem recortar/ampliar o original.
+O nome da pasta não confirma que um produto é Poedagar: a identidade do fabricante
+continua exigindo conferência própria. Os nomes com hash permitem atualizações
+sem sobrescrever outros arquivos. Veja `midias-instagram/README.md` para o contrato.

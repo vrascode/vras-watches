@@ -1,5 +1,9 @@
 # Entrega da atualização Poedagar — 07/11/2026
 
+Este documento registra a etapa anterior, até `93e8963`. A continuação a partir
+de `0837dfd`, com importador de mídia, novas vitrines e galeria ampliada, está em
+[STOREFRONT_UPDATE.md](STOREFRONT_UPDATE.md).
+
 Foram concluídas a pesquisa pública, a revisão do catálogo, as melhorias possíveis
 na vitrine Django e as verificações locais. A inclusão dos produtos Poedagar reais
 continua dependente da identificação dos SKUs da VRAS e de fotografias autorizadas.

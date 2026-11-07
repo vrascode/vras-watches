@@ -2,6 +2,19 @@
 
 Loja Django com catalogo JSON, templates renderizados no servidor e carrinho persistido por sessao. Redesign editorial em preto, branco e grafite, com tipografia Crimson Text local e detalhes discretos em dourado. Sem React, bundler ou dependencias JavaScript em producao.
 
+A continuação a partir de `0837dfd` está registrada em [STOREFRONT_UPDATE.md](docs/STOREFRONT_UPDATE.md).
+Inclui novo banner editorial, vitrines de clássicos/esportivos, seção “VRAS WATCHES — NOSSO ESTILO”,
+busca no cabeçalho, compra fixa no mobile e zoom com navegação e ampliação de detalhes.
+
+Para integrar originais autorizados, use a pasta [midias-instagram](midias-instagram/README.md):
+`python manage.py import_store_media` valida/simula o lote e
+`python manage.py import_store_media --apply` converte fotografias em WebP responsivo
+e integra fotos/vídeos ao manifesto. A pasta continua sem fotografias ou vídeos fornecidos.
+O importador usa Pillow 13.0.0; instale as dependências de `requirements.txt` antes de usá-lo.
+Nenhum preço ou estoque é atualizado por esse comando.
+
+O servidor de revisão usa `python manage.py runserver 127.0.0.1:8001`.
+
 ## Estado das midias
 
 **A identidade visual oficial ainda precisa ser validada pelo proprietario.** O Instagram nao ficou acessivel na consulta publica. O arquivo local contem imagens de outras marcas e imagens com nomes indicando geracao por IA. Nenhuma foi reapresentada como fotografia oficial da VRAS.
@@ -16,6 +29,7 @@ Loja Django com catalogo JSON, templates renderizados no servidor e carrinho per
 ## Tecnologias
 
 - Python 3.12+; Django 6.0.6 (versao instalada e testada).
+- Pillow 13.0.0 para preparar fotografias WebP e perfis de cor no importador offline.
 - SQLite para desenvolvimento; sessoes Django no banco.
 - HTML5, CSS responsivo, JavaScript nativo, IntersectionObserver e dialog.
 - Node 22+ e Chrome/Chromium apenas para QA opcional. O site nao precisa de Node.
