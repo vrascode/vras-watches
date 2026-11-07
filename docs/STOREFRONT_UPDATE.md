@@ -1,5 +1,9 @@
 # Continuação VRAS Watches — 07/11/2026
 
+**Etapa histórica antes da troca de catálogo.** A substituição posterior dos 12
+produtos legados por 12 Poedagar em rascunho está em
+[POEDAGAR_MIGRATION.md](POEDAGAR_MIGRATION.md).
+
 Baseline confirmado antes das edições: `main`, HEAD `0837dfd`, checkout limpo.
 Todos os commits anteriores foram preservados. O projeto continua em Django,
 com as mesmas rotas, catálogo JSON e carrinho por sessão. Não houve push ou deploy.

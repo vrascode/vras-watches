@@ -1,11 +1,12 @@
 {
   "assets": [
     {
-      "id": "produto-frente",
-      "arquivo": "foto-original.jpg",
+      "id": "army-frente",
+      "arquivo": "army/frente.jpg",
       "tipo": "image",
       "destino": "product",
-      "produto_id": 1,
+      "produto_id": 13,
+      "variante_fonte_id": null,
       "produto_confirmado": false,
       "autorizado": false,
       "origem": "",

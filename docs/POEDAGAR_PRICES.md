@@ -1,11 +1,11 @@
 # Pesquisa Poedagar e comparação de preços
 
-Consulta pública: 2026-11-07T23:09:14.812893+00:00 (UTC). Os horários individuais também estão registrados no snapshot.
+Consulta pública: 2026-11-07T23:23:53.681040+00:00 (UTC). Os horários individuais também estão registrados no snapshot.
 Fonte principal de preço: [https://lojaspoedagar.com.br/masculinos?sort_by=best_sellers](https://lojaspoedagar.com.br/masculinos?sort_by=best_sellers). Cada página individual foi consultada; horários e hashes SHA-256 estão em `data/poedagar_sources.json`.
 
 ## Resultado e limite da identificação
 
-18 anúncios/modelos comerciais e 82 variantes identificados no site 2. Dez candidatos por nome foram consultados no site 1; isso não é um inventário completo desse site nem comprova equivalência. Nenhum dos 12 produtos VRAS foi associado com segurança. Zero fotografias autorizadas incorporadas. Nenhum preço publicado foi alterado.
+18 anúncios/modelos comerciais e 82 variantes identificados no site 2. Dez candidatos por nome foram consultados no site 1; isso não é um inventário completo desse site nem comprova equivalência. A identificação física das referências e variantes VRAS segue pendente. Zero fotografias autorizadas incorporadas. Nenhum preço novo foi aprovado ou publicado.
 
 Os nomes são nomes comerciais das lojas, não referências oficiais do fabricante. O SKU `201447598` aparece em anúncios diferentes do site 2; os IDs de variante identificam registros dessa loja e não referências do fabricante. Cor semelhante ou nome parecido não comprovam o mesmo modelo, acabamento ou pulseira. Valores de estoque da fonte são apenas evidência da consulta e nunca foram copiados como estoque VRAS.
 
@@ -44,22 +44,24 @@ Um preço cadastrado para variante indisponível é apenas evidência histórica
 
 ## Comparação com o catálogo VRAS
 
-Não há diferença calculada nem preço proposto por SKU enquanto não existir correspondência exata. Esta tabela preserva os preços da VRAS e explicita a lacuna, sem comparar relógios diferentes.
+Para a migração dos novos modelos, consulte também [POEDAGAR_NEW_PRICES.md](POEDAGAR_NEW_PRICES.md). Os valores nulos do catálogo são preços ainda não aprovados, nunca zero reais.
+
+Não há diferença calculada por SKU enquanto não existir confirmação física e aprovação de oferta. Esta tabela registra os valores atuais (incluindo preços ainda não aprovados) e explicita a lacuna, sem comparar relógios diferentes.
 
 | Produto VRAS | Modelo Poedagar | Preço atual | Preço de referência | Diferença em reais | URL correspondente | Consulta UTC |
 | --- | --- | --- | --- | --- | --- | --- |
-| Vras Flyback 42mm | Não confirmado | R$ 359,00 | Não confirmado | Não calculável | Não confirmada | 2026-11-07 |
-| Vras Genius 42mm | Não confirmado | R$ 389,00 | Não confirmado | Não calculável | Não confirmada | 2026-11-07 |
-| Vras Imperium 41mm | Não confirmado | R$ 589,00 | Não confirmado | Não calculável | Não confirmada | 2026-11-07 |
-| Vras Winner 40mm | Não confirmado | R$ 529,00 | Não confirmado | Não calculável | Não confirmada | 2026-11-07 |
-| Vras Legacy 42mm | Não confirmado | R$ 389,00 | Não confirmado | Não calculável | Não confirmada | 2026-11-07 |
-| Vras Cadence 39mm | Não confirmado | R$ 369,00 | Não confirmado | Não calculável | Não confirmada | 2026-11-07 |
-| Vras Navigator 42mm | Não confirmado | R$ 449,00 | Não confirmado | Não calculável | Não confirmada | 2026-11-07 |
-| Vras Dominus 40mm | Não confirmado | R$ 429,00 | Não confirmado | Não calculável | Não confirmada | 2026-11-07 |
-| Vras Monarch 40mm | Não confirmado | R$ 479,00 | Não confirmado | Não calculável | Não confirmada | 2026-11-07 |
-| Vras Palazzo 40mm | Não confirmado | R$ 459,00 | Não confirmado | Não calculável | Não confirmada | 2026-11-07 |
-| Vras Megir 42mm | Não confirmado | R$ 399,00 | Não confirmado | Não calculável | Não confirmada | 2026-11-07 |
-| Vras Berny 38mm | Não confirmado | R$ 329,00 | Não confirmado | Não calculável | Não confirmada | 2026-11-07 |
+| Poedagar Army | Não confirmado | Sem preço aprovado | Não confirmado | Não calculável | Não confirmada | 2026-11-07 |
+| Poedagar Deluxe | Não confirmado | Sem preço aprovado | Não confirmado | Não calculável | Não confirmada | 2026-11-07 |
+| Poedagar Deluxe Golden | Não confirmado | Sem preço aprovado | Não confirmado | Não calculável | Não confirmada | 2026-11-07 |
+| Poedagar Golden Mars | Não confirmado | Sem preço aprovado | Não confirmado | Não calculável | Não confirmada | 2026-11-07 |
+| Poedagar Golden Moon | Não confirmado | Sem preço aprovado | Não confirmado | Não calculável | Não confirmada | 2026-11-07 |
+| Poedagar Golden Neptune | Não confirmado | Sem preço aprovado | Não confirmado | Não calculável | Não confirmada | 2026-11-07 |
+| Poedagar Golden Star | Não confirmado | Sem preço aprovado | Não confirmado | Não calculável | Não confirmada | 2026-11-07 |
+| Poedagar King Royal | Não confirmado | Sem preço aprovado | Não confirmado | Não calculável | Não confirmada | 2026-11-07 |
+| Poedagar Machine | Não confirmado | Sem preço aprovado | Não confirmado | Não calculável | Não confirmada | 2026-11-07 |
+| Poedagar Nautilus | Não confirmado | Sem preço aprovado | Não confirmado | Não calculável | Não confirmada | 2026-11-07 |
+| Poedagar Signature | Não confirmado | Sem preço aprovado | Não confirmado | Não calculável | Não confirmada | 2026-11-07 |
+| Poedagar Tempus | Não confirmado | Sem preço aprovado | Não confirmado | Não calculável | Não confirmada | 2026-11-07 |
 
 O [CSV de comparação por produto VRAS](POEDAGAR_COMPARISON.csv) mantém os mesmos campos. Valores e URLs não correspondidos ficam vazios, em vez de presumir zero ou comparar modelos diferentes.
 

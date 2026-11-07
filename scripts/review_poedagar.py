@@ -125,6 +125,8 @@ def refresh():
 
 
 def brl(value):
+    if value is None:
+        return "Sem preço aprovado"
     return f"R$ {Decimal(str(value)):,.2f}".replace(",", "_").replace(".", ",").replace("_", ".")
 
 
@@ -184,7 +186,7 @@ Fonte principal de preço: [{report['category_url']}]({report['category_url']}).
 
 ## Resultado e limite da identificação
 
-{len(products)} anúncios/modelos comerciais e {len(variants)} variantes identificados no site 2. Dez candidatos por nome foram consultados no site 1; isso não é um inventário completo desse site nem comprova equivalência. Nenhum dos 12 produtos VRAS foi associado com segurança. Zero fotografias autorizadas incorporadas. Nenhum preço publicado foi alterado.
+{len(products)} anúncios/modelos comerciais e {len(variants)} variantes identificados no site 2. Dez candidatos por nome foram consultados no site 1; isso não é um inventário completo desse site nem comprova equivalência. A identificação física das referências e variantes VRAS segue pendente. Zero fotografias autorizadas incorporadas. Nenhum preço novo foi aprovado ou publicado.
 
 Os nomes são nomes comerciais das lojas, não referências oficiais do fabricante. O SKU `201447598` aparece em anúncios diferentes do site 2; os IDs de variante identificam registros dessa loja e não referências do fabricante. Cor semelhante ou nome parecido não comprovam o mesmo modelo, acabamento ou pulseira. Valores de estoque da fonte são apenas evidência da consulta e nunca foram copiados como estoque VRAS.
 
@@ -204,7 +206,9 @@ Um preço cadastrado para variante indisponível é apenas evidência histórica
 
 ## Comparação com o catálogo VRAS
 
-Não há diferença calculada nem preço proposto por SKU enquanto não existir correspondência exata. Esta tabela preserva os preços da VRAS e explicita a lacuna, sem comparar relógios diferentes.
+Para a migração dos novos modelos, consulte também [POEDAGAR_NEW_PRICES.md](POEDAGAR_NEW_PRICES.md). Os valores nulos do catálogo são preços ainda não aprovados, nunca zero reais.
+
+Não há diferença calculada por SKU enquanto não existir confirmação física e aprovação de oferta. Esta tabela registra os valores atuais (incluindo preços ainda não aprovados) e explicita a lacuna, sem comparar relógios diferentes.
 
 {table(['Produto VRAS', 'Modelo Poedagar', 'Preço atual', 'Preço de referência', 'Diferença em reais', 'URL correspondente', 'Consulta UTC'], [[p['nome'], 'Não confirmado', brl(p['preco']), 'Não confirmado', 'Não calculável', 'Não confirmada', stamp[:10]] for p in catalog])}
 

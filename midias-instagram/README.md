@@ -1,5 +1,21 @@
 # Originais autorizados da VRAS
 
+O catálogo atual é a geração `poedagar-v1`, com IDs 13–24. Os IDs 1–12 foram
+aposentados e não podem receber as fotos dos novos modelos. A lista específica
+está em `docs/POEDAGAR_NEW_MEDIA_PENDING.csv`, com 57 variantes anunciadas na fonte;
+ela não afirma que a VRAS vende todas essas variantes.
+
+Para `destino: product`, preencha também `variante_fonte_id` com o ID da variante
+da fonte que corresponde exatamente à fotografia. Essa associação precisa de
+conferência humana do produto real, não de semelhança visual. O importador grava
+produto, modelo, geração e variante nas fotos, vídeos e posters. A publicação
+exige que toda a galeria corresponda à variante escolhida no catálogo.
+
+O `manifest.json` local contém apenas entradas pendentes e não autorizadas. Não
+existem fotos ou vídeos fornecidos nesta pasta. Os nomes sugeridos não são arquivos
+existentes. Informar permissão, origem, comprovante e a associação real antes de
+alterar os sinalizadores; a publicação e aprovação do preço são etapas separadas.
+
 Coloque aqui fotos e vídeos reais da loja. Os originais, `manifest.json` e eventuais
 comprovantes ficam locais, ignorados pelo Git. Não há importação por nome de arquivo
 ou associação automática de um relógio a um modelo.

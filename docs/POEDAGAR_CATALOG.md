@@ -1,5 +1,10 @@
 # Correspondência e inspeção do catálogo VRAS
 
+**Registro histórico anterior à substituição.** Os 12 produtos descritos abaixo
+foram retirados do catálogo ativo e arquivados em
+`data/backups/catalog-before-poedagar-91f8988/`. A migração para os IDs 13–24 está
+documentada em [POEDAGAR_MIGRATION.md](POEDAGAR_MIGRATION.md).
+
 Inspeção em 07/11/2026, branch `main`. Foram lidos os 12 registros de
 `data/products.json`, o manifesto de mídia e o inventário de 580 arquivos locais.
 Foram vistas as 12 capas e uma folha de contato de 71 grupos de nomes de arquivos

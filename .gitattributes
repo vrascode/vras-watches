@@ -1,2 +1,2 @@
 # Catalog snapshots must retain the exact bytes recorded in backup.json.
-data/backups/** -text
+data/backups/** -text whitespace=cr-at-eol
