@@ -2,8 +2,10 @@ from django.test import TestCase
 from unittest.mock import patch
 
 from loja import services
+from loja.testing_catalog import archived_catalog_test
 
 
+@archived_catalog_test
 class StorefrontUpdateTests(TestCase):
     def test_legacy_best_sellers_filter_is_preserved_without_popularity_claim(self):
         response = self.client.get("/produtos/", {"categoria": "Best Sellers"})

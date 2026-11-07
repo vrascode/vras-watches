@@ -1,6 +1,7 @@
 import json
 import unicodedata
-from decimal import Decimal
+from datetime import date
+from decimal import Decimal, InvalidOperation
 from pathlib import Path
 from urllib.parse import urlsplit
 
@@ -10,6 +11,8 @@ from loja import media
 
 PRODUCTS_PATH = settings.BASE_DIR / "data" / "products.json"
 CART_SESSION_KEY = "cart"
+CART_VERSION_KEY = "cart_catalog_generation"
+CART_NOTICE_KEY = "cart_catalog_updated"
 MAX_QUANTITY = 99
 CATEGORY_LABELS = {"Classicos": "Cl\u00e1ssicos", "Lancamentos": "Lan\u00e7amentos", "Best Sellers": "Seleção VRAS"}
 SORT_OPTIONS = {"destaques": "Destaques", "preco_asc": "Menor pre\u00e7o",
@@ -38,15 +41,67 @@ def verified_record(record, fields):
         return False
 
 
-def get_products():
+def approved_price(product):
+    approval = product.get("aprovacao_preco", {})
+    if not isinstance(approval, dict) or approval.get("aprovado") is not True:
+        return False
+    try:
+        price = Decimal(str(product.get("preco")))
+        date.fromisoformat(approval.get("data", ""))
+        return (price.is_finite() and price > 0 and price.as_tuple().exponent >= -2
+                and price == Decimal(str(approval.get("valor")))
+                and isinstance(approval.get("registro"), str) and bool(approval["registro"].strip())
+                and approval.get("source_variant_id") == (product.get("variante") or {}).get("source_variant_id"))
+    except (ValueError, TypeError, InvalidOperation):
+        return False
+
+
+def publication_issues(product):
+    """A researched listing is not an approved offer from VRAS."""
+    issues = []
+    if product.get("catalog_generation") == "poedagar-v1" and product["id"] in range(1, 13):
+        issues.append("id_aposentado_nao_pode_ser_reutilizado")
+    if product.get("status") != "publicado":
+        issues.append("produto_em_rascunho")
+    if not approved_price(product):
+        issues.append("preco_sem_aprovacao_correspondente")
+    identity = product.get("verified_identity")
+    if not identity:
+        issues.append("referencia_do_fabricante_nao_confirmada")
+    elif any(normalize(str(product.get(key, ""))) != normalize(identity[key]) for key in ("marca", "modelo", "referencia")):
+        issues.append("identidade_diverge_do_modelo_cadastrado")
+    variant = product.get("verified_variant")
+    if not variant:
+        issues.append("variante_nao_confirmada")
+    elif not any(v.get("source_sku_id") == variant.get("source_variant_id")
+                 for v in product.get("variantes_fonte", [])):
+        issues.append("variante_sem_correspondencia_na_fonte")
+    cover = product.get("cover")
+    def corresponding(asset):
+        return (asset and asset.get("produto_id") == product["id"]
+                and asset.get("catalog_generation") == product.get("catalog_generation")
+                and asset.get("modelo") == product.get("modelo")
+                and asset.get("source_variant_id") == (variant or {}).get("source_variant_id"))
+    if not corresponding(cover):
+        issues.append("fotografia_autorizada_do_sku_pendente")
+    if any(not corresponding(asset) for asset in product.get("images", []) + product.get("videos", [])):
+        issues.append("galeria_com_midia_de_outro_sku_ou_variante")
+    if any(not corresponding(video.get("poster")) for video in product.get("videos", [])):
+        issues.append("poster_de_outro_sku_ou_variante")
+    if product.get("oferta_confirmada") is not True:
+        issues.append("oferta_vras_nao_confirmada")
+    return issues
+
+
+def get_products(include_drafts=False):
     manifest = media.load_media()
     with Path(PRODUCTS_PATH).open(encoding="utf-8") as source:
         raw = json.load(source, parse_float=Decimal)
     products = []
     for item in raw:
         product = item.copy()
-        product["preco"] = Decimal(str(product["preco"]))
-        product["preco_brl"] = format_brl(product["preco"])
+        product["preco"] = Decimal(str(product["preco"])) if product.get("preco") is not None else None
+        product["preco_brl"] = format_brl(product["preco"]) if product["preco"] is not None else ""
         product["category_label"] = CATEGORY_LABELS.get(product["categoria"], product["categoria"])
         product["is_new"] = normalize(product["categoria"]) == "lancamentos"
         product_media = manifest.get("products", {}).get(str(product["id"]), {})
@@ -76,7 +131,10 @@ def get_products():
             label: entry["valor"] for label, entry in product.get("especificacoes", {}).items()
             if verified_record(entry, ("valor", "fonte"))
         }
+        product["publication_issues"] = publication_issues(product)
+        product["can_purchase"] = not product["publication_issues"]
         products.append(product)
+    visible = [p for p in products if p["can_purchase"]]
     # Each confirmed color/strap combination has its own existing product ID and cart line.
     # Navigation works without JavaScript and never borrows the current product's price/media.
     for product in products:
@@ -85,7 +143,7 @@ def get_products():
         if not identity or not product["verified_variant"]:
             continue
         group = tuple(normalize(identity[key]) for key in ("marca", "modelo", "referencia"))
-        for candidate in products:
+        for candidate in visible:
             other = candidate["verified_identity"]
             variant = candidate["verified_variant"]
             if other and variant and group == tuple(normalize(other[key]) for key in ("marca", "modelo", "referencia")):
@@ -93,7 +151,18 @@ def get_products():
                     "id": candidate["id"], "label": f"{variant['cor']} / {variant['pulseira']}",
                     "selected": candidate["id"] == product["id"],
                 })
-    return products
+    return products if include_drafts else visible
+
+
+def catalog_generation():
+    with Path(PRODUCTS_PATH).open(encoding="utf-8") as source:
+        raw = json.load(source)
+    generations = {p.get("catalog_generation", "legacy") for p in raw}
+    return next(iter(generations)) if len(generations) == 1 else "mixed-invalid"
+
+
+def is_retired_product(product_id):
+    return catalog_generation() == "poedagar-v1" and product_id in range(1, 13)
 
 
 def get_featured_products(catalog=None):
@@ -132,7 +201,7 @@ def get_collections(catalog=None):
              "count": sum(product["categoria"] == category for product in catalog),
              "cover": next((product["cover"] for product in catalog
                             if product["categoria"] == category and product["cover"]), None)}
-            for category in ["Classicos", "Maestro", "Best Sellers", "Lancamentos", "Esportivos"]]
+            for category in sorted({p["categoria"] for p in catalog})]
 
 
 def filter_products(category=None, query=None, sort="destaques"):
@@ -158,9 +227,21 @@ def get_cart(session):
     stored = session.get(CART_SESSION_KEY, {})
     if not isinstance(stored, dict):
         return {}
+    generation = catalog_generation()
+    if stored and session.get(CART_VERSION_KEY, "legacy") != generation:
+        session[CART_SESSION_KEY] = {}
+        session[CART_VERSION_KEY] = generation
+        session[CART_NOTICE_KEY] = True
+        session.modified = True
+        return {}
     valid_ids = {str(p["id"]) for p in get_products()}
-    return {str(key): min(value, MAX_QUANTITY) for key, value in stored.items()
-            if str(key) in valid_ids and type(value) is int and value > 0}
+    valid = {str(key): min(value, MAX_QUANTITY) for key, value in stored.items()
+             if str(key) in valid_ids and type(value) is int and value > 0}
+    if valid != stored:
+        session[CART_SESSION_KEY] = valid
+        session[CART_NOTICE_KEY] = True
+        session.modified = True
+    return valid
 
 
 def cart_count(session):
@@ -179,6 +260,7 @@ def set_quantity(session, product_id, quantity):
     else:
         cart.pop(key, None)
     session[CART_SESSION_KEY] = cart
+    session[CART_VERSION_KEY] = catalog_generation()
     session.modified = True
 
 

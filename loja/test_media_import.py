@@ -131,3 +131,16 @@ class AuthorizedImportTests(SimpleTestCase):
             image = media.local_asset(entry)
             self.assertNotIn(" 480w", image["srcset"])
             self.assertEqual(len(image["srcset"].split(",")), 3)
+
+    def test_migrated_media_requires_exact_observed_variant(self):
+        self.catalog[0].update(id=13, slug="army", modelo="Army", catalog_generation="poedagar-v1",
+                               variantes_fonte=[{"source_sku_id": 123}])
+        entry = {**self.entry, "produto_id": 13}
+        for candidate in [entry, {**entry, "variante_fonte_id": 999}]:
+            with self.assertRaisesMessage(ValueError, "variante_fonte_id"):
+                self.plan([candidate])
+        manifest, files, _ = self.plan([{**entry, "variante_fonte_id": 123}])
+        image = manifest["products"]["13"]["images"][0]
+        self.assertEqual(image["source_variant_id"], 123)
+        self.assertEqual(image["modelo"], "Army")
+        self.assertTrue(all(src.startswith("img/products/poedagar/army/") for src in files))

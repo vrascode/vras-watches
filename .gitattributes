@@ -1,0 +1,2 @@
+# Catalog snapshots must retain the exact bytes recorded in backup.json.
+data/backups/** -text

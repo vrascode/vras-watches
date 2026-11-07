@@ -39,7 +39,7 @@
             <a href="{{ instagram_url }}" target="_blank" rel="noopener noreferrer">Instagram <span aria-hidden="true">&#8599;</span></a>
         </nav>
         <div class="header-actions">
-            <a class="icon-button header-search" href="{% url 'loja:products' %}#catalog-search" aria-label="Pesquisar rel?gios" title="Pesquisar rel?gios"><svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5"/></svg></a>
+            <a class="icon-button header-search" href="{% url 'loja:products' %}#catalog-search" aria-label="Pesquisar rel&oacute;gios" title="Pesquisar rel&oacute;gios"><svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5"/></svg></a>
             <a class="cart-link" href="{% url 'loja:cart' %}">Carrinho <span class="cart-count" data-cart-count>{{ cart_count }}</span></a>
             <button class="icon-button menu-toggle" type="button" data-menu-toggle aria-controls="mobile-menu" aria-expanded="false" aria-label="Abrir menu" title="Abrir menu"><span aria-hidden="true">&#9776;</span></button>
         </div>
@@ -50,7 +50,7 @@
             <a href="{% url 'loja:home' %}">In&iacute;cio</a><a href="{% url 'loja:products' %}">Rel&oacute;gios</a><a href="{% url 'loja:home' %}#colecoes">Cole&ccedil;&otilde;es</a><a href="{% url 'loja:home' %}#sobre">Sobre a VRAS</a><a href="{{ instagram_url }}" target="_blank" rel="noopener noreferrer">Instagram &#8599;</a><a href="{% url 'loja:cart' %}">Carrinho</a>
         </nav>
     </dialog>
-    <div class="notifications" role="status" aria-live="polite" aria-atomic="true" data-notifications>{% for message in messages %}<p class="notification">{{ message }}</p>{% endfor %}</div>
+    <div class="notifications" role="status" aria-live="polite" aria-atomic="true" data-notifications>{% if cart_catalog_notice %}<p class="notification">O catálogo foi atualizado. Itens antigos ou indisponíveis foram removidos do seu carrinho; confira a nova coleção.</p>{% endif %}{% for message in messages %}<p class="notification">{{ message }}</p>{% endfor %}</div>
     <main id="conteudo" tabindex="-1">{% block content %}{% endblock %}</main>
     <footer class="site-footer">
         <div class="footer-main wrap">
@@ -64,7 +64,7 @@
     <dialog class="zoom-dialog" data-zoom-dialog aria-labelledby="zoom-caption">
         <div class="zoom-toolbar"><p id="zoom-caption" data-zoom-caption>Fotografia ampliada</p><div><button class="icon-button" type="button" data-zoom-magnify aria-label="Ampliar detalhes" aria-pressed="false" title="Ampliar detalhes">&#8853;</button><button class="icon-button" data-zoom-close type="button" aria-label="Fechar fotografia" title="Fechar fotografia">&#215;</button></div></div>
         <div class="zoom-stage" data-zoom-stage tabindex="0" aria-label="Fotografia; use os controles para ampliar"><img data-zoom-image alt="" width="1200" height="1500"></div>
-        <div class="zoom-navigation"><button class="icon-button" data-zoom-prev type="button" aria-label="Fotografia anterior" title="Fotografia anterior">&#8592;</button><span data-zoom-position aria-live="polite"></span><button class="icon-button" data-zoom-next type="button" aria-label="Pr?xima fotografia" title="Pr?xima fotografia">&#8594;</button></div>
+        <div class="zoom-navigation"><button class="icon-button" data-zoom-prev type="button" aria-label="Fotografia anterior" title="Fotografia anterior">&#8592;</button><span data-zoom-position aria-live="polite"></span><button class="icon-button" data-zoom-next type="button" aria-label="Pr&oacute;xima fotografia" title="Pr&oacute;xima fotografia">&#8594;</button></div>
     </dialog>
     {% block scripts %}{% endblock %}
 </body>

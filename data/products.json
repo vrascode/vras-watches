@@ -1,242 +1,2348 @@
 [
   {
-    "id": 1,
-    "nome": "Vras Flyback 42mm",
-    "preco": 359.0,
-    "descricao": "Relogio de linhas esportivas e caixa marcante, criado para uso diario com presenca discreta.",
-    "imagem": "41_1200x.webp",
-    "categoria": "Classicos",
+    "id": 13,
+    "slug": "army",
+    "nome": "Poedagar Army",
+    "marca": "Poedagar",
+    "modelo": "Army",
+    "referencia": null,
+    "catalog_generation": "poedagar-v1",
+    "status": "rascunho",
+    "preco": null,
+    "aprovacao_preco": {
+      "aprovado": false,
+      "valor": null,
+      "data": null,
+      "registro": null,
+      "source_variant_id": null
+    },
+    "oferta_confirmada": false,
+    "descricao": "Army: uma escolha de personalidade para compor o seu estilo na seleção Poedagar da VRAS Watches.",
+    "imagem": null,
+    "categoria": "Poedagar",
+    "destaque": false,
+    "identificacao": {
+      "confirmada": false,
+      "marca": "Poedagar",
+      "modelo": "Army",
+      "referencia": null,
+      "fonte": "https://lojaspoedagar.com.br/army/p"
+    },
+    "variante": null,
+    "especificacoes": {},
+    "galeria": [],
+    "videos": [],
+    "fontes": {
+      "nome_comercial_verificado": true,
+      "url_modelo_e_preco": "https://lojaspoedagar.com.br/army/p",
+      "consulta_UTC": "2026-11-07T23:23:48.611725+00:00",
+      "site1_candidato_nao_equivalencia_confirmada": "https://poedagareco.com/products/relogio-poedagar-army",
+      "referencia_fabricante_verificada": false
+    },
+    "variantes_fonte": [
+      {
+        "source_sku": "201447598",
+        "source_sku_id": 253648782,
+        "title": "Relógio Poedagar Army Vermelho",
+        "options": [
+          {
+            "name": "Cor",
+            "id": 4306761,
+            "value": "Vermelho",
+            "value_id": 60530909
+          }
+        ],
+        "price_brl": 196.92,
+        "pix_brl": 187.07,
+        "source_blocked_sale": false,
+        "source_stock_status": "in_stock",
+        "case_color": null,
+        "strap_color": null,
+        "strap_type": null,
+        "attribute_status": "not_verified; source color labels do not distinguish dial/case/strap",
+        "image_urls_for_review_only": [
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-army-relogio-masculino-vermelho-677aa45f3029a-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/poedagar-mens-watches-brand-luxury-silicone-strap-waterproof-sport-chronograph-quartz-wristwatch-men-clock-relogio-mascu-red-6760f6b0c9b37-large.jpg",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-army-relogio-masculino-vermelho-676df7ecad1f5-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/poedagar-mens-watches-brand-luxury-silicone-strap-waterproof-sport-chronograph-quartz-wristwatch-men-clock-relogio-mascu-red-6760f6af596e4-large.jpg",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/poedagar-mens-watches-brand-luxury-silicone-strap-waterproof-sport-chronograph-quartz-wristwatch-men-clock-relogio-mascu-red-6760f6af8589d-large.jpg",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-army-relogio-masculino-vermelho-676df7ee0913a-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-army-relogio-masculino-vermelho-676df7ee1535b-large.png"
+        ]
+      },
+      {
+        "source_sku": "201447303",
+        "source_sku_id": 253648783,
+        "title": "Relógio Poedagar Army Laranja",
+        "options": [
+          {
+            "name": "Cor",
+            "id": 4306761,
+            "value": "Laranja",
+            "value_id": 60530910
+          }
+        ],
+        "price_brl": 196.92,
+        "pix_brl": 187.07,
+        "source_blocked_sale": false,
+        "source_stock_status": "in_stock",
+        "case_color": null,
+        "strap_color": null,
+        "strap_type": null,
+        "attribute_status": "not_verified; source color labels do not distinguish dial/case/strap",
+        "image_urls_for_review_only": [
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-army-relogio-masculino-laranja-677aa460cdffa-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/poedagar-mens-watches-brand-luxury-silicone-strap-waterproof-sport-chronograph-quartz-wristwatch-men-clock-relogio-mascu-orange-6760f6b0087ad-large.jpg",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-army-relogio-masculino-laranja-676df7ef0e9e0-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/poedagar-mens-watches-brand-luxury-silicone-strap-waterproof-sport-chronograph-quartz-wristwatch-men-clock-relogio-mascu-orange-6760f6b07b209-large.jpg",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/poedagar-mens-watches-brand-luxury-silicone-strap-waterproof-sport-chronograph-quartz-wristwatch-men-clock-relogio-mascu-orange-6760f6b211eca-large.jpg",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-army-relogio-masculino-laranja-676df7ef11fa7-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-army-relogio-masculino-laranja-676df7ee4d6e8-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-army-relogio-masculino-laranja-676df7ef18b00-large.png"
+        ]
+      },
+      {
+        "source_sku": "200005100",
+        "source_sku_id": 253648784,
+        "title": "Relógio Poedagar Army Azul",
+        "options": [
+          {
+            "name": "Cor",
+            "id": 4306761,
+            "value": "Azul",
+            "value_id": 60495595
+          }
+        ],
+        "price_brl": 196.92,
+        "pix_brl": 187.07,
+        "source_blocked_sale": false,
+        "source_stock_status": "in_stock",
+        "case_color": null,
+        "strap_color": null,
+        "strap_type": null,
+        "attribute_status": "not_verified; source color labels do not distinguish dial/case/strap",
+        "image_urls_for_review_only": [
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-army-relogio-masculino-azul-677aa46059bf3-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/poedagar-mens-watches-brand-luxury-silicone-strap-waterproof-sport-chronograph-quartz-wristwatch-men-clock-relogio-mascu-blue-6760f6af2c5e9-large.jpg",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-army-relogio-masculino-azul-676df7ef17c48-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/poedagar-mens-watches-brand-luxury-silicone-strap-waterproof-sport-chronograph-quartz-wristwatch-men-clock-relogio-mascu-blue-6760f6b1cef60-large.jpg",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/poedagar-mens-watches-brand-luxury-silicone-strap-waterproof-sport-chronograph-quartz-wristwatch-men-clock-relogio-mascu-blue-6760f6afc2d78-large.jpg",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-army-relogio-masculino-azul-676df7ef1f600-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-army-relogio-masculino-azul-676df7ef0c3f6-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-army-relogio-masculino-azul-676df7ee5e525-large.png"
+        ]
+      },
+      {
+        "source_sku": "200000080",
+        "source_sku_id": 253648785,
+        "title": "Relógio Poedagar Army Preto",
+        "options": [
+          {
+            "name": "Cor",
+            "id": 4306761,
+            "value": "Preto",
+            "value_id": 60495596
+          }
+        ],
+        "price_brl": 196.92,
+        "pix_brl": 187.07,
+        "source_blocked_sale": false,
+        "source_stock_status": "in_stock",
+        "case_color": null,
+        "strap_color": null,
+        "strap_type": null,
+        "attribute_status": "not_verified; source color labels do not distinguish dial/case/strap",
+        "image_urls_for_review_only": [
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-army-relogio-masculino-preto-676df85d3f759-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/poedagar-mens-watches-brand-luxury-silicone-strap-waterproof-sport-chronograph-quartz-wristwatch-men-clock-relogio-mascu-green-6760f6b1c7012-large.jpg",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-army-relogio-masculino-preto-676df7ef1a968-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/poedagar-mens-watches-brand-luxury-silicone-strap-waterproof-sport-chronograph-quartz-wristwatch-men-clock-relogio-mascu-green-6760f6b2ccdd0-large.jpg",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/poedagar-mens-watches-brand-luxury-silicone-strap-waterproof-sport-chronograph-quartz-wristwatch-men-clock-relogio-mascu-green-6760f6b1486d8-large.jpg",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-army-relogio-masculino-preto-676df7ee87325-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-army-relogio-masculino-preto-676df7f15b500-large.png"
+        ]
+      },
+      {
+        "source_sku": "919819819719",
+        "source_sku_id": 254702060,
+        "title": "Relógio Poedagar Army Verde",
+        "options": [
+          {
+            "name": "Cor",
+            "id": 4306761,
+            "value": "Verde",
+            "value_id": 60495597
+          }
+        ],
+        "price_brl": 196.92,
+        "pix_brl": 187.07,
+        "source_blocked_sale": false,
+        "source_stock_status": "in_stock",
+        "case_color": null,
+        "strap_color": null,
+        "strap_type": null,
+        "attribute_status": "not_verified; source color labels do not distinguish dial/case/strap",
+        "image_urls_for_review_only": [
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-army-relogio-masculino-verde-676df85d3d3af-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-army-relogio-masculino-verde-676df85cd58fd-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-army-relogio-masculino-verde-676df85d9384c-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-army-relogio-masculino-verde-676df85cb5897-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-army-relogio-masculino-verde-676df85ed6a59-large.png"
+        ]
+      }
+    ],
+    "pendencias": [
+      "referência de fabricante e identidade física",
+      "variante efetivamente vendida pela VRAS",
+      "fotografias originais autorizadas por variante",
+      "aprovação de preço pelo proprietário",
+      "confirmação da oferta VRAS sem inferir estoque da fonte"
+    ]
+  },
+  {
+    "id": 14,
+    "slug": "deluxe",
+    "nome": "Poedagar Deluxe",
+    "marca": "Poedagar",
+    "modelo": "Deluxe",
+    "referencia": null,
+    "catalog_generation": "poedagar-v1",
+    "status": "rascunho",
+    "preco": null,
+    "aprovacao_preco": {
+      "aprovado": false,
+      "valor": null,
+      "data": null,
+      "registro": null,
+      "source_variant_id": null
+    },
+    "oferta_confirmada": false,
+    "descricao": "Deluxe: um novo olhar sobre o relógio como parte da sua apresentação pessoal.",
+    "imagem": null,
+    "categoria": "Poedagar",
     "destaque": true,
     "identificacao": {
       "confirmada": false,
-      "marca": null,
-      "modelo": null,
+      "marca": "Poedagar",
+      "modelo": "Deluxe",
       "referencia": null,
-      "fonte": null
+      "fonte": "https://lojaspoedagar.com.br/deluxe/p"
     },
-    "revisao_catalogo": {
-      "status": "sem_correspondencia_poedagar_confirmada",
-      "relatorio": "docs/POEDAGAR_CATALOG.md"
-    }
+    "variante": null,
+    "especificacoes": {},
+    "galeria": [],
+    "videos": [],
+    "fontes": {
+      "nome_comercial_verificado": true,
+      "url_modelo_e_preco": "https://lojaspoedagar.com.br/deluxe/p",
+      "consulta_UTC": "2026-11-07T23:23:49.121074+00:00",
+      "site1_candidato_nao_equivalencia_confirmada": "https://poedagareco.com/products/relogio-poedagar-deluxe-edition",
+      "referencia_fabricante_verificada": false
+    },
+    "variantes_fonte": [
+      {
+        "source_sku": "173",
+        "source_sku_id": 253692046,
+        "title": "Relógio Poedagar Deluxe Azul",
+        "options": [
+          {
+            "name": "Cor",
+            "id": 4306761,
+            "value": "Azul",
+            "value_id": 60495595
+          }
+        ],
+        "price_brl": 199.9,
+        "pix_brl": 189.91,
+        "source_blocked_sale": false,
+        "source_stock_status": "in_stock",
+        "case_color": null,
+        "strap_color": null,
+        "strap_type": null,
+        "attribute_status": "not_verified; source color labels do not distinguish dial/case/strap",
+        "image_urls_for_review_only": [
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-deluxe-relogio-masculino-azul-677beca73025b-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-deluxe-relogio-masculino-azul-676e1197ef6f8-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-deluxe-relogio-masculino-azul-676e1197e7c6a-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-deluxe-relogio-masculino-azul-676e119a5b4fa-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-deluxe-relogio-masculino-azul-676e119928be0-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-deluxe-relogio-masculino-azul-676e1197f08b4-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-deluxe-relogio-masculino-azul-676e1197f07b7-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-deluxe-relogio-masculino-azul-676e119aa4810-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-deluxe-relogio-masculino-azul-676e119aa6ec5-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-deluxe-relogio-masculino-azul-676e119aaa246-large.png"
+        ]
+      },
+      {
+        "source_sku": "175",
+        "source_sku_id": 253692047,
+        "title": "Relógio Poedagar Deluxe Preto",
+        "options": [
+          {
+            "name": "Cor",
+            "id": 4306761,
+            "value": "Preto",
+            "value_id": 60495596
+          }
+        ],
+        "price_brl": 199.9,
+        "pix_brl": 189.91,
+        "source_blocked_sale": false,
+        "source_stock_status": "in_stock",
+        "case_color": null,
+        "strap_color": null,
+        "strap_type": null,
+        "attribute_status": "not_verified; source color labels do not distinguish dial/case/strap",
+        "image_urls_for_review_only": [
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-deluxe-relogio-masculino-preto-677beca72a431-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-deluxe-relogio-masculino-preto-676e119b0acc5-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-deluxe-relogio-masculino-preto-676e119c8296e-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-deluxe-relogio-masculino-preto-676e119aa6351-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-deluxe-relogio-masculino-preto-676e119cc245d-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-deluxe-relogio-masculino-preto-676e119d83579-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-deluxe-relogio-masculino-preto-676e119c3d16c-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-deluxe-relogio-masculino-preto-676e119dbec76-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-deluxe-relogio-masculino-preto-676e119a9f10b-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-deluxe-relogio-masculino-preto-676e119aa5165-large.png"
+        ]
+      },
+      {
+        "source_sku": "193",
+        "source_sku_id": 253692048,
+        "title": "Relógio Poedagar Deluxe Verde",
+        "options": [
+          {
+            "name": "Cor",
+            "id": 4306761,
+            "value": "Verde",
+            "value_id": 60495597
+          }
+        ],
+        "price_brl": 199.9,
+        "pix_brl": 189.91,
+        "source_blocked_sale": false,
+        "source_stock_status": "in_stock",
+        "case_color": null,
+        "strap_color": null,
+        "strap_type": null,
+        "attribute_status": "not_verified; source color labels do not distinguish dial/case/strap",
+        "image_urls_for_review_only": [
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-deluxe-relogio-masculino-verde-677beca636d1a-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-deluxe-relogio-masculino-verde-676e119ce0aa3-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-deluxe-relogio-masculino-verde-676e119e12c1a-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-deluxe-relogio-masculino-verde-676e119dcae58-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-deluxe-relogio-masculino-verde-676e119b25f1e-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-deluxe-relogio-masculino-verde-676e119e5e6f3-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-deluxe-relogio-masculino-verde-676e119e39fb3-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-deluxe-relogio-masculino-verde-676e119f8a13b-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-deluxe-relogio-masculino-verde-676e119d5d92c-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-deluxe-relogio-masculino-verde-676e119f17894-large.png"
+        ]
+      },
+      {
+        "source_sku": "366",
+        "source_sku_id": 253692049,
+        "title": "Relógio Poedagar Deluxe Branco",
+        "options": [
+          {
+            "name": "Cor",
+            "id": 4306761,
+            "value": "Branco",
+            "value_id": 60495598
+          }
+        ],
+        "price_brl": 199.9,
+        "pix_brl": 189.91,
+        "source_blocked_sale": false,
+        "source_stock_status": "in_stock",
+        "case_color": null,
+        "strap_color": null,
+        "strap_type": null,
+        "attribute_status": "not_verified; source color labels do not distinguish dial/case/strap",
+        "image_urls_for_review_only": [
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-deluxe-relogio-masculino-branco-677beca8b88d7-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-deluxe-relogio-masculino-branco-676e119d9a3f6-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-deluxe-relogio-masculino-branco-676e119f75ba7-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-deluxe-relogio-masculino-branco-676e11a02c763-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-deluxe-relogio-masculino-branco-676e119f4a4aa-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-deluxe-relogio-masculino-branco-676e119af3e27-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-deluxe-relogio-masculino-branco-676e119eb94d4-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-deluxe-relogio-masculino-branco-676e11a11234f-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-deluxe-relogio-masculino-branco-676e11a028f01-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-deluxe-relogio-masculino-branco-676e119d69df1-large.png"
+        ]
+      }
+    ],
+    "pendencias": [
+      "referência de fabricante e identidade física",
+      "variante efetivamente vendida pela VRAS",
+      "fotografias originais autorizadas por variante",
+      "aprovação de preço pelo proprietário",
+      "confirmação da oferta VRAS sem inferir estoque da fonte"
+    ]
   },
   {
-    "id": 2,
-    "nome": "Vras Genius 42mm",
-    "preco": 389.0,
-    "descricao": "Mostrador verde profundo, acabamento polido e visual elegante para ocasioes formais.",
-    "imagem": "0be87f4f-f1d0-4858-b062-1c7c756e4075_1200x.png",
-    "categoria": "Maestro",
+    "id": 15,
+    "slug": "deluxe-golden",
+    "nome": "Poedagar Deluxe Golden",
+    "marca": "Poedagar",
+    "modelo": "Deluxe Golden",
+    "referencia": null,
+    "catalog_generation": "poedagar-v1",
+    "status": "rascunho",
+    "preco": null,
+    "aprovacao_preco": {
+      "aprovado": false,
+      "valor": null,
+      "data": null,
+      "registro": null,
+      "source_variant_id": null
+    },
+    "oferta_confirmada": false,
+    "descricao": "Deluxe Golden: uma opção da coleção Poedagar para dar identidade às suas combinações.",
+    "imagem": null,
+    "categoria": "Poedagar",
+    "destaque": false,
+    "identificacao": {
+      "confirmada": false,
+      "marca": "Poedagar",
+      "modelo": "Deluxe Golden",
+      "referencia": null,
+      "fonte": "https://lojaspoedagar.com.br/deluxe-golden/p"
+    },
+    "variante": null,
+    "especificacoes": {},
+    "galeria": [],
+    "videos": [],
+    "fontes": {
+      "nome_comercial_verificado": true,
+      "url_modelo_e_preco": "https://lojaspoedagar.com.br/deluxe-golden/p",
+      "consulta_UTC": "2026-11-07T23:23:48.611725+00:00",
+      "site1_candidato_nao_equivalencia_confirmada": null,
+      "referencia_fabricante_verificada": false
+    },
+    "variantes_fonte": [
+      {
+        "source_sku": "201447598",
+        "source_sku_id": 253563623,
+        "title": "Relógio Poedagar Deluxe Golden Azul",
+        "options": [
+          {
+            "name": "Cor",
+            "id": 4306761,
+            "value": "Azul",
+            "value_id": 60495595
+          }
+        ],
+        "price_brl": 194.9,
+        "pix_brl": 185.16,
+        "source_blocked_sale": false,
+        "source_stock_status": "in_stock",
+        "case_color": null,
+        "strap_color": null,
+        "strap_type": null,
+        "attribute_status": "not_verified; source color labels do not distinguish dial/case/strap",
+        "image_urls_for_review_only": [
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-deluxe-golden-relogio-masculino-azul-67702dc159e39-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-deluxe-golden-relogio-masculino-azul-676dee2db9351-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-deluxe-golden-relogio-masculino-azul-676dee2d67b45-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-deluxe-golden-relogio-masculino-azul-676dee2c2efcc-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-deluxe-golden-relogio-masculino-azul-676dee30ed2f3-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-deluxe-golden-relogio-masculino-azul-676dee2e74c2c-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-deluxe-golden-relogio-masculino-azul-676dee30843df-large.png"
+        ]
+      },
+      {
+        "source_sku": "201447303",
+        "source_sku_id": 253563624,
+        "title": "Relógio Poedagar Deluxe Golden Preto",
+        "options": [
+          {
+            "name": "Cor",
+            "id": 4306761,
+            "value": "Preto",
+            "value_id": 60495596
+          }
+        ],
+        "price_brl": 194.9,
+        "pix_brl": 185.16,
+        "source_blocked_sale": false,
+        "source_stock_status": "in_stock",
+        "case_color": null,
+        "strap_color": null,
+        "strap_type": null,
+        "attribute_status": "not_verified; source color labels do not distinguish dial/case/strap",
+        "image_urls_for_review_only": [
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-deluxe-golden-relogio-masculino-preto-67702dc152c34-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-deluxe-golden-relogio-masculino-preto-676dee32cf02b-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-deluxe-golden-relogio-masculino-preto-676dee34dfe99-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-deluxe-golden-relogio-masculino-preto-676dee2d35db8-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-deluxe-golden-relogio-masculino-preto-676dee2db8842-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-deluxe-golden-relogio-masculino-preto-676dee37506c2-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-deluxe-golden-relogio-masculino-preto-676dee393e6fb-large.png"
+        ]
+      }
+    ],
+    "pendencias": [
+      "referência de fabricante e identidade física",
+      "variante efetivamente vendida pela VRAS",
+      "fotografias originais autorizadas por variante",
+      "aprovação de preço pelo proprietário",
+      "confirmação da oferta VRAS sem inferir estoque da fonte"
+    ]
+  },
+  {
+    "id": 16,
+    "slug": "golden-mars",
+    "nome": "Poedagar Golden Mars",
+    "marca": "Poedagar",
+    "modelo": "Golden Mars",
+    "referencia": null,
+    "catalog_generation": "poedagar-v1",
+    "status": "rascunho",
+    "preco": null,
+    "aprovacao_preco": {
+      "aprovado": false,
+      "valor": null,
+      "data": null,
+      "registro": null,
+      "source_variant_id": null
+    },
+    "oferta_confirmada": false,
+    "descricao": "Golden Mars: presença e personalidade em uma escolha que faz parte do seu tempo.",
+    "imagem": null,
+    "categoria": "Poedagar",
+    "destaque": false,
+    "identificacao": {
+      "confirmada": false,
+      "marca": "Poedagar",
+      "modelo": "Golden Mars",
+      "referencia": null,
+      "fonte": "https://lojaspoedagar.com.br/golden-mars/p"
+    },
+    "variante": null,
+    "especificacoes": {},
+    "galeria": [],
+    "videos": [],
+    "fontes": {
+      "nome_comercial_verificado": true,
+      "url_modelo_e_preco": "https://lojaspoedagar.com.br/golden-mars/p",
+      "consulta_UTC": "2026-11-07T23:23:49.180886+00:00",
+      "site1_candidato_nao_equivalencia_confirmada": null,
+      "referencia_fabricante_verificada": false
+    },
+    "variantes_fonte": [
+      {
+        "source_sku": "TY7TRCUEW",
+        "source_sku_id": 255589756,
+        "title": "Relógio Poedagar Golden Mars Dourado",
+        "options": [
+          {
+            "name": "Cor",
+            "id": 4306761,
+            "value": "Dourado",
+            "value_id": 60528726
+          }
+        ],
+        "price_brl": 197.9,
+        "pix_brl": 188.01,
+        "source_blocked_sale": false,
+        "source_stock_status": "in_stock",
+        "case_color": null,
+        "strap_color": null,
+        "strap_type": null,
+        "attribute_status": "not_verified; source color labels do not distinguish dial/case/strap",
+        "image_urls_for_review_only": [
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-golden-mars-relogio-masculino-dourado-677aa9bc26e3f-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-golden-mars-relogio-masculino-dourado-677aa9bd6bfd2-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-golden-mars-relogio-masculino-dourado-677aa9bd91bf4-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-golden-mars-relogio-masculino-dourado-677aa9ba8230d-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-golden-mars-relogio-masculino-dourado-677aa9bc8c2e0-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-golden-mars-relogio-masculino-dourado-677aa9bcb7492-large.png"
+        ]
+      },
+      {
+        "source_sku": "R6PE7CDJR",
+        "source_sku_id": 255589709,
+        "title": "Relógio Poedagar Golden Mars Todo Preto",
+        "options": [
+          {
+            "name": "Cor",
+            "id": 4306761,
+            "value": "Todo Preto",
+            "value_id": 60528728
+          }
+        ],
+        "price_brl": 197.9,
+        "pix_brl": 188.01,
+        "source_blocked_sale": false,
+        "source_stock_status": "in_stock",
+        "case_color": null,
+        "strap_color": null,
+        "strap_type": null,
+        "attribute_status": "not_verified; source color labels do not distinguish dial/case/strap",
+        "image_urls_for_review_only": [
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-golden-mars-relogio-masculino-todo-preto-677aa9ba7b599-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-golden-mars-relogio-masculino-todo-preto-677aa9ba86089-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-golden-mars-relogio-masculino-todo-preto-677aa9ba8754b-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-golden-mars-relogio-masculino-todo-preto-677aa9ba893e4-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-golden-mars-relogio-masculino-todo-preto-677aa9ba84379-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-golden-mars-relogio-masculino-todo-preto-677aa9ba8cebc-large.png"
+        ]
+      },
+      {
+        "source_sku": "U6BX5P8MH",
+        "source_sku_id": 255589732,
+        "title": "Relógio Poedagar Golden Mars Prata e Preto",
+        "options": [
+          {
+            "name": "Cor",
+            "id": 4306761,
+            "value": "Prata e Preto",
+            "value_id": 60528725
+          }
+        ],
+        "price_brl": 197.9,
+        "pix_brl": 188.01,
+        "source_blocked_sale": false,
+        "source_stock_status": "in_stock",
+        "case_color": null,
+        "strap_color": null,
+        "strap_type": null,
+        "attribute_status": "not_verified; source color labels do not distinguish dial/case/strap",
+        "image_urls_for_review_only": [
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-golden-mars-relogio-masculino-prata-e-preto-677aa9ba8ba4f-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-golden-mars-relogio-masculino-prata-e-preto-677aa9bcc9f5f-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-golden-mars-relogio-masculino-prata-e-preto-677aa9ba8855a-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-golden-mars-relogio-masculino-prata-e-preto-677aa9bc4080f-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-golden-mars-relogio-masculino-prata-e-preto-677aa9ba8ab32-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-golden-mars-relogio-masculino-prata-e-preto-677aa9ba89055-large.png"
+        ]
+      }
+    ],
+    "pendencias": [
+      "referência de fabricante e identidade física",
+      "variante efetivamente vendida pela VRAS",
+      "fotografias originais autorizadas por variante",
+      "aprovação de preço pelo proprietário",
+      "confirmação da oferta VRAS sem inferir estoque da fonte"
+    ]
+  },
+  {
+    "id": 17,
+    "slug": "golden-moon",
+    "nome": "Poedagar Golden Moon",
+    "marca": "Poedagar",
+    "modelo": "Golden Moon",
+    "referencia": null,
+    "catalog_generation": "poedagar-v1",
+    "status": "rascunho",
+    "preco": null,
+    "aprovacao_preco": {
+      "aprovado": false,
+      "valor": null,
+      "data": null,
+      "registro": null,
+      "source_variant_id": null
+    },
+    "oferta_confirmada": false,
+    "descricao": "Golden Moon: um relógio da seleção Poedagar para acompanhar a sua expressão de estilo.",
+    "imagem": null,
+    "categoria": "Poedagar",
+    "destaque": false,
+    "identificacao": {
+      "confirmada": false,
+      "marca": "Poedagar",
+      "modelo": "Golden Moon",
+      "referencia": null,
+      "fonte": "https://lojaspoedagar.com.br/golden-moon/p"
+    },
+    "variante": null,
+    "especificacoes": {},
+    "galeria": [],
+    "videos": [],
+    "fontes": {
+      "nome_comercial_verificado": true,
+      "url_modelo_e_preco": "https://lojaspoedagar.com.br/golden-moon/p",
+      "consulta_UTC": "2026-11-07T23:23:49.213705+00:00",
+      "site1_candidato_nao_equivalencia_confirmada": null,
+      "referencia_fabricante_verificada": false
+    },
+    "variantes_fonte": [
+      {
+        "source_sku": "100005979",
+        "source_sku_id": 253563610,
+        "title": "Relógio Poedagar Golden Moon Todo Preto",
+        "options": [
+          {
+            "name": "Cor",
+            "id": 4306761,
+            "value": "Todo Preto",
+            "value_id": 60528728
+          }
+        ],
+        "price_brl": 197.2,
+        "pix_brl": 187.34,
+        "source_blocked_sale": false,
+        "source_stock_status": "in_stock",
+        "case_color": null,
+        "strap_color": null,
+        "strap_type": null,
+        "attribute_status": "not_verified; source color labels do not distinguish dial/case/strap",
+        "image_urls_for_review_only": [
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-golden-moon-relogio-masculino-todo-preto-677aa3922c0d0-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-golden-moon-relogio-masculino-todo-preto-676eb1074d7a6-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-golden-moon-relogio-masculino-todo-preto-676eb1075891e-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-golden-moon-relogio-masculino-todo-preto-676eb106c26c3-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-golden-moon-relogio-masculino-todo-preto-676eb108d8604-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-golden-moon-relogio-masculino-todo-preto-676eb10771495-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-golden-moon-relogio-masculino-todo-preto-676eb10776abe-large.png"
+        ]
+      },
+      {
+        "source_sku": "201447303",
+        "source_sku_id": 253563606,
+        "title": "Relógio Poedagar Golden Moon Preto",
+        "options": [
+          {
+            "name": "Cor",
+            "id": 4306761,
+            "value": "Preto",
+            "value_id": 60495596
+          }
+        ],
+        "price_brl": 197.2,
+        "pix_brl": 187.34,
+        "source_blocked_sale": false,
+        "source_stock_status": "in_stock",
+        "case_color": null,
+        "strap_color": null,
+        "strap_type": null,
+        "attribute_status": "not_verified; source color labels do not distinguish dial/case/strap",
+        "image_urls_for_review_only": [
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-golden-moon-relogio-masculino-preto-677aa392ba86d-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-golden-moon-relogio-masculino-preto-676eb1043c385-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-golden-moon-relogio-masculino-preto-676eb10412cab-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-golden-moon-relogio-masculino-preto-676eb1043ebe5-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-golden-moon-relogio-masculino-preto-676eb1035f897-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-golden-moon-relogio-masculino-preto-676eb1044a74c-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-golden-moon-relogio-masculino-preto-676eb102851c5-large.png"
+        ]
+      },
+      {
+        "source_sku": "200005100",
+        "source_sku_id": 253563607,
+        "title": "Relógio Poedagar Golden Moon Azul",
+        "options": [
+          {
+            "name": "Cor",
+            "id": 4306761,
+            "value": "Azul",
+            "value_id": 60495595
+          }
+        ],
+        "price_brl": 197.2,
+        "pix_brl": 187.34,
+        "source_blocked_sale": false,
+        "source_stock_status": "in_stock",
+        "case_color": null,
+        "strap_color": null,
+        "strap_type": null,
+        "attribute_status": "not_verified; source color labels do not distinguish dial/case/strap",
+        "image_urls_for_review_only": [
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-golden-moon-relogio-masculino-azul-677aa392cbd39-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-golden-moon-relogio-masculino-azul-676eb104498b3-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-golden-moon-relogio-masculino-azul-676eb10456698-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-golden-moon-relogio-masculino-azul-676eb103351c6-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-golden-moon-relogio-masculino-azul-676eb107586c4-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-golden-moon-relogio-masculino-azul-676eb1043d117-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-golden-moon-relogio-masculino-azul-676eb10567513-large.png"
+        ]
+      },
+      {
+        "source_sku": "200000080",
+        "source_sku_id": 253563608,
+        "title": "Relógio Poedagar Golden Moon Branco",
+        "options": [
+          {
+            "name": "Cor",
+            "id": 4306761,
+            "value": "Branco",
+            "value_id": 60495598
+          }
+        ],
+        "price_brl": 197.2,
+        "pix_brl": 187.34,
+        "source_blocked_sale": false,
+        "source_stock_status": "in_stock",
+        "case_color": null,
+        "strap_color": null,
+        "strap_type": null,
+        "attribute_status": "not_verified; source color labels do not distinguish dial/case/strap",
+        "image_urls_for_review_only": [
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-golden-moon-relogio-masculino-branco-677aa3921d293-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-golden-moon-relogio-masculino-branco-676eb1043365a-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-golden-moon-relogio-masculino-branco-676eb1043fe19-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-golden-moon-relogio-masculino-branco-676eb106f40fc-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-golden-moon-relogio-masculino-branco-676eb1044e311-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-golden-moon-relogio-masculino-branco-676eb106c7001-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-golden-moon-relogio-masculino-branco-676eb10709574-large.png"
+        ]
+      },
+      {
+        "source_sku": "100013777",
+        "source_sku_id": 253563609,
+        "title": "Relógio Poedagar Golden Moon Verde",
+        "options": [
+          {
+            "name": "Cor",
+            "id": 4306761,
+            "value": "Verde",
+            "value_id": 60495597
+          }
+        ],
+        "price_brl": 197.2,
+        "pix_brl": 187.34,
+        "source_blocked_sale": false,
+        "source_stock_status": "in_stock",
+        "case_color": null,
+        "strap_color": null,
+        "strap_type": null,
+        "attribute_status": "not_verified; source color labels do not distinguish dial/case/strap",
+        "image_urls_for_review_only": [
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-golden-moon-relogio-masculino-verde-677aa392ca8aa-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-golden-moon-relogio-masculino-verde-676eb1073e9f1-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-golden-moon-relogio-masculino-verde-676eb1046dee8-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-golden-moon-relogio-masculino-verde-676eb107b2b51-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-golden-moon-relogio-masculino-verde-676eb104b5d7f-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-golden-moon-relogio-masculino-verde-676eb107bec11-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-golden-moon-relogio-masculino-verde-676eb105edc58-large.png"
+        ]
+      }
+    ],
+    "pendencias": [
+      "referência de fabricante e identidade física",
+      "variante efetivamente vendida pela VRAS",
+      "fotografias originais autorizadas por variante",
+      "aprovação de preço pelo proprietário",
+      "confirmação da oferta VRAS sem inferir estoque da fonte"
+    ]
+  },
+  {
+    "id": 18,
+    "slug": "golden-neptune",
+    "nome": "Poedagar Golden Neptune",
+    "marca": "Poedagar",
+    "modelo": "Golden Neptune",
+    "referencia": null,
+    "catalog_generation": "poedagar-v1",
+    "status": "rascunho",
+    "preco": null,
+    "aprovacao_preco": {
+      "aprovado": false,
+      "valor": null,
+      "data": null,
+      "registro": null,
+      "source_variant_id": null
+    },
+    "oferta_confirmada": false,
+    "descricao": "Golden Neptune: uma proposta para quem faz do relógio parte da própria identidade.",
+    "imagem": null,
+    "categoria": "Poedagar",
+    "destaque": false,
+    "identificacao": {
+      "confirmada": false,
+      "marca": "Poedagar",
+      "modelo": "Golden Neptune",
+      "referencia": null,
+      "fonte": "https://lojaspoedagar.com.br/neptune/p"
+    },
+    "variante": null,
+    "especificacoes": {},
+    "galeria": [],
+    "videos": [],
+    "fontes": {
+      "nome_comercial_verificado": true,
+      "url_modelo_e_preco": "https://lojaspoedagar.com.br/neptune/p",
+      "consulta_UTC": "2026-11-07T23:23:50.310634+00:00",
+      "site1_candidato_nao_equivalencia_confirmada": null,
+      "referencia_fabricante_verificada": false
+    },
+    "variantes_fonte": [
+      {
+        "source_sku": "201447598",
+        "source_sku_id": 253563446,
+        "title": "Relógio Poedagar Golden Neptune Azul",
+        "options": [
+          {
+            "name": "Cor",
+            "id": 4306761,
+            "value": "Azul",
+            "value_id": 60495595
+          }
+        ],
+        "price_brl": 197.4,
+        "pix_brl": 187.53,
+        "source_blocked_sale": false,
+        "source_stock_status": "in_stock",
+        "case_color": null,
+        "strap_color": null,
+        "strap_type": null,
+        "attribute_status": "not_verified; source color labels do not distinguish dial/case/strap",
+        "image_urls_for_review_only": [
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-horizont-relogio-masculino-azul-677a949edd8c7-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-horizont-relogio-masculino-azul-676e0885f1f87-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-horizont-relogio-masculino-azul-676e08824a9c4-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-horizont-relogio-masculino-azul-676e0883dfdcc-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-horizont-relogio-masculino-azul-676e088799773-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-horizont-relogio-masculino-azul-676e0887b331e-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-horizont-relogio-masculino-azul-676e088431600-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-horizont-relogio-masculino-azul-676e08818265a-large.png"
+        ]
+      },
+      {
+        "source_sku": "201447303",
+        "source_sku_id": 253563447,
+        "title": "Relógio Poedagar Golden Neptune Verde",
+        "options": [
+          {
+            "name": "Cor",
+            "id": 4306761,
+            "value": "Verde",
+            "value_id": 60495597
+          }
+        ],
+        "price_brl": 197.4,
+        "pix_brl": 187.53,
+        "source_blocked_sale": false,
+        "source_stock_status": "in_stock",
+        "case_color": null,
+        "strap_color": null,
+        "strap_type": null,
+        "attribute_status": "not_verified; source color labels do not distinguish dial/case/strap",
+        "image_urls_for_review_only": [
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-horizont-relogio-masculino-verde-677a949f819d1-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-horizont-relogio-masculino-verde-676e08884c828-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-horizont-relogio-masculino-verde-676e08855c747-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-horizont-relogio-masculino-verde-676e0883a800e-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-horizont-relogio-masculino-verde-676e0884834aa-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-horizont-relogio-masculino-verde-676e0882464f4-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-horizont-relogio-masculino-verde-676e08841b417-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-horizont-relogio-masculino-verde-676e0884dd797-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-horizont-relogio-masculino-verde-676e08856b9ab-large.png"
+        ]
+      },
+      {
+        "source_sku": "200005100",
+        "source_sku_id": 253563448,
+        "title": "Relógio Poedagar Golden Neptune Branco",
+        "options": [
+          {
+            "name": "Cor",
+            "id": 4306761,
+            "value": "Branco",
+            "value_id": 60495598
+          }
+        ],
+        "price_brl": 197.4,
+        "pix_brl": 187.53,
+        "source_blocked_sale": false,
+        "source_stock_status": "in_stock",
+        "case_color": null,
+        "strap_color": null,
+        "strap_type": null,
+        "attribute_status": "not_verified; source color labels do not distinguish dial/case/strap",
+        "image_urls_for_review_only": [
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-horizont-relogio-masculino-branco-677a94a0d1ac1-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-horizont-relogio-masculino-branco-677a94a1dab72-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-horizont-relogio-masculino-branco-676e0884339fc-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-horizont-relogio-masculino-branco-676e0888ea4aa-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-horizont-relogio-masculino-branco-676e088454121-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-horizont-relogio-masculino-branco-676e08846fb2d-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-horizont-relogio-masculino-branco-676e0885e7c7b-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-horizont-relogio-masculino-branco-676e08848b9ee-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-horizont-relogio-masculino-branco-676e08863caf1-large.png"
+        ]
+      },
+      {
+        "source_sku": "200000080",
+        "source_sku_id": 253563449,
+        "title": "Relógio Poedagar Golden Neptune Preto",
+        "options": [
+          {
+            "name": "Cor",
+            "id": 4306761,
+            "value": "Preto",
+            "value_id": 60495596
+          }
+        ],
+        "price_brl": 197.4,
+        "pix_brl": 187.53,
+        "source_blocked_sale": false,
+        "source_stock_status": "in_stock",
+        "case_color": null,
+        "strap_color": null,
+        "strap_type": null,
+        "attribute_status": "not_verified; source color labels do not distinguish dial/case/strap",
+        "image_urls_for_review_only": [
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-horizont-relogio-masculino-preto-677a94a0c596a-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-horizont-relogio-masculino-preto-676e0885642b6-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-horizont-relogio-masculino-preto-676e08858442c-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-horizont-relogio-masculino-preto-676e0886488b4-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-horizont-relogio-masculino-preto-676e088960b3a-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-horizont-relogio-masculino-preto-676e08857e041-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-horizont-relogio-masculino-preto-676e08872651b-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-horizont-relogio-masculino-preto-676e08868e89d-large.png"
+        ]
+      },
+      {
+        "source_sku": "350853",
+        "source_sku_id": 253563454,
+        "title": "Relógio Poedagar Golden Neptune Todo Preto",
+        "options": [
+          {
+            "name": "Cor",
+            "id": 4306761,
+            "value": "Todo Preto",
+            "value_id": 60528728
+          }
+        ],
+        "price_brl": 197.4,
+        "pix_brl": 187.53,
+        "source_blocked_sale": false,
+        "source_stock_status": "in_stock",
+        "case_color": null,
+        "strap_color": null,
+        "strap_type": null,
+        "attribute_status": "not_verified; source color labels do not distinguish dial/case/strap",
+        "image_urls_for_review_only": [
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-horizont-relogio-masculino-todo-preto-677a94a1df5c2-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-horizont-relogio-masculino-todo-preto-676e088b87c33-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-horizont-relogio-masculino-todo-preto-676e0888689a2-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-horizont-relogio-masculino-todo-preto-676e08897c2cd-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-horizont-relogio-masculino-todo-preto-676e0888bc70e-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-horizont-relogio-masculino-todo-preto-676e0889147b1-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-horizont-relogio-masculino-todo-preto-676e0888bf4b5-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-horizont-relogio-masculino-todo-preto-676e088aa47c3-large.png"
+        ]
+      },
+      {
+        "source_sku": "9819719518",
+        "source_sku_id": 254709799,
+        "title": "Relógio Poedagar Golden Neptune Dourado",
+        "options": [
+          {
+            "name": "Cor",
+            "id": 4306761,
+            "value": "Dourado",
+            "value_id": 60528726
+          }
+        ],
+        "price_brl": 197.4,
+        "pix_brl": 187.53,
+        "source_blocked_sale": false,
+        "source_stock_status": "in_stock",
+        "case_color": null,
+        "strap_color": null,
+        "strap_type": null,
+        "attribute_status": "not_verified; source color labels do not distinguish dial/case/strap",
+        "image_urls_for_review_only": [
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-horizont-relogio-masculino-dourado-676e088b75869-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-horizont-relogio-masculino-dourado-676e088ac3933-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-horizont-relogio-masculino-dourado-676e088b9321a-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-horizont-relogio-masculino-dourado-676e088b09ff1-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-horizont-relogio-masculino-dourado-676e088d71bb6-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-horizont-relogio-masculino-dourado-676e088cafa65-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-horizont-relogio-masculino-dourado-676e088d19d7f-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-horizont-relogio-masculino-dourado-676e088d8e845-large.png"
+        ]
+      }
+    ],
+    "pendencias": [
+      "referência de fabricante e identidade física",
+      "variante efetivamente vendida pela VRAS",
+      "fotografias originais autorizadas por variante",
+      "aprovação de preço pelo proprietário",
+      "confirmação da oferta VRAS sem inferir estoque da fonte"
+    ]
+  },
+  {
+    "id": 19,
+    "slug": "golden-star",
+    "nome": "Poedagar Golden Star",
+    "marca": "Poedagar",
+    "modelo": "Golden Star",
+    "referencia": null,
+    "catalog_generation": "poedagar-v1",
+    "status": "rascunho",
+    "preco": null,
+    "aprovacao_preco": {
+      "aprovado": false,
+      "valor": null,
+      "data": null,
+      "registro": null,
+      "source_variant_id": null
+    },
+    "oferta_confirmada": false,
+    "descricao": "Golden Star: um convite a escolher os detalhes que dizem mais sobre você.",
+    "imagem": null,
+    "categoria": "Poedagar",
     "destaque": true,
     "identificacao": {
       "confirmada": false,
-      "marca": null,
-      "modelo": null,
+      "marca": "Poedagar",
+      "modelo": "Golden Star",
       "referencia": null,
-      "fonte": null
+      "fonte": "https://lojaspoedagar.com.br/golden-star/p"
     },
-    "revisao_catalogo": {
-      "status": "sem_correspondencia_poedagar_confirmada",
-      "relatorio": "docs/POEDAGAR_CATALOG.md"
-    }
+    "variante": null,
+    "especificacoes": {},
+    "galeria": [],
+    "videos": [],
+    "fontes": {
+      "nome_comercial_verificado": true,
+      "url_modelo_e_preco": "https://lojaspoedagar.com.br/golden-star/p",
+      "consulta_UTC": "2026-11-07T23:23:49.278473+00:00",
+      "site1_candidato_nao_equivalencia_confirmada": "https://poedagareco.com/products/relogio-poedagar-goldenstar",
+      "referencia_fabricante_verificada": false
+    },
+    "variantes_fonte": [
+      {
+        "source_sku": "201447598",
+        "source_sku_id": 253563387,
+        "title": "Relógio Poedagar Golden Star Azul",
+        "options": [
+          {
+            "name": "Cor",
+            "id": 4306761,
+            "value": "Azul",
+            "value_id": 60495595
+          }
+        ],
+        "price_brl": 179.9,
+        "pix_brl": 170.91,
+        "source_blocked_sale": false,
+        "source_stock_status": "in_stock",
+        "case_color": null,
+        "strap_color": null,
+        "strap_type": null,
+        "attribute_status": "not_verified; source color labels do not distinguish dial/case/strap",
+        "image_urls_for_review_only": [
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-goldenstar-relogio-masculino-dourado-e-azul-677a970742739-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-goldenstar-relogio-masculino-azul-676e993875634-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-goldenstar-relogio-masculino-azul-676e993877299-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-goldenstar-relogio-masculino-azul-676e993879d09-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-goldenstar-relogio-masculino-azul-676e9938aa932-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-goldenstar-relogio-masculino-azul-676e9938742f7-large.png"
+        ]
+      },
+      {
+        "source_sku": "200000080",
+        "source_sku_id": 253563390,
+        "title": "Relógio Poedagar Golden Star Verde",
+        "options": [
+          {
+            "name": "Cor",
+            "id": 4306761,
+            "value": "Verde",
+            "value_id": 60495597
+          }
+        ],
+        "price_brl": 179.9,
+        "pix_brl": 170.91,
+        "source_blocked_sale": false,
+        "source_stock_status": "in_stock",
+        "case_color": null,
+        "strap_color": null,
+        "strap_type": null,
+        "attribute_status": "not_verified; source color labels do not distinguish dial/case/strap",
+        "image_urls_for_review_only": [
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-goldenstar-relogio-masculino-dourado-e-verde-677a9708ad434-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-goldenstar-relogio-masculino-verde-676e993bda285-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-goldenstar-relogio-masculino-verde-676e9938b6738-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-goldenstar-relogio-masculino-verde-676e993be1bff-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-goldenstar-relogio-masculino-verde-676e9938ccac9-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-goldenstar-relogio-masculino-verde-676e993b4ad4e-large.png"
+        ]
+      },
+      {
+        "source_sku": "201447303",
+        "source_sku_id": 253563388,
+        "title": "Relógio Poedagar Golden Star Preto",
+        "options": [
+          {
+            "name": "Cor",
+            "id": 4306761,
+            "value": "Preto",
+            "value_id": 60495596
+          }
+        ],
+        "price_brl": 179.9,
+        "pix_brl": 170.91,
+        "source_blocked_sale": false,
+        "source_stock_status": "in_stock",
+        "case_color": null,
+        "strap_color": null,
+        "strap_type": null,
+        "attribute_status": "not_verified; source color labels do not distinguish dial/case/strap",
+        "image_urls_for_review_only": [
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-goldenstar-relogio-masculino-dourado-e-preto-677a9709a84a7-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-goldenstar-relogio-masculino-preto-676e9938ae842-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-goldenstar-relogio-masculino-preto-676e9937caece-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-goldenstar-relogio-masculino-preto-676e9938ac8fd-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-goldenstar-relogio-masculino-preto-676e9938a4bef-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-goldenstar-relogio-masculino-preto-676e9938aa8e3-large.png"
+        ]
+      },
+      {
+        "source_sku": "200005100",
+        "source_sku_id": 253563389,
+        "title": "Relógio Poedagar Golden Star Branco",
+        "options": [
+          {
+            "name": "Cor",
+            "id": 4306761,
+            "value": "Branco",
+            "value_id": 60495598
+          }
+        ],
+        "price_brl": 179.9,
+        "pix_brl": 170.91,
+        "source_blocked_sale": false,
+        "source_stock_status": "in_stock",
+        "case_color": null,
+        "strap_color": null,
+        "strap_type": null,
+        "attribute_status": "not_verified; source color labels do not distinguish dial/case/strap",
+        "image_urls_for_review_only": [
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-goldenstar-relogio-masculino-dourado-e-branco-677a9709c78dd-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-goldenstar-relogio-masculino-branco-676e9938cd1d5-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-goldenstar-relogio-masculino-branco-676e9938aa816-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-goldenstar-relogio-masculino-branco-676e9938a3f7e-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-goldenstar-relogio-masculino-branco-676e993bb4478-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-goldenstar-relogio-masculino-branco-676e9938b313f-large.png"
+        ]
+      },
+      {
+        "source_sku": "100005979",
+        "source_sku_id": 253563392,
+        "title": "Relógio Poedagar Golden Star Prata e Preto",
+        "options": [
+          {
+            "name": "Cor",
+            "id": 4306761,
+            "value": "Prata e Preto",
+            "value_id": 60528725
+          }
+        ],
+        "price_brl": 179.9,
+        "pix_brl": 170.91,
+        "source_blocked_sale": false,
+        "source_stock_status": "in_stock",
+        "case_color": null,
+        "strap_color": null,
+        "strap_type": null,
+        "attribute_status": "not_verified; source color labels do not distinguish dial/case/strap",
+        "image_urls_for_review_only": [
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-goldenstar-relogio-masculino-prata-e-preto-677a970bd8bba-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-goldenstar-relogio-masculino-prata-e-preto-676e993c214a8-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-goldenstar-relogio-masculino-prata-e-preto-676e9938ade41-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-goldenstar-relogio-masculino-prata-e-preto-676e9938d218c-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-goldenstar-relogio-masculino-prata-e-preto-676e993c4a1b3-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-goldenstar-relogio-masculino-prata-e-preto-676e993c23f01-large.png"
+        ]
+      },
+      {
+        "source_sku": "350853",
+        "source_sku_id": 253563395,
+        "title": "Relógio Poedagar Golden Star Todo Preto",
+        "options": [
+          {
+            "name": "Cor",
+            "id": 4306761,
+            "value": "Todo Preto",
+            "value_id": 60528728
+          }
+        ],
+        "price_brl": 179.9,
+        "pix_brl": 170.91,
+        "source_blocked_sale": false,
+        "source_stock_status": "in_stock",
+        "case_color": null,
+        "strap_color": null,
+        "strap_type": null,
+        "attribute_status": "not_verified; source color labels do not distinguish dial/case/strap",
+        "image_urls_for_review_only": [
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-goldenstar-relogio-masculino-todo-preto-677a9709f1e8d-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-goldenstar-relogio-masculino-todo-preto-676e9a87575ec-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-goldenstar-relogio-masculino-todo-preto-676e9a875f411-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-goldenstar-relogio-masculino-todo-preto-676e9a8758d65-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-goldenstar-relogio-masculino-todo-preto-676e9a8763f2c-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-goldenstar-relogio-masculino-todo-preto-676e9a875f087-large.png"
+        ]
+      }
+    ],
+    "pendencias": [
+      "referência de fabricante e identidade física",
+      "variante efetivamente vendida pela VRAS",
+      "fotografias originais autorizadas por variante",
+      "aprovação de preço pelo proprietário",
+      "confirmação da oferta VRAS sem inferir estoque da fonte"
+    ]
   },
   {
-    "id": 3,
-    "nome": "Vras Imperium 41mm",
-    "preco": 589.0,
-    "descricao": "Modelo premium com composicao refinada, ideal para quem prefere um relogio robusto e sofisticado.",
-    "imagem": "Imperium_1200x.jpg",
-    "categoria": "Maestro",
+    "id": 20,
+    "slug": "king-royal",
+    "nome": "Poedagar King Royal",
+    "marca": "Poedagar",
+    "modelo": "King Royal",
+    "referencia": null,
+    "catalog_generation": "poedagar-v1",
+    "status": "rascunho",
+    "preco": null,
+    "aprovacao_preco": {
+      "aprovado": false,
+      "valor": null,
+      "data": null,
+      "registro": null,
+      "source_variant_id": null
+    },
+    "oferta_confirmada": false,
+    "descricao": "King Royal: um nome da coleção Poedagar para compor uma apresentação pessoal marcante.",
+    "imagem": null,
+    "categoria": "Poedagar",
+    "destaque": false,
+    "identificacao": {
+      "confirmada": false,
+      "marca": "Poedagar",
+      "modelo": "King Royal",
+      "referencia": null,
+      "fonte": "https://lojaspoedagar.com.br/king-royal/p"
+    },
+    "variante": null,
+    "especificacoes": {},
+    "galeria": [],
+    "videos": [],
+    "fontes": {
+      "nome_comercial_verificado": true,
+      "url_modelo_e_preco": "https://lojaspoedagar.com.br/king-royal/p",
+      "consulta_UTC": "2026-11-07T23:23:49.725445+00:00",
+      "site1_candidato_nao_equivalencia_confirmada": "https://poedagareco.com/products/poedagar-kingroyal",
+      "referencia_fabricante_verificada": false
+    },
+    "variantes_fonte": [
+      {
+        "source_sku": "201447598",
+        "source_sku_id": 253648832,
+        "title": "Relógio Poedagar King Royal Azul",
+        "options": [
+          {
+            "name": "Cor",
+            "id": 4306761,
+            "value": "Azul",
+            "value_id": 60495595
+          }
+        ],
+        "price_brl": 219.9,
+        "pix_brl": 208.91,
+        "source_blocked_sale": false,
+        "source_stock_status": "in_stock",
+        "case_color": null,
+        "strap_color": null,
+        "strap_type": null,
+        "attribute_status": "not_verified; source color labels do not distinguish dial/case/strap",
+        "image_urls_for_review_only": [
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-king-royal-relogio-masculino-azul-67702cef0296d-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-king-royal-relogio-masculino-azul-67702cf03752b-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-king-royal-relogio-masculino-azul-67702cefa2d69-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-king-royal-relogio-masculino-azul-67702cf0c56e1-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-king-royal-relogio-masculino-azul-67702cf23e9f3-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-king-royal-relogio-masculino-azul-67702cefa4f5a-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-king-royal-azul-6851744ad85bd-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-king-royal-azul-6851744b7609e-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-king-royal-azul-6851744abe4e1-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-king-royal-azul-6851744aa8dd5-large.png"
+        ]
+      },
+      {
+        "source_sku": "4VMWHZJL2",
+        "source_sku_id": 253648833,
+        "title": "Relógio Poedagar King Royal Branco",
+        "options": [
+          {
+            "name": "Cor",
+            "id": 4306761,
+            "value": "Branco",
+            "value_id": 60495598
+          }
+        ],
+        "price_brl": 219.9,
+        "pix_brl": 208.91,
+        "source_blocked_sale": false,
+        "source_stock_status": "in_stock",
+        "case_color": null,
+        "strap_color": null,
+        "strap_type": null,
+        "attribute_status": "not_verified; source color labels do not distinguish dial/case/strap",
+        "image_urls_for_review_only": [
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-king-royal-relogio-masculino-branco-67702cf3388af-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-king-royal-relogio-masculino-branco-67702cf0eb7f6-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-king-royal-relogio-masculino-branco-67702cef52867-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-king-royal-relogio-masculino-branco-67702cefb6bc9-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-king-royal-relogio-masculino-branco-67702cf3899a5-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-king-royal-relogio-masculino-branco-67702cf3c2160-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-king-royal-branco-6851744c2e950-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-king-royal-branco-6851744b1055b-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-king-royal-branco-6851744b430b3-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-king-royal-branco-6851744c3d809-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-king-royal-branco-6851744c42d9f-large.png"
+        ]
+      },
+      {
+        "source_sku": "CDVZWWFBH",
+        "source_sku_id": 253648834,
+        "title": "Relógio Poedagar King Royal Preto",
+        "options": [
+          {
+            "name": "Cor",
+            "id": 4306761,
+            "value": "Preto",
+            "value_id": 60495596
+          }
+        ],
+        "price_brl": 219.9,
+        "pix_brl": 208.91,
+        "source_blocked_sale": false,
+        "source_stock_status": "in_stock",
+        "case_color": null,
+        "strap_color": null,
+        "strap_type": null,
+        "attribute_status": "not_verified; source color labels do not distinguish dial/case/strap",
+        "image_urls_for_review_only": [
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-king-royal-relogio-masculino-preto-67702cf10ba1a-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-king-royal-relogio-masculino-preto-67702cf1410fd-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-king-royal-relogio-masculino-preto-67702cf1a96f7-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-king-royal-relogio-masculino-preto-67702cf1f0a6e-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-king-royal-relogio-masculino-preto-67702cefc07d8-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-king-royal-relogio-masculino-preto-67702cf0d3334-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-king-royal-preto-6851744c25243-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-king-royal-preto-6851744c38c44-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-king-royal-preto-6851744bf232e-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-king-royal-preto-6851744c28666-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-king-royal-preto-6851744c32048-large.png"
+        ]
+      },
+      {
+        "source_sku": "25ZZV6QFU",
+        "source_sku_id": 253648835,
+        "title": "Relógio Poedagar King Royal Golden e Azul",
+        "options": [
+          {
+            "name": "Cor",
+            "id": 4306761,
+            "value": "Golden e Azul",
+            "value_id": 60554861
+          }
+        ],
+        "price_brl": 219.9,
+        "pix_brl": 208.91,
+        "source_blocked_sale": false,
+        "source_stock_status": "in_stock",
+        "case_color": null,
+        "strap_color": null,
+        "strap_type": null,
+        "attribute_status": "not_verified; source color labels do not distinguish dial/case/strap",
+        "image_urls_for_review_only": [
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-king-royal-relogio-masculino-golden-e-azul-67702cf1806ca-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-king-royal-relogio-masculino-golden-e-azul-67702cf515c1f-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-king-royal-relogio-masculino-golden-e-azul-67702cf0e23b2-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-king-royal-relogio-masculino-golden-e-azul-67702cf1e2f86-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-king-royal-relogio-masculino-golden-e-azul-67702cf266e9b-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-king-royal-relogio-masculino-golden-e-azul-67702cf35cb5c-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-king-royal-golden-e-azul-6851744c46781-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-king-royal-golden-e-azul-6851744c3f3a7-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-king-royal-golden-e-azul-6851744c734c3-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-king-royal-golden-e-azul-6851744c4151a-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-king-royal-golden-e-azul-6851744c5138b-large.png"
+        ]
+      },
+      {
+        "source_sku": "MQFKC6AJ8",
+        "source_sku_id": 254853644,
+        "title": "Relógio Poedagar King Royal Golden e Branco",
+        "options": [
+          {
+            "name": "Cor",
+            "id": 4306761,
+            "value": "Golden e Branco",
+            "value_id": 60554862
+          }
+        ],
+        "price_brl": 219.9,
+        "pix_brl": 208.91,
+        "source_blocked_sale": false,
+        "source_stock_status": "in_stock",
+        "case_color": null,
+        "strap_color": null,
+        "strap_type": null,
+        "attribute_status": "not_verified; source color labels do not distinguish dial/case/strap",
+        "image_urls_for_review_only": [
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-king-royal-relogio-masculino-golden-e-branco-67702cf52aac9-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-king-royal-relogio-masculino-golden-e-branco-67702cf41dd00-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-king-royal-relogio-masculino-golden-e-branco-67702cf480bb2-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-king-royal-relogio-masculino-golden-e-branco-67702cf1608c4-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-king-royal-relogio-masculino-golden-e-branco-67702cf4d1c4b-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-king-royal-relogio-masculino-golden-e-branco-67702cf247dad-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-king-royal-golden-e-branco-6851744c933b9-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-king-royal-golden-e-branco-6851744c3e8f1-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-king-royal-golden-e-branco-6851744cd2f1a-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-king-royal-golden-e-branco-6851744c48d7d-large.png"
+        ]
+      },
+      {
+        "source_sku": "WBJNDQU4T",
+        "source_sku_id": 254853669,
+        "title": "Relógio Poedagar King Royal Golden e Preto",
+        "options": [
+          {
+            "name": "Cor",
+            "id": 4306761,
+            "value": "Golden e Preto",
+            "value_id": 60554868
+          }
+        ],
+        "price_brl": 219.9,
+        "pix_brl": 208.91,
+        "source_blocked_sale": false,
+        "source_stock_status": "in_stock",
+        "case_color": null,
+        "strap_color": null,
+        "strap_type": null,
+        "attribute_status": "not_verified; source color labels do not distinguish dial/case/strap",
+        "image_urls_for_review_only": [
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-king-royal-relogio-masculino-golden-e-preto-67702cf30d8e2-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-king-royal-relogio-masculino-golden-e-preto-67702cf3c4ffa-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-king-royal-relogio-masculino-golden-e-preto-67702cf19de14-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-king-royal-relogio-masculino-golden-e-preto-67702cf41dbc9-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-king-royal-relogio-masculino-golden-e-preto-67702cf472be9-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-king-royal-relogio-masculino-golden-e-preto-67702cf53f2ed-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-king-royal-golden-e-preto-6851744c513c8-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-king-royal-golden-e-preto-6851744d14e47-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-king-royal-golden-e-preto-6851744ea8b96-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-king-royal-golden-e-preto-6851744c59afe-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-king-royal-golden-e-preto-6851744c3c0ff-large.png"
+        ]
+      },
+      {
+        "source_sku": "KBPKXX5N2",
+        "source_sku_id": 254853671,
+        "title": "Relógio Poedagar King Royal Todo Preto",
+        "options": [
+          {
+            "name": "Cor",
+            "id": 4306761,
+            "value": "Todo Preto",
+            "value_id": 60528728
+          }
+        ],
+        "price_brl": 219.9,
+        "pix_brl": 208.91,
+        "source_blocked_sale": false,
+        "source_stock_status": "in_stock",
+        "case_color": null,
+        "strap_color": null,
+        "strap_type": null,
+        "attribute_status": "not_verified; source color labels do not distinguish dial/case/strap",
+        "image_urls_for_review_only": [
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-king-royal-relogio-masculino-todo-preto-67702cf271915-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-king-royal-relogio-masculino-todo-preto-67702cf680f4b-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-king-royal-relogio-masculino-todo-preto-67702cf58866d-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-king-royal-relogio-masculino-todo-preto-67702cf68937c-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-king-royal-relogio-masculino-todo-preto-67702cf5481ad-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-king-royal-relogio-masculino-todo-preto-67702cf5ef59f-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-king-royal-todo-preto-6851744cc759d-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-king-royal-todo-preto-6851744c4bfc4-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-king-royal-todo-preto-6851744d0b841-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-king-royal-todo-preto-6851744c774db-large.png"
+        ]
+      }
+    ],
+    "pendencias": [
+      "referência de fabricante e identidade física",
+      "variante efetivamente vendida pela VRAS",
+      "fotografias originais autorizadas por variante",
+      "aprovação de preço pelo proprietário",
+      "confirmação da oferta VRAS sem inferir estoque da fonte"
+    ]
+  },
+  {
+    "id": 21,
+    "slug": "machine",
+    "nome": "Poedagar Machine",
+    "marca": "Poedagar",
+    "modelo": "Machine",
+    "referencia": null,
+    "catalog_generation": "poedagar-v1",
+    "status": "rascunho",
+    "preco": null,
+    "aprovacao_preco": {
+      "aprovado": false,
+      "valor": null,
+      "data": null,
+      "registro": null,
+      "source_variant_id": null
+    },
+    "oferta_confirmada": false,
+    "descricao": "Machine: um relógio para integrar a sua seleção pessoal de acessórios.",
+    "imagem": null,
+    "categoria": "Poedagar",
+    "destaque": false,
+    "identificacao": {
+      "confirmada": false,
+      "marca": "Poedagar",
+      "modelo": "Machine",
+      "referencia": null,
+      "fonte": "https://lojaspoedagar.com.br/machine/p"
+    },
+    "variante": null,
+    "especificacoes": {},
+    "galeria": [],
+    "videos": [],
+    "fontes": {
+      "nome_comercial_verificado": true,
+      "url_modelo_e_preco": "https://lojaspoedagar.com.br/machine/p",
+      "consulta_UTC": "2026-11-07T23:23:49.895270+00:00",
+      "site1_candidato_nao_equivalencia_confirmada": "https://poedagareco.com/products/relogio-poedagar-machine",
+      "referencia_fabricante_verificada": false
+    },
+    "variantes_fonte": [
+      {
+        "source_sku": "EBWM37HFC",
+        "source_sku_id": 254753391,
+        "title": "Relógio Poedagar Machine Preto",
+        "options": [
+          {
+            "name": "Cor",
+            "id": 4306761,
+            "value": "Preto",
+            "value_id": 60495596
+          }
+        ],
+        "price_brl": 194.9,
+        "pix_brl": 185.16,
+        "source_blocked_sale": false,
+        "source_stock_status": "in_stock",
+        "case_color": null,
+        "strap_color": null,
+        "strap_type": null,
+        "attribute_status": "not_verified; source color labels do not distinguish dial/case/strap",
+        "image_urls_for_review_only": [
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-machine-relogio-masculino-preto-676eb775a44e7-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-machine-relogio-masculino-preto-676eb775c29b5-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-machine-relogio-masculino-preto-676eb7758330f-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-machine-relogio-masculino-preto-676eb775cdfd8-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-machine-relogio-masculino-preto-676eb775a027f-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-machine-relogio-masculino-preto-676eb775b154c-large.png"
+        ]
+      },
+      {
+        "source_sku": "1987119871922",
+        "source_sku_id": 254753449,
+        "title": "Relógio Poedagar Machine Todo Preto",
+        "options": [
+          {
+            "name": "Cor",
+            "id": 4306761,
+            "value": "Todo Preto",
+            "value_id": 60528728
+          }
+        ],
+        "price_brl": 194.9,
+        "pix_brl": 185.16,
+        "source_blocked_sale": false,
+        "source_stock_status": "in_stock",
+        "case_color": null,
+        "strap_color": null,
+        "strap_type": null,
+        "attribute_status": "not_verified; source color labels do not distinguish dial/case/strap",
+        "image_urls_for_review_only": [
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-machine-relogio-masculino-todo-preto-676eb505ab85a-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-machine-relogio-masculino-todo-preto-676eb505b19f9-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-machine-relogio-masculino-todo-preto-676eb507113bc-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-machine-relogio-masculino-todo-preto-676eb505ada05-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-machine-relogio-masculino-todo-preto-676eb508b5d74-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-machine-relogio-masculino-todo-preto-676eb505b662c-large.png"
+        ]
+      },
+      {
+        "source_sku": "1987119871923",
+        "source_sku_id": 254753450,
+        "title": "Relógio Poedagar Machine Dourado",
+        "options": [
+          {
+            "name": "Cor",
+            "id": 4306761,
+            "value": "Dourado",
+            "value_id": 60528726
+          }
+        ],
+        "price_brl": 194.9,
+        "pix_brl": 185.16,
+        "source_blocked_sale": false,
+        "source_stock_status": "in_stock",
+        "case_color": null,
+        "strap_color": null,
+        "strap_type": null,
+        "attribute_status": "not_verified; source color labels do not distinguish dial/case/strap",
+        "image_urls_for_review_only": [
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-machine-relogio-masculino-dourado-676eb775c3fbe-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-machine-relogio-masculino-dourado-676eb775a96ef-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-machine-relogio-masculino-dourado-676eb775c6fcc-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-machine-relogio-masculino-dourado-676eb775c23de-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-machine-relogio-masculino-dourado-676eb775cdcff-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-machine-relogio-masculino-dourado-676eb775c9709-large.png"
+        ]
+      }
+    ],
+    "pendencias": [
+      "referência de fabricante e identidade física",
+      "variante efetivamente vendida pela VRAS",
+      "fotografias originais autorizadas por variante",
+      "aprovação de preço pelo proprietário",
+      "confirmação da oferta VRAS sem inferir estoque da fonte"
+    ]
+  },
+  {
+    "id": 22,
+    "slug": "nautilus",
+    "nome": "Poedagar Nautilus",
+    "marca": "Poedagar",
+    "modelo": "Nautilus",
+    "referencia": null,
+    "catalog_generation": "poedagar-v1",
+    "status": "rascunho",
+    "preco": null,
+    "aprovacao_preco": {
+      "aprovado": false,
+      "valor": null,
+      "data": null,
+      "registro": null,
+      "source_variant_id": null
+    },
+    "oferta_confirmada": false,
+    "descricao": "Nautilus: um modelo Poedagar selecionado para a próxima coleção da VRAS Watches.",
+    "imagem": null,
+    "categoria": "Poedagar",
     "destaque": true,
     "identificacao": {
       "confirmada": false,
-      "marca": null,
-      "modelo": null,
+      "marca": "Poedagar",
+      "modelo": "Nautilus",
       "referencia": null,
-      "fonte": null
+      "fonte": "https://lojaspoedagar.com.br/relogio-poedagar-nautilus-azul/p"
     },
-    "revisao_catalogo": {
-      "status": "sem_correspondencia_poedagar_confirmada",
-      "relatorio": "docs/POEDAGAR_CATALOG.md"
-    }
+    "variante": null,
+    "especificacoes": {},
+    "galeria": [],
+    "videos": [],
+    "fontes": {
+      "nome_comercial_verificado": true,
+      "url_modelo_e_preco": "https://lojaspoedagar.com.br/relogio-poedagar-nautilus-azul/p",
+      "consulta_UTC": "2026-11-07T23:23:50.351405+00:00",
+      "site1_candidato_nao_equivalencia_confirmada": "https://poedagareco.com/products/relogio-poedagar-nautilus",
+      "referencia_fabricante_verificada": false
+    },
+    "variantes_fonte": [
+      {
+        "source_sku": "PJCBSRG8F",
+        "source_sku_id": 284259889,
+        "title": "Relógio Poedagar Nautilus Prata",
+        "options": [
+          {
+            "name": "Cor",
+            "id": 4306761,
+            "value": "Prata",
+            "value_id": 60528724
+          }
+        ],
+        "price_brl": 189.9,
+        "pix_brl": 180.41,
+        "source_blocked_sale": false,
+        "source_stock_status": "in_stock",
+        "case_color": null,
+        "strap_color": null,
+        "strap_type": null,
+        "attribute_status": "not_verified; source color labels do not distinguish dial/case/strap",
+        "image_urls_for_review_only": [
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-nautilus-prata-68fbdaa405780-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-nautilus-prata-68fbdaa41db89-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-nautilus-prata-68fbdaa44cccb-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-nautilus-prata-68fbdaa4323a8-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-nautilus-prata-68fbdaa429c9a-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-nautilus-prata-68fbdaa4392c5-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-nautilus-prata-68fbdaa445728-large.png"
+        ]
+      },
+      {
+        "source_sku": "FGVC426TM",
+        "source_sku_id": 284259887,
+        "title": "Relógio Poedagar Nautilus All Black",
+        "options": [
+          {
+            "name": "Cor",
+            "id": 4306761,
+            "value": "All Black",
+            "value_id": 60391530
+          }
+        ],
+        "price_brl": 189.9,
+        "pix_brl": 180.41,
+        "source_blocked_sale": false,
+        "source_stock_status": "in_stock",
+        "case_color": null,
+        "strap_color": null,
+        "strap_type": null,
+        "attribute_status": "not_verified; source color labels do not distinguish dial/case/strap",
+        "image_urls_for_review_only": [
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-nautilus-all-black-68fbdaa4677c9-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-nautilus-all-black-68fbdaa4280bd-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-nautilus-all-black-68fbdaa47e12d-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-nautilus-all-black-68fbdaa47b66b-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-nautilus-all-black-68fbdaa439499-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-nautilus-all-black-68fbdaa488118-large.png"
+        ]
+      },
+      {
+        "source_sku": "3FYJ2FBC5",
+        "source_sku_id": 284259886,
+        "title": "Relógio Poedagar Nautilus Azul",
+        "options": [
+          {
+            "name": "Cor",
+            "id": 4306761,
+            "value": "Azul",
+            "value_id": 60495595
+          }
+        ],
+        "price_brl": 189.9,
+        "pix_brl": 180.41,
+        "source_blocked_sale": false,
+        "source_stock_status": "in_stock",
+        "case_color": null,
+        "strap_color": null,
+        "strap_type": null,
+        "attribute_status": "not_verified; source color labels do not distinguish dial/case/strap",
+        "image_urls_for_review_only": [
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-nautilus-azul-68fbdaa4a2e3b-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-nautilus-azul-68fbdaa579396-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-nautilus-azul-68fbdaa62ed97-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-nautilus-azul-68fbdaa66b25b-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-nautilus-azul-68fbdaa60a7c0-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-nautilus-azul-68fbdaa635407-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-nautilus-azul-68fbdaa65bf7d-large.png"
+        ]
+      },
+      {
+        "source_sku": "289HEFURH",
+        "source_sku_id": 284259888,
+        "title": "Relógio Poedagar Nautilus Dourado e Azul",
+        "options": [
+          {
+            "name": "Cor",
+            "id": 4306761,
+            "value": "Dourado e Azul",
+            "value_id": 60532070
+          }
+        ],
+        "price_brl": 189.9,
+        "pix_brl": 180.41,
+        "source_blocked_sale": false,
+        "source_stock_status": "in_stock",
+        "case_color": null,
+        "strap_color": null,
+        "strap_type": null,
+        "attribute_status": "not_verified; source color labels do not distinguish dial/case/strap",
+        "image_urls_for_review_only": [
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-nautilus-dourado-e-azul-68fbdaa610688-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-nautilus-dourado-e-azul-68fbdaa69dbb5-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-nautilus-dourado-e-azul-68fbdaa623002-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-nautilus-dourado-e-azul-68fbdaa4eab33-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-nautilus-dourado-e-azul-68fbdaa668a76-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-nautilus-dourado-e-azul-68fbdaa6b6543-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-nautilus-dourado-e-azul-68fbdaa655e4d-large.png"
+        ]
+      }
+    ],
+    "pendencias": [
+      "referência de fabricante e identidade física",
+      "variante efetivamente vendida pela VRAS",
+      "fotografias originais autorizadas por variante",
+      "aprovação de preço pelo proprietário",
+      "confirmação da oferta VRAS sem inferir estoque da fonte"
+    ]
   },
   {
-    "id": 4,
-    "nome": "Vras Winner 40mm",
-    "preco": 529.0,
-    "descricao": "Relogio versatil com visual contemporaneo e contraste forte para combinar com producoes urbanas.",
-    "imagem": "FotosPNGTOP_bd9537fc-04bb-4d0c-ab13-ca227d7b784e_1200x.png",
-    "categoria": "Best Sellers",
+    "id": 23,
+    "slug": "signature",
+    "nome": "Poedagar Signature",
+    "marca": "Poedagar",
+    "modelo": "Signature",
+    "referencia": null,
+    "catalog_generation": "poedagar-v1",
+    "status": "rascunho",
+    "preco": null,
+    "aprovacao_preco": {
+      "aprovado": false,
+      "valor": null,
+      "data": null,
+      "registro": null,
+      "source_variant_id": null
+    },
+    "oferta_confirmada": false,
+    "descricao": "Signature: uma escolha que leva a sua assinatura para os detalhes do dia a dia.",
+    "imagem": null,
+    "categoria": "Poedagar",
     "destaque": true,
     "identificacao": {
       "confirmada": false,
-      "marca": null,
-      "modelo": null,
+      "marca": "Poedagar",
+      "modelo": "Signature",
       "referencia": null,
-      "fonte": null
+      "fonte": "https://lojaspoedagar.com.br/signature/p"
     },
-    "revisao_catalogo": {
-      "status": "sem_correspondencia_poedagar_confirmada",
-      "relatorio": "docs/POEDAGAR_CATALOG.md"
-    }
+    "variante": null,
+    "especificacoes": {},
+    "galeria": [],
+    "videos": [],
+    "fontes": {
+      "nome_comercial_verificado": true,
+      "url_modelo_e_preco": "https://lojaspoedagar.com.br/signature/p",
+      "consulta_UTC": "2026-11-07T23:23:50.436657+00:00",
+      "site1_candidato_nao_equivalencia_confirmada": "https://poedagareco.com/products/relogio-poedagar-signature",
+      "referencia_fabricante_verificada": false
+    },
+    "variantes_fonte": [
+      {
+        "source_sku": "200005100",
+        "source_sku_id": 253563401,
+        "title": "Relógio Poedagar Signature Verde",
+        "options": [
+          {
+            "name": "Cor",
+            "id": 4306761,
+            "value": "Verde",
+            "value_id": 60495597
+          }
+        ],
+        "price_brl": 177.9,
+        "pix_brl": 169.01,
+        "source_blocked_sale": false,
+        "source_stock_status": "in_stock",
+        "case_color": null,
+        "strap_color": null,
+        "strap_type": null,
+        "attribute_status": "not_verified; source color labels do not distinguish dial/case/strap",
+        "image_urls_for_review_only": [
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-signature-relogios-masculino-verde-676df01d3fbb9-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-signature-relogios-masculino-verde-676df01ca95a1-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-signature-relogios-masculino-verde-676df01b28103-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-signature-relogios-masculino-verde-676df01f916be-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-signature-relogios-masculino-verde-676df01f57c9b-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-signature-relogios-masculino-verde-676df01c76bf1-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-signature-relogios-masculino-verde-676df01d18ba5-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-signature-relogios-masculino-verde-676df02171f70-large.png"
+        ]
+      },
+      {
+        "source_sku": "201447598",
+        "source_sku_id": 253563399,
+        "title": "Relógio Poedagar Signature Branco",
+        "options": [
+          {
+            "name": "Cor",
+            "id": 4306761,
+            "value": "Branco",
+            "value_id": 60495598
+          }
+        ],
+        "price_brl": 177.9,
+        "pix_brl": 169.01,
+        "source_blocked_sale": false,
+        "source_stock_status": "in_stock",
+        "case_color": null,
+        "strap_color": null,
+        "strap_type": null,
+        "attribute_status": "not_verified; source color labels do not distinguish dial/case/strap",
+        "image_urls_for_review_only": [
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-signature-relogios-masculino-branco-676df01eb07f8-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-signature-relogios-masculino-branco-676df021407b1-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-signature-relogios-masculino-branco-676df02024d4b-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-signature-relogios-masculino-branco-676df0227801c-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-signature-relogios-masculino-branco-676df021cb7de-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-signature-relogios-masculino-branco-676df024c51e6-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-signature-relogios-masculino-branco-676df023cdbcc-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-signature-relogios-masculino-branco-676df02338592-large.png"
+        ]
+      },
+      {
+        "source_sku": "201447303",
+        "source_sku_id": 253563400,
+        "title": "Relógio Poedagar Signature Azul",
+        "options": [
+          {
+            "name": "Cor",
+            "id": 4306761,
+            "value": "Azul",
+            "value_id": 60495595
+          }
+        ],
+        "price_brl": 177.9,
+        "pix_brl": 169.01,
+        "source_blocked_sale": false,
+        "source_stock_status": "in_stock",
+        "case_color": null,
+        "strap_color": null,
+        "strap_type": null,
+        "attribute_status": "not_verified; source color labels do not distinguish dial/case/strap",
+        "image_urls_for_review_only": [
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-signature-relogios-masculino-azul-676df023bf75b-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-signature-relogios-masculino-azul-676df02605f99-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-signature-relogios-masculino-azul-676df026b17d4-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-signature-relogios-masculino-azul-676df02582da5-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-signature-relogios-masculino-azul-676df02611a9c-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-signature-relogios-masculino-azul-676df01f1f134-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-signature-relogios-masculino-azul-676df027f041b-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-signature-relogios-masculino-azul-676df02a6589e-large.png"
+        ]
+      },
+      {
+        "source_sku": "200000080",
+        "source_sku_id": 253563402,
+        "title": "Relógio Poedagar Signature Preta",
+        "options": [
+          {
+            "name": "Cor",
+            "id": 4306761,
+            "value": "Preta",
+            "value_id": 60528480
+          }
+        ],
+        "price_brl": 177.9,
+        "pix_brl": 169.01,
+        "source_blocked_sale": false,
+        "source_stock_status": "in_stock",
+        "case_color": null,
+        "strap_color": null,
+        "strap_type": null,
+        "attribute_status": "not_verified; source color labels do not distinguish dial/case/strap",
+        "image_urls_for_review_only": [
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-signature-relogios-masculino-preta-676df0210c19d-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-signature-relogios-masculino-preta-676df027e6933-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-signature-relogios-masculino-preta-676df0292095c-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-signature-relogios-masculino-preta-676df02b65baa-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-signature-relogios-masculino-preta-676df027ec20a-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-signature-relogios-masculino-preta-676df02a041b7-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-signature-relogios-masculino-preta-676df02300ede-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-signature-relogios-masculino-preta-676df02a09834-large.png"
+        ]
+      }
+    ],
+    "pendencias": [
+      "referência de fabricante e identidade física",
+      "variante efetivamente vendida pela VRAS",
+      "fotografias originais autorizadas por variante",
+      "aprovação de preço pelo proprietário",
+      "confirmação da oferta VRAS sem inferir estoque da fonte"
+    ]
   },
   {
-    "id": 5,
-    "nome": "Vras Legacy 42mm",
-    "preco": 389.0,
-    "descricao": "Design limpo com inspiracao classica, pulseira elegante e proporcao equilibrada no pulso.",
-    "imagem": "1_9eff571c-24cd-4281-b16d-c43038dea5ac_1200x.png",
-    "categoria": "Classicos",
+    "id": 24,
+    "slug": "tempus",
+    "nome": "Poedagar Tempus",
+    "marca": "Poedagar",
+    "modelo": "Tempus",
+    "referencia": null,
+    "catalog_generation": "poedagar-v1",
+    "status": "rascunho",
+    "preco": null,
+    "aprovacao_preco": {
+      "aprovado": false,
+      "valor": null,
+      "data": null,
+      "registro": null,
+      "source_variant_id": null
+    },
+    "oferta_confirmada": false,
+    "descricao": "Tempus: um modelo da seleção Poedagar para descobrir o seu próximo relógio.",
+    "imagem": null,
+    "categoria": "Poedagar",
     "destaque": false,
     "identificacao": {
       "confirmada": false,
-      "marca": null,
-      "modelo": null,
+      "marca": "Poedagar",
+      "modelo": "Tempus",
       "referencia": null,
-      "fonte": null
+      "fonte": "https://lojaspoedagar.com.br/tempus/p"
     },
-    "revisao_catalogo": {
-      "status": "sem_correspondencia_poedagar_confirmada",
-      "relatorio": "docs/POEDAGAR_CATALOG.md"
-    }
-  },
-  {
-    "id": 6,
-    "nome": "Vras Cadence 39mm",
-    "preco": 369.0,
-    "descricao": "Uma peca compacta e refinada, pensada para quem busca elegancia sem excesso.",
-    "imagem": "43_cd351668-10cd-411d-b375-ac05281c4c42_1200x.jpg",
-    "categoria": "Classicos",
-    "destaque": false,
-    "identificacao": {
-      "confirmada": false,
-      "marca": null,
-      "modelo": null,
-      "referencia": null,
-      "fonte": null
+    "variante": null,
+    "especificacoes": {},
+    "galeria": [],
+    "videos": [],
+    "fontes": {
+      "nome_comercial_verificado": true,
+      "url_modelo_e_preco": "https://lojaspoedagar.com.br/tempus/p",
+      "consulta_UTC": "2026-11-07T23:23:50.800345+00:00",
+      "site1_candidato_nao_equivalencia_confirmada": null,
+      "referencia_fabricante_verificada": false
     },
-    "revisao_catalogo": {
-      "status": "sem_correspondencia_poedagar_confirmada",
-      "relatorio": "docs/POEDAGAR_CATALOG.md"
-    }
-  },
-  {
-    "id": 7,
-    "nome": "Vras Navigator 42mm",
-    "preco": 449.0,
-    "descricao": "Relogio com personalidade nautica, leitura clara e acabamento de impacto visual.",
-    "imagem": "Navigator_768x.png",
-    "categoria": "Lancamentos",
-    "destaque": true,
-    "identificacao": {
-      "confirmada": false,
-      "marca": null,
-      "modelo": null,
-      "referencia": null,
-      "fonte": null
-    },
-    "revisao_catalogo": {
-      "status": "sem_correspondencia_poedagar_confirmada",
-      "relatorio": "docs/POEDAGAR_CATALOG.md"
-    }
-  },
-  {
-    "id": 8,
-    "nome": "Vras Dominus 40mm",
-    "preco": 429.0,
-    "descricao": "Modelo imponente com linhas modernas, criado para vestir bem do trabalho ao jantar.",
-    "imagem": "Dominus_1200x.jpg",
-    "categoria": "Best Sellers",
-    "destaque": false,
-    "identificacao": {
-      "confirmada": false,
-      "marca": null,
-      "modelo": null,
-      "referencia": null,
-      "fonte": null
-    },
-    "revisao_catalogo": {
-      "status": "sem_correspondencia_poedagar_confirmada",
-      "relatorio": "docs/POEDAGAR_CATALOG.md"
-    }
-  },
-  {
-    "id": 9,
-    "nome": "Vras Monarch 40mm",
-    "preco": 479.0,
-    "descricao": "Relogio elegante com detalhes sobrios e acabamento pensado para composicoes premium.",
-    "imagem": "88_fbbced28-dfa4-4ef6-ba7d-961bc3338663_1200x.jpg",
-    "categoria": "Lancamentos",
-    "destaque": false,
-    "identificacao": {
-      "confirmada": false,
-      "marca": null,
-      "modelo": null,
-      "referencia": null,
-      "fonte": null
-    },
-    "revisao_catalogo": {
-      "status": "sem_correspondencia_poedagar_confirmada",
-      "relatorio": "docs/POEDAGAR_CATALOG.md"
-    }
-  },
-  {
-    "id": 10,
-    "nome": "Vras Palazzo 40mm",
-    "preco": 459.0,
-    "descricao": "Um classico de visual limpo com caixa equilibrada e brilho moderado.",
-    "imagem": "Gemini_Generated_Image_kqspgxkqspgxkqsp_1200x.png",
-    "categoria": "Maestro",
-    "destaque": false,
-    "identificacao": {
-      "confirmada": false,
-      "marca": null,
-      "modelo": null,
-      "referencia": null,
-      "fonte": null
-    },
-    "revisao_catalogo": {
-      "status": "sem_correspondencia_poedagar_confirmada",
-      "relatorio": "docs/POEDAGAR_CATALOG.md"
-    }
-  },
-  {
-    "id": 11,
-    "nome": "Vras Megir 42mm",
-    "preco": 399.0,
-    "descricao": "Relogio de presenca forte, com perfil esportivo e boa versatilidade para o dia a dia.",
-    "imagem": "128_667d1500-87fc-497a-bad6-93746f7d9e7c_1200x.jpg",
-    "categoria": "Esportivos",
-    "destaque": false,
-    "identificacao": {
-      "confirmada": false,
-      "marca": null,
-      "modelo": null,
-      "referencia": null,
-      "fonte": null
-    },
-    "revisao_catalogo": {
-      "status": "sem_correspondencia_poedagar_confirmada",
-      "relatorio": "docs/POEDAGAR_CATALOG.md"
-    }
-  },
-  {
-    "id": 12,
-    "nome": "Vras Berny 38mm",
-    "preco": 329.0,
-    "descricao": "Peca compacta com acabamento preciso e proposta minimalista para uso continuo.",
-    "imagem": "50_4c9ee022-801b-49a0-ac53-aec57125b2c9_1200x.jpg",
-    "categoria": "Esportivos",
-    "destaque": false,
-    "identificacao": {
-      "confirmada": false,
-      "marca": null,
-      "modelo": null,
-      "referencia": null,
-      "fonte": null
-    },
-    "revisao_catalogo": {
-      "status": "sem_correspondencia_poedagar_confirmada",
-      "relatorio": "docs/POEDAGAR_CATALOG.md"
-    }
+    "variantes_fonte": [
+      {
+        "source_sku": "201447598",
+        "source_sku_id": 253563659,
+        "title": "Relógio Poedagar Tempus Cinza",
+        "options": [
+          {
+            "name": "Cor",
+            "id": 4306761,
+            "value": "Cinza",
+            "value_id": 60556426
+          }
+        ],
+        "price_brl": 187.9,
+        "pix_brl": 178.51,
+        "source_blocked_sale": false,
+        "source_stock_status": "in_stock",
+        "case_color": null,
+        "strap_color": null,
+        "strap_type": null,
+        "attribute_status": "not_verified; source color labels do not distinguish dial/case/strap",
+        "image_urls_for_review_only": [
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/poedagar-sport-chronograph-quartz-watch-stainless-steel-waterproof-date-mens-watches-top-brand-luxury-watch-relogio-masc-kaqi-676075088ebcc-large.jpg",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/poedagar-sport-chronograph-quartz-watch-stainless-steel-waterproof-date-mens-watches-top-brand-luxury-watch-relogio-masc-kaqi-6760750bd39f0-large.jpg",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/poedagar-sport-chronograph-quartz-watch-stainless-steel-waterproof-date-mens-watches-top-brand-luxury-watch-relogio-masc-kaqi-6760750bb7a65-large.jpg",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-tempus-relogio-masculino-cinza-6770445780b12-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-tempus-relogio-masculino-cinza-67704458cc811-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-tempus-relogio-masculino-cinza-67704458d3ed8-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-tempus-relogio-masculino-cinza-677044584c25d-large.png"
+        ]
+      },
+      {
+        "source_sku": "201447303",
+        "source_sku_id": 253563660,
+        "title": "Relógio Poedagar Tempus Rose e Preto",
+        "options": [
+          {
+            "name": "Cor",
+            "id": 4306761,
+            "value": "Rose e Preto",
+            "value_id": 60538625
+          }
+        ],
+        "price_brl": 187.9,
+        "pix_brl": 178.51,
+        "source_blocked_sale": false,
+        "source_stock_status": "in_stock",
+        "case_color": null,
+        "strap_color": null,
+        "strap_type": null,
+        "attribute_status": "not_verified; source color labels do not distinguish dial/case/strap",
+        "image_urls_for_review_only": [
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/poedagar-sport-chronograph-quartz-watch-stainless-steel-waterproof-date-mens-watches-top-brand-luxury-watch-relogio-masc-rose-gold-black-6760750c59a7f-large.jpg",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/poedagar-sport-chronograph-quartz-watch-stainless-steel-waterproof-date-mens-watches-top-brand-luxury-watch-relogio-masc-rose-gold-black-6760750ef0e7a-large.jpg",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/poedagar-sport-chronograph-quartz-watch-stainless-steel-waterproof-date-mens-watches-top-brand-luxury-watch-relogio-masc-rose-gold-black-6760750c34ff9-large.jpg",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-tempus-relogio-masculino-rose-e-preto-67704458c922b-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-tempus-relogio-masculino-rose-e-preto-67704458cb893-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-tempus-relogio-masculino-rose-e-preto-6770445696425-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-tempus-relogio-masculino-rose-e-preto-67704458ca3c3-large.png"
+        ]
+      },
+      {
+        "source_sku": "200005100",
+        "source_sku_id": 253563661,
+        "title": "Relógio Poedagar Tempus Rose e Azul",
+        "options": [
+          {
+            "name": "Cor",
+            "id": 4306761,
+            "value": "Rose e Azul",
+            "value_id": 60556504
+          }
+        ],
+        "price_brl": 187.9,
+        "pix_brl": 178.51,
+        "source_blocked_sale": false,
+        "source_stock_status": "in_stock",
+        "case_color": null,
+        "strap_color": null,
+        "strap_type": null,
+        "attribute_status": "not_verified; source color labels do not distinguish dial/case/strap",
+        "image_urls_for_review_only": [
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/poedagar-sport-chronograph-quartz-watch-stainless-steel-waterproof-date-mens-watches-top-brand-luxury-watch-relogio-masc-rose-gold-blue-6760750c96214-large.jpg",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/poedagar-sport-chronograph-quartz-watch-stainless-steel-waterproof-date-mens-watches-top-brand-luxury-watch-relogio-masc-rose-gold-blue-6760750dc7f95-large.jpg",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/poedagar-sport-chronograph-quartz-watch-stainless-steel-waterproof-date-mens-watches-top-brand-luxury-watch-relogio-masc-rose-gold-blue-6760750dd0123-large.jpg",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-tempus-relogio-masculino-rose-e-azul-677044593296f-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-tempus-relogio-masculino-rose-e-azul-67704459ac4cc-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-tempus-relogio-masculino-rose-e-azul-67704458d0881-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-tempus-relogio-masculino-rose-e-azul-6770445b8c93a-large.png"
+        ]
+      },
+      {
+        "source_sku": "200000080",
+        "source_sku_id": 253563662,
+        "title": "Relógio Poedagar Tempus Preto",
+        "options": [
+          {
+            "name": "Cor",
+            "id": 4306761,
+            "value": "Preto",
+            "value_id": 60495596
+          }
+        ],
+        "price_brl": 187.9,
+        "pix_brl": 178.51,
+        "source_blocked_sale": false,
+        "source_stock_status": "in_stock",
+        "case_color": null,
+        "strap_color": null,
+        "strap_type": null,
+        "attribute_status": "not_verified; source color labels do not distinguish dial/case/strap",
+        "image_urls_for_review_only": [
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/poedagar-sport-chronograph-quartz-watch-stainless-steel-waterproof-date-mens-watches-top-brand-luxury-watch-relogio-masc-black-6760750d1cfb3-large.jpg",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/poedagar-sport-chronograph-quartz-watch-stainless-steel-waterproof-date-mens-watches-top-brand-luxury-watch-relogio-masc-black-6760750d376c6-large.jpg",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/poedagar-sport-chronograph-quartz-watch-stainless-steel-waterproof-date-mens-watches-top-brand-luxury-watch-relogio-masc-black-6760750f37a1f-large.jpg",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-tempus-relogio-masculino-preto-6770445a19505-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-tempus-relogio-masculino-preto-6770445b94035-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-tempus-relogio-masculino-preto-67704459371b2-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-tempus-relogio-masculino-preto-6770445b215fb-large.png"
+        ]
+      },
+      {
+        "source_sku": "100013777",
+        "source_sku_id": 253563663,
+        "title": "Relógio Poedagar Tempus Preto e Azul",
+        "options": [
+          {
+            "name": "Cor",
+            "id": 4306761,
+            "value": "Preto e Azul",
+            "value_id": 60556505
+          }
+        ],
+        "price_brl": 187.9,
+        "pix_brl": 178.51,
+        "source_blocked_sale": false,
+        "source_stock_status": "in_stock",
+        "case_color": null,
+        "strap_color": null,
+        "strap_type": null,
+        "attribute_status": "not_verified; source color labels do not distinguish dial/case/strap",
+        "image_urls_for_review_only": [
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/poedagar-sport-chronograph-quartz-watch-stainless-steel-waterproof-date-mens-watches-top-brand-luxury-watch-relogio-masc-black-blue-6760750d362a1-large.jpg",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/poedagar-sport-chronograph-quartz-watch-stainless-steel-waterproof-date-mens-watches-top-brand-luxury-watch-relogio-masc-black-blue-6760750ead669-large.jpg",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/poedagar-sport-chronograph-quartz-watch-stainless-steel-waterproof-date-mens-watches-top-brand-luxury-watch-relogio-masc-black-blue-6760750d83dd6-large.jpg",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-tempus-relogio-masculino-preto-e-azul-6770445bd6675-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-tempus-relogio-masculino-preto-e-azul-6770445bef86b-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-tempus-relogio-masculino-preto-e-azul-6770445bb8782-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-tempus-relogio-masculino-preto-e-azul-6770445bd1c34-large.png"
+        ]
+      },
+      {
+        "source_sku": "100005979",
+        "source_sku_id": 253563664,
+        "title": "Relógio Poedagar Tempus Prata e Preta",
+        "options": [
+          {
+            "name": "Cor",
+            "id": 4306761,
+            "value": "Prata e Preta",
+            "value_id": 60528427
+          }
+        ],
+        "price_brl": 187.9,
+        "pix_brl": 178.51,
+        "source_blocked_sale": false,
+        "source_stock_status": "out_of_stock",
+        "case_color": null,
+        "strap_color": null,
+        "strap_type": null,
+        "attribute_status": "not_verified; source color labels do not distinguish dial/case/strap",
+        "image_urls_for_review_only": [
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/poedagar-sport-chronograph-quartz-watch-stainless-steel-waterproof-date-mens-watches-top-brand-luxury-watch-relogio-masc-silver-black-6760750bd5513-large.jpg",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/poedagar-sport-chronograph-quartz-watch-stainless-steel-waterproof-date-mens-watches-top-brand-luxury-watch-relogio-masc-silver-black-6760750fe6c6b-large.jpg",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/poedagar-sport-chronograph-quartz-watch-stainless-steel-waterproof-date-mens-watches-top-brand-luxury-watch-relogio-masc-silver-black-6760750e5d6ff-large.jpg",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-tempus-relogio-masculino-prata-e-preta-6770445b0e9bd-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-tempus-relogio-masculino-prata-e-preta-6770445d40fb3-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-tempus-relogio-masculino-prata-e-preta-6770445d87120-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-tempus-relogio-masculino-prata-e-preta-6770445ba30d4-large.png"
+        ]
+      },
+      {
+        "source_sku": "350686",
+        "source_sku_id": 253563665,
+        "title": "Relógio Poedagar Tempus Azul",
+        "options": [
+          {
+            "name": "Cor",
+            "id": 4306761,
+            "value": "Azul",
+            "value_id": 60495595
+          }
+        ],
+        "price_brl": 187.9,
+        "pix_brl": 178.51,
+        "source_blocked_sale": false,
+        "source_stock_status": "in_stock",
+        "case_color": null,
+        "strap_color": null,
+        "strap_type": null,
+        "attribute_status": "not_verified; source color labels do not distinguish dial/case/strap",
+        "image_urls_for_review_only": [
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/poedagar-sport-chronograph-quartz-watch-stainless-steel-waterproof-date-mens-watches-top-brand-luxury-watch-relogio-masc-silver-blue-6760750ed3727-large.jpg",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/poedagar-sport-chronograph-quartz-watch-stainless-steel-waterproof-date-mens-watches-top-brand-luxury-watch-relogio-masc-silver-blue-6760750ee1acb-large.jpg",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/poedagar-sport-chronograph-quartz-watch-stainless-steel-waterproof-date-mens-watches-top-brand-luxury-watch-relogio-masc-silver-blue-6760750fa0f23-large.jpg",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-tempus-relogio-masculino-azul-6770445dc2d31-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-tempus-relogio-masculino-azul-6770445e03f32-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-tempus-relogio-masculino-azul-6770445bac867-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-tempus-relogio-masculino-azul-6770445bdde0d-large.png"
+        ]
+      },
+      {
+        "source_sku": "350850",
+        "source_sku_id": 253563666,
+        "title": "Relógio Poedagar Tempus Branco",
+        "options": [
+          {
+            "name": "Cor",
+            "id": 4306761,
+            "value": "Branco",
+            "value_id": 60495598
+          }
+        ],
+        "price_brl": 187.9,
+        "pix_brl": 178.51,
+        "source_blocked_sale": false,
+        "source_stock_status": "in_stock",
+        "case_color": null,
+        "strap_color": null,
+        "strap_type": null,
+        "attribute_status": "not_verified; source color labels do not distinguish dial/case/strap",
+        "image_urls_for_review_only": [
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/poedagar-sport-chronograph-quartz-watch-stainless-steel-waterproof-date-mens-watches-top-brand-luxury-watch-relogio-masc-silver-white-6760750e01bc4-large.jpg",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/poedagar-sport-chronograph-quartz-watch-stainless-steel-waterproof-date-mens-watches-top-brand-luxury-watch-relogio-masc-silver-white-6760750e302e8-large.jpg",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/poedagar-sport-chronograph-quartz-watch-stainless-steel-waterproof-date-mens-watches-top-brand-luxury-watch-relogio-masc-silver-white-6760750ede31b-large.jpg",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-tempus-relogio-masculino-branco-6770445da393f-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-tempus-relogio-masculino-branco-6770445cc6de4-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-tempus-relogio-masculino-branco-6770445bdaeda-large.png",
+          "https://images.yampi.me/assets/stores/poedagar8/uploads/images/relogio-poedagar-tempus-relogio-masculino-branco-6770445be4cf4-large.png"
+        ]
+      }
+    ],
+    "pendencias": [
+      "referência de fabricante e identidade física",
+      "variante efetivamente vendida pela VRAS",
+      "fotografias originais autorizadas por variante",
+      "aprovação de preço pelo proprietário",
+      "confirmação da oferta VRAS sem inferir estoque da fonte"
+    ]
   }
 ]

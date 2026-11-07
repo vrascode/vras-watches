@@ -16,14 +16,16 @@ from django.test import TestCase
 from django.contrib.staticfiles.testing import StaticLiveServerTestCase
 
 from loja import services
+from loja.testing_catalog import archived_catalog_test, legacy_catalog
 
 
+@archived_catalog_test
 class ConfirmedCatalogTests(TestCase):
     def setUp(self):
         self.directory = tempfile.TemporaryDirectory()
         self.addCleanup(self.directory.cleanup)
         self.path = Path(self.directory.name) / "products.json"
-        self.products = json.loads((settings.BASE_DIR / "data/products.json").read_text(encoding="utf-8"))
+        self.products = legacy_catalog()
         identity = {"confirmada": True, "marca": "Marca QA", "modelo": "Modelo de teste",
                     "referencia": "TEST-ONLY", "fonte": "https://supplier.example.test/manual"}
         for product, color in zip(self.products[:2], ["Azul de teste", "Preto de teste"]):
@@ -146,7 +148,7 @@ class GalleryBrowserTests(StaticLiveServerTestCase):
                 path.write_bytes(png)
                 assets.append({"src": path.relative_to(settings.BASE_DIR / "static").as_posix(),
                                "alt": f"Fixture QA {name}", "origem": "Isolated test-only fixture", "autorizado": True})
-            catalog = json.loads((settings.BASE_DIR / "data/products.json").read_text(encoding="utf-8"))
+            catalog = legacy_catalog()
             for product, color in zip(catalog[:2], ["Azul de teste", "Preto de teste"]):
                 product["identificacao"] = {"confirmada": True, "marca": "Marca QA", "modelo": "Modelo de teste",
                                             "referencia": "TEST-ONLY", "fonte": "https://supplier.example.test/manual"}
@@ -159,7 +161,8 @@ class GalleryBrowserTests(StaticLiveServerTestCase):
                         "editorial": {"image": assets[0]}, "campaign": {"image": assets[1]},
                         "instagram": [{"permalink": "https://www.instagram.com/p/QA-test-only/", "image": assets[0]}]}
             env = {**os.environ, "QA_BASE_URL": self.live_server_url, "QA_CONFIRMED_FIXTURE": "1"}
-            with patch("loja.services.PRODUCTS_PATH", catalog_path), patch("loja.media.load_media", return_value=manifest):
+            with (patch("loja.services.PRODUCTS_PATH", catalog_path), patch("loja.media.load_media", return_value=manifest),
+                  patch("loja.services.publication_issues", return_value=[])):
                 result = subprocess.run(["node", "scripts/browser_qa.mjs"], cwd=settings.BASE_DIR,
                                         env=env, capture_output=True, text=True, timeout=90)
             self.assertEqual(result.returncode, 0, result.stdout + result.stderr)

@@ -79,10 +79,17 @@ def prepare_import(root, description, manifest, catalog):
         product_id = str(entry.get("produto_id", ""))
         if destination == "product" and (product_id not in products or entry.get("produto_confirmado") is not True):
             raise ValueError(f"{identity}: confirme a associação exata com um ID de produto existente.")
+        if destination == "product" and products[product_id].get("catalog_generation") == "poedagar-v1":
+            source_variant = entry.get("variante_fonte_id")
+            if type(source_variant) is not int or not any(v["source_sku_id"] == source_variant for v in products[product_id].get("variantes_fonte", [])):
+                raise ValueError(f"{identity}: informe variante_fonte_id correspondente à fotografia e registrada no catálogo.")
         if destination == "instagram" and not media.valid_instagram_permalink(entry.get("permalink")):
             raise ValueError(f"{identity}: informe o permalink real da publicação original.")
         original = input_file(root, entry.get("arquivo"))
-        prefix = (f"img/products/poedagar/{product_id}/{identity}" if destination == "product"
+        slug = products.get(product_id, {}).get("slug", product_id)
+        if destination == "product" and not re.fullmatch(r"[a-z0-9-]+", str(slug)):
+            raise ValueError(f"{identity}: slug inválido no catálogo.")
+        prefix = (f"img/products/poedagar/{slug}/{identity}" if destination == "product"
                   else f"img/brand/{identity}")
         provenance = f"{entry['origem']} | Autorização: {entry['comprovante']} | SHA256 original: {hashlib.sha256(original.read_bytes()).hexdigest()}"
         kind = entry.get("tipo", "image")
@@ -117,6 +124,13 @@ def prepare_import(root, description, manifest, catalog):
             raise ValueError(f"{identity}: tipo deve ser image ou video.")
         asset["import_id"] = identity
         if destination == "product":
+            asset["produto_id"] = int(product_id)
+            asset["catalog_generation"] = products[product_id].get("catalog_generation", "legacy")
+            asset["modelo"] = products[product_id].get("modelo")
+            asset["source_variant_id"] = entry.get("variante_fonte_id")
+            if kind == "video":
+                for field in ("produto_id", "catalog_generation", "modelo", "source_variant_id"):
+                    asset["poster"][field] = asset[field]
             group = result.setdefault("products", {}).setdefault(product_id, {})
             field = "images" if kind == "image" else "videos"
             collection = group.setdefault(field, [])

@@ -18,10 +18,12 @@ from django.test import Client, SimpleTestCase, TestCase, override_settings
 from django.urls import reverse
 
 from loja import media, services
+from loja.testing_catalog import archived_catalog_test
 from loja.templatetags.store_tags import product_json_ld
 from loja.staticfiles import ApprovedMediaFinder
 
 
+@archived_catalog_test
 class CatalogTests(SimpleTestCase):
     def test_all_twelve_products_and_original_media_references_preserved(self):
         catalog = services.get_products()
@@ -85,6 +87,7 @@ class CatalogTests(SimpleTestCase):
         self.assertFalse(ApprovedMediaFinder.allowed("img/products/other.webp", {"img/products/real.webp"}))
 
 
+@archived_catalog_test
 class MediaTests(SimpleTestCase):
     def setUp(self):
         self.directory = tempfile.TemporaryDirectory()
@@ -148,6 +151,7 @@ class MediaTests(SimpleTestCase):
             self.assertNotContains(response, "aggregateRating")
 
 
+@archived_catalog_test
 class CartTests(TestCase):
     def setUp(self):
         self.client = Client()
@@ -240,6 +244,7 @@ class CartTests(TestCase):
         self.assertContains(response, 'content="noindex,follow"')
 
 
+@archived_catalog_test
 class PageTests(TestCase):
     def test_personalized_html_not_cached_by_shared_proxies(self):
         for path in ["/", "/produtos/", "/produto/1/"]:

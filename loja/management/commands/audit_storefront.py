@@ -42,19 +42,23 @@ class Command(BaseCommand):
             if type(product_id) is not int or product_id <= 0 or product_id in ids:
                 errors.append(f"ID invalido ou duplicado: {product_id}")
             ids.add(product_id)
-            for field in ("nome", "descricao", "categoria", "imagem"):
+            for field in ("nome", "descricao", "categoria"):
                 if not isinstance(product.get(field), str) or not product[field].strip():
                     errors.append(f"Produto {product_id}: campo {field} invalido")
-            try:
-                price = Decimal(str(product.get("preco")))
-                if not price.is_finite() or price <= 0 or price.as_tuple().exponent < -2:
+            if product.get("status") not in {"rascunho", "publicado"}:
+                errors.append(f"Produto {product_id}: status deve ser rascunho ou publicado")
+            if product.get("preco") is not None or product.get("status") != "rascunho":
+                try:
+                    price = Decimal(str(product.get("preco")))
+                    if not price.is_finite() or price <= 0 or price.as_tuple().exponent < -2:
+                        errors.append(f"Produto {product_id}: preco invalido")
+                except InvalidOperation:
                     errors.append(f"Produto {product_id}: preco invalido")
-            except InvalidOperation:
-                errors.append(f"Produto {product_id}: preco invalido")
-            legacy = "img/products/" + product.get("imagem", "")
-            associations[legacy].append(f"{product_id}: {product.get('nome', '')}")
-            if not (settings.BASE_DIR / "static" / legacy).is_file():
-                self.stderr.write(f"LEGADO AUSENTE (bloqueado): {legacy}")
+            if product.get("imagem"):
+                legacy = "img/products/" + product["imagem"]
+                associations[legacy].append(f"{product_id}: {product.get('nome', '')}")
+                if not (settings.BASE_DIR / "static" / legacy).is_file():
+                    self.stderr.write(f"LEGADO AUSENTE (bloqueado): {legacy}")
             identity = product.get("identificacao", {})
             identity_valid = services.verified_record(identity, ("marca", "modelo", "referencia", "fonte"))
             if isinstance(identity, dict) and identity.get("confirmada") is True and not identity_valid:
@@ -71,6 +75,10 @@ class Command(BaseCommand):
                     if isinstance(entry, dict) and entry.get("confirmada") is True and not services.verified_record(entry, ("valor", "fonte")):
                         errors.append(f"Produto {product_id}: especificacao confirmada sem valor/fonte valida: {label}")
 
+        if not errors:
+            for product in services.get_products(include_drafts=True):
+                if product.get("status") == "publicado" and product["publication_issues"]:
+                    errors.append(f"Produto {product['id']}: publicação bloqueada: {', '.join(product['publication_issues'])}")
         approved = defaultdict(list)
         for destination, entry in manifest_assets({"manifest": manifest, "products": raw}):
             suffix = Path(entry.get("src", "")).suffix.lower()
@@ -108,5 +116,6 @@ class Command(BaseCommand):
             raise CommandError("\n".join(errors))
         self.stdout.write(self.style.SUCCESS(
             f"OK: {len(raw)} produtos, {len(ids)} IDs unicos, {len(files)} midias locais, "
-            f"{len(approved)} arquivos aprovados, {len(manifest.get('instagram', []))} posts."
+            f"{len(approved)} arquivos aprovados, {len(manifest.get('instagram', []))} posts, "
+            f"{sum(p.get('status') == 'rascunho' for p in raw)} rascunhos."
         ))

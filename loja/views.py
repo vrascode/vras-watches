@@ -17,6 +17,7 @@ def home(request):
     manifest = media.load_media()
     catalog = services.get_products()
     return render(request, "loja/home.html", {
+        "catalog_pending": not catalog,
         "featured_products": services.get_featured_products(catalog),
         "new_products": services.get_new_products(catalog),
         "collections": services.get_collections(catalog),
@@ -42,11 +43,12 @@ def products(request):
     products_list = services.filter_products(category=category, query=query, sort=sort)
     return render(request, "loja/products.html", {
         "products": products_list, "collections": services.get_collections(),
+        "catalog_pending": not services.get_products(),
         "selected_category": next((c for c in services.get_categories()
                                    if services.normalize(c) == services.normalize(category)), category),
         "search_query": query, "product_count": len(products_list),
         "sort_options": services.SORT_OPTIONS, "selected_sort": sort,
-        "meta_description": "Explore o cat\u00e1logo VRAS Watches: Cl\u00e1ssicos, Maestro, Seleção VRAS, Lan\u00e7amentos e Esportivos.",
+        "meta_description": "Conheça a coleção Poedagar da VRAS Watches e encontre seu próximo relógio.",
         "noindex": bool(query or category or sort != "destaques"),
     })
 
@@ -54,13 +56,16 @@ def products(request):
 @require_safe
 @never_cache
 def product_detail(request, id):
+    if services.is_retired_product(id):
+        messages.info(request, "O catálogo foi atualizado. Consulte a nova coleção VRAS Watches.")
+        return redirect("loja:products")
     product = services.get_product(id)
     if not product:
         raise Http404("Produto nao encontrado")
     related = [p for p in services.get_products() if p["id"] != id]
     related.sort(key=lambda p: p["categoria"] != product["categoria"])
     structured = None
-    if settings.SITE_URL and product["cover"]:
+    if settings.SITE_URL and product["cover"] and product["can_purchase"]:
         structured = {"@context": "https://schema.org", "@type": "Product", "name": product["nome"],
                       "description": product["descricao"],
                       "image": [settings.SITE_URL + image["url"] for image in product["images"]],
