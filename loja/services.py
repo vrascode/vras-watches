@@ -1,26 +1,58 @@
 import json
+import unicodedata
+from decimal import Decimal
 from pathlib import Path
 
 from django.conf import settings
 
+from loja import media
 
 PRODUCTS_PATH = settings.BASE_DIR / "data" / "products.json"
 CART_SESSION_KEY = "cart"
+MAX_QUANTITY = 99
+CATEGORY_LABELS = {"Classicos": "Cl\u00e1ssicos", "Lancamentos": "Lan\u00e7amentos"}
+SORT_OPTIONS = {"destaques": "Destaques", "preco_asc": "Menor pre\u00e7o",
+                "preco_desc": "Maior pre\u00e7o", "nome": "Nome: A a Z", "nome_desc": "Nome: Z a A"}
+
+
+def normalize(value):
+    return "".join(char for char in unicodedata.normalize("NFKD", value.casefold())
+                   if not unicodedata.combining(char))
 
 
 def format_brl(value):
-    return f"R$ {float(value):,.2f}".replace(",", "X").replace(".", ",").replace("X", ".")
-
-
-def _with_prices(product):
-    product = product.copy()
-    product["preco_brl"] = format_brl(product["preco"])
-    return product
+    return f"R$ {Decimal(str(value)):,.2f}".replace(",", "X").replace(".", ",").replace("X", ".")
 
 
 def get_products():
-    with Path(PRODUCTS_PATH).open(encoding="utf-8") as products_file:
-        return [_with_prices(product) for product in json.load(products_file)]
+    manifest = media.load_media()
+    with Path(PRODUCTS_PATH).open(encoding="utf-8") as source:
+        raw = json.load(source, parse_float=Decimal)
+    products = []
+    for item in raw:
+        product = item.copy()
+        product["preco"] = Decimal(str(product["preco"]))
+        product["preco_brl"] = format_brl(product["preco"])
+        product["category_label"] = CATEGORY_LABELS.get(product["categoria"], product["categoria"])
+        product["is_new"] = normalize(product["categoria"]) == "lancamentos"
+        product_media = manifest.get("products", {}).get(str(product["id"]), {})
+        # Legacy filenames are preserved, but are not proof of authorization.
+        images = product_media.get("images", product.get("galeria", []))
+        videos = product_media.get("videos", product.get("videos", []))
+        product["images"] = [asset for entry in images if (asset := media.local_asset(entry))]
+        product["videos"] = [asset for entry in videos if (asset := media.local_asset(entry, "video"))]
+        product["cover"] = media.local_asset(product_media.get("cover", product.get("capa")))
+        if not product["cover"]:
+            product["cover"] = next(iter(product["images"]), None)
+        if not product["cover"] and product["videos"]:
+            product["cover"] = product["videos"][0]["poster"]
+        if product["cover"] and product["cover"] not in product["images"]:
+            product["images"].insert(0, product["cover"])
+        product["secondary_image"] = product["images"][1] if len(product["images"]) > 1 else None
+        product["preview_video"] = next(iter(product["videos"]), None)
+        product["specifications"] = product.get("especificacoes", {})
+        products.append(product)
+    return products
 
 
 def get_featured_products():
@@ -28,7 +60,10 @@ def get_featured_products():
 
 
 def get_product(product_id):
-    product_id = int(product_id)
+    try:
+        product_id = int(product_id)
+    except (TypeError, ValueError):
+        return None
     return next((product for product in get_products() if product["id"] == product_id), None)
 
 
@@ -36,87 +71,86 @@ def get_categories():
     return sorted({product["categoria"] for product in get_products()})
 
 
-def filter_products(category=None, query=None):
+def get_collections():
+    catalog = get_products()
+    return [{"name": category, "label": CATEGORY_LABELS.get(category, category),
+             "count": sum(product["categoria"] == category for product in catalog),
+             "cover": next((product["cover"] for product in catalog
+                            if product["categoria"] == category and product["cover"]), None)}
+            for category in ["Classicos", "Maestro", "Best Sellers", "Lancamentos", "Esportivos"]]
+
+
+def filter_products(category=None, query=None, sort="destaques"):
     products = get_products()
-
     if category:
-        products = [
-            product for product in products
-            if product["categoria"].lower() == category.lower()
-        ]
-
+        products = [p for p in products if normalize(p["categoria"]) == normalize(category)]
     if query:
-        search = query.lower()
-        products = [
-            product for product in products
-            if search in product["nome"].lower()
-            or search in product["descricao"].lower()
-            or search in product["categoria"].lower()
-        ]
-
-    return products
+        search = normalize(query)
+        products = [p for p in products if search in normalize(
+            " ".join([p["nome"], p["descricao"], p["categoria"]]))]
+    if sort in {"preco_asc", "preco_desc"}:
+        return sorted(products, key=lambda p: p["preco"], reverse=sort == "preco_desc")
+    if sort in {"nome", "nome_desc"}:
+        return sorted(products, key=lambda p: normalize(p["nome"]), reverse=sort == "nome_desc")
+    return sorted(products, key=lambda p: not p.get("destaque", False))
 
 
 def get_cart(session):
-    return session.get(CART_SESSION_KEY, {})
+    stored = session.get(CART_SESSION_KEY, {})
+    if not isinstance(stored, dict):
+        return {}
+    valid_ids = {str(p["id"]) for p in get_products()}
+    return {str(key): min(value, MAX_QUANTITY) for key, value in stored.items()
+            if str(key) in valid_ids and type(value) is int and value > 0}
 
 
 def cart_count(session):
     return sum(get_cart(session).values())
 
 
-def add_to_cart(session, product_id):
+def set_quantity(session, product_id, quantity):
+    if type(quantity) is not int or not 0 <= quantity <= MAX_QUANTITY:
+        raise ValueError("Quantidade deve estar entre 0 e 99.")
+    if not get_product(product_id):
+        raise ValueError("Produto nao encontrado.")
     cart = get_cart(session).copy()
-    product_id = str(product_id)
-    cart[product_id] = cart.get(product_id, 0) + 1
+    key = str(product_id)
+    if quantity:
+        cart[key] = quantity
+    else:
+        cart.pop(key, None)
     session[CART_SESSION_KEY] = cart
     session.modified = True
+
+
+def add_to_cart(session, product_id):
+    current = get_cart(session).get(str(product_id), 0)
+    if current >= MAX_QUANTITY:
+        raise ValueError("Limite de 99 unidades por modelo.")
+    set_quantity(session, product_id, current + 1)
 
 
 def remove_from_cart(session, product_id):
-    cart = get_cart(session).copy()
-    product_id = str(product_id)
-
-    if product_id in cart:
-        if cart[product_id] > 1:
-            cart[product_id] -= 1
-        else:
-            cart.pop(product_id)
-
-    session[CART_SESSION_KEY] = cart
-    session.modified = True
+    set_quantity(session, product_id, max(0, get_cart(session).get(str(product_id), 0) - 1))
 
 
 def get_cart_items(session):
+    catalog = {str(p["id"]): p for p in get_products()}
     items = []
-
     for product_id, quantity in get_cart(session).items():
-        product = get_product(product_id)
-        if product:
-            subtotal = product["preco"] * quantity
-            items.append({
-                "product": product,
-                "quantity": quantity,
-                "unit_price": product["preco"],
-                "subtotal": subtotal,
-                "subtotal_brl": format_brl(subtotal),
-            })
-
+        product = catalog[product_id]
+        subtotal = product["preco"] * quantity
+        items.append({"product": product, "quantity": quantity, "unit_price": product["preco"],
+                      "subtotal": subtotal, "subtotal_brl": format_brl(subtotal)})
     return items
 
 
 def cart_total(session):
-    return sum(item["subtotal"] for item in get_cart_items(session))
+    return sum((item["subtotal"] for item in get_cart_items(session)), Decimal("0.00"))
 
 
 def cart_summary(session):
     items = get_cart_items(session)
-    total = sum(item["subtotal"] for item in items)
-    quantity = sum(item["quantity"] for item in items)
-
-    return {
-        "items": items,
-        "quantity": quantity,
-        "total": total,
-        "total_brl": format_brl(total),
-    }
+    total = sum((item["subtotal"] for item in items), Decimal("0.00"))
+    return {"items": items, "quantity": sum(item["quantity"] for item in items),
+            "total": total, "total_brl": format_brl(total)}
