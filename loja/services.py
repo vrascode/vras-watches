@@ -2,6 +2,7 @@ import json
 import unicodedata
 from decimal import Decimal
 from pathlib import Path
+from urllib.parse import urlsplit
 
 from django.conf import settings
 
@@ -22,6 +23,19 @@ def normalize(value):
 
 def format_brl(value):
     return f"R$ {Decimal(str(value)):,.2f}".replace(",", "X").replace(".", ",").replace("X", ".")
+
+
+def verified_record(record, fields):
+    """A supplier listing alone does not establish the identity of a local SKU."""
+    if (not isinstance(record, dict) or record.get("confirmada") is not True
+            or not all(isinstance(record.get(key), str) and record[key].strip() for key in fields)
+            or not isinstance(record.get("fonte"), str)):
+        return False
+    try:
+        origin = urlsplit(record["fonte"])
+        return origin.scheme == "https" and bool(origin.hostname) and not origin.username and not origin.password
+    except ValueError:
+        return False
 
 
 def get_products():
@@ -50,13 +64,44 @@ def get_products():
             product["images"].insert(0, product["cover"])
         product["secondary_image"] = product["images"][1] if len(product["images"]) > 1 else None
         product["preview_video"] = next(iter(product["videos"]), None)
-        product["specifications"] = product.get("especificacoes", {})
+        product["gallery_items"] = ([{"image": asset, "video": None} for asset in product["images"]]
+                                    + [{"image": asset["poster"], "video": asset} for asset in product["videos"]])
+        identity = product.get("identificacao", {})
+        product["verified_identity"] = identity if verified_record(
+            identity, ("marca", "modelo", "referencia", "fonte")) else None
+        variant = product.get("variante", {})
+        product["verified_variant"] = variant if product["verified_identity"] and verified_record(
+            variant, ("cor", "pulseira", "fonte")) else None
+        product["specifications"] = {
+            label: entry["valor"] for label, entry in product.get("especificacoes", {}).items()
+            if verified_record(entry, ("valor", "fonte"))
+        }
         products.append(product)
+    # Each confirmed color/strap combination has its own existing product ID and cart line.
+    # Navigation works without JavaScript and never borrows the current product's price/media.
+    for product in products:
+        product["variant_options"] = []
+        identity = product["verified_identity"]
+        if not identity or not product["verified_variant"]:
+            continue
+        group = tuple(normalize(identity[key]) for key in ("marca", "modelo", "referencia"))
+        for candidate in products:
+            other = candidate["verified_identity"]
+            variant = candidate["verified_variant"]
+            if other and variant and group == tuple(normalize(other[key]) for key in ("marca", "modelo", "referencia")):
+                product["variant_options"].append({
+                    "id": candidate["id"], "label": f"{variant['cor']} / {variant['pulseira']}",
+                    "selected": candidate["id"] == product["id"],
+                })
     return products
 
 
 def get_featured_products():
     return [product for product in get_products() if product.get("destaque")]
+
+
+def get_new_products():
+    return [product for product in get_products() if product["is_new"]]
 
 
 def get_product(product_id):
@@ -87,7 +132,11 @@ def filter_products(category=None, query=None, sort="destaques"):
     if query:
         search = normalize(query)
         products = [p for p in products if search in normalize(
-            " ".join([p["nome"], p["descricao"], p["categoria"]]))]
+            " ".join([p["nome"], p["descricao"], p["categoria"]]
+                     + [p["verified_identity"][key] for key in ("marca", "modelo", "referencia")
+                        if p["verified_identity"]]
+                     + [p["verified_variant"][key] for key in ("cor", "pulseira")
+                        if p["verified_variant"]]))]
     if sort in {"preco_asc", "preco_desc"}:
         return sorted(products, key=lambda p: p["preco"], reverse=sort == "preco_desc")
     if sort in {"nome", "nome_desc"}:

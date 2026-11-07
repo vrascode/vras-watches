@@ -17,6 +17,7 @@ def home(request):
     manifest = media.load_media()
     return render(request, "loja/home.html", {
         "featured_products": services.get_featured_products(),
+        "new_products": services.get_new_products(),
         "collections": services.get_collections(),
         "hero_media": media.section_media(manifest, "hero"),
         "editorial_media": media.section_media(manifest, "editorial"),

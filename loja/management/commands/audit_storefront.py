@@ -55,6 +55,21 @@ class Command(BaseCommand):
             associations[legacy].append(f"{product_id}: {product.get('nome', '')}")
             if not (settings.BASE_DIR / "static" / legacy).is_file():
                 self.stderr.write(f"LEGADO AUSENTE (bloqueado): {legacy}")
+            identity = product.get("identificacao", {})
+            identity_valid = services.verified_record(identity, ("marca", "modelo", "referencia", "fonte"))
+            if isinstance(identity, dict) and identity.get("confirmada") is True and not identity_valid:
+                errors.append(f"Produto {product_id}: identificacao marcada confirmada sem referencia/fonte valida")
+            variant = product.get("variante", {})
+            if isinstance(variant, dict) and variant.get("confirmada") is True and (
+                    not identity_valid or not services.verified_record(variant, ("cor", "pulseira", "fonte"))):
+                errors.append(f"Produto {product_id}: variante confirmada sem identidade/cor/pulseira/fonte valida")
+            specs = product.get("especificacoes", {})
+            if not isinstance(specs, dict):
+                errors.append(f"Produto {product_id}: especificacoes devem ser um objeto")
+            else:
+                for label, entry in specs.items():
+                    if isinstance(entry, dict) and entry.get("confirmada") is True and not services.verified_record(entry, ("valor", "fonte")):
+                        errors.append(f"Produto {product_id}: especificacao confirmada sem valor/fonte valida: {label}")
 
         approved = defaultdict(list)
         for destination, entry in manifest_assets({"manifest": manifest, "products": raw}):

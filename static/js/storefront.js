@@ -190,19 +190,44 @@
         const counter = gallery.querySelector("[data-gallery-position]");
         const previous = gallery.querySelector("[data-gallery-prev]");
         const next = gallery.querySelector("[data-gallery-next]");
-        const move = direction => track.scrollBy({ left: direction * track.clientWidth, behavior: reducedMotion.matches ? "instant" : "smooth" });
+        const thumbnails = [...gallery.querySelectorAll("[data-gallery-index]")];
+        let activeIndex = 0;
+        const select = index => track.scrollTo({
+            left: Math.max(0, Math.min(index, track.children.length - 1)) * track.clientWidth,
+            behavior: reducedMotion.matches ? "instant" : "smooth",
+        });
+        const move = direction => select(activeIndex + direction);
         const update = () => {
-            const current = Math.round(track.scrollLeft / track.clientWidth);
+            if (!track.clientWidth) return;
+            const current = Math.max(0, Math.min(track.children.length - 1, Math.round(track.scrollLeft / track.clientWidth)));
+            if (current !== activeIndex) {
+                [...track.children].forEach((slide, index) => {
+                    if (index !== current) slide.querySelectorAll("video").forEach(video => video.pause());
+                });
+            }
+            activeIndex = current;
             if (counter) counter.textContent = `${current + 1} / ${track.children.length}`;
             if (previous) previous.disabled = current === 0;
             if (next) next.disabled = current >= track.children.length - 1;
+            thumbnails.forEach((thumbnail, index) => {
+                if (index === current) thumbnail.setAttribute("aria-current", "true");
+                else thumbnail.removeAttribute("aria-current");
+            });
         };
+        gallery.classList.add("gallery-enhanced");
+        thumbnails.forEach(thumbnail => thumbnail.addEventListener("click", () => select(Number(thumbnail.dataset.galleryIndex))));
         previous?.addEventListener("click", () => move(-1));
         next?.addEventListener("click", () => move(1));
         track.addEventListener("scroll", update, { passive: true });
         track.addEventListener("keydown", event => {
+            if (event.target.closest("video, input, select")) return;
             if (event.key === "ArrowRight" || event.key === "ArrowLeft") { event.preventDefault(); move(event.key === "ArrowRight" ? 1 : -1); }
+            if (event.key === "Home" || event.key === "End") { event.preventDefault(); select(event.key === "Home" ? 0 : track.children.length - 1); }
         });
+        if ("ResizeObserver" in window) new ResizeObserver(() => {
+            track.scrollTo({ left: activeIndex * track.clientWidth, behavior: "instant" });
+            update();
+        }).observe(track);
         update();
     });
     document.querySelector("[data-share]")?.addEventListener("click", async event => {
