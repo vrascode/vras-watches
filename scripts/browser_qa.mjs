@@ -63,6 +63,7 @@ try {
     await send("Runtime.enable");
     await send("Network.enable");
     await send("Network.clearBrowserCookies");
+    await go("/");
     if (process.env.QA_CONFIRMED_FIXTURE === "1") {
         // Used only by the isolated Django live-server test, with fictional records.
         const checks = [];
@@ -99,10 +100,13 @@ try {
                 }
                 await send("Input.dispatchTouchEvent", { type: "touchEnd", touchPoints: [] });
                 await waitFor("document.querySelector('[data-gallery-position]').textContent === '2 / 2'");
+                // Counter changes during the swipe; wait for scroll snapping/inertia to finish.
+                await waitFor("Math.abs(document.querySelector('[data-gallery-track]').scrollLeft - document.querySelector('[data-gallery-track]').clientWidth) < 2");
+                await sleep(180);
+                await send("Emulation.setTouchEmulationEnabled", { enabled: false });
                 await evaluate("document.querySelector('[data-gallery-index=\"0\"]').click()");
                 await waitFor("document.querySelector('[data-gallery-position]').textContent === '1 / 2'");
                 assert.equal(await evaluate("getComputedStyle(document.querySelector('.detail-purchase')).position"), "fixed");
-                await send("Emulation.setTouchEmulationEnabled", { enabled: false });
             }
             await evaluate("document.querySelector('[data-zoom]').click()");
             await waitFor("document.querySelector('[data-zoom-dialog]').open");
@@ -145,6 +149,55 @@ try {
         const report = { fictionalFixturesOnly: true, checks, variantNavigationAndCart: "passed", resize: "passed", browserErrors, networkErrors };
         await writeFile("artifacts/gallery-browser-report.json", JSON.stringify(report, null, 2));
         console.log(JSON.stringify(report, null, 2));
+    } else if (await evaluate("document.querySelector('.catalog-preparation') !== null")) {
+        // The production catalog intentionally contains only unpublished drafts.
+        const results = [];
+        for (const width of [360, 390, 768, 1024, 1440]) {
+            await send("Emulation.setDeviceMetricsOverride", { width, height: 900, deviceScaleFactor: 1, mobile: width < 600 });
+            for (const [name, path] of [["home", "/"], ["catalog", "/produtos/"], ["cart", "/carrinho/"]]) {
+                await go(path);
+                assert.ok(await evaluate("document.documentElement.scrollWidth <= innerWidth + 1"));
+                assert.equal(await evaluate("document.querySelectorAll('[data-product-card], [data-add-cart]').length"), 0);
+                assert.equal(await evaluate("document.body.textContent.includes('R$')"), false);
+                assert.equal(await evaluate("document.querySelectorAll('[type=\"application/ld+json\"]').length"), 0);
+                const screenshot = await send("Page.captureScreenshot", { format: "png", captureBeyondViewport: false });
+                await writeFile(`artifacts/migration-${name}-${width}.png`, Buffer.from(screenshot.data, "base64"));
+                results.push({ width, page: name, noDraftLeak: true, noOverflow: true });
+            }
+        }
+        await send("Emulation.setDeviceMetricsOverride", { width: 390, height: 844, deviceScaleFactor: 1, mobile: true });
+        await go("/");
+        await evaluate("document.querySelector('[data-menu-toggle]').click()");
+        assert.equal(await evaluate("document.querySelector('#mobile-menu').open"), true);
+        for (let index = 0; index < 9; index++) {
+            await key("Tab");
+            assert.ok(await evaluate("document.activeElement.closest('#mobile-menu') !== null"));
+        }
+        await key("Escape");
+        await waitFor("!document.querySelector('#mobile-menu').open");
+        await go("/produtos/?q=Army&categoria=Poedagar&ordem=preco_asc");
+        assert.equal(await evaluate("document.querySelectorAll('[data-product-card]').length"), 0);
+        assert.ok(await evaluate("document.querySelector('.empty-state').textContent.includes('Coleção em preparação')"));
+        for (let id = 1; id <= 12; id++) {
+            const result = await evaluate(`fetch('/produto/${id}/').then(r => ({status:r.status, redirected:r.redirected, url:r.url}))`);
+            assert.equal(result.status, 200);
+            assert.equal(result.redirected, true);
+            assert.ok(result.url.endsWith("/produtos/"));
+        }
+        for (let id = 13; id <= 24; id++) {
+            assert.equal(await evaluate(`fetch('/produto/${id}/').then(r => r.status)`), 404);
+        }
+        // Chrome logs an expected failed-resource message for each intentional draft 404.
+        const unexpectedNetwork = networkErrors.filter(error => !(error.status === 404 && /\/produto\/(1[3-9]|2[0-4])\/$/.test(error.url)));
+        const unexpectedBrowser = browserErrors.filter(error => !Array.isArray(error) || !error.some(arg => (arg.value || "").includes("404")));
+        assert.equal(unexpectedNetwork.length, 0, JSON.stringify(unexpectedNetwork));
+        assert.equal(unexpectedBrowser.length, 0, JSON.stringify(unexpectedBrowser));
+        const report = { mode: "draft-catalog-migration", results, retiredRedirects: 12, protectedDrafts: 12,
+                         intentionalDraft404s: networkErrors.filter(error => error.status === 404).length,
+                         browserErrors: unexpectedBrowser, networkErrors: unexpectedNetwork };
+        await writeFile("artifacts/migration-browser-report.json", JSON.stringify(report, null, 2));
+        console.log(JSON.stringify({ mode: report.mode, screenshots: results.length, retiredRedirects: 12,
+                                    protectedDrafts: 12, browserErrors: unexpectedBrowser, networkErrors: unexpectedNetwork }, null, 2));
     } else {
     const results = [];
     for (const width of [360, 390, 768, 1024, 1440]) {

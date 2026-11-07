@@ -10,7 +10,7 @@
         <p class="eyebrow">{{ product.category_label }}{% if product.is_new %} / Lan&ccedil;amento{% endif %}</p>
         <h1>{{ product.nome }}</h1>
         {% if product.verified_identity %}<p class="model-reference">{{ product.verified_identity.marca }} / {{ product.verified_identity.modelo }} / Ref. {{ product.verified_identity.referencia }}</p>{% endif %}
-        <p class="detail-price">{{ product.preco_brl }}</p>
+        {% if product.can_purchase %}<p class="detail-price">{{ product.preco_brl }}</p>{% endif %}
         <p class="detail-description">{{ product.descricao_detalhada|default:product.descricao }}</p>
         {% if product.verified_variant %}
         <div class="product-variants">
@@ -23,10 +23,10 @@
             {% endif %}
         </div>
         {% endif %}
-        <form class="detail-purchase" action="{% url 'loja:add_to_cart' product.id %}" method="post" data-add-cart>
+        {% if product.can_purchase %}<form class="detail-purchase" action="{% url 'loja:add_to_cart' product.id %}" method="post" data-add-cart>
             {% csrf_token %}<input type="hidden" name="next" value="{{ request.path }}">
             <span class="mobile-purchase-price" aria-hidden="true">{{ product.preco_brl }}</span><button class="button button-dark full-width" type="submit">Adicionar ao carrinho <span aria-hidden="true">+</span></button>
-        </form>
+        </form>{% endif %}
         <div class="product-secondary-actions"><a href="{% url 'loja:cart' %}" class="text-link">Ver carrinho &#8594;</a><button class="text-link" type="button" data-share data-share-title="{{ product.nome }}" title="Compartilhar produto">Compartilhar &#8599;</button></div>
         <details class="product-details" open>
             <summary>Sobre o modelo</summary><p>{{ product.descricao }}</p>
