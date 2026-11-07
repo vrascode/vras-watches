@@ -156,6 +156,19 @@ Sem `SITE_URL`, canonical e sitemap com URLs absolutas ficam omitidos; nenhum do
 
 ## Testes
 
+A pesquisa Poedagar de 07/11/2026 está em [docs/POEDAGAR_PRICES.md](docs/POEDAGAR_PRICES.md),
+com 18 anúncios e 82 variantes. A [tabela de correspondência](docs/POEDAGAR_CATALOG.md)
+documenta os 12 produtos preservados e as pendências. Nenhum preço ou foto do
+concorrente é publicado automaticamente. Os metadados de consulta não são carregados
+pelas views. `python scripts/review_poedagar.py` regenera os relatórios offline;
+`--refresh` atualiza apenas a pesquisa por HTTP público, sem baixar fotografias.
+O [relatório de entrega](docs/POEDAGAR_DELIVERY.md) reúne arquivos, testes, commits e aprovações pendentes.
+
+As galerias têm miniaturas, zoom, setas, Home/End e suporte a movimento reduzido.
+O contrato para cadastrar identidade, variantes e especificações confirmadas está
+em [docs/POEDAGAR_CATALOG.md](docs/POEDAGAR_CATALOG.md). A seleção de cor/pulseira
+usa IDs próprios e preserva preço, fotografia e carrinho de cada SKU.
+
 ```powershell
 python manage.py check
 python manage.py test --verbosity 2
@@ -166,6 +179,13 @@ node --check static/js/storefront.js
 O comando de inventario gera `docs/MEDIA_INVENTORY.csv`, incluindo hash SHA-256, formato, tamanho, associacao conhecida, origem, destino e status de cada arquivo. Valida referencias, autorizacao, IDs e precos. Nao certifica autoria, conteudo, codec ou integridade visual automaticamente.
 
 QA de navegador opcional, sem dependencias npm: inicie Chrome/Chromium com perfil **isolado** e depuracao restrita a `127.0.0.1:9333`, mantenha Django na porta 8000 e execute `node scripts/browser_qa.mjs`. Configure `QA_BASE_URL` e `QA_DEBUG_URL` para outras portas. Nunca exponha a porta de depuracao nem reutilize seu perfil pessoal. O script salva screenshots e relatorio em `artifacts/`, testa cinco larguras e o fluxo de carrinho, menu, teclado e movimento reduzido. Veja limites e resultados em [VALIDATION.md](docs/VALIDATION.md).
+
+Para testar galerias e variantes com fixtures fictícias isoladas, mantenha o Chrome
+de QA ativo e execute `$env:VRAS_BROWSER_QA='1'` e `python manage.py test loja.test_poedagar.GalleryBrowserTests`.
+Esse teste inicia seu próprio servidor Django, usa duas imagens sólidas temporárias
+e registros fictícios somente no processo de teste, e remove os arquivos ao terminar.
+Não modifica o catálogo ou o manifesto publicados. O teste é pulado por padrão
+quando `VRAS_BROWSER_QA` não está habilitado. `QA_DEBUG_URL` configura a porta CDP.
 
 ## Preparar Deploy
 
