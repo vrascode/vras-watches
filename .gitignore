@@ -15,3 +15,11 @@ env/
 
 # macOS
 .DS_Store
+
+# Local secrets and generated build / QA artifacts
+.env
+.env.*
+!.env.example
+staticfiles/
+artifacts/
+node_modules/
