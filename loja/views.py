@@ -18,7 +18,7 @@ def home(request):
     catalog = services.get_products()
     return render(request, "loja/home.html", {
         "catalog_pending": not catalog,
-        "featured_products": services.get_featured_products(catalog),
+        "featured_products": services.get_featured_products(catalog) or catalog[:4],
         "new_products": services.get_new_products(catalog),
         "collections": services.get_collections(catalog),
         "style_edits": services.get_style_edits(catalog),

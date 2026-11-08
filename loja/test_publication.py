@@ -182,3 +182,16 @@ class PublicationWorkflowTests(TestCase):
         self.save_catalog()
         self.assertEqual(self.client.post("/carrinho/adicionar/13/").status_code, 404)
         self.assertEqual(services.cart_summary(self.client.session)["items"], [])
+
+    def test_first_published_models_appear_on_home_without_claiming_popularity(self):
+        self.import_fixture()
+        self.confirm_fixture()
+        self.assertFalse(self.catalog[0]["destaque"])
+        self.execute(apply=True)
+        response = self.client.get("/")
+        self.assertContains(response, 'href="/produto/13/"')
+        self.assertContains(response, "R$ 196,92")
+        self.assertNotContains(response, 'href="/produto/14/"')
+        self.assertFalse(response.context["catalog_pending"])
+        self.assertEqual([p["id"] for p in response.context["featured_products"]], [13])
+        self.assertFalse(json.loads(self.path.read_text(encoding="utf-8"))[0]["destaque"])
