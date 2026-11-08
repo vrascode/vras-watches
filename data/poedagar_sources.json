@@ -1,5 +1,5 @@
 {
-  "consulted_at_utc": "2026-11-07T23:23:53.681040+00:00",
+  "consulted_at_utc": "2026-11-07T23:58:43.179133+00:00",
   "category_url": "https://lojaspoedagar.com.br/masculinos?sort_by=best_sellers",
   "currency": "BRL",
   "scope": "18 linked men's listings; 10 first-site name candidates (not an exhaustive first-site inventory)",
@@ -8,8 +8,8 @@
   "products": [
     {
       "url": "https://lojaspoedagar.com.br/army/p",
-      "checked_at_utc": "2026-11-07T23:23:48.611725+00:00",
-      "html_sha256": "5d87b367638d760c8b6e7d23e4c29e98bece80812fb11db2c20cd9803f0008f3",
+      "checked_at_utc": "2026-11-07T23:58:38.511933+00:00",
+      "html_sha256": "184b56b6ac77cc6dbaea4953bcc670ae4d913f1b5f7f547e71adc92fc07977d1",
       "name": "Relógio Poedagar Army",
       "slug": "army",
       "variants": [
@@ -174,8 +174,8 @@
     },
     {
       "url": "https://lojaspoedagar.com.br/deluxe-golden/p",
-      "checked_at_utc": "2026-11-07T23:23:48.611725+00:00",
-      "html_sha256": "3b12964374298eea9fd5068578785af4859a8ddf8b00e2aaf77c574c9305c278",
+      "checked_at_utc": "2026-11-07T23:58:38.511933+00:00",
+      "html_sha256": "fb116a938262094bbca58f710960f3debc765c8a1eca96a29b0338443ded3c09",
       "name": "Relógio Poedagar Deluxe Golden",
       "slug": "deluxe-golden",
       "variants": [
@@ -250,8 +250,8 @@
     },
     {
       "url": "https://lojaspoedagar.com.br/deluxe-ice/p",
-      "checked_at_utc": "2026-11-07T23:23:48.611725+00:00",
-      "html_sha256": "47642592fce0dd44f0aead87eec761362eba451390abfd23d63b55308cab4d10",
+      "checked_at_utc": "2026-11-07T23:58:38.511933+00:00",
+      "html_sha256": "6f555aa918e8b69c73f44326304248357fcc27625fd4e84416de76b55cb3988e",
       "name": "Relógio Poedagar Deluxe Ice",
       "slug": "deluxe-ice",
       "variants": [
@@ -482,8 +482,8 @@
     },
     {
       "url": "https://lojaspoedagar.com.br/deluxe-old/p",
-      "checked_at_utc": "2026-11-07T23:23:48.611725+00:00",
-      "html_sha256": "0787804e63910b08cef646420a4053f3d81aed4dfe4dcfd62871ed1016000d3f",
+      "checked_at_utc": "2026-11-07T23:58:38.512957+00:00",
+      "html_sha256": "52e7389a7b529fa950f5ac4d7aefe87c0d417cd0f66812f7bf76d914bb4b2de5",
       "name": "Relógio Poedagar Deluxe Old",
       "slug": "deluxe-old",
       "variants": [
@@ -701,8 +701,8 @@
     },
     {
       "url": "https://lojaspoedagar.com.br/deluxe/p",
-      "checked_at_utc": "2026-11-07T23:23:49.121074+00:00",
-      "html_sha256": "c28fecbe06e47a4b6f1890e8214662a60b2f95b46bbcf22b33d32c9a7306607c",
+      "checked_at_utc": "2026-11-07T23:58:39.046838+00:00",
+      "html_sha256": "af49e4ca328e2fddb77d7611d64b05db41a0b72a58e343011fe1c9739260335f",
       "name": "Relógio Poedagar Deluxe",
       "slug": "deluxe",
       "variants": [
@@ -849,8 +849,8 @@
     },
     {
       "url": "https://lojaspoedagar.com.br/golden-mars/p",
-      "checked_at_utc": "2026-11-07T23:23:49.180886+00:00",
-      "html_sha256": "9ce468e9326f34a8979ebc150a2870df1dd3da9127004c99920dec695fa4086a",
+      "checked_at_utc": "2026-11-07T23:58:39.116630+00:00",
+      "html_sha256": "02f97f662fa4a359d74e0d79926b1add6b110c3d9e843d7a948d56fcbd267400",
       "name": "Relógio Poedagar Golden Mars",
       "slug": "golden-mars",
       "variants": [
@@ -952,8 +952,8 @@
     },
     {
       "url": "https://lojaspoedagar.com.br/golden-moon/p",
-      "checked_at_utc": "2026-11-07T23:23:49.213705+00:00",
-      "html_sha256": "16107771f0fe23f26a22a65af1ad4488e3dbed8ced023089227c79a444df9d2a",
+      "checked_at_utc": "2026-11-07T23:58:39.159419+00:00",
+      "html_sha256": "a83a2ab4589cb904fa6edaa7d0ad16dbb8f447e6e2eb51bef49ea083e9e3daeb",
       "name": "Relógio Poedagar Golden Moon",
       "slug": "golden-moon",
       "variants": [
@@ -1118,8 +1118,8 @@
     },
     {
       "url": "https://lojaspoedagar.com.br/golden-star/p",
-      "checked_at_utc": "2026-11-07T23:23:49.278473+00:00",
-      "html_sha256": "886c542cc53422548ac3d550be1b1c03883998e9f09903afa4bd3b82d939d002",
+      "checked_at_utc": "2026-11-07T23:58:39.170277+00:00",
+      "html_sha256": "dc5f70a5561c525ea3c3e65a2c1ab14c86471173c30cb1f8762337932c301ee5",
       "name": "Relógio Poedagar Golden Star",
       "slug": "golden-star",
       "variants": [
@@ -1308,8 +1308,8 @@
     },
     {
       "url": "https://lojaspoedagar.com.br/king-royal/p",
-      "checked_at_utc": "2026-11-07T23:23:49.725445+00:00",
-      "html_sha256": "fc2467637a1085522ba6737a589dd2a98e9f89825360362a19db17a359ec5f35",
+      "checked_at_utc": "2026-11-07T23:58:39.604191+00:00",
+      "html_sha256": "d2d11b94286010e1350dd531dbab94a72493b7727f0188bc24e4e9240a11be09",
       "name": "Relógio Poedagar King Royal",
       "slug": "king-royal",
       "variants": [
@@ -1559,8 +1559,8 @@
     },
     {
       "url": "https://lojaspoedagar.com.br/lattitude/p",
-      "checked_at_utc": "2026-11-07T23:23:49.726773+00:00",
-      "html_sha256": "ccabe1f49dec7ef197150453b3ef4fcd0865dc79d05200424855c2bf39707c1c",
+      "checked_at_utc": "2026-11-07T23:58:39.691155+00:00",
+      "html_sha256": "040548f6c242ac32f806a5c8b418c145a6f4e340738237e712a4d62e42943b4a",
       "name": "Relógio Poedagar Lattitude",
       "slug": "lattitude",
       "variants": [
@@ -1699,8 +1699,8 @@
     },
     {
       "url": "https://lojaspoedagar.com.br/legitimus/p",
-      "checked_at_utc": "2026-11-07T23:23:49.808692+00:00",
-      "html_sha256": "6b990fc27bdbd43291a4b56389442350d07732a7a87e436d73029c48d7de81e3",
+      "checked_at_utc": "2026-11-07T23:58:39.766649+00:00",
+      "html_sha256": "16a6b95c11304a4a61a110bf72922786e048aef81dd63d346bd22367403e6070",
       "name": "Relógio Poedagar Legítimu's",
       "slug": "legitimus",
       "variants": [
@@ -1799,8 +1799,8 @@
     },
     {
       "url": "https://lojaspoedagar.com.br/machine/p",
-      "checked_at_utc": "2026-11-07T23:23:49.895270+00:00",
-      "html_sha256": "f1e3b2717b2818a04e9fa8c5acd045efbdb437bde6ad738b8bd3e5cb7574113f",
+      "checked_at_utc": "2026-11-07T23:58:39.788950+00:00",
+      "html_sha256": "f83682937030482c039532f02b7d1a23919e9ea05d4cffbe536f1ef6cf6306fc",
       "name": "Relógio Poedagar Machine",
       "slug": "machine",
       "variants": [
@@ -1902,8 +1902,8 @@
     },
     {
       "url": "https://lojaspoedagar.com.br/neptune/p",
-      "checked_at_utc": "2026-11-07T23:23:50.310634+00:00",
-      "html_sha256": "d62cec6ad4969d3df4381c89de5fc875ee111b926a7a83e3ad5e2bec4e65902c",
+      "checked_at_utc": "2026-11-07T23:58:40.076244+00:00",
+      "html_sha256": "f9afab7ec1d634b55571c0565baca1962f32c21252fd835f73085eaabdfa6fe7",
       "name": "Relógio Poedagar Golden Neptune",
       "slug": "neptune",
       "variants": [
@@ -2106,8 +2106,8 @@
     },
     {
       "url": "https://lojaspoedagar.com.br/relogio-poedagar-nautilus-azul/p",
-      "checked_at_utc": "2026-11-07T23:23:50.351405+00:00",
-      "html_sha256": "e4d35deb7515ef35677f90aeb1ccd7bce417125297f24e7fcac2cafe14d64960",
+      "checked_at_utc": "2026-11-07T23:58:40.213275+00:00",
+      "html_sha256": "e6d3940fb12be29803bf29644d85de628e4a3edb24bfa9ccc32f284cf6b58f49",
       "name": "Relógio Poedagar Nautilus",
       "slug": "relogio-poedagar-nautilus-azul",
       "variants": [
@@ -2241,8 +2241,8 @@
     },
     {
       "url": "https://lojaspoedagar.com.br/signature-vibe/p",
-      "checked_at_utc": "2026-11-07T23:23:50.380234+00:00",
-      "html_sha256": "47a7082498dcda8f843f1a48af0c9403c66d002207b8d0fa522dacf197a4f602",
+      "checked_at_utc": "2026-11-07T23:58:40.388140+00:00",
+      "html_sha256": "98c2984b369031de7d3b78ed665c4bb02c0f4b04c11e6adeb888249792243b33",
       "name": "Relógio Poedagar Signature Vibe",
       "slug": "signature-vibe",
       "variants": [
@@ -2278,8 +2278,8 @@
     },
     {
       "url": "https://lojaspoedagar.com.br/signature/p",
-      "checked_at_utc": "2026-11-07T23:23:50.436657+00:00",
-      "html_sha256": "b876cf3d4bd94580e552839221c5943a56adc22e0cf4cf3aa9adb1974dca8c99",
+      "checked_at_utc": "2026-11-07T23:58:40.453543+00:00",
+      "html_sha256": "4e2de13d59bfa0043ef8755f1fb12b7e649d13c79591f7702c028f7638aebd02",
       "name": "Relógio Poedagar Signature",
       "slug": "signature",
       "variants": [
@@ -2418,8 +2418,8 @@
     },
     {
       "url": "https://lojaspoedagar.com.br/tempus/p",
-      "checked_at_utc": "2026-11-07T23:23:50.800345+00:00",
-      "html_sha256": "37fc0b8cc2bf4769b3db6b655885aaee91bb45f0e717edfa2d7927e6cd2510bf",
+      "checked_at_utc": "2026-11-07T23:58:40.650252+00:00",
+      "html_sha256": "4cb7826c587da59f39e93fa74e70652f426fd16f6a47df624b1b07933ffbd19e",
       "name": "Relógio Poedagar Tempus",
       "slug": "tempus",
       "variants": [
@@ -2674,8 +2674,8 @@
     },
     {
       "url": "https://lojaspoedagar.com.br/universy/p",
-      "checked_at_utc": "2026-11-07T23:23:50.819772+00:00",
-      "html_sha256": "ac976f294144570e4ff0d6eaed352435c06d1538ebc1af18dc30cf1b2a9789bc",
+      "checked_at_utc": "2026-11-07T23:58:40.762117+00:00",
+      "html_sha256": "104f92c2ae79d0d29aa1db6594604ed8112aa7a5bf1a9c83adf5dde43265e141",
       "name": "Relógio Poedagar Universy",
       "slug": "universy",
       "variants": [
@@ -2780,10 +2780,10 @@
     {
       "second_site_slug_candidate": "deluxe",
       "url": "https://poedagareco.com/products/relogio-poedagar-deluxe-edition",
-      "checked_at_utc": "2026-11-07T23:23:51.533772+00:00",
+      "checked_at_utc": "2026-11-07T23:58:41.325357+00:00",
       "image_reuse_authorized": false,
       "match_status": "name_candidate_only_requires_reference_and_variant_confirmation",
-      "html_sha256": "a740eeb0c15c56daf1db1432159a155691365ebe57b04aeafee9675087168cf5",
+      "html_sha256": "f80c2e5990bbde71c90066f6c6136fc61161354572a265dd8a9a538080672562",
       "schema_identity": [
         {
           "name": "Relógio Poedagar Deluxe Edition®",
@@ -2838,10 +2838,10 @@
     {
       "second_site_slug_candidate": "golden-star",
       "url": "https://poedagareco.com/products/relogio-poedagar-goldenstar",
-      "checked_at_utc": "2026-11-07T23:23:51.533772+00:00",
+      "checked_at_utc": "2026-11-07T23:58:41.325357+00:00",
       "image_reuse_authorized": false,
       "match_status": "name_candidate_only_requires_reference_and_variant_confirmation",
-      "html_sha256": "efcb59a28b6172c4754ed123a32598c910f43305fabc0f78aff60ecb86497bc7",
+      "html_sha256": "33268d63077d24161dccbd3dba26a91cf6303b0357fc9a9d754afb1a0808fdb3",
       "schema_identity": [
         {
           "name": "Relógio Poedagar GoldenStar®",
@@ -2903,10 +2903,10 @@
     {
       "second_site_slug_candidate": "signature",
       "url": "https://poedagareco.com/products/relogio-poedagar-signature",
-      "checked_at_utc": "2026-11-07T23:23:51.533772+00:00",
+      "checked_at_utc": "2026-11-07T23:58:41.325357+00:00",
       "image_reuse_authorized": false,
       "match_status": "name_candidate_only_requires_reference_and_variant_confirmation",
-      "html_sha256": "c7898d94fa2d26aabbf5b6e873ee766392bbf69d078418c70f1d685e2ab90c3a",
+      "html_sha256": "d90d144bbe8b8e615fba2540f0c084e7472e91458c11bb93a8701e36583a5077",
       "schema_identity": [
         {
           "name": "Relógio Poedagar Signature®",
@@ -2961,10 +2961,10 @@
     {
       "second_site_slug_candidate": "king-royal",
       "url": "https://poedagareco.com/products/poedagar-kingroyal",
-      "checked_at_utc": "2026-11-07T23:23:51.533772+00:00",
+      "checked_at_utc": "2026-11-07T23:58:41.325357+00:00",
       "image_reuse_authorized": false,
       "match_status": "name_candidate_only_requires_reference_and_variant_confirmation",
-      "html_sha256": "c4e5b0c714962e67d4e1d47b6572f5f844d0027aa6858008d9cfdc7e691cbfae",
+      "html_sha256": "67b06c68b770321321d6f6efd7d6458fa76c2241ea53aeddb0520146512e87d2",
       "schema_identity": [
         {
           "name": "Relógio Poedagar RoyalKing®",
@@ -3033,10 +3033,10 @@
     {
       "second_site_slug_candidate": "army",
       "url": "https://poedagareco.com/products/relogio-poedagar-army",
-      "checked_at_utc": "2026-11-07T23:23:52.441983+00:00",
+      "checked_at_utc": "2026-11-07T23:58:42.048184+00:00",
       "image_reuse_authorized": false,
       "match_status": "name_candidate_only_requires_reference_and_variant_confirmation",
-      "html_sha256": "41009bccfec80a7fb1e016db603248986b05eae5ca7dc51591ed5ed71631c39b",
+      "html_sha256": "f7a581cb28722f09a35159c428618920fe9f04e4c69c6a0e1ba5b5de5acaee39",
       "schema_identity": [
         {
           "name": "Relógio Poedagar Army®",
@@ -3098,10 +3098,10 @@
     {
       "second_site_slug_candidate": "legitimus",
       "url": "https://poedagareco.com/products/relogio-poedagar-legitimo",
-      "checked_at_utc": "2026-11-07T23:23:52.470974+00:00",
+      "checked_at_utc": "2026-11-07T23:58:42.059196+00:00",
       "image_reuse_authorized": false,
       "match_status": "name_candidate_only_requires_reference_and_variant_confirmation",
-      "html_sha256": "9a9f5872528cc23474377586673512974a88f1b12668b8996ae40675d3d60532",
+      "html_sha256": "8935859a656d569f1ca83b2dc5527a671c5d992b1658bf5bd531ef118eec90c4",
       "schema_identity": [
         {
           "name": "Relógio Poedagar Legítimu's®",
@@ -3170,10 +3170,10 @@
     {
       "second_site_slug_candidate": "relogio-poedagar-nautilus-azul",
       "url": "https://poedagareco.com/products/relogio-poedagar-nautilus",
-      "checked_at_utc": "2026-11-07T23:23:52.543617+00:00",
+      "checked_at_utc": "2026-11-07T23:58:42.118256+00:00",
       "image_reuse_authorized": false,
       "match_status": "name_candidate_only_requires_reference_and_variant_confirmation",
-      "html_sha256": "6f30497e25a852effc7092b97fd61c4b571f788411fd0dae8472a0ddc6586e6d",
+      "html_sha256": "2e2dede46dce10521d47a7dba6a0795c7db1197c47df4eccbecfaf027675b0dd",
       "schema_identity": [
         {
           "name": "Relógio Poedagar Nautilus®",
@@ -3228,10 +3228,10 @@
     {
       "second_site_slug_candidate": "universy",
       "url": "https://poedagareco.com/products/relogio-poedagar-universo",
-      "checked_at_utc": "2026-11-07T23:23:52.547635+00:00",
+      "checked_at_utc": "2026-11-07T23:58:42.218834+00:00",
       "image_reuse_authorized": false,
       "match_status": "name_candidate_only_requires_reference_and_variant_confirmation",
-      "html_sha256": "88a0b3c9a83309929bacf7e0f68223fa34e4de36c6ba699d52d1c28eb380df7d",
+      "html_sha256": "eca43b8ef3966a6d1a95e4b95a1b354533290fde8ab569cdec6fea449fb5ae28",
       "schema_identity": [
         {
           "name": "Relógio Poedagar Universo®",
@@ -3272,10 +3272,10 @@
     {
       "second_site_slug_candidate": "machine",
       "url": "https://poedagareco.com/products/relogio-poedagar-machine",
-      "checked_at_utc": "2026-11-07T23:23:53.036902+00:00",
+      "checked_at_utc": "2026-11-07T23:58:42.575761+00:00",
       "image_reuse_authorized": false,
       "match_status": "name_candidate_only_requires_reference_and_variant_confirmation",
-      "html_sha256": "08d2f34c73875a4b30f8efbcdf09cc9cb8fcdca48a00458bf63771f20141a426",
+      "html_sha256": "04972deb080f2501c40458395ba1c14ff338c02a3e929edf33e7a731bd65096e",
       "schema_identity": [
         {
           "name": "Relógio Poedagar Machine®",
@@ -3344,10 +3344,10 @@
     {
       "second_site_slug_candidate": "lattitude",
       "url": "https://poedagareco.com/products/relogio-poedagar-latittude",
-      "checked_at_utc": "2026-11-07T23:23:53.045075+00:00",
+      "checked_at_utc": "2026-11-07T23:58:42.648070+00:00",
       "image_reuse_authorized": false,
       "match_status": "name_candidate_only_requires_reference_and_variant_confirmation",
-      "html_sha256": "92ba42cfbb71613992e8090ea9e47803ca7103b7195c30f4bbd4f53b5980a09c",
+      "html_sha256": "b6a50c600d166c73f888d165bdfb350c91d112726e619ceff83a8927aa8cf3ac",
       "schema_identity": [
         {
           "name": "Relógio Poedagar Latittude®",

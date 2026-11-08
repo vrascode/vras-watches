@@ -1,0 +1,1627 @@
+{
+  "checked_at_utc": "2026-11-08T00:02:46.037910+00:00",
+  "currency": "BRL",
+  "scope": "12 modelos e suas variantes; somente consulta, sem aprovação automática",
+  "products": [
+    {
+      "product_id": 13,
+      "model": "Army",
+      "url": "https://lojaspoedagar.com.br/army/p",
+      "checked_at_utc": "2026-11-08T00:02:44.321722+00:00",
+      "verified": true,
+      "html_sha256": "fd172d8eaa006bd012f461d0b8ff8d0671239a746314b8243c58fc2d58e1d02d",
+      "source_name": "Relógio Poedagar Army",
+      "source_product_id": 37697469,
+      "variants": [
+        {
+          "source_variant_id": 253648782,
+          "source_sku": "201447598",
+          "title": "Relógio Poedagar Army Vermelho",
+          "options": [
+            {
+              "name": "Cor",
+              "id": 4306761,
+              "value": "Vermelho",
+              "value_id": 60530909
+            }
+          ],
+          "unit_price_brl": "196.92",
+          "pix_price_brl": "187.07",
+          "pix_discount_percent": 5,
+          "billet_price_brl": "196.92",
+          "billet_discount_percent": 0,
+          "source_price_before_promotion_brl": "266.92",
+          "source_has_promotion": true,
+          "source_stock_status": "in_stock",
+          "source_blocked_sale": false,
+          "price_kind": "advertised_unit_price",
+          "verified": true
+        },
+        {
+          "source_variant_id": 253648783,
+          "source_sku": "201447303",
+          "title": "Relógio Poedagar Army Laranja",
+          "options": [
+            {
+              "name": "Cor",
+              "id": 4306761,
+              "value": "Laranja",
+              "value_id": 60530910
+            }
+          ],
+          "unit_price_brl": "196.92",
+          "pix_price_brl": "187.07",
+          "pix_discount_percent": 5,
+          "billet_price_brl": "196.92",
+          "billet_discount_percent": 0,
+          "source_price_before_promotion_brl": "266.92",
+          "source_has_promotion": true,
+          "source_stock_status": "in_stock",
+          "source_blocked_sale": false,
+          "price_kind": "advertised_unit_price",
+          "verified": true
+        },
+        {
+          "source_variant_id": 253648784,
+          "source_sku": "200005100",
+          "title": "Relógio Poedagar Army Azul",
+          "options": [
+            {
+              "name": "Cor",
+              "id": 4306761,
+              "value": "Azul",
+              "value_id": 60495595
+            }
+          ],
+          "unit_price_brl": "196.92",
+          "pix_price_brl": "187.07",
+          "pix_discount_percent": 5,
+          "billet_price_brl": "196.92",
+          "billet_discount_percent": 0,
+          "source_price_before_promotion_brl": "266.92",
+          "source_has_promotion": true,
+          "source_stock_status": "in_stock",
+          "source_blocked_sale": false,
+          "price_kind": "advertised_unit_price",
+          "verified": true
+        },
+        {
+          "source_variant_id": 253648785,
+          "source_sku": "200000080",
+          "title": "Relógio Poedagar Army Preto",
+          "options": [
+            {
+              "name": "Cor",
+              "id": 4306761,
+              "value": "Preto",
+              "value_id": 60495596
+            }
+          ],
+          "unit_price_brl": "196.92",
+          "pix_price_brl": "187.07",
+          "pix_discount_percent": 5,
+          "billet_price_brl": "196.92",
+          "billet_discount_percent": 0,
+          "source_price_before_promotion_brl": "266.92",
+          "source_has_promotion": true,
+          "source_stock_status": "in_stock",
+          "source_blocked_sale": false,
+          "price_kind": "advertised_unit_price",
+          "verified": true
+        },
+        {
+          "source_variant_id": 254702060,
+          "source_sku": "919819819719",
+          "title": "Relógio Poedagar Army Verde",
+          "options": [
+            {
+              "name": "Cor",
+              "id": 4306761,
+              "value": "Verde",
+              "value_id": 60495597
+            }
+          ],
+          "unit_price_brl": "196.92",
+          "pix_price_brl": "187.07",
+          "pix_discount_percent": 5,
+          "billet_price_brl": "196.92",
+          "billet_discount_percent": 0,
+          "source_price_before_promotion_brl": "266.92",
+          "source_has_promotion": true,
+          "source_stock_status": "in_stock",
+          "source_blocked_sale": false,
+          "price_kind": "advertised_unit_price",
+          "verified": true
+        }
+      ],
+      "condition_review": {
+        "method": "HTML público window.data.product.data.skus.data[].prices.data",
+        "selected_field": "price",
+        "pix_used": false,
+        "previous_price_used": false,
+        "coupon_or_minimum_quantity_used": false,
+        "observation": "Preço unitário do SKU coincide com boleto sem desconto adicional. Pix é separado. Não foi inserido cupom nem selecionada quantidade. A promoção própria da fonte não é criada na VRAS.",
+        "installments_promised_by_vras": false
+      }
+    },
+    {
+      "product_id": 14,
+      "model": "Deluxe",
+      "url": "https://lojaspoedagar.com.br/deluxe/p",
+      "checked_at_utc": "2026-11-08T00:02:44.322725+00:00",
+      "verified": true,
+      "html_sha256": "403e054e56b1706863571a09d66540228690f1339d3a3a2c3a859986fb2231b0",
+      "source_name": "Relógio Poedagar Deluxe",
+      "source_product_id": 37704480,
+      "variants": [
+        {
+          "source_variant_id": 253692046,
+          "source_sku": "173",
+          "title": "Relógio Poedagar Deluxe Azul",
+          "options": [
+            {
+              "name": "Cor",
+              "id": 4306761,
+              "value": "Azul",
+              "value_id": 60495595
+            }
+          ],
+          "unit_price_brl": "199.90",
+          "pix_price_brl": "189.91",
+          "pix_discount_percent": 5,
+          "billet_price_brl": "199.90",
+          "billet_discount_percent": 0,
+          "source_price_before_promotion_brl": "249.90",
+          "source_has_promotion": true,
+          "source_stock_status": "in_stock",
+          "source_blocked_sale": false,
+          "price_kind": "advertised_unit_price",
+          "verified": true
+        },
+        {
+          "source_variant_id": 253692047,
+          "source_sku": "175",
+          "title": "Relógio Poedagar Deluxe Preto",
+          "options": [
+            {
+              "name": "Cor",
+              "id": 4306761,
+              "value": "Preto",
+              "value_id": 60495596
+            }
+          ],
+          "unit_price_brl": "199.90",
+          "pix_price_brl": "189.91",
+          "pix_discount_percent": 5,
+          "billet_price_brl": "199.90",
+          "billet_discount_percent": 0,
+          "source_price_before_promotion_brl": "249.90",
+          "source_has_promotion": true,
+          "source_stock_status": "in_stock",
+          "source_blocked_sale": false,
+          "price_kind": "advertised_unit_price",
+          "verified": true
+        },
+        {
+          "source_variant_id": 253692048,
+          "source_sku": "193",
+          "title": "Relógio Poedagar Deluxe Verde",
+          "options": [
+            {
+              "name": "Cor",
+              "id": 4306761,
+              "value": "Verde",
+              "value_id": 60495597
+            }
+          ],
+          "unit_price_brl": "199.90",
+          "pix_price_brl": "189.91",
+          "pix_discount_percent": 5,
+          "billet_price_brl": "199.90",
+          "billet_discount_percent": 0,
+          "source_price_before_promotion_brl": "249.90",
+          "source_has_promotion": true,
+          "source_stock_status": "in_stock",
+          "source_blocked_sale": false,
+          "price_kind": "advertised_unit_price",
+          "verified": true
+        },
+        {
+          "source_variant_id": 253692049,
+          "source_sku": "366",
+          "title": "Relógio Poedagar Deluxe Branco",
+          "options": [
+            {
+              "name": "Cor",
+              "id": 4306761,
+              "value": "Branco",
+              "value_id": 60495598
+            }
+          ],
+          "unit_price_brl": "199.90",
+          "pix_price_brl": "189.91",
+          "pix_discount_percent": 5,
+          "billet_price_brl": "199.90",
+          "billet_discount_percent": 0,
+          "source_price_before_promotion_brl": "249.90",
+          "source_has_promotion": true,
+          "source_stock_status": "in_stock",
+          "source_blocked_sale": false,
+          "price_kind": "advertised_unit_price",
+          "verified": true
+        }
+      ],
+      "condition_review": {
+        "method": "HTML público window.data.product.data.skus.data[].prices.data",
+        "selected_field": "price",
+        "pix_used": false,
+        "previous_price_used": false,
+        "coupon_or_minimum_quantity_used": false,
+        "observation": "Preço unitário do SKU coincide com boleto sem desconto adicional. Pix é separado. Não foi inserido cupom nem selecionada quantidade. A promoção própria da fonte não é criada na VRAS.",
+        "installments_promised_by_vras": false
+      }
+    },
+    {
+      "product_id": 15,
+      "model": "Deluxe Golden",
+      "url": "https://lojaspoedagar.com.br/deluxe-golden/p",
+      "checked_at_utc": "2026-11-08T00:02:44.322725+00:00",
+      "verified": true,
+      "html_sha256": "59736c67c187bac9002833a0fc8fb3f990386f423820ea434a3015c022ce1c8b",
+      "source_name": "Relógio Poedagar Deluxe Golden",
+      "source_product_id": 37684125,
+      "variants": [
+        {
+          "source_variant_id": 253563623,
+          "source_sku": "201447598",
+          "title": "Relógio Poedagar Deluxe Golden Azul",
+          "options": [
+            {
+              "name": "Cor",
+              "id": 4306761,
+              "value": "Azul",
+              "value_id": 60495595
+            }
+          ],
+          "unit_price_brl": "194.90",
+          "pix_price_brl": "185.16",
+          "pix_discount_percent": 5,
+          "billet_price_brl": "194.90",
+          "billet_discount_percent": 0,
+          "source_price_before_promotion_brl": "257.90",
+          "source_has_promotion": true,
+          "source_stock_status": "in_stock",
+          "source_blocked_sale": false,
+          "price_kind": "advertised_unit_price",
+          "verified": true
+        },
+        {
+          "source_variant_id": 253563624,
+          "source_sku": "201447303",
+          "title": "Relógio Poedagar Deluxe Golden Preto",
+          "options": [
+            {
+              "name": "Cor",
+              "id": 4306761,
+              "value": "Preto",
+              "value_id": 60495596
+            }
+          ],
+          "unit_price_brl": "194.90",
+          "pix_price_brl": "185.16",
+          "pix_discount_percent": 5,
+          "billet_price_brl": "194.90",
+          "billet_discount_percent": 0,
+          "source_price_before_promotion_brl": "257.90",
+          "source_has_promotion": true,
+          "source_stock_status": "in_stock",
+          "source_blocked_sale": false,
+          "price_kind": "advertised_unit_price",
+          "verified": true
+        }
+      ],
+      "condition_review": {
+        "method": "HTML público window.data.product.data.skus.data[].prices.data",
+        "selected_field": "price",
+        "pix_used": false,
+        "previous_price_used": false,
+        "coupon_or_minimum_quantity_used": false,
+        "observation": "Preço unitário do SKU coincide com boleto sem desconto adicional. Pix é separado. Não foi inserido cupom nem selecionada quantidade. A promoção própria da fonte não é criada na VRAS.",
+        "installments_promised_by_vras": false
+      }
+    },
+    {
+      "product_id": 16,
+      "model": "Golden Mars",
+      "url": "https://lojaspoedagar.com.br/golden-mars/p",
+      "checked_at_utc": "2026-11-08T00:02:44.323730+00:00",
+      "verified": true,
+      "html_sha256": "99a4147dce2854eaa6e6bfc2ecc51c03ea6bdcad8b28c3a0b5a268b409a4056e",
+      "source_name": "Relógio Poedagar Golden Mars",
+      "source_product_id": 37697470,
+      "variants": [
+        {
+          "source_variant_id": 255589756,
+          "source_sku": "TY7TRCUEW",
+          "title": "Relógio Poedagar Golden Mars Dourado",
+          "options": [
+            {
+              "name": "Cor",
+              "id": 4306761,
+              "value": "Dourado",
+              "value_id": 60528726
+            }
+          ],
+          "unit_price_brl": "197.90",
+          "pix_price_brl": "188.01",
+          "pix_discount_percent": 5,
+          "billet_price_brl": "197.90",
+          "billet_discount_percent": 0,
+          "source_price_before_promotion_brl": "247.90",
+          "source_has_promotion": true,
+          "source_stock_status": "in_stock",
+          "source_blocked_sale": false,
+          "price_kind": "advertised_unit_price",
+          "verified": true
+        },
+        {
+          "source_variant_id": 255589709,
+          "source_sku": "R6PE7CDJR",
+          "title": "Relógio Poedagar Golden Mars Todo Preto",
+          "options": [
+            {
+              "name": "Cor",
+              "id": 4306761,
+              "value": "Todo Preto",
+              "value_id": 60528728
+            }
+          ],
+          "unit_price_brl": "197.90",
+          "pix_price_brl": "188.01",
+          "pix_discount_percent": 5,
+          "billet_price_brl": "197.90",
+          "billet_discount_percent": 0,
+          "source_price_before_promotion_brl": "247.90",
+          "source_has_promotion": true,
+          "source_stock_status": "in_stock",
+          "source_blocked_sale": false,
+          "price_kind": "advertised_unit_price",
+          "verified": true
+        },
+        {
+          "source_variant_id": 255589732,
+          "source_sku": "U6BX5P8MH",
+          "title": "Relógio Poedagar Golden Mars Prata e Preto",
+          "options": [
+            {
+              "name": "Cor",
+              "id": 4306761,
+              "value": "Prata e Preto",
+              "value_id": 60528725
+            }
+          ],
+          "unit_price_brl": "197.90",
+          "pix_price_brl": "188.01",
+          "pix_discount_percent": 5,
+          "billet_price_brl": "197.90",
+          "billet_discount_percent": 0,
+          "source_price_before_promotion_brl": "247.90",
+          "source_has_promotion": true,
+          "source_stock_status": "in_stock",
+          "source_blocked_sale": false,
+          "price_kind": "advertised_unit_price",
+          "verified": true
+        }
+      ],
+      "condition_review": {
+        "method": "HTML público window.data.product.data.skus.data[].prices.data",
+        "selected_field": "price",
+        "pix_used": false,
+        "previous_price_used": false,
+        "coupon_or_minimum_quantity_used": false,
+        "observation": "Preço unitário do SKU coincide com boleto sem desconto adicional. Pix é separado. Não foi inserido cupom nem selecionada quantidade. A promoção própria da fonte não é criada na VRAS.",
+        "installments_promised_by_vras": false
+      }
+    },
+    {
+      "product_id": 17,
+      "model": "Golden Moon",
+      "url": "https://lojaspoedagar.com.br/golden-moon/p",
+      "checked_at_utc": "2026-11-08T00:02:44.810305+00:00",
+      "verified": true,
+      "html_sha256": "f41440982a298c2f2d172d787ed55b804116f431c068527f1d608e9d9fb72a52",
+      "source_name": "Relógio Poedagar Golden Moon",
+      "source_product_id": 37684122,
+      "variants": [
+        {
+          "source_variant_id": 253563610,
+          "source_sku": "100005979",
+          "title": "Relógio Poedagar Golden Moon Todo Preto",
+          "options": [
+            {
+              "name": "Cor",
+              "id": 4306761,
+              "value": "Todo Preto",
+              "value_id": 60528728
+            }
+          ],
+          "unit_price_brl": "197.20",
+          "pix_price_brl": "187.34",
+          "pix_discount_percent": 5,
+          "billet_price_brl": "197.20",
+          "billet_discount_percent": 0,
+          "source_price_before_promotion_brl": "249.90",
+          "source_has_promotion": true,
+          "source_stock_status": "in_stock",
+          "source_blocked_sale": false,
+          "price_kind": "advertised_unit_price",
+          "verified": true
+        },
+        {
+          "source_variant_id": 253563606,
+          "source_sku": "201447303",
+          "title": "Relógio Poedagar Golden Moon Preto",
+          "options": [
+            {
+              "name": "Cor",
+              "id": 4306761,
+              "value": "Preto",
+              "value_id": 60495596
+            }
+          ],
+          "unit_price_brl": "197.20",
+          "pix_price_brl": "187.34",
+          "pix_discount_percent": 5,
+          "billet_price_brl": "197.20",
+          "billet_discount_percent": 0,
+          "source_price_before_promotion_brl": "249.90",
+          "source_has_promotion": true,
+          "source_stock_status": "in_stock",
+          "source_blocked_sale": false,
+          "price_kind": "advertised_unit_price",
+          "verified": true
+        },
+        {
+          "source_variant_id": 253563607,
+          "source_sku": "200005100",
+          "title": "Relógio Poedagar Golden Moon Azul",
+          "options": [
+            {
+              "name": "Cor",
+              "id": 4306761,
+              "value": "Azul",
+              "value_id": 60495595
+            }
+          ],
+          "unit_price_brl": "197.20",
+          "pix_price_brl": "187.34",
+          "pix_discount_percent": 5,
+          "billet_price_brl": "197.20",
+          "billet_discount_percent": 0,
+          "source_price_before_promotion_brl": "249.90",
+          "source_has_promotion": true,
+          "source_stock_status": "in_stock",
+          "source_blocked_sale": false,
+          "price_kind": "advertised_unit_price",
+          "verified": true
+        },
+        {
+          "source_variant_id": 253563608,
+          "source_sku": "200000080",
+          "title": "Relógio Poedagar Golden Moon Branco",
+          "options": [
+            {
+              "name": "Cor",
+              "id": 4306761,
+              "value": "Branco",
+              "value_id": 60495598
+            }
+          ],
+          "unit_price_brl": "197.20",
+          "pix_price_brl": "187.34",
+          "pix_discount_percent": 5,
+          "billet_price_brl": "197.20",
+          "billet_discount_percent": 0,
+          "source_price_before_promotion_brl": "249.90",
+          "source_has_promotion": true,
+          "source_stock_status": "in_stock",
+          "source_blocked_sale": false,
+          "price_kind": "advertised_unit_price",
+          "verified": true
+        },
+        {
+          "source_variant_id": 253563609,
+          "source_sku": "100013777",
+          "title": "Relógio Poedagar Golden Moon Verde",
+          "options": [
+            {
+              "name": "Cor",
+              "id": 4306761,
+              "value": "Verde",
+              "value_id": 60495597
+            }
+          ],
+          "unit_price_brl": "197.20",
+          "pix_price_brl": "187.34",
+          "pix_discount_percent": 5,
+          "billet_price_brl": "197.20",
+          "billet_discount_percent": 0,
+          "source_price_before_promotion_brl": "249.90",
+          "source_has_promotion": true,
+          "source_stock_status": "in_stock",
+          "source_blocked_sale": false,
+          "price_kind": "advertised_unit_price",
+          "verified": true
+        }
+      ],
+      "condition_review": {
+        "method": "HTML público window.data.product.data.skus.data[].prices.data",
+        "selected_field": "price",
+        "pix_used": false,
+        "previous_price_used": false,
+        "coupon_or_minimum_quantity_used": false,
+        "observation": "Preço unitário do SKU coincide com boleto sem desconto adicional. Pix é separado. Não foi inserido cupom nem selecionada quantidade. A promoção própria da fonte não é criada na VRAS.",
+        "installments_promised_by_vras": false
+      }
+    },
+    {
+      "product_id": 18,
+      "model": "Golden Neptune",
+      "url": "https://lojaspoedagar.com.br/neptune/p",
+      "checked_at_utc": "2026-11-08T00:02:44.886790+00:00",
+      "verified": true,
+      "html_sha256": "096df8698cc14884c452eb9c5bb8e19d214f1ee4f92bdf03e0c74b1b7ff8c8b7",
+      "source_name": "Relógio Poedagar Golden Neptune",
+      "source_product_id": 37684091,
+      "variants": [
+        {
+          "source_variant_id": 253563446,
+          "source_sku": "201447598",
+          "title": "Relógio Poedagar Golden Neptune Azul",
+          "options": [
+            {
+              "name": "Cor",
+              "id": 4306761,
+              "value": "Azul",
+              "value_id": 60495595
+            }
+          ],
+          "unit_price_brl": "197.40",
+          "pix_price_brl": "187.53",
+          "pix_discount_percent": 5,
+          "billet_price_brl": "197.40",
+          "billet_discount_percent": 0,
+          "source_price_before_promotion_brl": "249.90",
+          "source_has_promotion": true,
+          "source_stock_status": "in_stock",
+          "source_blocked_sale": false,
+          "price_kind": "advertised_unit_price",
+          "verified": true
+        },
+        {
+          "source_variant_id": 253563447,
+          "source_sku": "201447303",
+          "title": "Relógio Poedagar Golden Neptune Verde",
+          "options": [
+            {
+              "name": "Cor",
+              "id": 4306761,
+              "value": "Verde",
+              "value_id": 60495597
+            }
+          ],
+          "unit_price_brl": "197.40",
+          "pix_price_brl": "187.53",
+          "pix_discount_percent": 5,
+          "billet_price_brl": "197.40",
+          "billet_discount_percent": 0,
+          "source_price_before_promotion_brl": "249.90",
+          "source_has_promotion": true,
+          "source_stock_status": "in_stock",
+          "source_blocked_sale": false,
+          "price_kind": "advertised_unit_price",
+          "verified": true
+        },
+        {
+          "source_variant_id": 253563448,
+          "source_sku": "200005100",
+          "title": "Relógio Poedagar Golden Neptune Branco",
+          "options": [
+            {
+              "name": "Cor",
+              "id": 4306761,
+              "value": "Branco",
+              "value_id": 60495598
+            }
+          ],
+          "unit_price_brl": "197.40",
+          "pix_price_brl": "187.53",
+          "pix_discount_percent": 5,
+          "billet_price_brl": "197.40",
+          "billet_discount_percent": 0,
+          "source_price_before_promotion_brl": "249.90",
+          "source_has_promotion": true,
+          "source_stock_status": "in_stock",
+          "source_blocked_sale": false,
+          "price_kind": "advertised_unit_price",
+          "verified": true
+        },
+        {
+          "source_variant_id": 253563449,
+          "source_sku": "200000080",
+          "title": "Relógio Poedagar Golden Neptune Preto",
+          "options": [
+            {
+              "name": "Cor",
+              "id": 4306761,
+              "value": "Preto",
+              "value_id": 60495596
+            }
+          ],
+          "unit_price_brl": "197.40",
+          "pix_price_brl": "187.53",
+          "pix_discount_percent": 5,
+          "billet_price_brl": "197.40",
+          "billet_discount_percent": 0,
+          "source_price_before_promotion_brl": "249.90",
+          "source_has_promotion": true,
+          "source_stock_status": "in_stock",
+          "source_blocked_sale": false,
+          "price_kind": "advertised_unit_price",
+          "verified": true
+        },
+        {
+          "source_variant_id": 253563454,
+          "source_sku": "350853",
+          "title": "Relógio Poedagar Golden Neptune Todo Preto",
+          "options": [
+            {
+              "name": "Cor",
+              "id": 4306761,
+              "value": "Todo Preto",
+              "value_id": 60528728
+            }
+          ],
+          "unit_price_brl": "197.40",
+          "pix_price_brl": "187.53",
+          "pix_discount_percent": 5,
+          "billet_price_brl": "197.40",
+          "billet_discount_percent": 0,
+          "source_price_before_promotion_brl": "249.90",
+          "source_has_promotion": true,
+          "source_stock_status": "in_stock",
+          "source_blocked_sale": false,
+          "price_kind": "advertised_unit_price",
+          "verified": true
+        },
+        {
+          "source_variant_id": 254709799,
+          "source_sku": "9819719518",
+          "title": "Relógio Poedagar Golden Neptune Dourado",
+          "options": [
+            {
+              "name": "Cor",
+              "id": 4306761,
+              "value": "Dourado",
+              "value_id": 60528726
+            }
+          ],
+          "unit_price_brl": "197.40",
+          "pix_price_brl": "187.53",
+          "pix_discount_percent": 5,
+          "billet_price_brl": "197.40",
+          "billet_discount_percent": 0,
+          "source_price_before_promotion_brl": "249.90",
+          "source_has_promotion": true,
+          "source_stock_status": "in_stock",
+          "source_blocked_sale": false,
+          "price_kind": "advertised_unit_price",
+          "verified": true
+        }
+      ],
+      "condition_review": {
+        "method": "HTML público window.data.product.data.skus.data[].prices.data",
+        "selected_field": "price",
+        "pix_used": false,
+        "previous_price_used": false,
+        "coupon_or_minimum_quantity_used": false,
+        "observation": "Preço unitário do SKU coincide com boleto sem desconto adicional. Pix é separado. Não foi inserido cupom nem selecionada quantidade. A promoção própria da fonte não é criada na VRAS.",
+        "installments_promised_by_vras": false
+      }
+    },
+    {
+      "product_id": 19,
+      "model": "Golden Star",
+      "url": "https://lojaspoedagar.com.br/golden-star/p",
+      "checked_at_utc": "2026-11-08T00:02:44.907738+00:00",
+      "verified": true,
+      "html_sha256": "5c5fc700dfd75e7993bf112fc5ce5bb02f4b8ae19deae771b1f25b94699f2470",
+      "source_name": "Relógio Poedagar Golden Star",
+      "source_product_id": 37684079,
+      "variants": [
+        {
+          "source_variant_id": 253563387,
+          "source_sku": "201447598",
+          "title": "Relógio Poedagar Golden Star Azul",
+          "options": [
+            {
+              "name": "Cor",
+              "id": 4306761,
+              "value": "Azul",
+              "value_id": 60495595
+            }
+          ],
+          "unit_price_brl": "179.90",
+          "pix_price_brl": "170.91",
+          "pix_discount_percent": 5,
+          "billet_price_brl": "179.90",
+          "billet_discount_percent": 0,
+          "source_price_before_promotion_brl": "219.90",
+          "source_has_promotion": true,
+          "source_stock_status": "in_stock",
+          "source_blocked_sale": false,
+          "price_kind": "advertised_unit_price",
+          "verified": true
+        },
+        {
+          "source_variant_id": 253563390,
+          "source_sku": "200000080",
+          "title": "Relógio Poedagar Golden Star Verde",
+          "options": [
+            {
+              "name": "Cor",
+              "id": 4306761,
+              "value": "Verde",
+              "value_id": 60495597
+            }
+          ],
+          "unit_price_brl": "179.90",
+          "pix_price_brl": "170.91",
+          "pix_discount_percent": 5,
+          "billet_price_brl": "179.90",
+          "billet_discount_percent": 0,
+          "source_price_before_promotion_brl": "219.90",
+          "source_has_promotion": true,
+          "source_stock_status": "in_stock",
+          "source_blocked_sale": false,
+          "price_kind": "advertised_unit_price",
+          "verified": true
+        },
+        {
+          "source_variant_id": 253563388,
+          "source_sku": "201447303",
+          "title": "Relógio Poedagar Golden Star Preto",
+          "options": [
+            {
+              "name": "Cor",
+              "id": 4306761,
+              "value": "Preto",
+              "value_id": 60495596
+            }
+          ],
+          "unit_price_brl": "179.90",
+          "pix_price_brl": "170.91",
+          "pix_discount_percent": 5,
+          "billet_price_brl": "179.90",
+          "billet_discount_percent": 0,
+          "source_price_before_promotion_brl": "219.90",
+          "source_has_promotion": true,
+          "source_stock_status": "in_stock",
+          "source_blocked_sale": false,
+          "price_kind": "advertised_unit_price",
+          "verified": true
+        },
+        {
+          "source_variant_id": 253563389,
+          "source_sku": "200005100",
+          "title": "Relógio Poedagar Golden Star Branco",
+          "options": [
+            {
+              "name": "Cor",
+              "id": 4306761,
+              "value": "Branco",
+              "value_id": 60495598
+            }
+          ],
+          "unit_price_brl": "179.90",
+          "pix_price_brl": "170.91",
+          "pix_discount_percent": 5,
+          "billet_price_brl": "179.90",
+          "billet_discount_percent": 0,
+          "source_price_before_promotion_brl": "219.90",
+          "source_has_promotion": true,
+          "source_stock_status": "in_stock",
+          "source_blocked_sale": false,
+          "price_kind": "advertised_unit_price",
+          "verified": true
+        },
+        {
+          "source_variant_id": 253563392,
+          "source_sku": "100005979",
+          "title": "Relógio Poedagar Golden Star Prata e Preto",
+          "options": [
+            {
+              "name": "Cor",
+              "id": 4306761,
+              "value": "Prata e Preto",
+              "value_id": 60528725
+            }
+          ],
+          "unit_price_brl": "179.90",
+          "pix_price_brl": "170.91",
+          "pix_discount_percent": 5,
+          "billet_price_brl": "179.90",
+          "billet_discount_percent": 0,
+          "source_price_before_promotion_brl": "219.90",
+          "source_has_promotion": true,
+          "source_stock_status": "in_stock",
+          "source_blocked_sale": false,
+          "price_kind": "advertised_unit_price",
+          "verified": true
+        },
+        {
+          "source_variant_id": 253563395,
+          "source_sku": "350853",
+          "title": "Relógio Poedagar Golden Star Todo Preto",
+          "options": [
+            {
+              "name": "Cor",
+              "id": 4306761,
+              "value": "Todo Preto",
+              "value_id": 60528728
+            }
+          ],
+          "unit_price_brl": "179.90",
+          "pix_price_brl": "170.91",
+          "pix_discount_percent": 5,
+          "billet_price_brl": "179.90",
+          "billet_discount_percent": 0,
+          "source_price_before_promotion_brl": "219.90",
+          "source_has_promotion": true,
+          "source_stock_status": "in_stock",
+          "source_blocked_sale": false,
+          "price_kind": "advertised_unit_price",
+          "verified": true
+        }
+      ],
+      "condition_review": {
+        "method": "HTML público window.data.product.data.skus.data[].prices.data",
+        "selected_field": "price",
+        "pix_used": false,
+        "previous_price_used": false,
+        "coupon_or_minimum_quantity_used": false,
+        "observation": "Preço unitário do SKU coincide com boleto sem desconto adicional. Pix é separado. Não foi inserido cupom nem selecionada quantidade. A promoção própria da fonte não é criada na VRAS.",
+        "installments_promised_by_vras": false
+      }
+    },
+    {
+      "product_id": 20,
+      "model": "King Royal",
+      "url": "https://lojaspoedagar.com.br/king-royal/p",
+      "checked_at_utc": "2026-11-08T00:02:44.966081+00:00",
+      "verified": true,
+      "html_sha256": "c2d20276551978734235a882eb2cda012c70a9ccc8543fac9aa87419c2b0b463",
+      "source_name": "Relógio Poedagar King Royal",
+      "source_product_id": 37697475,
+      "variants": [
+        {
+          "source_variant_id": 253648832,
+          "source_sku": "201447598",
+          "title": "Relógio Poedagar King Royal Azul",
+          "options": [
+            {
+              "name": "Cor",
+              "id": 4306761,
+              "value": "Azul",
+              "value_id": 60495595
+            }
+          ],
+          "unit_price_brl": "219.90",
+          "pix_price_brl": "208.91",
+          "pix_discount_percent": 5,
+          "billet_price_brl": "219.90",
+          "billet_discount_percent": 0,
+          "source_price_before_promotion_brl": "279.90",
+          "source_has_promotion": true,
+          "source_stock_status": "in_stock",
+          "source_blocked_sale": false,
+          "price_kind": "advertised_unit_price",
+          "verified": true
+        },
+        {
+          "source_variant_id": 253648833,
+          "source_sku": "4VMWHZJL2",
+          "title": "Relógio Poedagar King Royal Branco",
+          "options": [
+            {
+              "name": "Cor",
+              "id": 4306761,
+              "value": "Branco",
+              "value_id": 60495598
+            }
+          ],
+          "unit_price_brl": "219.90",
+          "pix_price_brl": "208.91",
+          "pix_discount_percent": 5,
+          "billet_price_brl": "219.90",
+          "billet_discount_percent": 0,
+          "source_price_before_promotion_brl": "279.90",
+          "source_has_promotion": true,
+          "source_stock_status": "in_stock",
+          "source_blocked_sale": false,
+          "price_kind": "advertised_unit_price",
+          "verified": true
+        },
+        {
+          "source_variant_id": 253648834,
+          "source_sku": "CDVZWWFBH",
+          "title": "Relógio Poedagar King Royal Preto",
+          "options": [
+            {
+              "name": "Cor",
+              "id": 4306761,
+              "value": "Preto",
+              "value_id": 60495596
+            }
+          ],
+          "unit_price_brl": "219.90",
+          "pix_price_brl": "208.91",
+          "pix_discount_percent": 5,
+          "billet_price_brl": "219.90",
+          "billet_discount_percent": 0,
+          "source_price_before_promotion_brl": "279.90",
+          "source_has_promotion": true,
+          "source_stock_status": "in_stock",
+          "source_blocked_sale": false,
+          "price_kind": "advertised_unit_price",
+          "verified": true
+        },
+        {
+          "source_variant_id": 253648835,
+          "source_sku": "25ZZV6QFU",
+          "title": "Relógio Poedagar King Royal Golden e Azul",
+          "options": [
+            {
+              "name": "Cor",
+              "id": 4306761,
+              "value": "Golden e Azul",
+              "value_id": 60554861
+            }
+          ],
+          "unit_price_brl": "219.90",
+          "pix_price_brl": "208.91",
+          "pix_discount_percent": 5,
+          "billet_price_brl": "219.90",
+          "billet_discount_percent": 0,
+          "source_price_before_promotion_brl": "279.90",
+          "source_has_promotion": true,
+          "source_stock_status": "in_stock",
+          "source_blocked_sale": false,
+          "price_kind": "advertised_unit_price",
+          "verified": true
+        },
+        {
+          "source_variant_id": 254853644,
+          "source_sku": "MQFKC6AJ8",
+          "title": "Relógio Poedagar King Royal Golden e Branco",
+          "options": [
+            {
+              "name": "Cor",
+              "id": 4306761,
+              "value": "Golden e Branco",
+              "value_id": 60554862
+            }
+          ],
+          "unit_price_brl": "219.90",
+          "pix_price_brl": "208.91",
+          "pix_discount_percent": 5,
+          "billet_price_brl": "219.90",
+          "billet_discount_percent": 0,
+          "source_price_before_promotion_brl": "279.90",
+          "source_has_promotion": true,
+          "source_stock_status": "in_stock",
+          "source_blocked_sale": false,
+          "price_kind": "advertised_unit_price",
+          "verified": true
+        },
+        {
+          "source_variant_id": 254853669,
+          "source_sku": "WBJNDQU4T",
+          "title": "Relógio Poedagar King Royal Golden e Preto",
+          "options": [
+            {
+              "name": "Cor",
+              "id": 4306761,
+              "value": "Golden e Preto",
+              "value_id": 60554868
+            }
+          ],
+          "unit_price_brl": "219.90",
+          "pix_price_brl": "208.91",
+          "pix_discount_percent": 5,
+          "billet_price_brl": "219.90",
+          "billet_discount_percent": 0,
+          "source_price_before_promotion_brl": "279.90",
+          "source_has_promotion": true,
+          "source_stock_status": "in_stock",
+          "source_blocked_sale": false,
+          "price_kind": "advertised_unit_price",
+          "verified": true
+        },
+        {
+          "source_variant_id": 254853671,
+          "source_sku": "KBPKXX5N2",
+          "title": "Relógio Poedagar King Royal Todo Preto",
+          "options": [
+            {
+              "name": "Cor",
+              "id": 4306761,
+              "value": "Todo Preto",
+              "value_id": 60528728
+            }
+          ],
+          "unit_price_brl": "219.90",
+          "pix_price_brl": "208.91",
+          "pix_discount_percent": 5,
+          "billet_price_brl": "219.90",
+          "billet_discount_percent": 0,
+          "source_price_before_promotion_brl": "279.90",
+          "source_has_promotion": true,
+          "source_stock_status": "in_stock",
+          "source_blocked_sale": false,
+          "price_kind": "advertised_unit_price",
+          "verified": true
+        }
+      ],
+      "condition_review": {
+        "method": "HTML público window.data.product.data.skus.data[].prices.data",
+        "selected_field": "price",
+        "pix_used": false,
+        "previous_price_used": false,
+        "coupon_or_minimum_quantity_used": false,
+        "observation": "Preço unitário do SKU coincide com boleto sem desconto adicional. Pix é separado. Não foi inserido cupom nem selecionada quantidade. A promoção própria da fonte não é criada na VRAS.",
+        "installments_promised_by_vras": false
+      }
+    },
+    {
+      "product_id": 21,
+      "model": "Machine",
+      "url": "https://lojaspoedagar.com.br/machine/p",
+      "checked_at_utc": "2026-11-08T00:02:45.196359+00:00",
+      "verified": true,
+      "html_sha256": "117e1458a1e1af7d2b2e01b6f62c5e35534ac330d43c4c7ba0120e03a1138b19",
+      "source_name": "Relógio Poedagar Machine",
+      "source_product_id": 37684118,
+      "variants": [
+        {
+          "source_variant_id": 254753391,
+          "source_sku": "EBWM37HFC",
+          "title": "Relógio Poedagar Machine Preto",
+          "options": [
+            {
+              "name": "Cor",
+              "id": 4306761,
+              "value": "Preto",
+              "value_id": 60495596
+            }
+          ],
+          "unit_price_brl": "194.90",
+          "pix_price_brl": "185.16",
+          "pix_discount_percent": 5,
+          "billet_price_brl": "194.90",
+          "billet_discount_percent": 0,
+          "source_price_before_promotion_brl": "279.00",
+          "source_has_promotion": true,
+          "source_stock_status": "in_stock",
+          "source_blocked_sale": false,
+          "price_kind": "advertised_unit_price",
+          "verified": true
+        },
+        {
+          "source_variant_id": 254753449,
+          "source_sku": "1987119871922",
+          "title": "Relógio Poedagar Machine Todo Preto",
+          "options": [
+            {
+              "name": "Cor",
+              "id": 4306761,
+              "value": "Todo Preto",
+              "value_id": 60528728
+            }
+          ],
+          "unit_price_brl": "194.90",
+          "pix_price_brl": "185.16",
+          "pix_discount_percent": 5,
+          "billet_price_brl": "194.90",
+          "billet_discount_percent": 0,
+          "source_price_before_promotion_brl": "279.00",
+          "source_has_promotion": true,
+          "source_stock_status": "in_stock",
+          "source_blocked_sale": false,
+          "price_kind": "advertised_unit_price",
+          "verified": true
+        },
+        {
+          "source_variant_id": 254753450,
+          "source_sku": "1987119871923",
+          "title": "Relógio Poedagar Machine Dourado",
+          "options": [
+            {
+              "name": "Cor",
+              "id": 4306761,
+              "value": "Dourado",
+              "value_id": 60528726
+            }
+          ],
+          "unit_price_brl": "194.90",
+          "pix_price_brl": "185.16",
+          "pix_discount_percent": 5,
+          "billet_price_brl": "194.90",
+          "billet_discount_percent": 0,
+          "source_price_before_promotion_brl": "279.00",
+          "source_has_promotion": true,
+          "source_stock_status": "in_stock",
+          "source_blocked_sale": false,
+          "price_kind": "advertised_unit_price",
+          "verified": true
+        }
+      ],
+      "condition_review": {
+        "method": "HTML público window.data.product.data.skus.data[].prices.data",
+        "selected_field": "price",
+        "pix_used": false,
+        "previous_price_used": false,
+        "coupon_or_minimum_quantity_used": false,
+        "observation": "Preço unitário do SKU coincide com boleto sem desconto adicional. Pix é separado. Não foi inserido cupom nem selecionada quantidade. A promoção própria da fonte não é criada na VRAS.",
+        "installments_promised_by_vras": false
+      }
+    },
+    {
+      "product_id": 22,
+      "model": "Nautilus",
+      "url": "https://lojaspoedagar.com.br/relogio-poedagar-nautilus-azul/p",
+      "checked_at_utc": "2026-11-08T00:02:45.347494+00:00",
+      "verified": true,
+      "html_sha256": "90fea67d49ad323f253b6d044979eae8b83246dc3c461c59738d58f400f65f61",
+      "source_name": "Relógio Poedagar Nautilus",
+      "source_product_id": 42792600,
+      "variants": [
+        {
+          "source_variant_id": 284259889,
+          "source_sku": "PJCBSRG8F",
+          "title": "Relógio Poedagar Nautilus Prata",
+          "options": [
+            {
+              "name": "Cor",
+              "id": 4306761,
+              "value": "Prata",
+              "value_id": 60528724
+            }
+          ],
+          "unit_price_brl": "189.90",
+          "pix_price_brl": "180.41",
+          "pix_discount_percent": 5,
+          "billet_price_brl": "189.90",
+          "billet_discount_percent": 0,
+          "source_price_before_promotion_brl": "239.90",
+          "source_has_promotion": true,
+          "source_stock_status": "in_stock",
+          "source_blocked_sale": false,
+          "price_kind": "advertised_unit_price",
+          "verified": true
+        },
+        {
+          "source_variant_id": 284259887,
+          "source_sku": "FGVC426TM",
+          "title": "Relógio Poedagar Nautilus All Black",
+          "options": [
+            {
+              "name": "Cor",
+              "id": 4306761,
+              "value": "All Black",
+              "value_id": 60391530
+            }
+          ],
+          "unit_price_brl": "189.90",
+          "pix_price_brl": "180.41",
+          "pix_discount_percent": 5,
+          "billet_price_brl": "189.90",
+          "billet_discount_percent": 0,
+          "source_price_before_promotion_brl": "239.90",
+          "source_has_promotion": true,
+          "source_stock_status": "in_stock",
+          "source_blocked_sale": false,
+          "price_kind": "advertised_unit_price",
+          "verified": true
+        },
+        {
+          "source_variant_id": 284259886,
+          "source_sku": "3FYJ2FBC5",
+          "title": "Relógio Poedagar Nautilus Azul",
+          "options": [
+            {
+              "name": "Cor",
+              "id": 4306761,
+              "value": "Azul",
+              "value_id": 60495595
+            }
+          ],
+          "unit_price_brl": "189.90",
+          "pix_price_brl": "180.41",
+          "pix_discount_percent": 5,
+          "billet_price_brl": "189.90",
+          "billet_discount_percent": 0,
+          "source_price_before_promotion_brl": "239.90",
+          "source_has_promotion": true,
+          "source_stock_status": "in_stock",
+          "source_blocked_sale": false,
+          "price_kind": "advertised_unit_price",
+          "verified": true
+        },
+        {
+          "source_variant_id": 284259888,
+          "source_sku": "289HEFURH",
+          "title": "Relógio Poedagar Nautilus Dourado e Azul",
+          "options": [
+            {
+              "name": "Cor",
+              "id": 4306761,
+              "value": "Dourado e Azul",
+              "value_id": 60532070
+            }
+          ],
+          "unit_price_brl": "189.90",
+          "pix_price_brl": "180.41",
+          "pix_discount_percent": 5,
+          "billet_price_brl": "189.90",
+          "billet_discount_percent": 0,
+          "source_price_before_promotion_brl": "239.90",
+          "source_has_promotion": true,
+          "source_stock_status": "in_stock",
+          "source_blocked_sale": false,
+          "price_kind": "advertised_unit_price",
+          "verified": true
+        }
+      ],
+      "condition_review": {
+        "method": "HTML público window.data.product.data.skus.data[].prices.data",
+        "selected_field": "price",
+        "pix_used": false,
+        "previous_price_used": false,
+        "coupon_or_minimum_quantity_used": false,
+        "observation": "Preço unitário do SKU coincide com boleto sem desconto adicional. Pix é separado. Não foi inserido cupom nem selecionada quantidade. A promoção própria da fonte não é criada na VRAS.",
+        "installments_promised_by_vras": false
+      }
+    },
+    {
+      "product_id": 23,
+      "model": "Signature",
+      "url": "https://lojaspoedagar.com.br/signature/p",
+      "checked_at_utc": "2026-11-08T00:02:45.392987+00:00",
+      "verified": true,
+      "html_sha256": "5042d16b3c30c84d3927553db01fcfd7f64efe1564188a1d2747799abcf63ef1",
+      "source_name": "Relógio Poedagar Signature",
+      "source_product_id": 37684081,
+      "variants": [
+        {
+          "source_variant_id": 253563401,
+          "source_sku": "200005100",
+          "title": "Relógio Poedagar Signature Verde",
+          "options": [
+            {
+              "name": "Cor",
+              "id": 4306761,
+              "value": "Verde",
+              "value_id": 60495597
+            }
+          ],
+          "unit_price_brl": "177.90",
+          "pix_price_brl": "169.01",
+          "pix_discount_percent": 5,
+          "billet_price_brl": "177.90",
+          "billet_discount_percent": 0,
+          "source_price_before_promotion_brl": "219.90",
+          "source_has_promotion": true,
+          "source_stock_status": "in_stock",
+          "source_blocked_sale": false,
+          "price_kind": "advertised_unit_price",
+          "verified": true
+        },
+        {
+          "source_variant_id": 253563399,
+          "source_sku": "201447598",
+          "title": "Relógio Poedagar Signature Branco",
+          "options": [
+            {
+              "name": "Cor",
+              "id": 4306761,
+              "value": "Branco",
+              "value_id": 60495598
+            }
+          ],
+          "unit_price_brl": "177.90",
+          "pix_price_brl": "169.01",
+          "pix_discount_percent": 5,
+          "billet_price_brl": "177.90",
+          "billet_discount_percent": 0,
+          "source_price_before_promotion_brl": "219.90",
+          "source_has_promotion": true,
+          "source_stock_status": "in_stock",
+          "source_blocked_sale": false,
+          "price_kind": "advertised_unit_price",
+          "verified": true
+        },
+        {
+          "source_variant_id": 253563400,
+          "source_sku": "201447303",
+          "title": "Relógio Poedagar Signature Azul",
+          "options": [
+            {
+              "name": "Cor",
+              "id": 4306761,
+              "value": "Azul",
+              "value_id": 60495595
+            }
+          ],
+          "unit_price_brl": "177.90",
+          "pix_price_brl": "169.01",
+          "pix_discount_percent": 5,
+          "billet_price_brl": "177.90",
+          "billet_discount_percent": 0,
+          "source_price_before_promotion_brl": "219.90",
+          "source_has_promotion": true,
+          "source_stock_status": "in_stock",
+          "source_blocked_sale": false,
+          "price_kind": "advertised_unit_price",
+          "verified": true
+        },
+        {
+          "source_variant_id": 253563402,
+          "source_sku": "200000080",
+          "title": "Relógio Poedagar Signature Preta",
+          "options": [
+            {
+              "name": "Cor",
+              "id": 4306761,
+              "value": "Preta",
+              "value_id": 60528480
+            }
+          ],
+          "unit_price_brl": "177.90",
+          "pix_price_brl": "169.01",
+          "pix_discount_percent": 5,
+          "billet_price_brl": "177.90",
+          "billet_discount_percent": 0,
+          "source_price_before_promotion_brl": "219.90",
+          "source_has_promotion": true,
+          "source_stock_status": "in_stock",
+          "source_blocked_sale": false,
+          "price_kind": "advertised_unit_price",
+          "verified": true
+        }
+      ],
+      "condition_review": {
+        "method": "HTML público window.data.product.data.skus.data[].prices.data",
+        "selected_field": "price",
+        "pix_used": false,
+        "previous_price_used": false,
+        "coupon_or_minimum_quantity_used": false,
+        "observation": "Preço unitário do SKU coincide com boleto sem desconto adicional. Pix é separado. Não foi inserido cupom nem selecionada quantidade. A promoção própria da fonte não é criada na VRAS.",
+        "installments_promised_by_vras": false
+      }
+    },
+    {
+      "product_id": 24,
+      "model": "Tempus",
+      "url": "https://lojaspoedagar.com.br/tempus/p",
+      "checked_at_utc": "2026-11-08T00:02:45.493076+00:00",
+      "verified": true,
+      "html_sha256": "57a7aab08d7f576ec5dd651b5a8cb7abd6f42753714b8ac37e2a78a383182603",
+      "source_name": "Relógio Poedagar Tempus",
+      "source_product_id": 37684129,
+      "variants": [
+        {
+          "source_variant_id": 253563659,
+          "source_sku": "201447598",
+          "title": "Relógio Poedagar Tempus Cinza",
+          "options": [
+            {
+              "name": "Cor",
+              "id": 4306761,
+              "value": "Cinza",
+              "value_id": 60556426
+            }
+          ],
+          "unit_price_brl": "187.90",
+          "pix_price_brl": "178.51",
+          "pix_discount_percent": 5,
+          "billet_price_brl": "187.90",
+          "billet_discount_percent": 0,
+          "source_price_before_promotion_brl": "258.90",
+          "source_has_promotion": true,
+          "source_stock_status": "in_stock",
+          "source_blocked_sale": false,
+          "price_kind": "advertised_unit_price",
+          "verified": true
+        },
+        {
+          "source_variant_id": 253563660,
+          "source_sku": "201447303",
+          "title": "Relógio Poedagar Tempus Rose e Preto",
+          "options": [
+            {
+              "name": "Cor",
+              "id": 4306761,
+              "value": "Rose e Preto",
+              "value_id": 60538625
+            }
+          ],
+          "unit_price_brl": "187.90",
+          "pix_price_brl": "178.51",
+          "pix_discount_percent": 5,
+          "billet_price_brl": "187.90",
+          "billet_discount_percent": 0,
+          "source_price_before_promotion_brl": "258.90",
+          "source_has_promotion": true,
+          "source_stock_status": "in_stock",
+          "source_blocked_sale": false,
+          "price_kind": "advertised_unit_price",
+          "verified": true
+        },
+        {
+          "source_variant_id": 253563661,
+          "source_sku": "200005100",
+          "title": "Relógio Poedagar Tempus Rose e Azul",
+          "options": [
+            {
+              "name": "Cor",
+              "id": 4306761,
+              "value": "Rose e Azul",
+              "value_id": 60556504
+            }
+          ],
+          "unit_price_brl": "187.90",
+          "pix_price_brl": "178.51",
+          "pix_discount_percent": 5,
+          "billet_price_brl": "187.90",
+          "billet_discount_percent": 0,
+          "source_price_before_promotion_brl": "258.90",
+          "source_has_promotion": true,
+          "source_stock_status": "in_stock",
+          "source_blocked_sale": false,
+          "price_kind": "advertised_unit_price",
+          "verified": true
+        },
+        {
+          "source_variant_id": 253563662,
+          "source_sku": "200000080",
+          "title": "Relógio Poedagar Tempus Preto",
+          "options": [
+            {
+              "name": "Cor",
+              "id": 4306761,
+              "value": "Preto",
+              "value_id": 60495596
+            }
+          ],
+          "unit_price_brl": "187.90",
+          "pix_price_brl": "178.51",
+          "pix_discount_percent": 5,
+          "billet_price_brl": "187.90",
+          "billet_discount_percent": 0,
+          "source_price_before_promotion_brl": "258.90",
+          "source_has_promotion": true,
+          "source_stock_status": "in_stock",
+          "source_blocked_sale": false,
+          "price_kind": "advertised_unit_price",
+          "verified": true
+        },
+        {
+          "source_variant_id": 253563663,
+          "source_sku": "100013777",
+          "title": "Relógio Poedagar Tempus Preto e Azul",
+          "options": [
+            {
+              "name": "Cor",
+              "id": 4306761,
+              "value": "Preto e Azul",
+              "value_id": 60556505
+            }
+          ],
+          "unit_price_brl": "187.90",
+          "pix_price_brl": "178.51",
+          "pix_discount_percent": 5,
+          "billet_price_brl": "187.90",
+          "billet_discount_percent": 0,
+          "source_price_before_promotion_brl": "258.90",
+          "source_has_promotion": true,
+          "source_stock_status": "in_stock",
+          "source_blocked_sale": false,
+          "price_kind": "advertised_unit_price",
+          "verified": true
+        },
+        {
+          "source_variant_id": 253563664,
+          "source_sku": "100005979",
+          "title": "Relógio Poedagar Tempus Prata e Preta",
+          "options": [
+            {
+              "name": "Cor",
+              "id": 4306761,
+              "value": "Prata e Preta",
+              "value_id": 60528427
+            }
+          ],
+          "unit_price_brl": "187.90",
+          "pix_price_brl": "178.51",
+          "pix_discount_percent": 5,
+          "billet_price_brl": "187.90",
+          "billet_discount_percent": 0,
+          "source_price_before_promotion_brl": "258.90",
+          "source_has_promotion": true,
+          "source_stock_status": "out_of_stock",
+          "source_blocked_sale": false,
+          "price_kind": "advertised_unit_price",
+          "verified": true
+        },
+        {
+          "source_variant_id": 253563665,
+          "source_sku": "350686",
+          "title": "Relógio Poedagar Tempus Azul",
+          "options": [
+            {
+              "name": "Cor",
+              "id": 4306761,
+              "value": "Azul",
+              "value_id": 60495595
+            }
+          ],
+          "unit_price_brl": "187.90",
+          "pix_price_brl": "178.51",
+          "pix_discount_percent": 5,
+          "billet_price_brl": "187.90",
+          "billet_discount_percent": 0,
+          "source_price_before_promotion_brl": "258.90",
+          "source_has_promotion": true,
+          "source_stock_status": "in_stock",
+          "source_blocked_sale": false,
+          "price_kind": "advertised_unit_price",
+          "verified": true
+        },
+        {
+          "source_variant_id": 253563666,
+          "source_sku": "350850",
+          "title": "Relógio Poedagar Tempus Branco",
+          "options": [
+            {
+              "name": "Cor",
+              "id": 4306761,
+              "value": "Branco",
+              "value_id": 60495598
+            }
+          ],
+          "unit_price_brl": "187.90",
+          "pix_price_brl": "178.51",
+          "pix_discount_percent": 5,
+          "billet_price_brl": "187.90",
+          "billet_discount_percent": 0,
+          "source_price_before_promotion_brl": "258.90",
+          "source_has_promotion": true,
+          "source_stock_status": "in_stock",
+          "source_blocked_sale": false,
+          "price_kind": "advertised_unit_price",
+          "verified": true
+        }
+      ],
+      "condition_review": {
+        "method": "HTML público window.data.product.data.skus.data[].prices.data",
+        "selected_field": "price",
+        "pix_used": false,
+        "previous_price_used": false,
+        "coupon_or_minimum_quantity_used": false,
+        "observation": "Preço unitário do SKU coincide com boleto sem desconto adicional. Pix é separado. Não foi inserido cupom nem selecionada quantidade. A promoção própria da fonte não é criada na VRAS.",
+        "installments_promised_by_vras": false
+      }
+    }
+  ]
+}

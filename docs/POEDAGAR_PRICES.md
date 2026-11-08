@@ -1,6 +1,6 @@
 # Pesquisa Poedagar e comparação de preços
 
-Consulta pública: 2026-11-07T23:23:53.681040+00:00 (UTC). Os horários individuais também estão registrados no snapshot.
+Consulta pública: 2026-11-07T23:58:43.179133+00:00 (UTC). Os horários individuais também estão registrados no snapshot.
 Fonte principal de preço: [https://lojaspoedagar.com.br/masculinos?sort_by=best_sellers](https://lojaspoedagar.com.br/masculinos?sort_by=best_sellers). Cada página individual foi consultada; horários e hashes SHA-256 estão em `data/poedagar_sources.json`.
 
 ## Resultado e limite da identificação
