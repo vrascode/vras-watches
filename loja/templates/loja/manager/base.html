@@ -1,0 +1,7 @@
+{% load static %}<!doctype html>
+<html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow"><link rel="icon" href="data:,"><title>{% block title %}Catálogo{% endblock %} | Gestão VRAS Watches</title>
+<link rel="stylesheet" href="{% static 'css/catalog-manager.css' %}"><script src="{% static 'js/catalog-manager.js' %}" defer></script></head>
+<body><a class="skip" href="#gestao">Pular para o conteúdo</a><header class="manager-header"><a href="{% url 'loja:catalog_manager' %}" class="manager-brand">VRAS <small>WATCHES / GESTÃO</small></a><a href="{% url 'loja:home' %}">Ver loja ↗</a></header>
+<main id="gestao" class="manager-wrap">{% if messages %}<div role="status" class="notices">{% for message in messages %}<p>{{ message }}</p>{% endfor %}</div>{% endif %}{% block content %}{% endblock %}</main>
+<footer class="manager-wrap manager-footer">VRAS Watches · Área exclusiva do proprietário</footer></body></html>

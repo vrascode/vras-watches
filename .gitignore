@@ -23,6 +23,7 @@ env/
 staticfiles/
 artifacts/
 node_modules/
+data/.owner-intake.lock
 
 # Owner-provided originals and private rights records stay local.
 midias-instagram/*

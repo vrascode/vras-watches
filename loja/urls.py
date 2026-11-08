@@ -1,11 +1,17 @@
 from django.urls import path
+from django.contrib.admin.forms import AdminAuthenticationForm
+from django.contrib.auth.views import LoginView
 
-from loja import views
+from loja import catalog_views, views
 
 
 app_name = "loja"
 
 urlpatterns = [
+    path("gestao/entrar/", LoginView.as_view(template_name="loja/manager/login.html",
+                                          authentication_form=AdminAuthenticationForm), name="catalog_login"),
+    path("gestao/catalogo/", catalog_views.catalog_manager, name="catalog_manager"),
+    path("gestao/catalogo/<int:id>/", catalog_views.catalog_product, name="catalog_product"),
     path("", views.home, name="home"),
     path("produtos/", views.products, name="products"),
     path("produto/<int:id>/", views.product_detail, name="product_detail"),

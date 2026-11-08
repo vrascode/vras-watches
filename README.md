@@ -155,6 +155,21 @@ para publicar somente ofertas completas. Esse comando preserva preços e aprova�
 não é necessário reaplicar preços para retirar produtos aptos do rascunho.
 Veja os [requisitos e resultado da publicação](docs/POEDAGAR_PUBLICATION.md).
 
+### Receber fotos e preparar ofertas pelo navegador
+
+Acesse [Gestão do catálogo](http://127.0.0.1:8001/gestao/catalogo/). No primeiro
+acesso, crie sua conta com `python manage.py createsuperuser` e entre com ela.
+O painel exige uma conta administrativa ativa; nenhum usuário/senha padrão foi criado.
+Selecione o modelo, confira sua referência e variante, envie as fotos autorizadas
+e registre a disponibilidade real da VRAS. Não é necessário editar JSON.
+O formulário gera o manifesto, preserva os originais, cria WebP responsivo e
+executa o publicador existente. Dados parciais permanecem em rascunho.
+Ao trocar de variante, use a substituição da galeria para não manter fotos da
+variante anterior. Alterar a referência ou variante gera uma nova revisão da
+oferta; itens antigos incompatíveis são retirados do carrinho. Os preços aprovados não são editáveis.
+Os originais, comprovantes e backups do recebimento ficam em
+`midias-instagram/recebidos/`, fora da área pública e ignorados pelo Git.
+
 Mescle as entradas no manifesto existente; nao substitua outras secoes. `brand.logo` recebe um objeto de imagem. `hero`, `editorial` e `campaign` recebem `image` e/ou `video`. A primeira imagem vira capa; a segunda aparece no hover. Multiplos videos aparecem na galeria do produto. Um poster tambem pode servir como capa quando so ha video.
 
 Videos decorativos sao silenciosos e em loop, carregados por visibilidade; previews so iniciam com mouse. Videos interativos tem controles nativos. Apenas um video reproduz por vez, ha pausa fora da tela e com aba oculta, suporte a movimento reduzido e fallback em erro. Videos com fala precisam de legendas locais `.vtt`: cadastre um objeto autorizado em `captions`. Versoes para conexao lenta, audio/legendas, codec e enquadramento devem ser validados com os arquivos reais.

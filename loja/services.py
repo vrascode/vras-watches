@@ -14,6 +14,7 @@ PRODUCTS_PATH = settings.BASE_DIR / "data" / "products.json"
 CART_SESSION_KEY = "cart"
 CART_VERSION_KEY = "cart_catalog_generation"
 CART_NOTICE_KEY = "cart_catalog_updated"
+CART_OFFERS_KEY = "cart_offer_versions"
 MAX_QUANTITY = 99
 CATEGORY_LABELS = {"Classicos": "Cl\u00e1ssicos", "Lancamentos": "Lan\u00e7amentos", "Best Sellers": "Seleção VRAS"}
 SORT_OPTIONS = {"destaques": "Destaques", "preco_asc": "Menor pre\u00e7o",
@@ -235,9 +236,14 @@ def get_cart(session):
         session[CART_NOTICE_KEY] = True
         session.modified = True
         return {}
-    valid_ids = {str(p["id"]) for p in get_products()}
+    catalog = {str(p["id"]): p for p in get_products()}
+    versions = session.get(CART_OFFERS_KEY, {})
+    if not isinstance(versions, dict):
+        versions = {}
     valid = {str(key): min(value, MAX_QUANTITY) for key, value in stored.items()
-             if str(key) in valid_ids and type(value) is int and value > 0}
+             if str(key) in catalog and type(value) is int and value > 0
+             and (not catalog[str(key)].get("oferta_revisao")
+                  or versions.get(str(key)) == catalog[str(key)]["oferta_revisao"])}
     if valid != stored:
         session[CART_SESSION_KEY] = valid
         session[CART_NOTICE_KEY] = True
@@ -252,7 +258,8 @@ def cart_count(session):
 def set_quantity(session, product_id, quantity):
     if type(quantity) is not int or not 0 <= quantity <= MAX_QUANTITY:
         raise ValueError("Quantidade deve estar entre 0 e 99.")
-    if not get_product(product_id):
+    product = get_product(product_id)
+    if not product:
         raise ValueError("Produto nao encontrado.")
     cart = get_cart(session).copy()
     key = str(product_id)
@@ -262,6 +269,13 @@ def set_quantity(session, product_id, quantity):
         cart.pop(key, None)
     session[CART_SESSION_KEY] = cart
     session[CART_VERSION_KEY] = catalog_generation()
+    versions = session.get(CART_OFFERS_KEY, {})
+    versions = versions.copy() if isinstance(versions, dict) else {}
+    if quantity and product.get("oferta_revisao"):
+        versions[key] = product["oferta_revisao"]
+    else:
+        versions.pop(key, None)
+    session[CART_OFFERS_KEY] = {key: value for key, value in versions.items() if key in cart}
     session.modified = True
 
 
