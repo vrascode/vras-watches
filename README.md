@@ -222,3 +222,24 @@ quando `VRAS_BROWSER_QA` não está habilitado. `QA_DEBUG_URL` configura a porta
 7. Manter banco, backups, logs, segredos e perfis de QA fora da area publica. Nao fazer cache compartilhado de HTML com estado de sessao. Configurar monitoramento, backups e permissoes no host.
 
 Se TLS terminar no proxy, configure o reconhecimento de HTTPS apenas depois de garantir que o proxy remove cabecalhos externos e injeta o cabecalho confiavel. Nao foi adicionado `SECURE_PROXY_SSL_HEADER` incondicional. Os dois avisos de `check --deploy` sobre HSTS de subdominios/preload sao esperados ate essa decisao. Nao ha deploy ou push automatico neste trabalho.
+
+
+## Documentacao tecnica
+
+O projeto possui guias complementares em `docs/` para
+arquitetura, catalogo Poedagar, variantes, precos, midias,
+vitrine, carrinho, responsividade, acessibilidade,
+desempenho, SEO, seguranca, testes e publicacao.
+
+Esses documentos descrevem processos e requisitos.
+A existencia de um guia nao significa que todas as
+funcionalidades estejam concluidas.
+
+### Estado do catalogo
+
+Os 12 modelos Poedagar possuem precos cadastrados.
+A publicacao comercial depende da confirmacao de
+variantes, fotografias autorizadas e disponibilidade.
+
+Consulte `docs/RELEASE_CHECKLIST.md` antes de
+disponibilizar novos produtos para compra.
