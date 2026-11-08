@@ -46,6 +46,8 @@ estação. Nenhum vídeo é publicado sem poster aprovado.
 ```powershell
 python manage.py import_store_media
 python manage.py import_store_media --apply
+python manage.py publish_ready_products
+python manage.py publish_ready_products --apply
 python manage.py audit_storefront
 ```
 
@@ -61,3 +63,8 @@ Arquivos de saída usam hash e novas versões não apagam as anteriores. Guarde 
 comprovantes fora do diretório público; o campo `comprovante` deve conter uma
 referência legível, sem dados pessoais ou credenciais. Nenhum preço, estoque ou
 identidade de fabricante é alterado pelo importador.
+
+O publicador usa as validações existentes e altera somente o status de ofertas
+completas. Não seleciona variantes, confirma estoque ou reaplica preços.
+Os arquivos e informações ainda necessários por modelo estão em
+`docs/POEDAGAR_PUBLICATION.md`.

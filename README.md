@@ -149,6 +149,12 @@ Todos os caminhos sao relativos a `static/`. Cada midia requer `src`, `origem` e
 
 Prefira `python manage.py import_store_media --apply` para processar os originais autorizados de `midias-instagram/manifest.json`. O exemplo atualizado fica em `midias-instagram/manifest.example.json`, sem permissões fictícias. Para produtos, informe o novo `produto_id` e o `variante_fonte_id` correspondente à fotografia. O importador grava também modelo e geração em imagens, vídeos e posters; todos precisam coincidir com o produto para liberar a publicação. Não cadastrar as novas fotos nos IDs 1-12.
 
+Após conferir identidade, variante, mídia e disponibilidade reais, execute
+`python manage.py publish_ready_products` para simular e acrescente `--apply`
+para publicar somente ofertas completas. Esse comando preserva preços e aprovações;
+não é necessário reaplicar preços para retirar produtos aptos do rascunho.
+Veja os [requisitos e resultado da publicação](docs/POEDAGAR_PUBLICATION.md).
+
 Mescle as entradas no manifesto existente; nao substitua outras secoes. `brand.logo` recebe um objeto de imagem. `hero`, `editorial` e `campaign` recebem `image` e/ou `video`. A primeira imagem vira capa; a segunda aparece no hover. Multiplos videos aparecem na galeria do produto. Um poster tambem pode servir como capa quando so ha video.
 
 Videos decorativos sao silenciosos e em loop, carregados por visibilidade; previews so iniciam com mouse. Videos interativos tem controles nativos. Apenas um video reproduz por vez, ha pausa fora da tela e com aba oculta, suporte a movimento reduzido e fallback em erro. Videos com fala precisam de legendas locais `.vtt`: cadastre um objeto autorizado em `captions`. Versoes para conexao lenta, audio/legendas, codec e enquadramento devem ser validados com os arquivos reais.
