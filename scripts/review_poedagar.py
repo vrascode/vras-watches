@@ -135,11 +135,24 @@ def table(headers, rows):
                      + ["| " + " | ".join(str(cell).replace("|", "/").replace("\n", " ") for cell in row) + " |" for row in rows])
 
 
+def price_comparison(product, stamp):
+    approval = product.get("aprovacao_preco", {})
+    applied = approval.get("aprovado") is True and product.get("preco") is not None
+    reference = approval.get("valor") if applied else None
+    difference = Decimal(str(product["preco"])) - Decimal(str(reference)) if applied else None
+    return [product["id"], product["nome"], product.get("modelo", "Não confirmado"), product.get("preco"),
+            reference, difference, approval.get("fonte", "") if applied else "",
+            approval.get("consulta_UTC", stamp) if applied else stamp,
+            "Preço aprovado e aplicado; verificar demais requisitos de publicação" if applied else "Preço não aprovado"]
+
+
 def build_reports():
     report = json.loads(SNAPSHOT.read_text(encoding="utf-8"))
     catalog = json.loads((ROOT / "data/products.json").read_text(encoding="utf-8"))
     products = [entry for entry in report["products"] if "error" not in entry]
     first = {entry["second_site_slug_candidate"]: entry for entry in report["first_site_candidates"]}
+    applied_variants = {key for p in catalog for key, value in p.get("aprovacao_preco", {}).get("variantes", {}).items()
+                        if value.get("aprovado") is True}
     stamp = report["consulted_at_utc"]
     rows, variants, media_rows, identities = [], [], [], []
     for product in products:
@@ -153,7 +166,8 @@ def build_reports():
             variants.append([product["name"], color, variant["source_sku_id"], variant["source_sku"],
                              variant["price_brl"], variant.get("pix_brl"), product["url"], product["checked_at_utc"],
                              variant["source_stock_status"], variant["source_blocked_sale"],
-                             "Sem associação local; não aplicar"])
+                             "Preço aprovado e aplicado; oferta depende dos demais requisitos" if str(variant["source_sku_id"]) in applied_variants
+                             else "Referência sem aprovação local"])
             identities.append([product["name"], product.get("marketed_brand", "Poedagar"),
                                product.get("commercial_model", product["name"]), product.get("manufacturer_reference") or "",
                                variant["source_sku"], variant["source_sku_id"], color,
@@ -167,8 +181,7 @@ def build_reports():
                                target + "-frente.webp", target + "-lateral.webp", target + "-verso.webp",
                                "Pendente: SKU VRAS + identidade/pulseira + originais + autorização"])
     docs = ROOT / "docs"
-    comparison = [[p["id"], p["nome"], "Não confirmado", p["preco"], "", "", "", stamp,
-                   "Sem correspondência exata; preservar preço publicado"] for p in catalog]
+    comparison = [price_comparison(p, stamp) for p in catalog]
     for filename, headers, entries in [
         ("POEDAGAR_PRICES.csv", ["produto", "variante_fonte", "id_variante_fonte", "sku_fonte_nao_referencia_fabricante", "preco_BRL", "pix_condicionado_BRL", "url", "consulta_UTC", "estoque_na_fonte_nao_VRAS", "venda_bloqueada_na_fonte", "decisao"], variants),
         ("POEDAGAR_MEDIA_PENDING.csv", ["produto", "variante_fonte", "id_variante_fonte", "pagina_site1_candidata", "pagina_site2", "urls_somente_consulta", "destino_frente_sugerido", "destino_lateral_sugerido", "destino_verso_sugerido", "pendencia"], media_rows),
@@ -186,7 +199,7 @@ Fonte principal de preço: [{report['category_url']}]({report['category_url']}).
 
 ## Resultado e limite da identificação
 
-{len(products)} anúncios/modelos comerciais e {len(variants)} variantes identificados no site 2. Dez candidatos por nome foram consultados no site 1; isso não é um inventário completo desse site nem comprova equivalência. A identificação física das referências e variantes VRAS segue pendente. Zero fotografias autorizadas incorporadas. Nenhum preço novo foi aprovado ou publicado.
+{len(products)} anúncios/modelos comerciais e {len(variants)} variantes identificados no site 2. Dez candidatos por nome foram consultados no site 1; isso não é um inventário completo desse site nem comprova equivalência. A identificação física das referências e variantes VRAS segue pendente. Zero fotografias autorizadas incorporadas. Há {sum(p.get('aprovacao_preco', {}).get('aprovado') is True for p in catalog)} preços com aprovação registrada no catálogo; isso não publica uma oferta incompleta.
 
 Os nomes são nomes comerciais das lojas, não referências oficiais do fabricante. O SKU `201447598` aparece em anúncios diferentes do site 2; os IDs de variante identificam registros dessa loja e não referências do fabricante. Cor semelhante ou nome parecido não comprovam o mesmo modelo, acabamento ou pulseira. Valores de estoque da fonte são apenas evidência da consulta e nunca foram copiados como estoque VRAS.
 
@@ -202,7 +215,7 @@ Preço de venda `prices.data.price`, em BRL, sem adotar preço antigo, percentua
 
 {'; '.join(p['name'] + ' — ' + v['title'] + ' (' + v['source_stock_status'] + ')' for p in products for v in p['variants'] if v['source_blocked_sale'] or v['source_stock_status'] != 'in_stock') or 'Nenhuma variante indicada como indisponível nessa consulta.'}
 
-Um preço cadastrado para variante indisponível é apenas evidência histórica, não uma proposta aplicável à VRAS. Preservar o preço local e consultar novamente após identificação e disponibilidade confirmadas.
+A disponibilidade na fonte não comprova a oferta da VRAS. Um preço cadastrado pode ser registrado com sua condição de disponibilidade, mas nenhuma variante é disponibilizada automaticamente a partir do estoque da concorrência.
 
 ## Comparação com o catálogo VRAS
 
@@ -210,13 +223,13 @@ Para a migração dos novos modelos, consulte também [POEDAGAR_NEW_PRICES.md](P
 
 Não há diferença calculada por SKU enquanto não existir confirmação física e aprovação de oferta. Esta tabela registra os valores atuais (incluindo preços ainda não aprovados) e explicita a lacuna, sem comparar relógios diferentes.
 
-{table(['Produto VRAS', 'Modelo Poedagar', 'Preço atual', 'Preço de referência', 'Diferença em reais', 'URL correspondente', 'Consulta UTC'], [[p['nome'], 'Não confirmado', brl(p['preco']), 'Não confirmado', 'Não calculável', 'Não confirmada', stamp[:10]] for p in catalog])}
+{table(['Produto VRAS', 'Modelo comercial', 'Preço configurado', 'Referência aprovada', 'Diferença em reais', 'URL', 'Consulta UTC'], [[row[1], row[2], brl(row[3]), brl(row[4]), brl(row[5]) if row[5] is not None else 'Não calculável', row[6] or 'Não confirmada', row[7]] for row in comparison])}
 
 O [CSV de comparação por produto VRAS](POEDAGAR_COMPARISON.csv) mantém os mesmos campos. Valores e URLs não correspondidos ficam vazios, em vez de presumir zero ou comparar modelos diferentes.
 
 ## Aprovação dos preços
 
-Todos os 18 preços de referência estão separados do catálogo e pendentes de correspondência e aprovação. Não há substituição apta a ser aprovada por SKU ainda. Depois de o proprietário informar quais modelos vende, referências e combinações de cor/pulseira, apresentar nova tabela por ID com preço atual, preço proposto, diferença, URL e data. Somente uma aprovação explícita dessa tabela autoriza alterar `preco` em `data/products.json`.
+As referências de pesquisa não são aplicadas automaticamente por este script. Os preços expressamente autorizados foram aplicados por variante no catálogo, conforme [POEDAGAR_APPLIED_PRICES.md](POEDAGAR_APPLIED_PRICES.md). Identidade física, mídias e disponibilidade continuam sujeitas às regras independentes de publicação.
 
 ## Fotografias e especificações pendentes
 

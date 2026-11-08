@@ -1,58 +1,58 @@
 ﻿id_VRAS,modelo,variante_fonte,id_variante_fonte,sku_fonte_nao_referencia_fabricante,preco_proposto_BRL,disponibilidade_na_fonte,venda_bloqueada_na_fonte,url,consulta_UTC,aprovacao
-13,Poedagar Army,Relógio Poedagar Army Vermelho,253648782,201447598,196.92,in_stock,False,https://lojaspoedagar.com.br/army/p,2026-11-07T23:23:48.611725+00:00,Não aprovado
-13,Poedagar Army,Relógio Poedagar Army Laranja,253648783,201447303,196.92,in_stock,False,https://lojaspoedagar.com.br/army/p,2026-11-07T23:23:48.611725+00:00,Não aprovado
-13,Poedagar Army,Relógio Poedagar Army Azul,253648784,200005100,196.92,in_stock,False,https://lojaspoedagar.com.br/army/p,2026-11-07T23:23:48.611725+00:00,Não aprovado
-13,Poedagar Army,Relógio Poedagar Army Preto,253648785,200000080,196.92,in_stock,False,https://lojaspoedagar.com.br/army/p,2026-11-07T23:23:48.611725+00:00,Não aprovado
-13,Poedagar Army,Relógio Poedagar Army Verde,254702060,919819819719,196.92,in_stock,False,https://lojaspoedagar.com.br/army/p,2026-11-07T23:23:48.611725+00:00,Não aprovado
-14,Poedagar Deluxe,Relógio Poedagar Deluxe Azul,253692046,173,199.9,in_stock,False,https://lojaspoedagar.com.br/deluxe/p,2026-11-07T23:23:49.121074+00:00,Não aprovado
-14,Poedagar Deluxe,Relógio Poedagar Deluxe Preto,253692047,175,199.9,in_stock,False,https://lojaspoedagar.com.br/deluxe/p,2026-11-07T23:23:49.121074+00:00,Não aprovado
-14,Poedagar Deluxe,Relógio Poedagar Deluxe Verde,253692048,193,199.9,in_stock,False,https://lojaspoedagar.com.br/deluxe/p,2026-11-07T23:23:49.121074+00:00,Não aprovado
-14,Poedagar Deluxe,Relógio Poedagar Deluxe Branco,253692049,366,199.9,in_stock,False,https://lojaspoedagar.com.br/deluxe/p,2026-11-07T23:23:49.121074+00:00,Não aprovado
-15,Poedagar Deluxe Golden,Relógio Poedagar Deluxe Golden Azul,253563623,201447598,194.9,in_stock,False,https://lojaspoedagar.com.br/deluxe-golden/p,2026-11-07T23:23:48.611725+00:00,Não aprovado
-15,Poedagar Deluxe Golden,Relógio Poedagar Deluxe Golden Preto,253563624,201447303,194.9,in_stock,False,https://lojaspoedagar.com.br/deluxe-golden/p,2026-11-07T23:23:48.611725+00:00,Não aprovado
-16,Poedagar Golden Mars,Relógio Poedagar Golden Mars Dourado,255589756,TY7TRCUEW,197.9,in_stock,False,https://lojaspoedagar.com.br/golden-mars/p,2026-11-07T23:23:49.180886+00:00,Não aprovado
-16,Poedagar Golden Mars,Relógio Poedagar Golden Mars Todo Preto,255589709,R6PE7CDJR,197.9,in_stock,False,https://lojaspoedagar.com.br/golden-mars/p,2026-11-07T23:23:49.180886+00:00,Não aprovado
-16,Poedagar Golden Mars,Relógio Poedagar Golden Mars Prata e Preto,255589732,U6BX5P8MH,197.9,in_stock,False,https://lojaspoedagar.com.br/golden-mars/p,2026-11-07T23:23:49.180886+00:00,Não aprovado
-17,Poedagar Golden Moon,Relógio Poedagar Golden Moon Todo Preto,253563610,100005979,197.2,in_stock,False,https://lojaspoedagar.com.br/golden-moon/p,2026-11-07T23:23:49.213705+00:00,Não aprovado
-17,Poedagar Golden Moon,Relógio Poedagar Golden Moon Preto,253563606,201447303,197.2,in_stock,False,https://lojaspoedagar.com.br/golden-moon/p,2026-11-07T23:23:49.213705+00:00,Não aprovado
-17,Poedagar Golden Moon,Relógio Poedagar Golden Moon Azul,253563607,200005100,197.2,in_stock,False,https://lojaspoedagar.com.br/golden-moon/p,2026-11-07T23:23:49.213705+00:00,Não aprovado
-17,Poedagar Golden Moon,Relógio Poedagar Golden Moon Branco,253563608,200000080,197.2,in_stock,False,https://lojaspoedagar.com.br/golden-moon/p,2026-11-07T23:23:49.213705+00:00,Não aprovado
-17,Poedagar Golden Moon,Relógio Poedagar Golden Moon Verde,253563609,100013777,197.2,in_stock,False,https://lojaspoedagar.com.br/golden-moon/p,2026-11-07T23:23:49.213705+00:00,Não aprovado
-18,Poedagar Golden Neptune,Relógio Poedagar Golden Neptune Azul,253563446,201447598,197.4,in_stock,False,https://lojaspoedagar.com.br/neptune/p,2026-11-07T23:23:50.310634+00:00,Não aprovado
-18,Poedagar Golden Neptune,Relógio Poedagar Golden Neptune Verde,253563447,201447303,197.4,in_stock,False,https://lojaspoedagar.com.br/neptune/p,2026-11-07T23:23:50.310634+00:00,Não aprovado
-18,Poedagar Golden Neptune,Relógio Poedagar Golden Neptune Branco,253563448,200005100,197.4,in_stock,False,https://lojaspoedagar.com.br/neptune/p,2026-11-07T23:23:50.310634+00:00,Não aprovado
-18,Poedagar Golden Neptune,Relógio Poedagar Golden Neptune Preto,253563449,200000080,197.4,in_stock,False,https://lojaspoedagar.com.br/neptune/p,2026-11-07T23:23:50.310634+00:00,Não aprovado
-18,Poedagar Golden Neptune,Relógio Poedagar Golden Neptune Todo Preto,253563454,350853,197.4,in_stock,False,https://lojaspoedagar.com.br/neptune/p,2026-11-07T23:23:50.310634+00:00,Não aprovado
-18,Poedagar Golden Neptune,Relógio Poedagar Golden Neptune Dourado,254709799,9819719518,197.4,in_stock,False,https://lojaspoedagar.com.br/neptune/p,2026-11-07T23:23:50.310634+00:00,Não aprovado
-19,Poedagar Golden Star,Relógio Poedagar Golden Star Azul,253563387,201447598,179.9,in_stock,False,https://lojaspoedagar.com.br/golden-star/p,2026-11-07T23:23:49.278473+00:00,Não aprovado
-19,Poedagar Golden Star,Relógio Poedagar Golden Star Verde,253563390,200000080,179.9,in_stock,False,https://lojaspoedagar.com.br/golden-star/p,2026-11-07T23:23:49.278473+00:00,Não aprovado
-19,Poedagar Golden Star,Relógio Poedagar Golden Star Preto,253563388,201447303,179.9,in_stock,False,https://lojaspoedagar.com.br/golden-star/p,2026-11-07T23:23:49.278473+00:00,Não aprovado
-19,Poedagar Golden Star,Relógio Poedagar Golden Star Branco,253563389,200005100,179.9,in_stock,False,https://lojaspoedagar.com.br/golden-star/p,2026-11-07T23:23:49.278473+00:00,Não aprovado
-19,Poedagar Golden Star,Relógio Poedagar Golden Star Prata e Preto,253563392,100005979,179.9,in_stock,False,https://lojaspoedagar.com.br/golden-star/p,2026-11-07T23:23:49.278473+00:00,Não aprovado
-19,Poedagar Golden Star,Relógio Poedagar Golden Star Todo Preto,253563395,350853,179.9,in_stock,False,https://lojaspoedagar.com.br/golden-star/p,2026-11-07T23:23:49.278473+00:00,Não aprovado
-20,Poedagar King Royal,Relógio Poedagar King Royal Azul,253648832,201447598,219.9,in_stock,False,https://lojaspoedagar.com.br/king-royal/p,2026-11-07T23:23:49.725445+00:00,Não aprovado
-20,Poedagar King Royal,Relógio Poedagar King Royal Branco,253648833,4VMWHZJL2,219.9,in_stock,False,https://lojaspoedagar.com.br/king-royal/p,2026-11-07T23:23:49.725445+00:00,Não aprovado
-20,Poedagar King Royal,Relógio Poedagar King Royal Preto,253648834,CDVZWWFBH,219.9,in_stock,False,https://lojaspoedagar.com.br/king-royal/p,2026-11-07T23:23:49.725445+00:00,Não aprovado
-20,Poedagar King Royal,Relógio Poedagar King Royal Golden e Azul,253648835,25ZZV6QFU,219.9,in_stock,False,https://lojaspoedagar.com.br/king-royal/p,2026-11-07T23:23:49.725445+00:00,Não aprovado
-20,Poedagar King Royal,Relógio Poedagar King Royal Golden e Branco,254853644,MQFKC6AJ8,219.9,in_stock,False,https://lojaspoedagar.com.br/king-royal/p,2026-11-07T23:23:49.725445+00:00,Não aprovado
-20,Poedagar King Royal,Relógio Poedagar King Royal Golden e Preto,254853669,WBJNDQU4T,219.9,in_stock,False,https://lojaspoedagar.com.br/king-royal/p,2026-11-07T23:23:49.725445+00:00,Não aprovado
-20,Poedagar King Royal,Relógio Poedagar King Royal Todo Preto,254853671,KBPKXX5N2,219.9,in_stock,False,https://lojaspoedagar.com.br/king-royal/p,2026-11-07T23:23:49.725445+00:00,Não aprovado
-21,Poedagar Machine,Relógio Poedagar Machine Preto,254753391,EBWM37HFC,194.9,in_stock,False,https://lojaspoedagar.com.br/machine/p,2026-11-07T23:23:49.895270+00:00,Não aprovado
-21,Poedagar Machine,Relógio Poedagar Machine Todo Preto,254753449,1987119871922,194.9,in_stock,False,https://lojaspoedagar.com.br/machine/p,2026-11-07T23:23:49.895270+00:00,Não aprovado
-21,Poedagar Machine,Relógio Poedagar Machine Dourado,254753450,1987119871923,194.9,in_stock,False,https://lojaspoedagar.com.br/machine/p,2026-11-07T23:23:49.895270+00:00,Não aprovado
-22,Poedagar Nautilus,Relógio Poedagar Nautilus Prata,284259889,PJCBSRG8F,189.9,in_stock,False,https://lojaspoedagar.com.br/relogio-poedagar-nautilus-azul/p,2026-11-07T23:23:50.351405+00:00,Não aprovado
-22,Poedagar Nautilus,Relógio Poedagar Nautilus All Black,284259887,FGVC426TM,189.9,in_stock,False,https://lojaspoedagar.com.br/relogio-poedagar-nautilus-azul/p,2026-11-07T23:23:50.351405+00:00,Não aprovado
-22,Poedagar Nautilus,Relógio Poedagar Nautilus Azul,284259886,3FYJ2FBC5,189.9,in_stock,False,https://lojaspoedagar.com.br/relogio-poedagar-nautilus-azul/p,2026-11-07T23:23:50.351405+00:00,Não aprovado
-22,Poedagar Nautilus,Relógio Poedagar Nautilus Dourado e Azul,284259888,289HEFURH,189.9,in_stock,False,https://lojaspoedagar.com.br/relogio-poedagar-nautilus-azul/p,2026-11-07T23:23:50.351405+00:00,Não aprovado
-23,Poedagar Signature,Relógio Poedagar Signature Verde,253563401,200005100,177.9,in_stock,False,https://lojaspoedagar.com.br/signature/p,2026-11-07T23:23:50.436657+00:00,Não aprovado
-23,Poedagar Signature,Relógio Poedagar Signature Branco,253563399,201447598,177.9,in_stock,False,https://lojaspoedagar.com.br/signature/p,2026-11-07T23:23:50.436657+00:00,Não aprovado
-23,Poedagar Signature,Relógio Poedagar Signature Azul,253563400,201447303,177.9,in_stock,False,https://lojaspoedagar.com.br/signature/p,2026-11-07T23:23:50.436657+00:00,Não aprovado
-23,Poedagar Signature,Relógio Poedagar Signature Preta,253563402,200000080,177.9,in_stock,False,https://lojaspoedagar.com.br/signature/p,2026-11-07T23:23:50.436657+00:00,Não aprovado
-24,Poedagar Tempus,Relógio Poedagar Tempus Cinza,253563659,201447598,187.9,in_stock,False,https://lojaspoedagar.com.br/tempus/p,2026-11-07T23:23:50.800345+00:00,Não aprovado
-24,Poedagar Tempus,Relógio Poedagar Tempus Rose e Preto,253563660,201447303,187.9,in_stock,False,https://lojaspoedagar.com.br/tempus/p,2026-11-07T23:23:50.800345+00:00,Não aprovado
-24,Poedagar Tempus,Relógio Poedagar Tempus Rose e Azul,253563661,200005100,187.9,in_stock,False,https://lojaspoedagar.com.br/tempus/p,2026-11-07T23:23:50.800345+00:00,Não aprovado
-24,Poedagar Tempus,Relógio Poedagar Tempus Preto,253563662,200000080,187.9,in_stock,False,https://lojaspoedagar.com.br/tempus/p,2026-11-07T23:23:50.800345+00:00,Não aprovado
-24,Poedagar Tempus,Relógio Poedagar Tempus Preto e Azul,253563663,100013777,187.9,in_stock,False,https://lojaspoedagar.com.br/tempus/p,2026-11-07T23:23:50.800345+00:00,Não aprovado
-24,Poedagar Tempus,Relógio Poedagar Tempus Prata e Preta,253563664,100005979,187.9,out_of_stock,False,https://lojaspoedagar.com.br/tempus/p,2026-11-07T23:23:50.800345+00:00,Não aprovado
-24,Poedagar Tempus,Relógio Poedagar Tempus Azul,253563665,350686,187.9,in_stock,False,https://lojaspoedagar.com.br/tempus/p,2026-11-07T23:23:50.800345+00:00,Não aprovado
-24,Poedagar Tempus,Relógio Poedagar Tempus Branco,253563666,350850,187.9,in_stock,False,https://lojaspoedagar.com.br/tempus/p,2026-11-07T23:23:50.800345+00:00,Não aprovado
+13,Poedagar Army,Relógio Poedagar Army Vermelho,253648782,201447598,196.92,in_stock,False,https://lojaspoedagar.com.br/army/p,2026-11-08T00:02:44.321722+00:00,Aprovado e aplicado
+13,Poedagar Army,Relógio Poedagar Army Laranja,253648783,201447303,196.92,in_stock,False,https://lojaspoedagar.com.br/army/p,2026-11-08T00:02:44.321722+00:00,Aprovado e aplicado
+13,Poedagar Army,Relógio Poedagar Army Azul,253648784,200005100,196.92,in_stock,False,https://lojaspoedagar.com.br/army/p,2026-11-08T00:02:44.321722+00:00,Aprovado e aplicado
+13,Poedagar Army,Relógio Poedagar Army Preto,253648785,200000080,196.92,in_stock,False,https://lojaspoedagar.com.br/army/p,2026-11-08T00:02:44.321722+00:00,Aprovado e aplicado
+13,Poedagar Army,Relógio Poedagar Army Verde,254702060,919819819719,196.92,in_stock,False,https://lojaspoedagar.com.br/army/p,2026-11-08T00:02:44.321722+00:00,Aprovado e aplicado
+14,Poedagar Deluxe,Relógio Poedagar Deluxe Azul,253692046,173,199.90,in_stock,False,https://lojaspoedagar.com.br/deluxe/p,2026-11-08T00:02:44.322725+00:00,Aprovado e aplicado
+14,Poedagar Deluxe,Relógio Poedagar Deluxe Preto,253692047,175,199.90,in_stock,False,https://lojaspoedagar.com.br/deluxe/p,2026-11-08T00:02:44.322725+00:00,Aprovado e aplicado
+14,Poedagar Deluxe,Relógio Poedagar Deluxe Verde,253692048,193,199.90,in_stock,False,https://lojaspoedagar.com.br/deluxe/p,2026-11-08T00:02:44.322725+00:00,Aprovado e aplicado
+14,Poedagar Deluxe,Relógio Poedagar Deluxe Branco,253692049,366,199.90,in_stock,False,https://lojaspoedagar.com.br/deluxe/p,2026-11-08T00:02:44.322725+00:00,Aprovado e aplicado
+15,Poedagar Deluxe Golden,Relógio Poedagar Deluxe Golden Azul,253563623,201447598,194.90,in_stock,False,https://lojaspoedagar.com.br/deluxe-golden/p,2026-11-08T00:02:44.322725+00:00,Aprovado e aplicado
+15,Poedagar Deluxe Golden,Relógio Poedagar Deluxe Golden Preto,253563624,201447303,194.90,in_stock,False,https://lojaspoedagar.com.br/deluxe-golden/p,2026-11-08T00:02:44.322725+00:00,Aprovado e aplicado
+16,Poedagar Golden Mars,Relógio Poedagar Golden Mars Dourado,255589756,TY7TRCUEW,197.90,in_stock,False,https://lojaspoedagar.com.br/golden-mars/p,2026-11-08T00:02:44.323730+00:00,Aprovado e aplicado
+16,Poedagar Golden Mars,Relógio Poedagar Golden Mars Todo Preto,255589709,R6PE7CDJR,197.90,in_stock,False,https://lojaspoedagar.com.br/golden-mars/p,2026-11-08T00:02:44.323730+00:00,Aprovado e aplicado
+16,Poedagar Golden Mars,Relógio Poedagar Golden Mars Prata e Preto,255589732,U6BX5P8MH,197.90,in_stock,False,https://lojaspoedagar.com.br/golden-mars/p,2026-11-08T00:02:44.323730+00:00,Aprovado e aplicado
+17,Poedagar Golden Moon,Relógio Poedagar Golden Moon Todo Preto,253563610,100005979,197.20,in_stock,False,https://lojaspoedagar.com.br/golden-moon/p,2026-11-08T00:02:44.810305+00:00,Aprovado e aplicado
+17,Poedagar Golden Moon,Relógio Poedagar Golden Moon Preto,253563606,201447303,197.20,in_stock,False,https://lojaspoedagar.com.br/golden-moon/p,2026-11-08T00:02:44.810305+00:00,Aprovado e aplicado
+17,Poedagar Golden Moon,Relógio Poedagar Golden Moon Azul,253563607,200005100,197.20,in_stock,False,https://lojaspoedagar.com.br/golden-moon/p,2026-11-08T00:02:44.810305+00:00,Aprovado e aplicado
+17,Poedagar Golden Moon,Relógio Poedagar Golden Moon Branco,253563608,200000080,197.20,in_stock,False,https://lojaspoedagar.com.br/golden-moon/p,2026-11-08T00:02:44.810305+00:00,Aprovado e aplicado
+17,Poedagar Golden Moon,Relógio Poedagar Golden Moon Verde,253563609,100013777,197.20,in_stock,False,https://lojaspoedagar.com.br/golden-moon/p,2026-11-08T00:02:44.810305+00:00,Aprovado e aplicado
+18,Poedagar Golden Neptune,Relógio Poedagar Golden Neptune Azul,253563446,201447598,197.40,in_stock,False,https://lojaspoedagar.com.br/neptune/p,2026-11-08T00:02:44.886790+00:00,Aprovado e aplicado
+18,Poedagar Golden Neptune,Relógio Poedagar Golden Neptune Verde,253563447,201447303,197.40,in_stock,False,https://lojaspoedagar.com.br/neptune/p,2026-11-08T00:02:44.886790+00:00,Aprovado e aplicado
+18,Poedagar Golden Neptune,Relógio Poedagar Golden Neptune Branco,253563448,200005100,197.40,in_stock,False,https://lojaspoedagar.com.br/neptune/p,2026-11-08T00:02:44.886790+00:00,Aprovado e aplicado
+18,Poedagar Golden Neptune,Relógio Poedagar Golden Neptune Preto,253563449,200000080,197.40,in_stock,False,https://lojaspoedagar.com.br/neptune/p,2026-11-08T00:02:44.886790+00:00,Aprovado e aplicado
+18,Poedagar Golden Neptune,Relógio Poedagar Golden Neptune Todo Preto,253563454,350853,197.40,in_stock,False,https://lojaspoedagar.com.br/neptune/p,2026-11-08T00:02:44.886790+00:00,Aprovado e aplicado
+18,Poedagar Golden Neptune,Relógio Poedagar Golden Neptune Dourado,254709799,9819719518,197.40,in_stock,False,https://lojaspoedagar.com.br/neptune/p,2026-11-08T00:02:44.886790+00:00,Aprovado e aplicado
+19,Poedagar Golden Star,Relógio Poedagar Golden Star Azul,253563387,201447598,179.90,in_stock,False,https://lojaspoedagar.com.br/golden-star/p,2026-11-08T00:02:44.907738+00:00,Aprovado e aplicado
+19,Poedagar Golden Star,Relógio Poedagar Golden Star Verde,253563390,200000080,179.90,in_stock,False,https://lojaspoedagar.com.br/golden-star/p,2026-11-08T00:02:44.907738+00:00,Aprovado e aplicado
+19,Poedagar Golden Star,Relógio Poedagar Golden Star Preto,253563388,201447303,179.90,in_stock,False,https://lojaspoedagar.com.br/golden-star/p,2026-11-08T00:02:44.907738+00:00,Aprovado e aplicado
+19,Poedagar Golden Star,Relógio Poedagar Golden Star Branco,253563389,200005100,179.90,in_stock,False,https://lojaspoedagar.com.br/golden-star/p,2026-11-08T00:02:44.907738+00:00,Aprovado e aplicado
+19,Poedagar Golden Star,Relógio Poedagar Golden Star Prata e Preto,253563392,100005979,179.90,in_stock,False,https://lojaspoedagar.com.br/golden-star/p,2026-11-08T00:02:44.907738+00:00,Aprovado e aplicado
+19,Poedagar Golden Star,Relógio Poedagar Golden Star Todo Preto,253563395,350853,179.90,in_stock,False,https://lojaspoedagar.com.br/golden-star/p,2026-11-08T00:02:44.907738+00:00,Aprovado e aplicado
+20,Poedagar King Royal,Relógio Poedagar King Royal Azul,253648832,201447598,219.90,in_stock,False,https://lojaspoedagar.com.br/king-royal/p,2026-11-08T00:02:44.966081+00:00,Aprovado e aplicado
+20,Poedagar King Royal,Relógio Poedagar King Royal Branco,253648833,4VMWHZJL2,219.90,in_stock,False,https://lojaspoedagar.com.br/king-royal/p,2026-11-08T00:02:44.966081+00:00,Aprovado e aplicado
+20,Poedagar King Royal,Relógio Poedagar King Royal Preto,253648834,CDVZWWFBH,219.90,in_stock,False,https://lojaspoedagar.com.br/king-royal/p,2026-11-08T00:02:44.966081+00:00,Aprovado e aplicado
+20,Poedagar King Royal,Relógio Poedagar King Royal Golden e Azul,253648835,25ZZV6QFU,219.90,in_stock,False,https://lojaspoedagar.com.br/king-royal/p,2026-11-08T00:02:44.966081+00:00,Aprovado e aplicado
+20,Poedagar King Royal,Relógio Poedagar King Royal Golden e Branco,254853644,MQFKC6AJ8,219.90,in_stock,False,https://lojaspoedagar.com.br/king-royal/p,2026-11-08T00:02:44.966081+00:00,Aprovado e aplicado
+20,Poedagar King Royal,Relógio Poedagar King Royal Golden e Preto,254853669,WBJNDQU4T,219.90,in_stock,False,https://lojaspoedagar.com.br/king-royal/p,2026-11-08T00:02:44.966081+00:00,Aprovado e aplicado
+20,Poedagar King Royal,Relógio Poedagar King Royal Todo Preto,254853671,KBPKXX5N2,219.90,in_stock,False,https://lojaspoedagar.com.br/king-royal/p,2026-11-08T00:02:44.966081+00:00,Aprovado e aplicado
+21,Poedagar Machine,Relógio Poedagar Machine Preto,254753391,EBWM37HFC,194.90,in_stock,False,https://lojaspoedagar.com.br/machine/p,2026-11-08T00:02:45.196359+00:00,Aprovado e aplicado
+21,Poedagar Machine,Relógio Poedagar Machine Todo Preto,254753449,1987119871922,194.90,in_stock,False,https://lojaspoedagar.com.br/machine/p,2026-11-08T00:02:45.196359+00:00,Aprovado e aplicado
+21,Poedagar Machine,Relógio Poedagar Machine Dourado,254753450,1987119871923,194.90,in_stock,False,https://lojaspoedagar.com.br/machine/p,2026-11-08T00:02:45.196359+00:00,Aprovado e aplicado
+22,Poedagar Nautilus,Relógio Poedagar Nautilus Prata,284259889,PJCBSRG8F,189.90,in_stock,False,https://lojaspoedagar.com.br/relogio-poedagar-nautilus-azul/p,2026-11-08T00:02:45.347494+00:00,Aprovado e aplicado
+22,Poedagar Nautilus,Relógio Poedagar Nautilus All Black,284259887,FGVC426TM,189.90,in_stock,False,https://lojaspoedagar.com.br/relogio-poedagar-nautilus-azul/p,2026-11-08T00:02:45.347494+00:00,Aprovado e aplicado
+22,Poedagar Nautilus,Relógio Poedagar Nautilus Azul,284259886,3FYJ2FBC5,189.90,in_stock,False,https://lojaspoedagar.com.br/relogio-poedagar-nautilus-azul/p,2026-11-08T00:02:45.347494+00:00,Aprovado e aplicado
+22,Poedagar Nautilus,Relógio Poedagar Nautilus Dourado e Azul,284259888,289HEFURH,189.90,in_stock,False,https://lojaspoedagar.com.br/relogio-poedagar-nautilus-azul/p,2026-11-08T00:02:45.347494+00:00,Aprovado e aplicado
+23,Poedagar Signature,Relógio Poedagar Signature Verde,253563401,200005100,177.90,in_stock,False,https://lojaspoedagar.com.br/signature/p,2026-11-08T00:02:45.392987+00:00,Aprovado e aplicado
+23,Poedagar Signature,Relógio Poedagar Signature Branco,253563399,201447598,177.90,in_stock,False,https://lojaspoedagar.com.br/signature/p,2026-11-08T00:02:45.392987+00:00,Aprovado e aplicado
+23,Poedagar Signature,Relógio Poedagar Signature Azul,253563400,201447303,177.90,in_stock,False,https://lojaspoedagar.com.br/signature/p,2026-11-08T00:02:45.392987+00:00,Aprovado e aplicado
+23,Poedagar Signature,Relógio Poedagar Signature Preta,253563402,200000080,177.90,in_stock,False,https://lojaspoedagar.com.br/signature/p,2026-11-08T00:02:45.392987+00:00,Aprovado e aplicado
+24,Poedagar Tempus,Relógio Poedagar Tempus Cinza,253563659,201447598,187.90,in_stock,False,https://lojaspoedagar.com.br/tempus/p,2026-11-08T00:02:45.493076+00:00,Aprovado e aplicado
+24,Poedagar Tempus,Relógio Poedagar Tempus Rose e Preto,253563660,201447303,187.90,in_stock,False,https://lojaspoedagar.com.br/tempus/p,2026-11-08T00:02:45.493076+00:00,Aprovado e aplicado
+24,Poedagar Tempus,Relógio Poedagar Tempus Rose e Azul,253563661,200005100,187.90,in_stock,False,https://lojaspoedagar.com.br/tempus/p,2026-11-08T00:02:45.493076+00:00,Aprovado e aplicado
+24,Poedagar Tempus,Relógio Poedagar Tempus Preto,253563662,200000080,187.90,in_stock,False,https://lojaspoedagar.com.br/tempus/p,2026-11-08T00:02:45.493076+00:00,Aprovado e aplicado
+24,Poedagar Tempus,Relógio Poedagar Tempus Preto e Azul,253563663,100013777,187.90,in_stock,False,https://lojaspoedagar.com.br/tempus/p,2026-11-08T00:02:45.493076+00:00,Aprovado e aplicado
+24,Poedagar Tempus,Relógio Poedagar Tempus Prata e Preta,253563664,100005979,187.90,out_of_stock,False,https://lojaspoedagar.com.br/tempus/p,2026-11-08T00:02:45.493076+00:00,Aprovado e aplicado
+24,Poedagar Tempus,Relógio Poedagar Tempus Azul,253563665,350686,187.90,in_stock,False,https://lojaspoedagar.com.br/tempus/p,2026-11-08T00:02:45.493076+00:00,Aprovado e aplicado
+24,Poedagar Tempus,Relógio Poedagar Tempus Branco,253563666,350850,187.90,in_stock,False,https://lojaspoedagar.com.br/tempus/p,2026-11-08T00:02:45.493076+00:00,Aprovado e aplicado

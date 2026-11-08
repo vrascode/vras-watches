@@ -5,7 +5,7 @@ Fonte principal de preço: [https://lojaspoedagar.com.br/masculinos?sort_by=best
 
 ## Resultado e limite da identificação
 
-18 anúncios/modelos comerciais e 82 variantes identificados no site 2. Dez candidatos por nome foram consultados no site 1; isso não é um inventário completo desse site nem comprova equivalência. A identificação física das referências e variantes VRAS segue pendente. Zero fotografias autorizadas incorporadas. Nenhum preço novo foi aprovado ou publicado.
+18 anúncios/modelos comerciais e 82 variantes identificados no site 2. Dez candidatos por nome foram consultados no site 1; isso não é um inventário completo desse site nem comprova equivalência. A identificação física das referências e variantes VRAS segue pendente. Zero fotografias autorizadas incorporadas. Há 12 preços com aprovação registrada no catálogo; isso não publica uma oferta incompleta.
 
 Os nomes são nomes comerciais das lojas, não referências oficiais do fabricante. O SKU `201447598` aparece em anúncios diferentes do site 2; os IDs de variante identificam registros dessa loja e não referências do fabricante. Cor semelhante ou nome parecido não comprovam o mesmo modelo, acabamento ou pulseira. Valores de estoque da fonte são apenas evidência da consulta e nunca foram copiados como estoque VRAS.
 
@@ -40,7 +40,7 @@ Preço de venda `prices.data.price`, em BRL, sem adotar preço antigo, percentua
 
 Relógio Poedagar Tempus — Relógio Poedagar Tempus Prata e Preta (out_of_stock)
 
-Um preço cadastrado para variante indisponível é apenas evidência histórica, não uma proposta aplicável à VRAS. Preservar o preço local e consultar novamente após identificação e disponibilidade confirmadas.
+A disponibilidade na fonte não comprova a oferta da VRAS. Um preço cadastrado pode ser registrado com sua condição de disponibilidade, mas nenhuma variante é disponibilizada automaticamente a partir do estoque da concorrência.
 
 ## Comparação com o catálogo VRAS
 
@@ -48,26 +48,26 @@ Para a migração dos novos modelos, consulte também [POEDAGAR_NEW_PRICES.md](P
 
 Não há diferença calculada por SKU enquanto não existir confirmação física e aprovação de oferta. Esta tabela registra os valores atuais (incluindo preços ainda não aprovados) e explicita a lacuna, sem comparar relógios diferentes.
 
-| Produto VRAS | Modelo Poedagar | Preço atual | Preço de referência | Diferença em reais | URL correspondente | Consulta UTC |
+| Produto VRAS | Modelo comercial | Preço configurado | Referência aprovada | Diferença em reais | URL | Consulta UTC |
 | --- | --- | --- | --- | --- | --- | --- |
-| Poedagar Army | Não confirmado | Sem preço aprovado | Não confirmado | Não calculável | Não confirmada | 2026-11-07 |
-| Poedagar Deluxe | Não confirmado | Sem preço aprovado | Não confirmado | Não calculável | Não confirmada | 2026-11-07 |
-| Poedagar Deluxe Golden | Não confirmado | Sem preço aprovado | Não confirmado | Não calculável | Não confirmada | 2026-11-07 |
-| Poedagar Golden Mars | Não confirmado | Sem preço aprovado | Não confirmado | Não calculável | Não confirmada | 2026-11-07 |
-| Poedagar Golden Moon | Não confirmado | Sem preço aprovado | Não confirmado | Não calculável | Não confirmada | 2026-11-07 |
-| Poedagar Golden Neptune | Não confirmado | Sem preço aprovado | Não confirmado | Não calculável | Não confirmada | 2026-11-07 |
-| Poedagar Golden Star | Não confirmado | Sem preço aprovado | Não confirmado | Não calculável | Não confirmada | 2026-11-07 |
-| Poedagar King Royal | Não confirmado | Sem preço aprovado | Não confirmado | Não calculável | Não confirmada | 2026-11-07 |
-| Poedagar Machine | Não confirmado | Sem preço aprovado | Não confirmado | Não calculável | Não confirmada | 2026-11-07 |
-| Poedagar Nautilus | Não confirmado | Sem preço aprovado | Não confirmado | Não calculável | Não confirmada | 2026-11-07 |
-| Poedagar Signature | Não confirmado | Sem preço aprovado | Não confirmado | Não calculável | Não confirmada | 2026-11-07 |
-| Poedagar Tempus | Não confirmado | Sem preço aprovado | Não confirmado | Não calculável | Não confirmada | 2026-11-07 |
+| Poedagar Army | Army | R$ 196,92 | R$ 196,92 | R$ 0,00 | https://lojaspoedagar.com.br/army/p | 2026-11-08T00:02:44.321722+00:00 |
+| Poedagar Deluxe | Deluxe | R$ 199,90 | R$ 199,90 | R$ 0,00 | https://lojaspoedagar.com.br/deluxe/p | 2026-11-08T00:02:44.322725+00:00 |
+| Poedagar Deluxe Golden | Deluxe Golden | R$ 194,90 | R$ 194,90 | R$ 0,00 | https://lojaspoedagar.com.br/deluxe-golden/p | 2026-11-08T00:02:44.322725+00:00 |
+| Poedagar Golden Mars | Golden Mars | R$ 197,90 | R$ 197,90 | R$ 0,00 | https://lojaspoedagar.com.br/golden-mars/p | 2026-11-08T00:02:44.323730+00:00 |
+| Poedagar Golden Moon | Golden Moon | R$ 197,20 | R$ 197,20 | R$ 0,00 | https://lojaspoedagar.com.br/golden-moon/p | 2026-11-08T00:02:44.810305+00:00 |
+| Poedagar Golden Neptune | Golden Neptune | R$ 197,40 | R$ 197,40 | R$ 0,00 | https://lojaspoedagar.com.br/neptune/p | 2026-11-08T00:02:44.886790+00:00 |
+| Poedagar Golden Star | Golden Star | R$ 179,90 | R$ 179,90 | R$ 0,00 | https://lojaspoedagar.com.br/golden-star/p | 2026-11-08T00:02:44.907738+00:00 |
+| Poedagar King Royal | King Royal | R$ 219,90 | R$ 219,90 | R$ 0,00 | https://lojaspoedagar.com.br/king-royal/p | 2026-11-08T00:02:44.966081+00:00 |
+| Poedagar Machine | Machine | R$ 194,90 | R$ 194,90 | R$ 0,00 | https://lojaspoedagar.com.br/machine/p | 2026-11-08T00:02:45.196359+00:00 |
+| Poedagar Nautilus | Nautilus | R$ 189,90 | R$ 189,90 | R$ 0,00 | https://lojaspoedagar.com.br/relogio-poedagar-nautilus-azul/p | 2026-11-08T00:02:45.347494+00:00 |
+| Poedagar Signature | Signature | R$ 177,90 | R$ 177,90 | R$ 0,00 | https://lojaspoedagar.com.br/signature/p | 2026-11-08T00:02:45.392987+00:00 |
+| Poedagar Tempus | Tempus | R$ 187,90 | R$ 187,90 | R$ 0,00 | https://lojaspoedagar.com.br/tempus/p | 2026-11-08T00:02:45.493076+00:00 |
 
 O [CSV de comparação por produto VRAS](POEDAGAR_COMPARISON.csv) mantém os mesmos campos. Valores e URLs não correspondidos ficam vazios, em vez de presumir zero ou comparar modelos diferentes.
 
 ## Aprovação dos preços
 
-Todos os 18 preços de referência estão separados do catálogo e pendentes de correspondência e aprovação. Não há substituição apta a ser aprovada por SKU ainda. Depois de o proprietário informar quais modelos vende, referências e combinações de cor/pulseira, apresentar nova tabela por ID com preço atual, preço proposto, diferença, URL e data. Somente uma aprovação explícita dessa tabela autoriza alterar `preco` em `data/products.json`.
+As referências de pesquisa não são aplicadas automaticamente por este script. Os preços expressamente autorizados foram aplicados por variante no catálogo, conforme [POEDAGAR_APPLIED_PRICES.md](POEDAGAR_APPLIED_PRICES.md). Identidade física, mídias e disponibilidade continuam sujeitas às regras independentes de publicação.
 
 ## Fotografias e especificações pendentes
 

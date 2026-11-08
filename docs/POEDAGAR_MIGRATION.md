@@ -1,5 +1,10 @@
 # Substituição do catálogo VRAS por Poedagar
 
+**Registro da etapa anterior à aprovação comercial.** Os 12 preços foram
+posteriormente autorizados, conferidos e gravados conforme
+[POEDAGAR_APPLIED_PRICES.md](POEDAGAR_APPLIED_PRICES.md). Os produtos continuam
+em rascunho pelos requisitos restantes de identidade, mídia e oferta.
+
 Execução em 07/11/2026. Entrada: `main`, HEAD `91f8988`, checkout limpo.
 O catálogo ativo foi substituído por 12 registros novos Poedagar. **Todos os 12
 estão em rascunho, sem preço de venda; zero ofertas foram publicadas.** Faltam

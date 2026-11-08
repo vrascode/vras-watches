@@ -1,13 +1,13 @@
 ﻿id_VRAS,produto_VRAS,modelo_Poedagar,preco_atual_BRL,preco_referencia_BRL,diferenca_BRL,url_correspondente,consulta_UTC,pendencia
-13,Poedagar Army,Não confirmado,,,,,2026-11-07T23:58:43.179133+00:00,Sem correspondência exata; preservar preço publicado
-14,Poedagar Deluxe,Não confirmado,,,,,2026-11-07T23:58:43.179133+00:00,Sem correspondência exata; preservar preço publicado
-15,Poedagar Deluxe Golden,Não confirmado,,,,,2026-11-07T23:58:43.179133+00:00,Sem correspondência exata; preservar preço publicado
-16,Poedagar Golden Mars,Não confirmado,,,,,2026-11-07T23:58:43.179133+00:00,Sem correspondência exata; preservar preço publicado
-17,Poedagar Golden Moon,Não confirmado,,,,,2026-11-07T23:58:43.179133+00:00,Sem correspondência exata; preservar preço publicado
-18,Poedagar Golden Neptune,Não confirmado,,,,,2026-11-07T23:58:43.179133+00:00,Sem correspondência exata; preservar preço publicado
-19,Poedagar Golden Star,Não confirmado,,,,,2026-11-07T23:58:43.179133+00:00,Sem correspondência exata; preservar preço publicado
-20,Poedagar King Royal,Não confirmado,,,,,2026-11-07T23:58:43.179133+00:00,Sem correspondência exata; preservar preço publicado
-21,Poedagar Machine,Não confirmado,,,,,2026-11-07T23:58:43.179133+00:00,Sem correspondência exata; preservar preço publicado
-22,Poedagar Nautilus,Não confirmado,,,,,2026-11-07T23:58:43.179133+00:00,Sem correspondência exata; preservar preço publicado
-23,Poedagar Signature,Não confirmado,,,,,2026-11-07T23:58:43.179133+00:00,Sem correspondência exata; preservar preço publicado
-24,Poedagar Tempus,Não confirmado,,,,,2026-11-07T23:58:43.179133+00:00,Sem correspondência exata; preservar preço publicado
+13,Poedagar Army,Army,196.92,196.92,0.00,https://lojaspoedagar.com.br/army/p,2026-11-08T00:02:44.321722+00:00,Preço aprovado e aplicado; verificar demais requisitos de publicação
+14,Poedagar Deluxe,Deluxe,199.9,199.90,0.00,https://lojaspoedagar.com.br/deluxe/p,2026-11-08T00:02:44.322725+00:00,Preço aprovado e aplicado; verificar demais requisitos de publicação
+15,Poedagar Deluxe Golden,Deluxe Golden,194.9,194.90,0.00,https://lojaspoedagar.com.br/deluxe-golden/p,2026-11-08T00:02:44.322725+00:00,Preço aprovado e aplicado; verificar demais requisitos de publicação
+16,Poedagar Golden Mars,Golden Mars,197.9,197.90,0.00,https://lojaspoedagar.com.br/golden-mars/p,2026-11-08T00:02:44.323730+00:00,Preço aprovado e aplicado; verificar demais requisitos de publicação
+17,Poedagar Golden Moon,Golden Moon,197.2,197.20,0.00,https://lojaspoedagar.com.br/golden-moon/p,2026-11-08T00:02:44.810305+00:00,Preço aprovado e aplicado; verificar demais requisitos de publicação
+18,Poedagar Golden Neptune,Golden Neptune,197.4,197.40,0.00,https://lojaspoedagar.com.br/neptune/p,2026-11-08T00:02:44.886790+00:00,Preço aprovado e aplicado; verificar demais requisitos de publicação
+19,Poedagar Golden Star,Golden Star,179.9,179.90,0.00,https://lojaspoedagar.com.br/golden-star/p,2026-11-08T00:02:44.907738+00:00,Preço aprovado e aplicado; verificar demais requisitos de publicação
+20,Poedagar King Royal,King Royal,219.9,219.90,0.00,https://lojaspoedagar.com.br/king-royal/p,2026-11-08T00:02:44.966081+00:00,Preço aprovado e aplicado; verificar demais requisitos de publicação
+21,Poedagar Machine,Machine,194.9,194.90,0.00,https://lojaspoedagar.com.br/machine/p,2026-11-08T00:02:45.196359+00:00,Preço aprovado e aplicado; verificar demais requisitos de publicação
+22,Poedagar Nautilus,Nautilus,189.9,189.90,0.00,https://lojaspoedagar.com.br/relogio-poedagar-nautilus-azul/p,2026-11-08T00:02:45.347494+00:00,Preço aprovado e aplicado; verificar demais requisitos de publicação
+23,Poedagar Signature,Signature,177.9,177.90,0.00,https://lojaspoedagar.com.br/signature/p,2026-11-08T00:02:45.392987+00:00,Preço aprovado e aplicado; verificar demais requisitos de publicação
+24,Poedagar Tempus,Tempus,187.9,187.90,0.00,https://lojaspoedagar.com.br/tempus/p,2026-11-08T00:02:45.493076+00:00,Preço aprovado e aplicado; verificar demais requisitos de publicação

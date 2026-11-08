@@ -4,9 +4,16 @@
 
 Os 12 produtos antigos foram retirados do catálogo ativo e têm backup versionado
 em `data/backups/catalog-before-poedagar-91f8988/`. `data/products.json` contém os
-12 modelos Poedagar selecionados, com IDs 13–24, em **rascunho** e com `preco: null`.
-Não há fotografias autorizadas, referências físicas de fabricante ou preços
-aprovados suficientes para publicar ofertas. O site mostra a coleção em preparação.
+12 modelos Poedagar selecionados, com IDs 13–24, em **rascunho, com os 12 preços
+de venda já aprovados e gravados**. Faltam fotografias autorizadas, referências
+físicas/variantes e confirmação da oferta VRAS para publicar. O site continua
+mostrando a coleção em preparação sem liberar ofertas incompletas.
+
+O registro atual está em [POEDAGAR_APPLIED_PRICES.md](docs/POEDAGAR_APPLIED_PRICES.md).
+O preço de cada variante foi conferido no HTML público da fonte e aprovado com a
+autorização expressa do proprietário. Pix, cupons, descontos por quantidade e
+preços anteriores não foram usados como preço de venda. A aprovação guarda os IDs
+exatos das variantes consultadas; a publicação exige a variante física correta.
 
 Leia [POEDAGAR_MIGRATION.md](docs/POEDAGAR_MIGRATION.md) para o estado atual,
 [POEDAGAR_NEW_PRICES.md](docs/POEDAGAR_NEW_PRICES.md) para as propostas por modelo
