@@ -8,13 +8,69 @@
     "referencia": null,
     "catalog_generation": "poedagar-v1",
     "status": "rascunho",
-    "preco": null,
+    "preco": 196.92,
     "aprovacao_preco": {
-      "aprovado": false,
-      "valor": null,
-      "data": null,
-      "registro": null,
-      "source_variant_id": null
+      "aprovado": true,
+      "valor": "196.92",
+      "data": "2026-11-07",
+      "registro": "Autorização expressa do proprietário nesta solicitação: aplicar os preços atuais confirmados da loja de referência aos mesmos modelos e variantes, sem usar valores condicionados.",
+      "source_variant_id": null,
+      "fonte": "https://lojaspoedagar.com.br/army/p",
+      "consulta_UTC": "2026-11-08T00:02:44.321722+00:00",
+      "escopo": "variantes_verificadas_com_preco_unitario_identico",
+      "variantes": {
+        "253648782": {
+          "source_variant_id": 253648782,
+          "titulo_fonte": "Relógio Poedagar Army Vermelho",
+          "valor": "196.92",
+          "fonte": "https://lojaspoedagar.com.br/army/p",
+          "consulta_UTC": "2026-11-08T00:02:44.321722+00:00",
+          "tipo_preco": "advertised_unit_price",
+          "aprovado": true,
+          "disponibilidade_na_fonte": "in_stock"
+        },
+        "253648783": {
+          "source_variant_id": 253648783,
+          "titulo_fonte": "Relógio Poedagar Army Laranja",
+          "valor": "196.92",
+          "fonte": "https://lojaspoedagar.com.br/army/p",
+          "consulta_UTC": "2026-11-08T00:02:44.321722+00:00",
+          "tipo_preco": "advertised_unit_price",
+          "aprovado": true,
+          "disponibilidade_na_fonte": "in_stock"
+        },
+        "253648784": {
+          "source_variant_id": 253648784,
+          "titulo_fonte": "Relógio Poedagar Army Azul",
+          "valor": "196.92",
+          "fonte": "https://lojaspoedagar.com.br/army/p",
+          "consulta_UTC": "2026-11-08T00:02:44.321722+00:00",
+          "tipo_preco": "advertised_unit_price",
+          "aprovado": true,
+          "disponibilidade_na_fonte": "in_stock"
+        },
+        "253648785": {
+          "source_variant_id": 253648785,
+          "titulo_fonte": "Relógio Poedagar Army Preto",
+          "valor": "196.92",
+          "fonte": "https://lojaspoedagar.com.br/army/p",
+          "consulta_UTC": "2026-11-08T00:02:44.321722+00:00",
+          "tipo_preco": "advertised_unit_price",
+          "aprovado": true,
+          "disponibilidade_na_fonte": "in_stock"
+        },
+        "254702060": {
+          "source_variant_id": 254702060,
+          "titulo_fonte": "Relógio Poedagar Army Verde",
+          "valor": "196.92",
+          "fonte": "https://lojaspoedagar.com.br/army/p",
+          "consulta_UTC": "2026-11-08T00:02:44.321722+00:00",
+          "tipo_preco": "advertised_unit_price",
+          "aprovado": true,
+          "disponibilidade_na_fonte": "in_stock"
+        }
+      },
+      "condicao": "Preço unitário do SKU coincide com boleto sem desconto adicional. Pix é separado. Não foi inserido cupom nem selecionada quantidade. A promoção própria da fonte não é criada na VRAS."
     },
     "oferta_confirmada": false,
     "descricao": "Army: uma escolha de personalidade para compor o seu estilo na seleção Poedagar da VRAS Watches.",
@@ -37,7 +93,8 @@
       "url_modelo_e_preco": "https://lojaspoedagar.com.br/army/p",
       "consulta_UTC": "2026-11-07T23:23:48.611725+00:00",
       "site1_candidato_nao_equivalencia_confirmada": "https://poedagareco.com/products/relogio-poedagar-army",
-      "referencia_fabricante_verificada": false
+      "referencia_fabricante_verificada": false,
+      "preco_consultado_UTC": "2026-11-08T00:02:44.321722+00:00"
     },
     "variantes_fonte": [
       {
@@ -195,7 +252,6 @@
       "referência de fabricante e identidade física",
       "variante efetivamente vendida pela VRAS",
       "fotografias originais autorizadas por variante",
-      "aprovação de preço pelo proprietário",
       "confirmação da oferta VRAS sem inferir estoque da fonte"
     ]
   },
@@ -208,13 +264,59 @@
     "referencia": null,
     "catalog_generation": "poedagar-v1",
     "status": "rascunho",
-    "preco": null,
+    "preco": 199.9,
     "aprovacao_preco": {
-      "aprovado": false,
-      "valor": null,
-      "data": null,
-      "registro": null,
-      "source_variant_id": null
+      "aprovado": true,
+      "valor": "199.90",
+      "data": "2026-11-07",
+      "registro": "Autorização expressa do proprietário nesta solicitação: aplicar os preços atuais confirmados da loja de referência aos mesmos modelos e variantes, sem usar valores condicionados.",
+      "source_variant_id": null,
+      "fonte": "https://lojaspoedagar.com.br/deluxe/p",
+      "consulta_UTC": "2026-11-08T00:02:44.322725+00:00",
+      "escopo": "variantes_verificadas_com_preco_unitario_identico",
+      "variantes": {
+        "253692046": {
+          "source_variant_id": 253692046,
+          "titulo_fonte": "Relógio Poedagar Deluxe Azul",
+          "valor": "199.90",
+          "fonte": "https://lojaspoedagar.com.br/deluxe/p",
+          "consulta_UTC": "2026-11-08T00:02:44.322725+00:00",
+          "tipo_preco": "advertised_unit_price",
+          "aprovado": true,
+          "disponibilidade_na_fonte": "in_stock"
+        },
+        "253692047": {
+          "source_variant_id": 253692047,
+          "titulo_fonte": "Relógio Poedagar Deluxe Preto",
+          "valor": "199.90",
+          "fonte": "https://lojaspoedagar.com.br/deluxe/p",
+          "consulta_UTC": "2026-11-08T00:02:44.322725+00:00",
+          "tipo_preco": "advertised_unit_price",
+          "aprovado": true,
+          "disponibilidade_na_fonte": "in_stock"
+        },
+        "253692048": {
+          "source_variant_id": 253692048,
+          "titulo_fonte": "Relógio Poedagar Deluxe Verde",
+          "valor": "199.90",
+          "fonte": "https://lojaspoedagar.com.br/deluxe/p",
+          "consulta_UTC": "2026-11-08T00:02:44.322725+00:00",
+          "tipo_preco": "advertised_unit_price",
+          "aprovado": true,
+          "disponibilidade_na_fonte": "in_stock"
+        },
+        "253692049": {
+          "source_variant_id": 253692049,
+          "titulo_fonte": "Relógio Poedagar Deluxe Branco",
+          "valor": "199.90",
+          "fonte": "https://lojaspoedagar.com.br/deluxe/p",
+          "consulta_UTC": "2026-11-08T00:02:44.322725+00:00",
+          "tipo_preco": "advertised_unit_price",
+          "aprovado": true,
+          "disponibilidade_na_fonte": "in_stock"
+        }
+      },
+      "condicao": "Preço unitário do SKU coincide com boleto sem desconto adicional. Pix é separado. Não foi inserido cupom nem selecionada quantidade. A promoção própria da fonte não é criada na VRAS."
     },
     "oferta_confirmada": false,
     "descricao": "Deluxe: um novo olhar sobre o relógio como parte da sua apresentação pessoal.",
@@ -237,7 +339,8 @@
       "url_modelo_e_preco": "https://lojaspoedagar.com.br/deluxe/p",
       "consulta_UTC": "2026-11-07T23:23:49.121074+00:00",
       "site1_candidato_nao_equivalencia_confirmada": "https://poedagareco.com/products/relogio-poedagar-deluxe-edition",
-      "referencia_fabricante_verificada": false
+      "referencia_fabricante_verificada": false,
+      "preco_consultado_UTC": "2026-11-08T00:02:44.322725+00:00"
     },
     "variantes_fonte": [
       {
@@ -377,7 +480,6 @@
       "referência de fabricante e identidade física",
       "variante efetivamente vendida pela VRAS",
       "fotografias originais autorizadas por variante",
-      "aprovação de preço pelo proprietário",
       "confirmação da oferta VRAS sem inferir estoque da fonte"
     ]
   },
@@ -390,13 +492,39 @@
     "referencia": null,
     "catalog_generation": "poedagar-v1",
     "status": "rascunho",
-    "preco": null,
+    "preco": 194.9,
     "aprovacao_preco": {
-      "aprovado": false,
-      "valor": null,
-      "data": null,
-      "registro": null,
-      "source_variant_id": null
+      "aprovado": true,
+      "valor": "194.90",
+      "data": "2026-11-07",
+      "registro": "Autorização expressa do proprietário nesta solicitação: aplicar os preços atuais confirmados da loja de referência aos mesmos modelos e variantes, sem usar valores condicionados.",
+      "source_variant_id": null,
+      "fonte": "https://lojaspoedagar.com.br/deluxe-golden/p",
+      "consulta_UTC": "2026-11-08T00:02:44.322725+00:00",
+      "escopo": "variantes_verificadas_com_preco_unitario_identico",
+      "variantes": {
+        "253563623": {
+          "source_variant_id": 253563623,
+          "titulo_fonte": "Relógio Poedagar Deluxe Golden Azul",
+          "valor": "194.90",
+          "fonte": "https://lojaspoedagar.com.br/deluxe-golden/p",
+          "consulta_UTC": "2026-11-08T00:02:44.322725+00:00",
+          "tipo_preco": "advertised_unit_price",
+          "aprovado": true,
+          "disponibilidade_na_fonte": "in_stock"
+        },
+        "253563624": {
+          "source_variant_id": 253563624,
+          "titulo_fonte": "Relógio Poedagar Deluxe Golden Preto",
+          "valor": "194.90",
+          "fonte": "https://lojaspoedagar.com.br/deluxe-golden/p",
+          "consulta_UTC": "2026-11-08T00:02:44.322725+00:00",
+          "tipo_preco": "advertised_unit_price",
+          "aprovado": true,
+          "disponibilidade_na_fonte": "in_stock"
+        }
+      },
+      "condicao": "Preço unitário do SKU coincide com boleto sem desconto adicional. Pix é separado. Não foi inserido cupom nem selecionada quantidade. A promoção própria da fonte não é criada na VRAS."
     },
     "oferta_confirmada": false,
     "descricao": "Deluxe Golden: uma opção da coleção Poedagar para dar identidade às suas combinações.",
@@ -419,7 +547,8 @@
       "url_modelo_e_preco": "https://lojaspoedagar.com.br/deluxe-golden/p",
       "consulta_UTC": "2026-11-07T23:23:48.611725+00:00",
       "site1_candidato_nao_equivalencia_confirmada": null,
-      "referencia_fabricante_verificada": false
+      "referencia_fabricante_verificada": false,
+      "preco_consultado_UTC": "2026-11-08T00:02:44.322725+00:00"
     },
     "variantes_fonte": [
       {
@@ -487,7 +616,6 @@
       "referência de fabricante e identidade física",
       "variante efetivamente vendida pela VRAS",
       "fotografias originais autorizadas por variante",
-      "aprovação de preço pelo proprietário",
       "confirmação da oferta VRAS sem inferir estoque da fonte"
     ]
   },
@@ -500,13 +628,49 @@
     "referencia": null,
     "catalog_generation": "poedagar-v1",
     "status": "rascunho",
-    "preco": null,
+    "preco": 197.9,
     "aprovacao_preco": {
-      "aprovado": false,
-      "valor": null,
-      "data": null,
-      "registro": null,
-      "source_variant_id": null
+      "aprovado": true,
+      "valor": "197.90",
+      "data": "2026-11-07",
+      "registro": "Autorização expressa do proprietário nesta solicitação: aplicar os preços atuais confirmados da loja de referência aos mesmos modelos e variantes, sem usar valores condicionados.",
+      "source_variant_id": null,
+      "fonte": "https://lojaspoedagar.com.br/golden-mars/p",
+      "consulta_UTC": "2026-11-08T00:02:44.323730+00:00",
+      "escopo": "variantes_verificadas_com_preco_unitario_identico",
+      "variantes": {
+        "255589756": {
+          "source_variant_id": 255589756,
+          "titulo_fonte": "Relógio Poedagar Golden Mars Dourado",
+          "valor": "197.90",
+          "fonte": "https://lojaspoedagar.com.br/golden-mars/p",
+          "consulta_UTC": "2026-11-08T00:02:44.323730+00:00",
+          "tipo_preco": "advertised_unit_price",
+          "aprovado": true,
+          "disponibilidade_na_fonte": "in_stock"
+        },
+        "255589709": {
+          "source_variant_id": 255589709,
+          "titulo_fonte": "Relógio Poedagar Golden Mars Todo Preto",
+          "valor": "197.90",
+          "fonte": "https://lojaspoedagar.com.br/golden-mars/p",
+          "consulta_UTC": "2026-11-08T00:02:44.323730+00:00",
+          "tipo_preco": "advertised_unit_price",
+          "aprovado": true,
+          "disponibilidade_na_fonte": "in_stock"
+        },
+        "255589732": {
+          "source_variant_id": 255589732,
+          "titulo_fonte": "Relógio Poedagar Golden Mars Prata e Preto",
+          "valor": "197.90",
+          "fonte": "https://lojaspoedagar.com.br/golden-mars/p",
+          "consulta_UTC": "2026-11-08T00:02:44.323730+00:00",
+          "tipo_preco": "advertised_unit_price",
+          "aprovado": true,
+          "disponibilidade_na_fonte": "in_stock"
+        }
+      },
+      "condicao": "Preço unitário do SKU coincide com boleto sem desconto adicional. Pix é separado. Não foi inserido cupom nem selecionada quantidade. A promoção própria da fonte não é criada na VRAS."
     },
     "oferta_confirmada": false,
     "descricao": "Golden Mars: presença e personalidade em uma escolha que faz parte do seu tempo.",
@@ -529,7 +693,8 @@
       "url_modelo_e_preco": "https://lojaspoedagar.com.br/golden-mars/p",
       "consulta_UTC": "2026-11-07T23:23:49.180886+00:00",
       "site1_candidato_nao_equivalencia_confirmada": null,
-      "referencia_fabricante_verificada": false
+      "referencia_fabricante_verificada": false,
+      "preco_consultado_UTC": "2026-11-08T00:02:44.323730+00:00"
     },
     "variantes_fonte": [
       {
@@ -624,7 +789,6 @@
       "referência de fabricante e identidade física",
       "variante efetivamente vendida pela VRAS",
       "fotografias originais autorizadas por variante",
-      "aprovação de preço pelo proprietário",
       "confirmação da oferta VRAS sem inferir estoque da fonte"
     ]
   },
@@ -637,13 +801,69 @@
     "referencia": null,
     "catalog_generation": "poedagar-v1",
     "status": "rascunho",
-    "preco": null,
+    "preco": 197.2,
     "aprovacao_preco": {
-      "aprovado": false,
-      "valor": null,
-      "data": null,
-      "registro": null,
-      "source_variant_id": null
+      "aprovado": true,
+      "valor": "197.20",
+      "data": "2026-11-07",
+      "registro": "Autorização expressa do proprietário nesta solicitação: aplicar os preços atuais confirmados da loja de referência aos mesmos modelos e variantes, sem usar valores condicionados.",
+      "source_variant_id": null,
+      "fonte": "https://lojaspoedagar.com.br/golden-moon/p",
+      "consulta_UTC": "2026-11-08T00:02:44.810305+00:00",
+      "escopo": "variantes_verificadas_com_preco_unitario_identico",
+      "variantes": {
+        "253563610": {
+          "source_variant_id": 253563610,
+          "titulo_fonte": "Relógio Poedagar Golden Moon Todo Preto",
+          "valor": "197.20",
+          "fonte": "https://lojaspoedagar.com.br/golden-moon/p",
+          "consulta_UTC": "2026-11-08T00:02:44.810305+00:00",
+          "tipo_preco": "advertised_unit_price",
+          "aprovado": true,
+          "disponibilidade_na_fonte": "in_stock"
+        },
+        "253563606": {
+          "source_variant_id": 253563606,
+          "titulo_fonte": "Relógio Poedagar Golden Moon Preto",
+          "valor": "197.20",
+          "fonte": "https://lojaspoedagar.com.br/golden-moon/p",
+          "consulta_UTC": "2026-11-08T00:02:44.810305+00:00",
+          "tipo_preco": "advertised_unit_price",
+          "aprovado": true,
+          "disponibilidade_na_fonte": "in_stock"
+        },
+        "253563607": {
+          "source_variant_id": 253563607,
+          "titulo_fonte": "Relógio Poedagar Golden Moon Azul",
+          "valor": "197.20",
+          "fonte": "https://lojaspoedagar.com.br/golden-moon/p",
+          "consulta_UTC": "2026-11-08T00:02:44.810305+00:00",
+          "tipo_preco": "advertised_unit_price",
+          "aprovado": true,
+          "disponibilidade_na_fonte": "in_stock"
+        },
+        "253563608": {
+          "source_variant_id": 253563608,
+          "titulo_fonte": "Relógio Poedagar Golden Moon Branco",
+          "valor": "197.20",
+          "fonte": "https://lojaspoedagar.com.br/golden-moon/p",
+          "consulta_UTC": "2026-11-08T00:02:44.810305+00:00",
+          "tipo_preco": "advertised_unit_price",
+          "aprovado": true,
+          "disponibilidade_na_fonte": "in_stock"
+        },
+        "253563609": {
+          "source_variant_id": 253563609,
+          "titulo_fonte": "Relógio Poedagar Golden Moon Verde",
+          "valor": "197.20",
+          "fonte": "https://lojaspoedagar.com.br/golden-moon/p",
+          "consulta_UTC": "2026-11-08T00:02:44.810305+00:00",
+          "tipo_preco": "advertised_unit_price",
+          "aprovado": true,
+          "disponibilidade_na_fonte": "in_stock"
+        }
+      },
+      "condicao": "Preço unitário do SKU coincide com boleto sem desconto adicional. Pix é separado. Não foi inserido cupom nem selecionada quantidade. A promoção própria da fonte não é criada na VRAS."
     },
     "oferta_confirmada": false,
     "descricao": "Golden Moon: um relógio da seleção Poedagar para acompanhar a sua expressão de estilo.",
@@ -666,7 +886,8 @@
       "url_modelo_e_preco": "https://lojaspoedagar.com.br/golden-moon/p",
       "consulta_UTC": "2026-11-07T23:23:49.213705+00:00",
       "site1_candidato_nao_equivalencia_confirmada": null,
-      "referencia_fabricante_verificada": false
+      "referencia_fabricante_verificada": false,
+      "preco_consultado_UTC": "2026-11-08T00:02:44.810305+00:00"
     },
     "variantes_fonte": [
       {
@@ -824,7 +1045,6 @@
       "referência de fabricante e identidade física",
       "variante efetivamente vendida pela VRAS",
       "fotografias originais autorizadas por variante",
-      "aprovação de preço pelo proprietário",
       "confirmação da oferta VRAS sem inferir estoque da fonte"
     ]
   },
@@ -837,13 +1057,79 @@
     "referencia": null,
     "catalog_generation": "poedagar-v1",
     "status": "rascunho",
-    "preco": null,
+    "preco": 197.4,
     "aprovacao_preco": {
-      "aprovado": false,
-      "valor": null,
-      "data": null,
-      "registro": null,
-      "source_variant_id": null
+      "aprovado": true,
+      "valor": "197.40",
+      "data": "2026-11-07",
+      "registro": "Autorização expressa do proprietário nesta solicitação: aplicar os preços atuais confirmados da loja de referência aos mesmos modelos e variantes, sem usar valores condicionados.",
+      "source_variant_id": null,
+      "fonte": "https://lojaspoedagar.com.br/neptune/p",
+      "consulta_UTC": "2026-11-08T00:02:44.886790+00:00",
+      "escopo": "variantes_verificadas_com_preco_unitario_identico",
+      "variantes": {
+        "253563446": {
+          "source_variant_id": 253563446,
+          "titulo_fonte": "Relógio Poedagar Golden Neptune Azul",
+          "valor": "197.40",
+          "fonte": "https://lojaspoedagar.com.br/neptune/p",
+          "consulta_UTC": "2026-11-08T00:02:44.886790+00:00",
+          "tipo_preco": "advertised_unit_price",
+          "aprovado": true,
+          "disponibilidade_na_fonte": "in_stock"
+        },
+        "253563447": {
+          "source_variant_id": 253563447,
+          "titulo_fonte": "Relógio Poedagar Golden Neptune Verde",
+          "valor": "197.40",
+          "fonte": "https://lojaspoedagar.com.br/neptune/p",
+          "consulta_UTC": "2026-11-08T00:02:44.886790+00:00",
+          "tipo_preco": "advertised_unit_price",
+          "aprovado": true,
+          "disponibilidade_na_fonte": "in_stock"
+        },
+        "253563448": {
+          "source_variant_id": 253563448,
+          "titulo_fonte": "Relógio Poedagar Golden Neptune Branco",
+          "valor": "197.40",
+          "fonte": "https://lojaspoedagar.com.br/neptune/p",
+          "consulta_UTC": "2026-11-08T00:02:44.886790+00:00",
+          "tipo_preco": "advertised_unit_price",
+          "aprovado": true,
+          "disponibilidade_na_fonte": "in_stock"
+        },
+        "253563449": {
+          "source_variant_id": 253563449,
+          "titulo_fonte": "Relógio Poedagar Golden Neptune Preto",
+          "valor": "197.40",
+          "fonte": "https://lojaspoedagar.com.br/neptune/p",
+          "consulta_UTC": "2026-11-08T00:02:44.886790+00:00",
+          "tipo_preco": "advertised_unit_price",
+          "aprovado": true,
+          "disponibilidade_na_fonte": "in_stock"
+        },
+        "253563454": {
+          "source_variant_id": 253563454,
+          "titulo_fonte": "Relógio Poedagar Golden Neptune Todo Preto",
+          "valor": "197.40",
+          "fonte": "https://lojaspoedagar.com.br/neptune/p",
+          "consulta_UTC": "2026-11-08T00:02:44.886790+00:00",
+          "tipo_preco": "advertised_unit_price",
+          "aprovado": true,
+          "disponibilidade_na_fonte": "in_stock"
+        },
+        "254709799": {
+          "source_variant_id": 254709799,
+          "titulo_fonte": "Relógio Poedagar Golden Neptune Dourado",
+          "valor": "197.40",
+          "fonte": "https://lojaspoedagar.com.br/neptune/p",
+          "consulta_UTC": "2026-11-08T00:02:44.886790+00:00",
+          "tipo_preco": "advertised_unit_price",
+          "aprovado": true,
+          "disponibilidade_na_fonte": "in_stock"
+        }
+      },
+      "condicao": "Preço unitário do SKU coincide com boleto sem desconto adicional. Pix é separado. Não foi inserido cupom nem selecionada quantidade. A promoção própria da fonte não é criada na VRAS."
     },
     "oferta_confirmada": false,
     "descricao": "Golden Neptune: uma proposta para quem faz do relógio parte da própria identidade.",
@@ -866,7 +1152,8 @@
       "url_modelo_e_preco": "https://lojaspoedagar.com.br/neptune/p",
       "consulta_UTC": "2026-11-07T23:23:50.310634+00:00",
       "site1_candidato_nao_equivalencia_confirmada": null,
-      "referencia_fabricante_verificada": false
+      "referencia_fabricante_verificada": false,
+      "preco_consultado_UTC": "2026-11-08T00:02:44.886790+00:00"
     },
     "variantes_fonte": [
       {
@@ -1062,7 +1349,6 @@
       "referência de fabricante e identidade física",
       "variante efetivamente vendida pela VRAS",
       "fotografias originais autorizadas por variante",
-      "aprovação de preço pelo proprietário",
       "confirmação da oferta VRAS sem inferir estoque da fonte"
     ]
   },
@@ -1075,13 +1361,79 @@
     "referencia": null,
     "catalog_generation": "poedagar-v1",
     "status": "rascunho",
-    "preco": null,
+    "preco": 179.9,
     "aprovacao_preco": {
-      "aprovado": false,
-      "valor": null,
-      "data": null,
-      "registro": null,
-      "source_variant_id": null
+      "aprovado": true,
+      "valor": "179.90",
+      "data": "2026-11-07",
+      "registro": "Autorização expressa do proprietário nesta solicitação: aplicar os preços atuais confirmados da loja de referência aos mesmos modelos e variantes, sem usar valores condicionados.",
+      "source_variant_id": null,
+      "fonte": "https://lojaspoedagar.com.br/golden-star/p",
+      "consulta_UTC": "2026-11-08T00:02:44.907738+00:00",
+      "escopo": "variantes_verificadas_com_preco_unitario_identico",
+      "variantes": {
+        "253563387": {
+          "source_variant_id": 253563387,
+          "titulo_fonte": "Relógio Poedagar Golden Star Azul",
+          "valor": "179.90",
+          "fonte": "https://lojaspoedagar.com.br/golden-star/p",
+          "consulta_UTC": "2026-11-08T00:02:44.907738+00:00",
+          "tipo_preco": "advertised_unit_price",
+          "aprovado": true,
+          "disponibilidade_na_fonte": "in_stock"
+        },
+        "253563390": {
+          "source_variant_id": 253563390,
+          "titulo_fonte": "Relógio Poedagar Golden Star Verde",
+          "valor": "179.90",
+          "fonte": "https://lojaspoedagar.com.br/golden-star/p",
+          "consulta_UTC": "2026-11-08T00:02:44.907738+00:00",
+          "tipo_preco": "advertised_unit_price",
+          "aprovado": true,
+          "disponibilidade_na_fonte": "in_stock"
+        },
+        "253563388": {
+          "source_variant_id": 253563388,
+          "titulo_fonte": "Relógio Poedagar Golden Star Preto",
+          "valor": "179.90",
+          "fonte": "https://lojaspoedagar.com.br/golden-star/p",
+          "consulta_UTC": "2026-11-08T00:02:44.907738+00:00",
+          "tipo_preco": "advertised_unit_price",
+          "aprovado": true,
+          "disponibilidade_na_fonte": "in_stock"
+        },
+        "253563389": {
+          "source_variant_id": 253563389,
+          "titulo_fonte": "Relógio Poedagar Golden Star Branco",
+          "valor": "179.90",
+          "fonte": "https://lojaspoedagar.com.br/golden-star/p",
+          "consulta_UTC": "2026-11-08T00:02:44.907738+00:00",
+          "tipo_preco": "advertised_unit_price",
+          "aprovado": true,
+          "disponibilidade_na_fonte": "in_stock"
+        },
+        "253563392": {
+          "source_variant_id": 253563392,
+          "titulo_fonte": "Relógio Poedagar Golden Star Prata e Preto",
+          "valor": "179.90",
+          "fonte": "https://lojaspoedagar.com.br/golden-star/p",
+          "consulta_UTC": "2026-11-08T00:02:44.907738+00:00",
+          "tipo_preco": "advertised_unit_price",
+          "aprovado": true,
+          "disponibilidade_na_fonte": "in_stock"
+        },
+        "253563395": {
+          "source_variant_id": 253563395,
+          "titulo_fonte": "Relógio Poedagar Golden Star Todo Preto",
+          "valor": "179.90",
+          "fonte": "https://lojaspoedagar.com.br/golden-star/p",
+          "consulta_UTC": "2026-11-08T00:02:44.907738+00:00",
+          "tipo_preco": "advertised_unit_price",
+          "aprovado": true,
+          "disponibilidade_na_fonte": "in_stock"
+        }
+      },
+      "condicao": "Preço unitário do SKU coincide com boleto sem desconto adicional. Pix é separado. Não foi inserido cupom nem selecionada quantidade. A promoção própria da fonte não é criada na VRAS."
     },
     "oferta_confirmada": false,
     "descricao": "Golden Star: um convite a escolher os detalhes que dizem mais sobre você.",
@@ -1104,7 +1456,8 @@
       "url_modelo_e_preco": "https://lojaspoedagar.com.br/golden-star/p",
       "consulta_UTC": "2026-11-07T23:23:49.278473+00:00",
       "site1_candidato_nao_equivalencia_confirmada": "https://poedagareco.com/products/relogio-poedagar-goldenstar",
-      "referencia_fabricante_verificada": false
+      "referencia_fabricante_verificada": false,
+      "preco_consultado_UTC": "2026-11-08T00:02:44.907738+00:00"
     },
     "variantes_fonte": [
       {
@@ -1286,7 +1639,6 @@
       "referência de fabricante e identidade física",
       "variante efetivamente vendida pela VRAS",
       "fotografias originais autorizadas por variante",
-      "aprovação de preço pelo proprietário",
       "confirmação da oferta VRAS sem inferir estoque da fonte"
     ]
   },
@@ -1299,13 +1651,89 @@
     "referencia": null,
     "catalog_generation": "poedagar-v1",
     "status": "rascunho",
-    "preco": null,
+    "preco": 219.9,
     "aprovacao_preco": {
-      "aprovado": false,
-      "valor": null,
-      "data": null,
-      "registro": null,
-      "source_variant_id": null
+      "aprovado": true,
+      "valor": "219.90",
+      "data": "2026-11-07",
+      "registro": "Autorização expressa do proprietário nesta solicitação: aplicar os preços atuais confirmados da loja de referência aos mesmos modelos e variantes, sem usar valores condicionados.",
+      "source_variant_id": null,
+      "fonte": "https://lojaspoedagar.com.br/king-royal/p",
+      "consulta_UTC": "2026-11-08T00:02:44.966081+00:00",
+      "escopo": "variantes_verificadas_com_preco_unitario_identico",
+      "variantes": {
+        "253648832": {
+          "source_variant_id": 253648832,
+          "titulo_fonte": "Relógio Poedagar King Royal Azul",
+          "valor": "219.90",
+          "fonte": "https://lojaspoedagar.com.br/king-royal/p",
+          "consulta_UTC": "2026-11-08T00:02:44.966081+00:00",
+          "tipo_preco": "advertised_unit_price",
+          "aprovado": true,
+          "disponibilidade_na_fonte": "in_stock"
+        },
+        "253648833": {
+          "source_variant_id": 253648833,
+          "titulo_fonte": "Relógio Poedagar King Royal Branco",
+          "valor": "219.90",
+          "fonte": "https://lojaspoedagar.com.br/king-royal/p",
+          "consulta_UTC": "2026-11-08T00:02:44.966081+00:00",
+          "tipo_preco": "advertised_unit_price",
+          "aprovado": true,
+          "disponibilidade_na_fonte": "in_stock"
+        },
+        "253648834": {
+          "source_variant_id": 253648834,
+          "titulo_fonte": "Relógio Poedagar King Royal Preto",
+          "valor": "219.90",
+          "fonte": "https://lojaspoedagar.com.br/king-royal/p",
+          "consulta_UTC": "2026-11-08T00:02:44.966081+00:00",
+          "tipo_preco": "advertised_unit_price",
+          "aprovado": true,
+          "disponibilidade_na_fonte": "in_stock"
+        },
+        "253648835": {
+          "source_variant_id": 253648835,
+          "titulo_fonte": "Relógio Poedagar King Royal Golden e Azul",
+          "valor": "219.90",
+          "fonte": "https://lojaspoedagar.com.br/king-royal/p",
+          "consulta_UTC": "2026-11-08T00:02:44.966081+00:00",
+          "tipo_preco": "advertised_unit_price",
+          "aprovado": true,
+          "disponibilidade_na_fonte": "in_stock"
+        },
+        "254853644": {
+          "source_variant_id": 254853644,
+          "titulo_fonte": "Relógio Poedagar King Royal Golden e Branco",
+          "valor": "219.90",
+          "fonte": "https://lojaspoedagar.com.br/king-royal/p",
+          "consulta_UTC": "2026-11-08T00:02:44.966081+00:00",
+          "tipo_preco": "advertised_unit_price",
+          "aprovado": true,
+          "disponibilidade_na_fonte": "in_stock"
+        },
+        "254853669": {
+          "source_variant_id": 254853669,
+          "titulo_fonte": "Relógio Poedagar King Royal Golden e Preto",
+          "valor": "219.90",
+          "fonte": "https://lojaspoedagar.com.br/king-royal/p",
+          "consulta_UTC": "2026-11-08T00:02:44.966081+00:00",
+          "tipo_preco": "advertised_unit_price",
+          "aprovado": true,
+          "disponibilidade_na_fonte": "in_stock"
+        },
+        "254853671": {
+          "source_variant_id": 254853671,
+          "titulo_fonte": "Relógio Poedagar King Royal Todo Preto",
+          "valor": "219.90",
+          "fonte": "https://lojaspoedagar.com.br/king-royal/p",
+          "consulta_UTC": "2026-11-08T00:02:44.966081+00:00",
+          "tipo_preco": "advertised_unit_price",
+          "aprovado": true,
+          "disponibilidade_na_fonte": "in_stock"
+        }
+      },
+      "condicao": "Preço unitário do SKU coincide com boleto sem desconto adicional. Pix é separado. Não foi inserido cupom nem selecionada quantidade. A promoção própria da fonte não é criada na VRAS."
     },
     "oferta_confirmada": false,
     "descricao": "King Royal: um nome da coleção Poedagar para compor uma apresentação pessoal marcante.",
@@ -1328,7 +1756,8 @@
       "url_modelo_e_preco": "https://lojaspoedagar.com.br/king-royal/p",
       "consulta_UTC": "2026-11-07T23:23:49.725445+00:00",
       "site1_candidato_nao_equivalencia_confirmada": "https://poedagareco.com/products/poedagar-kingroyal",
-      "referencia_fabricante_verificada": false
+      "referencia_fabricante_verificada": false,
+      "preco_consultado_UTC": "2026-11-08T00:02:44.966081+00:00"
     },
     "variantes_fonte": [
       {
@@ -1571,7 +2000,6 @@
       "referência de fabricante e identidade física",
       "variante efetivamente vendida pela VRAS",
       "fotografias originais autorizadas por variante",
-      "aprovação de preço pelo proprietário",
       "confirmação da oferta VRAS sem inferir estoque da fonte"
     ]
   },
@@ -1584,13 +2012,49 @@
     "referencia": null,
     "catalog_generation": "poedagar-v1",
     "status": "rascunho",
-    "preco": null,
+    "preco": 194.9,
     "aprovacao_preco": {
-      "aprovado": false,
-      "valor": null,
-      "data": null,
-      "registro": null,
-      "source_variant_id": null
+      "aprovado": true,
+      "valor": "194.90",
+      "data": "2026-11-07",
+      "registro": "Autorização expressa do proprietário nesta solicitação: aplicar os preços atuais confirmados da loja de referência aos mesmos modelos e variantes, sem usar valores condicionados.",
+      "source_variant_id": null,
+      "fonte": "https://lojaspoedagar.com.br/machine/p",
+      "consulta_UTC": "2026-11-08T00:02:45.196359+00:00",
+      "escopo": "variantes_verificadas_com_preco_unitario_identico",
+      "variantes": {
+        "254753391": {
+          "source_variant_id": 254753391,
+          "titulo_fonte": "Relógio Poedagar Machine Preto",
+          "valor": "194.90",
+          "fonte": "https://lojaspoedagar.com.br/machine/p",
+          "consulta_UTC": "2026-11-08T00:02:45.196359+00:00",
+          "tipo_preco": "advertised_unit_price",
+          "aprovado": true,
+          "disponibilidade_na_fonte": "in_stock"
+        },
+        "254753449": {
+          "source_variant_id": 254753449,
+          "titulo_fonte": "Relógio Poedagar Machine Todo Preto",
+          "valor": "194.90",
+          "fonte": "https://lojaspoedagar.com.br/machine/p",
+          "consulta_UTC": "2026-11-08T00:02:45.196359+00:00",
+          "tipo_preco": "advertised_unit_price",
+          "aprovado": true,
+          "disponibilidade_na_fonte": "in_stock"
+        },
+        "254753450": {
+          "source_variant_id": 254753450,
+          "titulo_fonte": "Relógio Poedagar Machine Dourado",
+          "valor": "194.90",
+          "fonte": "https://lojaspoedagar.com.br/machine/p",
+          "consulta_UTC": "2026-11-08T00:02:45.196359+00:00",
+          "tipo_preco": "advertised_unit_price",
+          "aprovado": true,
+          "disponibilidade_na_fonte": "in_stock"
+        }
+      },
+      "condicao": "Preço unitário do SKU coincide com boleto sem desconto adicional. Pix é separado. Não foi inserido cupom nem selecionada quantidade. A promoção própria da fonte não é criada na VRAS."
     },
     "oferta_confirmada": false,
     "descricao": "Machine: um relógio para integrar a sua seleção pessoal de acessórios.",
@@ -1613,7 +2077,8 @@
       "url_modelo_e_preco": "https://lojaspoedagar.com.br/machine/p",
       "consulta_UTC": "2026-11-07T23:23:49.895270+00:00",
       "site1_candidato_nao_equivalencia_confirmada": "https://poedagareco.com/products/relogio-poedagar-machine",
-      "referencia_fabricante_verificada": false
+      "referencia_fabricante_verificada": false,
+      "preco_consultado_UTC": "2026-11-08T00:02:45.196359+00:00"
     },
     "variantes_fonte": [
       {
@@ -1708,7 +2173,6 @@
       "referência de fabricante e identidade física",
       "variante efetivamente vendida pela VRAS",
       "fotografias originais autorizadas por variante",
-      "aprovação de preço pelo proprietário",
       "confirmação da oferta VRAS sem inferir estoque da fonte"
     ]
   },
@@ -1721,13 +2185,59 @@
     "referencia": null,
     "catalog_generation": "poedagar-v1",
     "status": "rascunho",
-    "preco": null,
+    "preco": 189.9,
     "aprovacao_preco": {
-      "aprovado": false,
-      "valor": null,
-      "data": null,
-      "registro": null,
-      "source_variant_id": null
+      "aprovado": true,
+      "valor": "189.90",
+      "data": "2026-11-07",
+      "registro": "Autorização expressa do proprietário nesta solicitação: aplicar os preços atuais confirmados da loja de referência aos mesmos modelos e variantes, sem usar valores condicionados.",
+      "source_variant_id": null,
+      "fonte": "https://lojaspoedagar.com.br/relogio-poedagar-nautilus-azul/p",
+      "consulta_UTC": "2026-11-08T00:02:45.347494+00:00",
+      "escopo": "variantes_verificadas_com_preco_unitario_identico",
+      "variantes": {
+        "284259889": {
+          "source_variant_id": 284259889,
+          "titulo_fonte": "Relógio Poedagar Nautilus Prata",
+          "valor": "189.90",
+          "fonte": "https://lojaspoedagar.com.br/relogio-poedagar-nautilus-azul/p",
+          "consulta_UTC": "2026-11-08T00:02:45.347494+00:00",
+          "tipo_preco": "advertised_unit_price",
+          "aprovado": true,
+          "disponibilidade_na_fonte": "in_stock"
+        },
+        "284259887": {
+          "source_variant_id": 284259887,
+          "titulo_fonte": "Relógio Poedagar Nautilus All Black",
+          "valor": "189.90",
+          "fonte": "https://lojaspoedagar.com.br/relogio-poedagar-nautilus-azul/p",
+          "consulta_UTC": "2026-11-08T00:02:45.347494+00:00",
+          "tipo_preco": "advertised_unit_price",
+          "aprovado": true,
+          "disponibilidade_na_fonte": "in_stock"
+        },
+        "284259886": {
+          "source_variant_id": 284259886,
+          "titulo_fonte": "Relógio Poedagar Nautilus Azul",
+          "valor": "189.90",
+          "fonte": "https://lojaspoedagar.com.br/relogio-poedagar-nautilus-azul/p",
+          "consulta_UTC": "2026-11-08T00:02:45.347494+00:00",
+          "tipo_preco": "advertised_unit_price",
+          "aprovado": true,
+          "disponibilidade_na_fonte": "in_stock"
+        },
+        "284259888": {
+          "source_variant_id": 284259888,
+          "titulo_fonte": "Relógio Poedagar Nautilus Dourado e Azul",
+          "valor": "189.90",
+          "fonte": "https://lojaspoedagar.com.br/relogio-poedagar-nautilus-azul/p",
+          "consulta_UTC": "2026-11-08T00:02:45.347494+00:00",
+          "tipo_preco": "advertised_unit_price",
+          "aprovado": true,
+          "disponibilidade_na_fonte": "in_stock"
+        }
+      },
+      "condicao": "Preço unitário do SKU coincide com boleto sem desconto adicional. Pix é separado. Não foi inserido cupom nem selecionada quantidade. A promoção própria da fonte não é criada na VRAS."
     },
     "oferta_confirmada": false,
     "descricao": "Nautilus: um modelo Poedagar selecionado para a próxima coleção da VRAS Watches.",
@@ -1750,7 +2260,8 @@
       "url_modelo_e_preco": "https://lojaspoedagar.com.br/relogio-poedagar-nautilus-azul/p",
       "consulta_UTC": "2026-11-07T23:23:50.351405+00:00",
       "site1_candidato_nao_equivalencia_confirmada": "https://poedagareco.com/products/relogio-poedagar-nautilus",
-      "referencia_fabricante_verificada": false
+      "referencia_fabricante_verificada": false,
+      "preco_consultado_UTC": "2026-11-08T00:02:45.347494+00:00"
     },
     "variantes_fonte": [
       {
@@ -1877,7 +2388,6 @@
       "referência de fabricante e identidade física",
       "variante efetivamente vendida pela VRAS",
       "fotografias originais autorizadas por variante",
-      "aprovação de preço pelo proprietário",
       "confirmação da oferta VRAS sem inferir estoque da fonte"
     ]
   },
@@ -1890,13 +2400,59 @@
     "referencia": null,
     "catalog_generation": "poedagar-v1",
     "status": "rascunho",
-    "preco": null,
+    "preco": 177.9,
     "aprovacao_preco": {
-      "aprovado": false,
-      "valor": null,
-      "data": null,
-      "registro": null,
-      "source_variant_id": null
+      "aprovado": true,
+      "valor": "177.90",
+      "data": "2026-11-07",
+      "registro": "Autorização expressa do proprietário nesta solicitação: aplicar os preços atuais confirmados da loja de referência aos mesmos modelos e variantes, sem usar valores condicionados.",
+      "source_variant_id": null,
+      "fonte": "https://lojaspoedagar.com.br/signature/p",
+      "consulta_UTC": "2026-11-08T00:02:45.392987+00:00",
+      "escopo": "variantes_verificadas_com_preco_unitario_identico",
+      "variantes": {
+        "253563401": {
+          "source_variant_id": 253563401,
+          "titulo_fonte": "Relógio Poedagar Signature Verde",
+          "valor": "177.90",
+          "fonte": "https://lojaspoedagar.com.br/signature/p",
+          "consulta_UTC": "2026-11-08T00:02:45.392987+00:00",
+          "tipo_preco": "advertised_unit_price",
+          "aprovado": true,
+          "disponibilidade_na_fonte": "in_stock"
+        },
+        "253563399": {
+          "source_variant_id": 253563399,
+          "titulo_fonte": "Relógio Poedagar Signature Branco",
+          "valor": "177.90",
+          "fonte": "https://lojaspoedagar.com.br/signature/p",
+          "consulta_UTC": "2026-11-08T00:02:45.392987+00:00",
+          "tipo_preco": "advertised_unit_price",
+          "aprovado": true,
+          "disponibilidade_na_fonte": "in_stock"
+        },
+        "253563400": {
+          "source_variant_id": 253563400,
+          "titulo_fonte": "Relógio Poedagar Signature Azul",
+          "valor": "177.90",
+          "fonte": "https://lojaspoedagar.com.br/signature/p",
+          "consulta_UTC": "2026-11-08T00:02:45.392987+00:00",
+          "tipo_preco": "advertised_unit_price",
+          "aprovado": true,
+          "disponibilidade_na_fonte": "in_stock"
+        },
+        "253563402": {
+          "source_variant_id": 253563402,
+          "titulo_fonte": "Relógio Poedagar Signature Preta",
+          "valor": "177.90",
+          "fonte": "https://lojaspoedagar.com.br/signature/p",
+          "consulta_UTC": "2026-11-08T00:02:45.392987+00:00",
+          "tipo_preco": "advertised_unit_price",
+          "aprovado": true,
+          "disponibilidade_na_fonte": "in_stock"
+        }
+      },
+      "condicao": "Preço unitário do SKU coincide com boleto sem desconto adicional. Pix é separado. Não foi inserido cupom nem selecionada quantidade. A promoção própria da fonte não é criada na VRAS."
     },
     "oferta_confirmada": false,
     "descricao": "Signature: uma escolha que leva a sua assinatura para os detalhes do dia a dia.",
@@ -1919,7 +2475,8 @@
       "url_modelo_e_preco": "https://lojaspoedagar.com.br/signature/p",
       "consulta_UTC": "2026-11-07T23:23:50.436657+00:00",
       "site1_candidato_nao_equivalencia_confirmada": "https://poedagareco.com/products/relogio-poedagar-signature",
-      "referencia_fabricante_verificada": false
+      "referencia_fabricante_verificada": false,
+      "preco_consultado_UTC": "2026-11-08T00:02:45.392987+00:00"
     },
     "variantes_fonte": [
       {
@@ -2051,7 +2608,6 @@
       "referência de fabricante e identidade física",
       "variante efetivamente vendida pela VRAS",
       "fotografias originais autorizadas por variante",
-      "aprovação de preço pelo proprietário",
       "confirmação da oferta VRAS sem inferir estoque da fonte"
     ]
   },
@@ -2064,13 +2620,99 @@
     "referencia": null,
     "catalog_generation": "poedagar-v1",
     "status": "rascunho",
-    "preco": null,
+    "preco": 187.9,
     "aprovacao_preco": {
-      "aprovado": false,
-      "valor": null,
-      "data": null,
-      "registro": null,
-      "source_variant_id": null
+      "aprovado": true,
+      "valor": "187.90",
+      "data": "2026-11-07",
+      "registro": "Autorização expressa do proprietário nesta solicitação: aplicar os preços atuais confirmados da loja de referência aos mesmos modelos e variantes, sem usar valores condicionados.",
+      "source_variant_id": null,
+      "fonte": "https://lojaspoedagar.com.br/tempus/p",
+      "consulta_UTC": "2026-11-08T00:02:45.493076+00:00",
+      "escopo": "variantes_verificadas_com_preco_unitario_identico",
+      "variantes": {
+        "253563659": {
+          "source_variant_id": 253563659,
+          "titulo_fonte": "Relógio Poedagar Tempus Cinza",
+          "valor": "187.90",
+          "fonte": "https://lojaspoedagar.com.br/tempus/p",
+          "consulta_UTC": "2026-11-08T00:02:45.493076+00:00",
+          "tipo_preco": "advertised_unit_price",
+          "aprovado": true,
+          "disponibilidade_na_fonte": "in_stock"
+        },
+        "253563660": {
+          "source_variant_id": 253563660,
+          "titulo_fonte": "Relógio Poedagar Tempus Rose e Preto",
+          "valor": "187.90",
+          "fonte": "https://lojaspoedagar.com.br/tempus/p",
+          "consulta_UTC": "2026-11-08T00:02:45.493076+00:00",
+          "tipo_preco": "advertised_unit_price",
+          "aprovado": true,
+          "disponibilidade_na_fonte": "in_stock"
+        },
+        "253563661": {
+          "source_variant_id": 253563661,
+          "titulo_fonte": "Relógio Poedagar Tempus Rose e Azul",
+          "valor": "187.90",
+          "fonte": "https://lojaspoedagar.com.br/tempus/p",
+          "consulta_UTC": "2026-11-08T00:02:45.493076+00:00",
+          "tipo_preco": "advertised_unit_price",
+          "aprovado": true,
+          "disponibilidade_na_fonte": "in_stock"
+        },
+        "253563662": {
+          "source_variant_id": 253563662,
+          "titulo_fonte": "Relógio Poedagar Tempus Preto",
+          "valor": "187.90",
+          "fonte": "https://lojaspoedagar.com.br/tempus/p",
+          "consulta_UTC": "2026-11-08T00:02:45.493076+00:00",
+          "tipo_preco": "advertised_unit_price",
+          "aprovado": true,
+          "disponibilidade_na_fonte": "in_stock"
+        },
+        "253563663": {
+          "source_variant_id": 253563663,
+          "titulo_fonte": "Relógio Poedagar Tempus Preto e Azul",
+          "valor": "187.90",
+          "fonte": "https://lojaspoedagar.com.br/tempus/p",
+          "consulta_UTC": "2026-11-08T00:02:45.493076+00:00",
+          "tipo_preco": "advertised_unit_price",
+          "aprovado": true,
+          "disponibilidade_na_fonte": "in_stock"
+        },
+        "253563664": {
+          "source_variant_id": 253563664,
+          "titulo_fonte": "Relógio Poedagar Tempus Prata e Preta",
+          "valor": "187.90",
+          "fonte": "https://lojaspoedagar.com.br/tempus/p",
+          "consulta_UTC": "2026-11-08T00:02:45.493076+00:00",
+          "tipo_preco": "advertised_unit_price",
+          "aprovado": true,
+          "disponibilidade_na_fonte": "out_of_stock"
+        },
+        "253563665": {
+          "source_variant_id": 253563665,
+          "titulo_fonte": "Relógio Poedagar Tempus Azul",
+          "valor": "187.90",
+          "fonte": "https://lojaspoedagar.com.br/tempus/p",
+          "consulta_UTC": "2026-11-08T00:02:45.493076+00:00",
+          "tipo_preco": "advertised_unit_price",
+          "aprovado": true,
+          "disponibilidade_na_fonte": "in_stock"
+        },
+        "253563666": {
+          "source_variant_id": 253563666,
+          "titulo_fonte": "Relógio Poedagar Tempus Branco",
+          "valor": "187.90",
+          "fonte": "https://lojaspoedagar.com.br/tempus/p",
+          "consulta_UTC": "2026-11-08T00:02:45.493076+00:00",
+          "tipo_preco": "advertised_unit_price",
+          "aprovado": true,
+          "disponibilidade_na_fonte": "in_stock"
+        }
+      },
+      "condicao": "Preço unitário do SKU coincide com boleto sem desconto adicional. Pix é separado. Não foi inserido cupom nem selecionada quantidade. A promoção própria da fonte não é criada na VRAS."
     },
     "oferta_confirmada": false,
     "descricao": "Tempus: um modelo da seleção Poedagar para descobrir o seu próximo relógio.",
@@ -2093,7 +2735,8 @@
       "url_modelo_e_preco": "https://lojaspoedagar.com.br/tempus/p",
       "consulta_UTC": "2026-11-07T23:23:50.800345+00:00",
       "site1_candidato_nao_equivalencia_confirmada": null,
-      "referencia_fabricante_verificada": false
+      "referencia_fabricante_verificada": false,
+      "preco_consultado_UTC": "2026-11-08T00:02:45.493076+00:00"
     },
     "variantes_fonte": [
       {
@@ -2341,7 +2984,6 @@
       "referência de fabricante e identidade física",
       "variante efetivamente vendida pela VRAS",
       "fotografias originais autorizadas por variante",
-      "aprovação de preço pelo proprietário",
       "confirmação da oferta VRAS sem inferir estoque da fonte"
     ]
   }

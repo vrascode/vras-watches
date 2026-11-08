@@ -26,16 +26,18 @@ class CatalogMigrationTests(TestCase):
         self.assertTrue(all(p["fontes"]["nome_comercial_verificado"] for p in catalog))
         self.assertTrue(all(p["fontes"]["url_modelo_e_preco"].startswith("https://lojaspoedagar.com.br/") for p in catalog))
 
-    def test_all_unapproved_models_remain_draft_without_selling_price_or_legacy_photo(self):
+    def test_priced_models_remain_draft_without_identity_media_and_offer(self):
         self.assertEqual(services.get_products(), [])
         for product in services.get_products(include_drafts=True):
             with self.subTest(product=product["id"]):
                 self.assertEqual(product["status"], "rascunho")
-                self.assertIsNone(product["preco"])
+                self.assertGreater(product["preco"], 0)
                 self.assertIsNone(product["cover"])
                 self.assertIsNone(product["imagem"])
                 self.assertFalse(product["can_purchase"])
-                self.assertFalse(product["aprovacao_preco"]["aprovado"])
+                self.assertTrue(product["aprovacao_preco"]["aprovado"])
+                self.assertTrue(services.approved_price(product))
+                self.assertNotIn("preco_sem_aprovacao_correspondente", product["publication_issues"])
                 self.assertNotIn("??", product["descricao"])
 
     def test_archive_is_versioned_and_matches_recorded_hashes(self):

@@ -8,6 +8,7 @@ from urllib.parse import urlsplit
 from django.conf import settings
 
 from loja import media
+from loja.pricing import variant_approval_matches
 
 PRODUCTS_PATH = settings.BASE_DIR / "data" / "products.json"
 CART_SESSION_KEY = "cart"
@@ -51,7 +52,7 @@ def approved_price(product):
         return (price.is_finite() and price > 0 and price.as_tuple().exponent >= -2
                 and price == Decimal(str(approval.get("valor")))
                 and isinstance(approval.get("registro"), str) and bool(approval["registro"].strip())
-                and approval.get("source_variant_id") == (product.get("variante") or {}).get("source_variant_id"))
+                and variant_approval_matches(product, approval, price))
     except (ValueError, TypeError, InvalidOperation):
         return False
 
