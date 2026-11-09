@@ -1,6 +1,6 @@
 // Isolated, fictional owner submission only. Never runs against the real catalog.
 import assert from 'node:assert/strict';
-import { mkdir, writeFile } from 'node:fs/promises';
+import { writeBrowserArtifact } from './qa_artifacts.mjs';
 
 assert.ok(process.env.QA_OWNER_PHOTOS && process.env.QA_OWNER_VARIANT, 'Requires isolated test fixtures');
 const base = process.env.QA_BASE_URL;
@@ -52,11 +52,10 @@ const go = async path => {
 };
 const screenshot = async name => {
     const shot = await send('Page.captureScreenshot', { format: 'png', captureBeyondViewport: false });
-    await writeFile(`artifacts/owner-${name}.png`, Buffer.from(shot.data, 'base64'));
+    await writeBrowserArtifact('owner', 'screenshots', `owner-${name}.png`, Buffer.from(shot.data, 'base64'));
 };
 
 try {
-    await mkdir('artifacts', { recursive: true });
     await send('Page.enable'); await send('DOM.enable'); await send('Runtime.enable'); await send('Network.enable');
     await send('Network.clearBrowserCookies');
     await send('Emulation.setEmulatedMedia', { features: [{ name: 'prefers-reduced-motion', value: 'reduce' }] });
@@ -123,7 +122,7 @@ try {
     assert.equal(networkErrors.length, 0, JSON.stringify(networkErrors));
     const report = { fictionalFixturesOnly: true, ownerUploadAndPublication: 'passed', widths, screenshots: 20,
         browserErrors, networkErrors };
-    await writeFile('artifacts/owner-browser-report.json', JSON.stringify(report, null, 2));
+    await writeBrowserArtifact('owner', 'reports', 'owner-browser-report.json', JSON.stringify(report, null, 2));
     console.log(JSON.stringify(report, null, 2));
 } finally {
     await send('Page.close').catch(() => {});
