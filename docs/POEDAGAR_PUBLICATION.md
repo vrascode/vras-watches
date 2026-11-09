@@ -122,8 +122,8 @@ aprovação dos preços já autorizados.
 - Dados JSON de produtos, fontes, verificação de preços e manifesto público
   conferidos contra `1edf8bf`: conteúdo preservado.
 
-Evidências locais, ignoradas pelo Git: `artifacts/publication-report.json`,
-`artifacts/migration-browser-report.json`, `artifacts/gallery-browser-report.json`
+Evidências locais, ignoradas pelo Git: `artifacts/reports/publication/publication-report.json`,
+`artifacts/browser/migration/runs/pre-organization/reports/migration-browser-report.json`, `artifacts/browser/gallery/runs/pre-organization/reports/gallery-browser-report.json`
 e capturas de tela. Não há como validar visualmente fotos/vídeos reais ainda não
 fornecidos. Não foram testados aparelhos físicos nem feito push/deploy.
 

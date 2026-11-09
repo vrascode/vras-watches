@@ -158,7 +158,7 @@ de coleta legado ou os arquivos de fotografia legados.
 O QA usa Chrome com larguras emuladas; não certifica Safari/iOS ou aparelhos físicos.
 Fotos reais, reprodução de vídeos reais e métricas Core Web Vitals não puderam ser
 validadas sem os arquivos aprovados. Não se alega uma galeria real já preenchida.
-Relatórios locais: `artifacts/browser-report.json`, `artifacts/gallery-browser-report.json`
+Relatórios locais: `artifacts/browser/storefront/runs/pre-organization/reports/browser-report.json`, `artifacts/browser/gallery/runs/pre-organization/reports/gallery-browser-report.json`
 e screenshots; são ignorados pelo Git.
 
 ## Commits locais
