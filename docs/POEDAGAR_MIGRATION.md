@@ -183,7 +183,7 @@ para ofertas que passem nas regras de publicação.
 
 Não foram testados dispositivos físicos ou outros motores de navegador. Fotos e
 vídeos reais não podem ser validados sem os originais aprovados. Evidências locais:
-`artifacts/migration-browser-report.json`, `artifacts/gallery-browser-report.json`
+`artifacts/browser/migration/runs/pre-organization/reports/migration-browser-report.json`, `artifacts/browser/gallery/runs/pre-organization/reports/gallery-browser-report.json`
 e screenshots da migração, ignorados pelo Git.
 
 ## Arquivos e commits

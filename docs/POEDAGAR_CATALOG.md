@@ -10,7 +10,7 @@ Inspeção em 07/11/2026, branch `main`. Foram lidos os 12 registros de
 Foram vistas as 12 capas e uma folha de contato de 71 grupos de nomes de arquivos
 raster (agrupando sufixos de resolução). Essa triagem não certifica originalidade
 nem identidade de todas as imagens do arquivo. Folhas de contato locais em
-`artifacts/catalog-contact-sheet.jpg` e `artifacts/archive-contact-sheet.jpg`,
+`artifacts/visual/contact-sheets/catalog-contact-sheet.jpg` e `artifacts/visual/contact-sheets/archive-contact-sheet.jpg`,
 ignoradas pelo Git e não publicadas pela loja.
 
 ## Tabela de correspondência

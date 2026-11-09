@@ -121,8 +121,8 @@ de mídia, identidade ou disponibilidade para forçar publicação.
 - `audit_storefront`: 12 produtos, 12 rascunhos, 580 mídias locais, zero arquivos
   aprovados ou posts. Sintaxe dos scripts JavaScript e whitespace verificados.
 
-Relatórios locais em `artifacts/migration-browser-report.json` e
-`artifacts/gallery-browser-report.json`, ignorados pelo Git. Não foram validados
+Relatórios locais em `artifacts/browser/migration/runs/pre-organization/reports/migration-browser-report.json` e
+`artifacts/browser/gallery/runs/pre-organization/reports/gallery-browser-report.json`, ignorados pelo Git. Não foram validados
 aparelhos físicos ou reprodução de vídeos reais, pois não há mídias autorizadas.
 
 ## Arquivos e commits

@@ -119,8 +119,8 @@ modelo, referência e variante confirmados. Todas as rotas existentes permanecem
 - Comparação dos campos legados de `products.json` com o HEAD inicial: todos iguais.
 - `git diff --check`: sem problemas de whitespace.
 
-Evidências locais, ignoradas pelo Git: `artifacts/browser-report.json`,
-`artifacts/gallery-browser-report.json`, screenshots e folhas de contato.
+Evidências locais, ignoradas pelo Git: `artifacts/browser/storefront/runs/pre-organization/reports/browser-report.json`,
+`artifacts/browser/gallery/runs/pre-organization/reports/gallery-browser-report.json`, screenshots e folhas de contato.
 A qualidade de fotografias Poedagar reais ainda não pode ser validada, pois nenhuma
 foi recebida/aprovada. Os testes de mídia comprovam o comportamento com fixtures,
 sem certificar uma galeria real de produto. Não houve validação em dispositivos
