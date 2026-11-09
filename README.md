@@ -31,12 +31,15 @@ loja/
   models.py                     contrato de persistência; sem modelos ORM de produtos
   urls.py                       composição das rotas no namespace existente loja:
   utils.py                      normalização textual e formatação BRL
-templates/                     base.html, componentes compartilhados e páginas de erro
+templates/                      base.html, componentes compartilhados e páginas de erro
 static/                         css/, js/, img/ e fonts/ preservados
-data/                          catálogo, manifesto, aprovações e backups preservados
+data/                           catálogo, manifesto, aprovações e backups preservados
 midias-instagram/               originais e comprovantes privados; ignorados pelo Git
 scripts/                        pesquisa, relatórios e QA de navegador
-docs/                          arquitetura, operação e relatórios de validação
+docs/                           arquitetura, operação e relatórios de validação
+artifacts/                      evidências locais; consulte artifacts/README.md
+.vscode/settings.json           configuração compartilhada do explorador
+staticfiles/                    build regenerável, ignorado pelo Git
 manage.py
 requirements.txt
 .env.example
@@ -50,6 +53,33 @@ SQLite continua responsável por usuários, permissões e sessões.
 
 Leia [as decisões arquiteturais](docs/ARCHITECTURE.md) e o
 [relatório da refatoração](docs/REFACTOR_REPORT.md), incluindo o mapa de arquivos.
+
+## Organização do workspace
+
+| Pasta | Finalidade |
+| --- | --- |
+| `config/` | Configuração Django, URLs principais, ASGI e WSGI |
+| `loja/` | Código por domínio, comandos, templates do app e testes |
+| `templates/` | Base, componentes compartilhados e páginas de erro |
+| `static/` | CSS, JavaScript, fontes e imagens comerciais preservadas |
+| `data/` | Produtos, mídia, aprovações, pesquisa e backups |
+| `scripts/` | Ferramentas de pesquisa/QA; saída de navegador em `qa_artifacts.mjs` |
+| `docs/` | Guias operacionais, decisões e registros de entrega |
+| `artifacts/` | Evidências locais por finalidade, histórico e runtime regenerável |
+| `.vscode/` | Configuração do projeto; somente `settings.json` é compartilhado |
+| `staticfiles/` | Saída de build de estáticos; não editar como código-fonte |
+| `midias-instagram/` | Originais e registros privados de autorização |
+
+As evidências foram separadas em `artifacts/browser/`, `visual/`, `reports/` e
+`research/`. Scripts pontuais antigos ficam em `archives/`; perfis de Chrome e
+builds ficam em `runtime/`. Nenhum arquivo foi excluído. O VS Code oculta caches,
+arquivos compilados e saídas regeneráveis, mantendo código, documentação e
+evidências acessíveis. Não é preciso apagar arquivos para limpar o explorador.
+
+Consulte [o registro de organização](docs/PROJECT_ORGANIZATION.md) para os
+movimentos, preservação, configurações do editor e comandos Git. Os artefatos
+existentes são locais e não acompanham um clone do GitHub; os scripts criam a
+estrutura necessária para cada nova execução.
 
 ## Instalação e execução
 
@@ -165,7 +195,10 @@ Eles exigem um Chrome de QA com perfil isolado e CDP local na porta 9333.
 O QA da vitrine existente usa `node scripts/browser_qa.mjs` com Django ativo;
 `QA_BASE_URL` e `QA_DEBUG_URL` configuram os endereços. Veja os comandos completos,
 os testes por domínio e limites no [guia de testes](docs/TESTING_GUIDE.md).
-Os relatórios e screenshots ficam em `artifacts/`, ignorado pelo Git.
+Os relatórios e screenshots ficam em
+`artifacts/browser/<suite>/runs/<execução>/{reports,screenshots}/`. Cada execução
+tem seu diretório, sem sobrescrever as evidências anteriores. Os arquivos gerados
+são ignorados pelo Git; somente [o guia de artifacts](artifacts/README.md) é versionado.
 
 ## Estáticos e publicação
 
