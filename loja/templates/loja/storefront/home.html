@@ -1,0 +1,71 @@
+{% extends 'base.html' %}
+{% block title %}VRAS Watches | Seu tempo. Sua presen&ccedil;a.{% endblock %}
+{% block body_class %}home-page{% if hero_media.image or hero_media.video %} has-hero-media{% endif %}{% endblock %}
+{% block head %}
+    {% if hero_media.video %}<link rel="preload" href="{{ hero_media.video.poster.url }}" as="image">
+    {% elif hero_media.image %}
+        <link rel="preload" href="{{ hero_media.image.url }}" as="image" {% if hero_media.image.srcset %}imagesrcset="{{ hero_media.image.srcset }}" imagesizes="100vw"{% endif %} {% if hero_media.mobile_image %}media="(min-width: 601px)"{% endif %}>
+        {% if hero_media.mobile_image %}<link rel="preload" href="{{ hero_media.mobile_image.url }}" as="image" media="(max-width: 600px)" {% if hero_media.mobile_image.srcset %}imagesrcset="{{ hero_media.mobile_image.srcset }}" imagesizes="100vw"{% endif %}>{% endif %}
+    {% endif %}
+{% endblock %}
+{% block content %}
+<section class="hero {% if not hero_media.image and not hero_media.video %}hero-awaiting-media{% endif %}" aria-labelledby="hero-title">
+    {% if hero_media.video %}{% include 'components/video.html' with video=hero_media.video decorative=True priority=True %}
+    {% elif hero_media.image %}
+    <picture class="hero-picture">
+        {% if hero_media.mobile_image %}<source media="(max-width: 600px)" srcset="{{ hero_media.mobile_image.srcset|default:hero_media.mobile_image.url }}" sizes="100vw">{% endif %}
+        {% include 'components/responsive_image.html' with image=hero_media.image image_class='hero-image' priority=True %}
+    </picture>
+    {% endif %}
+    {% if not hero_media.image and not hero_media.video %}<span class="hero-signature" aria-hidden="true">VRAS</span>{% endif %}
+    <div class="hero-content wrap">
+        <p class="eyebrow">VRAS WATCHES / {% if catalog_pending %}Cole&ccedil;&atilde;o Poedagar{% else %}O tempo &eacute; seu{% endif %}</p>
+        <h1 id="hero-title">Seu tempo.<br><em>Sua presen&ccedil;a.</em></h1>
+        <p class="hero-description">Escolhas que traduzem quem voc&ecirc; &eacute;.<br>Encontre o rel&oacute;gio que acompanha o seu estilo.</p>
+        <div class="action-row"><a class="button button-white" href="{% url 'loja:products' %}">Explorar cole&ccedil;&atilde;o <span aria-hidden="true">&#8594;</span></a><a class="hero-about" href="#sobre">Conhecer a VRAS <span aria-hidden="true">&#8599;</span></a></div>
+    </div>
+    <div class="hero-bottom wrap"><span>Mais que um rel&oacute;gio. Uma identidade.</span><a href="#destaques">Explore <span aria-hidden="true">&#8595;</span></a></div>
+</section>
+<section class="section wrap" id="destaques">
+    <div class="section-heading"><div><p class="eyebrow">A sele&ccedil;&atilde;o VRAS</p><h2>Escolhas com personalidade.</h2></div><a class="text-link" href="{% url 'loja:products' %}">Todos os rel&oacute;gios &#8599;</a></div>
+    {% if featured_products %}<div class="product-grid featured-grid">{% for product in featured_products %}{% include 'loja/catalog/_product_card.html' %}{% endfor %}</div>{% elif catalog_pending %}<div class="catalog-preparation"><p class="eyebrow">Uma nova sele&ccedil;&atilde;o</p><h3>Cole&ccedil;&atilde;o Poedagar em prepara&ccedil;&atilde;o.</h3><p>Estamos preparando os pr&oacute;ximos modelos da VRAS Watches. Acompanhe nosso estilo e as novidades da loja.</p><a class="text-link" href="{{ instagram_url }}" target="_blank" rel="noopener noreferrer">Acompanhar @usevras &#8599;</a></div>{% endif %}
+</section>
+{% if new_products %}
+<section class="section launches-section" id="lancamentos" aria-labelledby="launches-title"><div class="wrap">
+    <div class="section-heading"><div><p class="eyebrow">Novos ritmos</p><h2 id="launches-title">Lan&ccedil;amentos VRAS.</h2></div><a class="text-link" href="{% url 'loja:products' %}?categoria=Lancamentos">Explorar lan&ccedil;amentos &#8599;</a></div>
+    <div class="product-grid launches-grid">{% for product in new_products %}{% include 'loja/catalog/_product_card.html' %}{% endfor %}</div>
+</div></section>
+{% endif %}
+<section class="editorial-band" id="sobre"><div class="wrap editorial-layout {% if not editorial_media.image and not editorial_media.video %}editorial-text-only{% endif %}">
+    {% if editorial_media.video %}<div class="editorial-media" data-reveal>{% include 'components/video.html' with video=editorial_media.video decorative=True %}</div>
+    {% elif editorial_media.image %}<div class="editorial-media" data-reveal>{% include 'components/responsive_image.html' with image=editorial_media.image sizes='(max-width: 600px) 100vw, 50vw' %}</div>{% endif %}
+    <div class="editorial-copy" data-reveal><p class="eyebrow">O olhar VRAS</p><h2>Mais que um rel&oacute;gio.<br><em>Uma identidade.</em></h2><p>O rel&oacute;gio que voc&ecirc; escolhe diz muito sobre como voc&ecirc; v&ecirc; o tempo. Sobre o seu ritmo. Sobre o que faz sentido para voc&ecirc;.</p><p>{% if catalog_pending %}Uma sele&ccedil;&atilde;o Poedagar est&aacute; sendo preparada com o olhar da VRAS Watches.{% else %}Dos cl&aacute;ssicos aos esportivos, encontre na VRAS uma express&atilde;o do seu estilo.{% endif %}</p><a class="text-link" href="{% url 'loja:products' %}">Encontre o seu &#8599;</a></div>
+</div></section>
+<section class="section wrap" id="colecoes">
+    <div class="section-heading"><div><p class="eyebrow">Diferentes ritmos. A mesma presen&ccedil;a.</p><h2>Cole&ccedil;&otilde;es VRAS.</h2></div><span class="muted">{{ collections|length }} cole&ccedil;&otilde;es</span></div>
+    {% if collections %}<div class="collections-grid">{% for collection in collections %}<a class="collection-tile {% if not collection.cover %}collection-type-only{% endif %}" href="{% url 'loja:products' %}?categoria={{ collection.name|urlencode }}" data-reveal>
+        {% if collection.cover %}{% include 'components/responsive_image.html' with image=collection.cover alt=collection.label sizes='(max-width: 600px) 46vw, 20vw' %}{% endif %}
+        <span class="collection-index">0{{ forloop.counter }}</span><div><span class="collection-count">{{ collection.count }} modelos</span><h3>{{ collection.label }}</h3></div><span class="collection-arrow" aria-hidden="true">&#8599;</span>
+    </a>{% endfor %}</div>{% else %}<p class="muted">Uma nova sele&ccedil;&atilde;o. A mesma identidade VRAS.</p>{% endif %}
+</section>
+{% for edit in style_edits %}
+<section class="collection-spotlight {% if forloop.last %}spotlight-soft{% endif %}" aria-labelledby="style-{{ forloop.counter }}"><div class="wrap spotlight-layout">
+    <div class="spotlight-copy" data-reveal><p class="eyebrow">{{ edit.label }}</p><h2 id="style-{{ forloop.counter }}">{{ edit.title }}</h2><p>{{ edit.description }}</p><a class="text-link" href="{% url 'loja:products' %}?categoria={{ edit.category|urlencode }}">Explorar {{ edit.label|lower }} &#8599;</a></div>
+    <div class="product-grid spotlight-products">{% for product in edit.products %}{% include 'loja/catalog/_product_card.html' %}{% endfor %}</div>
+</div></section>
+{% endfor %}
+{% if campaign_media.image or campaign_media.video %}
+<section class="campaign" aria-labelledby="campaign-title">
+    {% if campaign_media.video %}{% include 'components/video.html' with video=campaign_media.video decorative=True %}{% else %}{% include 'components/responsive_image.html' with image=campaign_media.image %}{% endif %}
+    <div class="wrap campaign-copy"><p class="eyebrow">VRAS Watches</p><h2 id="campaign-title">Seu tempo.<br>Sua presen&ccedil;a.</h2><a class="button button-white" href="{% url 'loja:products' %}">Explorar cole&ccedil;&atilde;o &#8594;</a></div>
+</section>
+{% endif %}
+<section class="section social-section wrap" id="instagram" aria-labelledby="instagram-title">
+    <div class="section-heading"><div><p class="eyebrow">Al&eacute;m do mostrador</p><h2 id="instagram-title">VRAS WATCHES &mdash; NOSSO ESTILO</h2></div><a class="social-handle" href="{{ instagram_url }}" target="_blank" rel="noopener noreferrer">@usevras &#8599;</a></div>
+    {% if instagram_posts %}<div class="instagram-grid">{% for post in instagram_posts %}<article class="instagram-item" data-reveal>
+        {% if post.video %}{% include 'components/video.html' with video=post.video %}{% else %}<a href="{{ post.permalink }}" target="_blank" rel="noopener noreferrer">{% include 'components/responsive_image.html' with image=post.image sizes='(max-width: 600px) 46vw, 25vw' %}</a>{% endif %}
+        <a class="post-link" href="{{ post.permalink }}" target="_blank" rel="noopener noreferrer">{% if post.video %}<span aria-hidden="true">&#9654;</span> Ver Reel{% else %}Ver publica&ccedil;&atilde;o{% endif %} &#8599;</a>
+    </article>{% endfor %}</div>{% endif %}
+    <div class="social-bottom"><p>Novos olhares. Novos detalhes.<br>A VRAS, mais perto de voc&ecirc;.</p><a class="button button-outline" href="{{ instagram_url }}" target="_blank" rel="noopener noreferrer">Seguir @usevras &#8599;</a></div>
+</section>
+{% endblock %}

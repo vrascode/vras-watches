@@ -1,0 +1,36 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#0B0B0B">
+    <link rel="icon" href="data:,">
+    <title>{% block title %}VRAS Watches | Rel&oacute;gios{% endblock %}</title>
+    <meta name="description" content="{{ meta_description|default:'Conhe&ccedil;a os rel&oacute;gios VRAS Watches e encontre seu estilo.' }}">
+    {% if noindex %}<meta name="robots" content="noindex,follow">{% endif %}
+    {% if canonical_url %}<link rel="canonical" href="{{ canonical_url }}"><meta property="og:url" content="{{ canonical_url }}">{% endif %}
+    <meta property="og:site_name" content="VRAS Watches">
+    <meta property="og:locale" content="pt_BR">
+    <meta property="og:type" content="{% if product %}product{% else %}website{% endif %}">
+    <meta property="og:title" content="{% if product %}{{ product.nome }} | {% endif %}VRAS Watches">
+    <meta property="og:description" content="{{ meta_description|default:'O tempo &eacute; seu. O estilo tamb&eacute;m.' }}">
+    <meta name="twitter:card" content="{% if og_image and site_url %}summary_large_image{% else %}summary{% endif %}">
+    <meta name="twitter:title" content="{% if product %}{{ product.nome }} | {% endif %}VRAS Watches">
+    <meta name="twitter:description" content="{{ meta_description|default:'O tempo &eacute; seu. O estilo tamb&eacute;m.' }}">
+    {% if og_image and site_url %}<meta property="og:image" content="{{ site_url }}{{ og_image.url }}"><meta name="twitter:image" content="{{ site_url }}{{ og_image.url }}">{% endif %}
+    <link rel="preload" href="{% static 'fonts/crimsontext_n4.a9a5f5ab47c6f5346e7cd274511a5d08c59fb906.woff2' %}" as="font" type="font/woff2" crossorigin>
+    <link rel="stylesheet" href="{% static 'css/premium.css' %}">
+    {% block head %}{% endblock %}
+    <script src="{% static 'js/storefront.js' %}" defer></script>
+</head>
+<body class="{% block body_class %}{% endblock %}">
+    <a class="skip-link" href="#conteudo">Pular para o conte&uacute;do</a>
+    {% include 'components/header.html' %}
+    {% include 'components/notifications.html' %}
+    <main id="conteudo" tabindex="-1">{% block content %}{% endblock %}</main>
+    {% include 'components/footer.html' %}
+    {% include 'components/zoom.html' %}
+    {% block scripts %}{% endblock %}
+</body>
+</html>

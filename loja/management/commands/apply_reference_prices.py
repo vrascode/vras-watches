@@ -1,14 +1,14 @@
 import copy
-from datetime import datetime, timedelta, timezone
 import json
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
 from django.conf import settings
 from django.core.management.base import BaseCommand, CommandError
 
-from loja import services
-from loja.pricing import price_update
+from loja.catalog import repository, services
+from loja.catalog.pricing import price_update
 
 
 class Command(BaseCommand):
@@ -19,7 +19,7 @@ class Command(BaseCommand):
         parser.add_argument("--apply", action="store_true")
 
     def handle(self, *args, **options):
-        target = Path(services.PRODUCTS_PATH)
+        target = Path(repository.PRODUCTS_PATH)
         original = target.read_bytes()
         catalog = json.loads(original)
         path = settings.BASE_DIR / "data/poedagar_price_verification.json"

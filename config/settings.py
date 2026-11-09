@@ -66,14 +66,14 @@ ROOT_URLCONF = "config.urls"
 TEMPLATES = [
     {
         "BACKEND": "django.template.backends.django.DjangoTemplates",
-        "DIRS": [],
+        "DIRS": [BASE_DIR / "templates"],
         "APP_DIRS": True,
         "OPTIONS": {
             "context_processors": [
                 "django.template.context_processors.request",
                 "django.contrib.auth.context_processors.auth",
                 "django.contrib.messages.context_processors.messages",
-                "loja.context_processors.storefront",
+                "loja.storefront.context_processors.storefront",
             ],
         },
     },
@@ -99,7 +99,7 @@ USE_TZ = True
 STATIC_URL = "/static/"
 STATIC_ROOT = BASE_DIR / "staticfiles"
 STATICFILES_FINDERS = [
-    "loja.staticfiles.ApprovedMediaFinder",
+    "loja.media.staticfiles.ApprovedMediaFinder",
     "django.contrib.staticfiles.finders.AppDirectoriesFinder",
 ]
 STORAGES = {

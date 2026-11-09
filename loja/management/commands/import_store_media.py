@@ -4,8 +4,9 @@ from pathlib import Path
 from django.conf import settings
 from django.core.management.base import BaseCommand, CommandError
 
-from loja import media, services
-from loja.media_import import prepare_import
+from loja.catalog import repository
+from loja.media import assets as media
+from loja.media.import_service import prepare_import
 
 
 class Command(BaseCommand):
@@ -23,7 +24,7 @@ class Command(BaseCommand):
             return
         try:
             plan = json.loads(description.read_text(encoding="utf-8-sig"))
-            catalog = json.loads(Path(services.PRODUCTS_PATH).read_text(encoding="utf-8"))
+            catalog = json.loads(Path(repository.PRODUCTS_PATH).read_text(encoding="utf-8"))
             manifest, outputs, summary = prepare_import(source, plan, media.load_media(), catalog)
         except (ValueError, OSError, KeyError) as error:
             raise CommandError(f"Importação não aplicada: {error}") from error

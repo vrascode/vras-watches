@@ -1,0 +1,1 @@
+"""catalog tests and fixtures."""

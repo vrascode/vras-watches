@@ -1,0 +1,9 @@
+    <footer class="site-footer">
+        <div class="footer-main wrap">
+            <div class="footer-brand"><a href="{% url 'loja:home' %}" class="footer-wordmark">VRAS<span>WATCHES</span></a><p>O tempo &eacute; seu.<br>O estilo tamb&eacute;m.</p></div>
+            <nav aria-label="Explore"><h2>Explore</h2><a href="{% url 'loja:home' %}">In&iacute;cio</a><a href="{% url 'loja:products' %}">Rel&oacute;gios</a><a href="{% url 'loja:home' %}#colecoes">Cole&ccedil;&otilde;es</a><a href="{% url 'loja:home' %}#sobre">Sobre n&oacute;s</a></nav>
+            <section id="contato"><h2>Contato</h2><a href="mailto:vrascompany@gmail.com">vrascompany@gmail.com</a><a href="https://wa.me/5563992254787" target="_blank" rel="noopener noreferrer">(63) 99225-4787 &#8599;</a><p>Palmas, Tocantins, Brasil</p><a href="{{ instagram_url }}" target="_blank" rel="noopener noreferrer">@usevras &#8599;</a></section>
+            {% if policies %}<nav aria-label="Informa&ccedil;&otilde;es"><h2>Informa&ccedil;&otilde;es</h2>{% for policy in policies %}<a href="{{ policy.url }}" rel="noopener noreferrer">{{ policy.label }}</a>{% endfor %}</nav>{% endif %}
+        </div>
+        <div class="footer-bottom wrap"><span>&copy; {% now 'Y' %} VRAS Watches</span><span>VRAS COMPANY NEG&Oacute;CIOS DIGITAIS</span><a href="{{ instagram_url }}" target="_blank" rel="noopener noreferrer">Instagram &#8599;</a></div>
+    </footer>

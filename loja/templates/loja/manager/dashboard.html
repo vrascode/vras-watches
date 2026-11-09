@@ -1,8 +1,0 @@
-{% extends 'loja/manager/base.html' %}{% block content %}
-<p class="eyebrow">Catálogo Poedagar</p><h1>Do original à vitrine.</h1><p>Selecione um modelo para enviar fotos, conferir a variante e confirmar o atendimento da venda. Os preços aprovados são preservados.</p>
-<div class="manager-summary"><strong>{{ published_count }} à venda</strong><span>{{ products|length }} modelos cadastrados</span></div>
-<div class="manager-grid">{% for product in products %}<article class="manager-panel">
-{% if product.cover %}<img class="manager-cover" src="{{ product.cover.url }}" width="480" height="480" alt="{{ product.cover.alt }}" loading="lazy">{% endif %}
-<span class="status {% if product.can_purchase %}status-live{% endif %}">{% if product.can_purchase %}Publicado{% else %}Rascunho{% endif %}</span><h2>{{ product.nome }}</h2><p class="price">{{ product.preco_brl }} <small>aprovado</small></p>
-{% if product.pending_labels %}<ul class="pending">{% for label in product.pending_labels %}<li>{{ label }}</li>{% endfor %}</ul>{% endif %}
-<a class="manager-button" href="{% url 'loja:catalog_product' product.id %}">Enviar fotos e conferir dados →</a></article>{% endfor %}</div>{% endblock %}

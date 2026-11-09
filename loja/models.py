@@ -1,4 +1,5 @@
-from django.db import models
+"""The catalog is persisted in JSON through loja.catalog.repository.
 
-
-# Produtos ainda sao carregados de data/products.json em loja/services.py.
+Django owns auth, sessions and permissions in SQLite. No product ORM models or
+schema migrations are introduced by this structural refactor.
+"""

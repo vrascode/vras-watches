@@ -1,0 +1,1 @@
+    <div class="notifications" role="status" aria-live="polite" aria-atomic="true" data-notifications>{% if cart_catalog_notice %}<p class="notification">O catálogo foi atualizado. Itens antigos ou indisponíveis foram removidos do seu carrinho; confira a nova coleção.</p>{% endif %}{% for message in messages %}<p class="notification">{{ message }}</p>{% endfor %}</div>

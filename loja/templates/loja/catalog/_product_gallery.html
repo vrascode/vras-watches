@@ -1,0 +1,31 @@
+<div class="product-gallery" data-gallery>
+    <div class="gallery-track" id="product-gallery-track" data-gallery-track tabindex="0" aria-label="Galeria de {{ product.nome }}">
+        {% for slide in product.gallery_items %}
+            {% if slide.video %}
+            <div class="gallery-slide" role="group" aria-label="V&iacute;deo {{ forloop.counter }} de {{ product.gallery_items|length }}">{% include 'components/video.html' with video=slide.video %}</div>
+            {% else %}
+            <button class="gallery-slide photo-slide" type="button" data-zoom="{{ slide.image.url }}" aria-label="Ampliar {{ product.nome }}, fotografia {{ forloop.counter }} de {{ product.gallery_items|length }}" title="Ampliar fotografia">
+                {% include 'components/responsive_image.html' with image=slide.image alt=product.nome priority=forloop.first sizes='(max-width: 600px) 100vw, 55vw' %}
+                <span class="zoom-hint" aria-hidden="true">&#8853;</span>
+            </button>
+            {% endif %}
+        {% empty %}
+            <div class="gallery-slide media-unavailable"><span class="media-monogram" aria-hidden="true">VRAS</span><span>Fotografia em breve</span></div>
+        {% endfor %}
+    </div>
+    {% if product.gallery_items|length > 1 %}
+    <div class="gallery-controls">
+        <button class="icon-button" type="button" data-gallery-prev aria-controls="product-gallery-track" aria-label="M&iacute;dia anterior" title="M&iacute;dia anterior">&#8592;</button>
+        <span data-gallery-position aria-live="polite" aria-atomic="true">1 / {{ product.gallery_items|length }}</span>
+        <button class="icon-button" type="button" data-gallery-next aria-controls="product-gallery-track" aria-label="Pr&oacute;xima m&iacute;dia" title="Pr&oacute;xima m&iacute;dia">&#8594;</button>
+    </div>
+    <div class="gallery-thumbnails" role="group" aria-label="Escolher fotografia ou v&iacute;deo">
+        {% for slide in product.gallery_items %}
+        <button class="gallery-thumbnail" type="button" data-gallery-index="{{ forloop.counter0 }}" aria-controls="product-gallery-track" aria-label="Ver {% if slide.video %}v&iacute;deo{% else %}fotografia{% endif %} {{ forloop.counter }}" {% if forloop.first %}aria-current="true"{% endif %}>
+            <img src="{{ slide.image.url }}" {% if slide.image.srcset %}srcset="{{ slide.image.srcset }}" sizes="64px"{% endif %} alt="" width="80" height="100" loading="lazy" decoding="async">
+            {% if slide.video %}<span aria-hidden="true">&#9654;</span>{% endif %}
+        </button>
+        {% endfor %}
+    </div>
+    {% endif %}
+</div>
