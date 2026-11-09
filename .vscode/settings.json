@@ -1,0 +1,28 @@
+{
+  "files.exclude": {
+    "**/__pycache__": true,
+    "**/*.pyc": true,
+    "**/*.pyo": true,
+    "**/.pytest_cache": true,
+    "**/.mypy_cache": true,
+    "**/.ruff_cache": true,
+    ".coverage": true,
+    ".coverage.*": true,
+    "htmlcov": true,
+    "artifacts/runtime": true,
+    "staticfiles": true
+  },
+  "search.exclude": {
+    "artifacts/runtime": true,
+    "staticfiles": true,
+    "**/__pycache__": true,
+    "**/.pytest_cache": true,
+    "**/.mypy_cache": true,
+    "**/.ruff_cache": true
+  },
+  "files.watcherExclude": {
+    "**/artifacts/runtime/**": true,
+    "**/staticfiles/**": true,
+    "**/__pycache__/**": true
+  }
+}
