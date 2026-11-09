@@ -36,7 +36,7 @@ Os scripts usam Node 22+ e Chrome/Chromium via CDP, sem dependências npm.
 Inicie um navegador de QA com perfil próprio, em outro terminal:
 
 ```powershell
-& 'C:\Program Files\Google\Chrome\Application\chrome.exe' --headless=new --disable-gpu --remote-debugging-address=127.0.0.1 --remote-debugging-port=9333 --user-data-dir="$PWD/artifacts/chrome-refactor-qa" --no-first-run --no-default-browser-check about:blank
+& 'C:\Program Files\Google\Chrome\Application\chrome.exe' --headless=new --disable-gpu --remote-debugging-address=127.0.0.1 --remote-debugging-port=9333 --user-data-dir="$PWD/artifacts/runtime/chrome/qa" --no-first-run --no-default-browser-check about:blank
 ```
 
 Use somente o perfil isolado, nunca o perfil pessoal. Neste ambiente restrito,
@@ -69,7 +69,12 @@ home, catálogo, carrinho, redirecionamentos aposentados e bloqueio de detalhes
 não publicados. Os fluxos com ofertas e galerias publicadas são cobertos pelas
 fixtures isoladas. A responsividade cobre 360, 390, 768, 1024 e 1440 pixels;
 o fluxo de galeria inclui teclado, zoom e movimento reduzido.
-Relatórios JSON e screenshots ficam em `artifacts/`, ignorado pelo Git.
+Relatórios JSON e screenshots ficam em
+`artifacts/browser/<suite>/runs/<execução>/{reports,screenshots}/`, ignorados
+pelo Git. O terminal mostra o diretório da execução. `pre-organization` contém
+as evidências anteriores; execuções novas usam data/hora UTC e sufixo único.
+Não é necessário configurar manualmente o diretório de saída. Veja
+[o guia dos artefatos](../artifacts/README.md).
 
 ## Limites
 
@@ -84,4 +89,5 @@ Run the standard commands above or select a domain with
 `python manage.py test loja.tests.<domain>`. Browser tests require an isolated
 Chrome CDP session and `VRAS_BROWSER_QA=1`; their temporary users, data and images
 do not modify the live catalog. `scripts/browser_qa.mjs` checks the current
-storefront at `QA_BASE_URL`. Reports and screenshots are local build artifacts.
+storefront at `QA_BASE_URL`. Reports and screenshots are local, uniquely named runs under
+`artifacts/browser/<suite>/runs/`; previous evidence is preserved.

@@ -18,11 +18,11 @@ Playwright/Pillow nao estavam instalados; a tentativa de instalar as dependencia
 
 O Chrome nao conseguiu inicializar seus processos GPU no isolamento padrao deste ambiente Windows. A sessao de teste local foi iniciada em modo headless com GPU no processo principal e sandbox do navegador desabilitada apenas nesse perfil descartavel. Isso nao altera configuracoes do sistema, do navegador pessoal, do Django ou do deploy. A porta de depuracao permaneceu restrita ao loopback e a sessao de QA foi encerrada ao terminar.
 
-O script `scripts/browser_qa.mjs` verificou quatro paginas em cinco larguras: 360, 390, 768, 1024 e 1440 px. Foram geradas 20 screenshots em `artifacts/`. Resultado: sem rolagem horizontal, texto estourando, imagens referenciadas quebradas, links `#`, erros de console JavaScript ou respostas de rede >=400 durante as paginas testadas.
+O script `scripts/browser_qa.mjs` verificou quatro paginas em cinco larguras: 360, 390, 768, 1024 e 1440 px. Foram geradas 20 screenshots em `artifacts/browser/storefront/runs/pre-organization/screenshots/`. Resultado: sem rolagem horizontal, texto estourando, imagens referenciadas quebradas, links `#`, erros de console JavaScript ou respostas de rede >=400 durante as paginas testadas.
 
 Fluxos verificados: menu mobile; ciclo de foco por Tab; Escape e retorno ao botao; busca/ordenacao; adicionar produto por AJAX; atualizacao do contador; persistencia ao abrir carrinho; aumentar/diminuir/remover; total de um Genius R$389,00 e de duas unidades R$778,00; skip link por teclado; prefers-reduced-motion. O problema de ciclo de foco encontrado no primeiro teste foi corrigido e o fluxo foi repetido com sucesso.
 
-Screenshots representativas de home/catalogo mobile e home/detalhe desktop foram inspecionadas visualmente. O relatorio JSON fica em `artifacts/browser-report.json`, ignorado no Git. As capturas documentam o estado sem midias autorizadas, nao uma home cinematografica ja preenchida.
+Screenshots representativas de home/catalogo mobile e home/detalhe desktop foram inspecionadas visualmente. O relatorio JSON fica em `artifacts/browser/storefront/runs/pre-organization/reports/browser-report.json`, ignorado no Git. As capturas documentam o estado sem midias autorizadas, nao uma home cinematografica ja preenchida.
 
 ## Limites que permanecem
 
