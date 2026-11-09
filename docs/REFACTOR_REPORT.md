@@ -15,7 +15,7 @@ A execução ocorreu no workspace disponibilizado, não no caminho antigo de Dow
   Python em `config/`, `loja/` e `scripts/`; templates, estáticos e dependências.
 - Baseline de preservação: 619 arquivos de `data/`, `static/`, `midias-instagram/`
   e `db.sqlite3`. Inclui registros privados, originais, histórico e backups existentes.
-- Evidências locais em `artifacts/refactor/`: `baseline.txt`, `inventory-before.json`
+- Evidências locais em `artifacts/reports/refactor/`: `baseline.txt`, `inventory-before.json`
   e `preservation-before.json`. Esses arquivos são ignorados pelo Git.
 
 ## Estrutura final
@@ -165,7 +165,7 @@ SHA-256 antes e depois:
 | Módulos Python de config/app/scripts | 40 mapeados | 70 compilados |
 | Arquivos protegidos | 619 hashes registrados | 619 iguais |
 | Comparação visual | baseline capturado | 35/35 screenshots idênticos |
-| `collectstatic` com ManifestStaticFilesStorage | não refeito antes | passou em `artifacts/refactor/static-build`, 292 entradas de saída |
+| `collectstatic` com ManifestStaticFilesStorage | não refeito antes | passou em `artifacts/runtime/static-build/refactor`, 292 entradas de saída |
 | `makemigrations loja --check --dry-run` | nenhuma mudança estrutural anterior | nenhuma mudança detectada |
 | Sintaxe JS: scripts e interface | scripts existentes executados | quatro arquivos passaram no `node --check` |
 | `git diff --check` | árvore limpa | sem erros |
@@ -180,7 +180,7 @@ No primeiro lançamento, o Chrome falhou antes da refatoração por restrição 
 ambiente. A execução isolada com `--no-sandbox` permitiu rodar os testes de antes
 e depois. Essa opção não foi adicionada à aplicação ou aos scripts existentes.
 Os relatórios locais estão em `artifacts/` e os inventários/hashes/comparação
-estão em `artifacts/refactor/`; eles não fazem parte do versionamento.
+estão em `artifacts/reports/refactor/` e `artifacts/visual/refactor/`; eles não fazem parte do versionamento.
 
 ## Commits e pendências
 
