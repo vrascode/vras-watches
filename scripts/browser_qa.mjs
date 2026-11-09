@@ -1,6 +1,6 @@
 // Dependency-free browser QA via Chrome DevTools Protocol (Node 22+).
 import assert from "node:assert/strict";
-import { mkdir, writeFile } from "node:fs/promises";
+import { writeBrowserArtifact } from "./qa_artifacts.mjs";
 
 const base = process.env.QA_BASE_URL || "http://127.0.0.1:8000";
 const debuggerURL = process.env.QA_DEBUG_URL || "http://127.0.0.1:9333";
@@ -57,7 +57,6 @@ const key = async value => {
     await send("Input.dispatchKeyEvent", { type: "rawKeyDown", key: value, code: value, windowsVirtualKeyCode: virtualKey });
     await send("Input.dispatchKeyEvent", { type: "keyUp", key: value, code: value, windowsVirtualKeyCode: virtualKey });
 };
-await mkdir("artifacts", { recursive: true });
 try {
     await send("Page.enable");
     await send("Runtime.enable");
@@ -147,7 +146,7 @@ try {
         assert.equal(browserErrors.length, 0, JSON.stringify(browserErrors));
         assert.equal(networkErrors.length, 0, JSON.stringify(networkErrors));
         const report = { fictionalFixturesOnly: true, checks, variantNavigationAndCart: "passed", resize: "passed", browserErrors, networkErrors };
-        await writeFile("artifacts/gallery-browser-report.json", JSON.stringify(report, null, 2));
+        await writeBrowserArtifact("gallery", "reports", "gallery-browser-report.json", JSON.stringify(report, null, 2));
         console.log(JSON.stringify(report, null, 2));
     } else if (await evaluate("document.querySelector('.catalog-preparation') !== null")) {
         // The production catalog intentionally contains only unpublished drafts.
@@ -161,7 +160,7 @@ try {
                 assert.equal(await evaluate("document.body.textContent.includes('R$')"), false);
                 assert.equal(await evaluate("document.querySelectorAll('[type=\"application/ld+json\"]').length"), 0);
                 const screenshot = await send("Page.captureScreenshot", { format: "png", captureBeyondViewport: false });
-                await writeFile(`artifacts/migration-${name}-${width}.png`, Buffer.from(screenshot.data, "base64"));
+                await writeBrowserArtifact("migration", "screenshots", `migration-${name}-${width}.png`, Buffer.from(screenshot.data, "base64"));
                 results.push({ width, page: name, noDraftLeak: true, noOverflow: true });
             }
         }
@@ -195,7 +194,7 @@ try {
         const report = { mode: "draft-catalog-migration", results, retiredRedirects: 12, protectedDrafts: 12,
                          intentionalDraft404s: networkErrors.filter(error => error.status === 404).length,
                          browserErrors: unexpectedBrowser, networkErrors: unexpectedNetwork };
-        await writeFile("artifacts/migration-browser-report.json", JSON.stringify(report, null, 2));
+        await writeBrowserArtifact("migration", "reports", "migration-browser-report.json", JSON.stringify(report, null, 2));
         console.log(JSON.stringify({ mode: report.mode, screenshots: results.length, retiredRedirects: 12,
                                     protectedDrafts: 12, browserErrors: unexpectedBrowser, networkErrors: unexpectedNetwork }, null, 2));
     } else {
@@ -219,7 +218,7 @@ try {
             assert.equal(layout.placeholders, 0);
             assert.ok(layout.h1);
             const screenshot = await send("Page.captureScreenshot", { format: "png", captureBeyondViewport: false });
-            await writeFile(`artifacts/${name}-${width}.png`, Buffer.from(screenshot.data, "base64"));
+            await writeBrowserArtifact("storefront", "screenshots", `${name}-${width}.png`, Buffer.from(screenshot.data, "base64"));
             results.push({ width, page: name, ...layout });
         }
     }
@@ -266,7 +265,7 @@ try {
     assert.equal(browserErrors.length, 0, JSON.stringify(browserErrors));
     assert.equal(networkErrors.length, 0, JSON.stringify(networkErrors));
     const report = { results, interactions: ["existing launch products", "mobile menu focus trap and Escape", "search and sort", "AJAX add and counter", "cart increment/decrement/remove", "keyboard skip link", "reduced motion", "all 12 product detail pages and cart targets", "no unconfirmed variant selectors"], browserErrors, networkErrors };
-    await writeFile("artifacts/browser-report.json", JSON.stringify(report, null, 2));
+    await writeBrowserArtifact("storefront", "reports", "browser-report.json", JSON.stringify(report, null, 2));
     console.log(JSON.stringify({ pages: results.length, screenshots: results.length, interactions: report.interactions, browserErrors, networkErrors }, null, 2));
     }
 } finally {
