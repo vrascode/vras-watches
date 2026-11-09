@@ -1,6 +1,13 @@
 # Python
 __pycache__/
 *.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
 
 # Django
 db.sqlite3
@@ -10,8 +17,9 @@ db.sqlite3
 venv/
 env/
 
-# VS Code
-.vscode/
+# VS Code: share project settings; keep personal editor state local.
+.vscode/*
+!.vscode/settings.json
 
 # macOS
 .DS_Store
@@ -21,7 +29,9 @@ env/
 .env.*
 !.env.example
 staticfiles/
-artifacts/
+# Generated evidence stays local; only its navigation guide is shared.
+artifacts/*
+!artifacts/README.md
 node_modules/
 data/.owner-intake.lock
 
