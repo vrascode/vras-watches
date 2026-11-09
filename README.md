@@ -1,266 +1,199 @@
 # VRAS Watches
 
-## Catálogo atual — migração Poedagar
+Loja Django com templates renderizados no servidor, catálogo JSON e carrinho
+persistido em sessões Django. A arquitetura MTV mantém um único app `loja`,
+organizado internamente por domínio, sem alterar o banco, permissões ou URLs.
 
-Os 12 produtos antigos foram retirados do catálogo ativo e têm backup versionado
-em `data/backups/catalog-before-poedagar-91f8988/`. `data/products.json` contém os
-12 modelos Poedagar selecionados, com IDs 13–24, em **rascunho, com os 12 preços
-de venda já aprovados e gravados**. Faltam fotografias autorizadas, referências
-físicas/variantes e confirmação da oferta VRAS para publicar. O site continua
-mostrando a coleção em preparação sem liberar ofertas incompletas.
+Os **12 modelos Poedagar têm preços aprovados e continuam em rascunho** no catálogo
+entregue. A venda depende de identidade, variante, fotos autorizadas e disponibilidade
+confirmadas. Nenhum estado comercial foi alterado pela refatoração.
 
-O registro atual está em [POEDAGAR_APPLIED_PRICES.md](docs/POEDAGAR_APPLIED_PRICES.md).
-O preço de cada variante foi conferido no HTML público da fonte e aprovado com a
-autorização expressa do proprietário. Pix, cupons, descontos por quantidade e
-preços anteriores não foram usados como preço de venda. A aprovação guarda os IDs
-exatos das variantes consultadas; a publicação exige a variante física correta.
+## Arquitetura
 
-Leia [POEDAGAR_MIGRATION.md](docs/POEDAGAR_MIGRATION.md) para o estado atual,
-[POEDAGAR_NEW_PRICES.md](docs/POEDAGAR_NEW_PRICES.md) para as propostas por modelo
-e [POEDAGAR_NEW_MEDIA_PENDING.csv](docs/POEDAGAR_NEW_MEDIA_PENDING.csv) para arquivos
-e identificação pendentes por variante. As seções abaixo também preservam o
-histórico das melhorias anteriores; a regra de publicação atual prevalece.
+```text
+config/                         settings, URLs principais, ASGI e WSGI
+loja/
+  catalog/                      catálogo e detalhes públicos
+    repository.py               leitura de data/products.json
+    services.py                 consultas, filtros, galerias e variantes
+    pricing.py                  aprovação e correspondência de preços
+    validation.py               identidade e requisitos de publicação
+    publication.py              simulação e publicação segura
+    views.py, urls.py            requisições HTTP e rotas do catálogo
+  cart/                         serviços de sessão, views e URLs do carrinho
+  storefront/                   home, robots, sitemap e context processor
+  management_portal/            forms, recebimento de fotos, views e URLs da gestão
+  media/                        autorização, importação, WebP e finder de estáticos
+  management/commands/          adaptadores administrativos para manage.py
+  templates/loja/               catalog/, cart/, storefront/, management_portal/, legacy/
+  tests/                        testes por domínio, integração e fixtures de suporte
+  templatetags/                 apresentação segura de JSON-LD
+  models.py                     contrato de persistência; sem modelos ORM de produtos
+  urls.py                       composição das rotas no namespace existente loja:
+  utils.py                      normalização textual e formatação BRL
+templates/                     base.html, componentes compartilhados e páginas de erro
+static/                         css/, js/, img/ e fonts/ preservados
+data/                          catálogo, manifesto, aprovações e backups preservados
+midias-instagram/               originais e comprovantes privados; ignorados pelo Git
+scripts/                        pesquisa, relatórios e QA de navegador
+docs/                          arquitetura, operação e relatórios de validação
+manage.py
+requirements.txt
+.env.example
+```
 
-A publicação exige identidade/referência confirmadas e coerentes, variante da
-fonte identificada, oferta VRAS confirmada, preço com aprovação registrada para
-essa variante e toda a galeria autorizada correspondente ao mesmo SKU. Apenas
-marcar `status: publicado` não libera compra. A auditoria rejeita essa configuração
-quando algum requisito falta. Rascunhos ficam fora de busca, detalhes e sitemap.
-Os carrinhos antigos são reconciliados por sessão com aviso, sem apagar login,
-pedidos ou outros dados históricos. IDs antigos não são reutilizados.
+As views recebem requisições e coordenam respostas; serviços concentram as regras;
+forms validam os envios do proprietário; templates apresentam os resultados.
+O repositório existe porque o catálogo é um arquivo JSON. Não há repositórios
+artificiais para sessões ou autenticação, nem migração de produtos para o ORM.
+SQLite continua responsável por usuários, permissões e sessões.
 
-Loja Django com catalogo JSON, templates renderizados no servidor e carrinho persistido por sessao. Redesign editorial em preto, branco e grafite, com tipografia Crimson Text local e detalhes discretos em dourado. Sem React, bundler ou dependencias JavaScript em producao.
+Leia [as decisões arquiteturais](docs/ARCHITECTURE.md) e o
+[relatório da refatoração](docs/REFACTOR_REPORT.md), incluindo o mapa de arquivos.
 
-A continuação a partir de `0837dfd` está registrada em [STOREFRONT_UPDATE.md](docs/STOREFRONT_UPDATE.md).
-Inclui novo banner editorial, vitrines de clássicos/esportivos, seção “VRAS WATCHES — NOSSO ESTILO”,
-busca no cabeçalho, compra fixa no mobile e zoom com navegação e ampliação de detalhes.
+## Instalação e execução
 
-Para integrar originais autorizados, use a pasta [midias-instagram](midias-instagram/README.md):
-`python manage.py import_store_media` valida/simula o lote e
-`python manage.py import_store_media --apply` converte fotografias em WebP responsivo
-e integra fotos/vídeos ao manifesto. A pasta continua sem fotografias ou vídeos fornecidos.
-O importador usa Pillow 13.0.0; instale as dependências de `requirements.txt` antes de usá-lo.
-Nenhum preço ou estoque é atualizado por esse comando.
-
-O servidor de revisão usa `python manage.py runserver 127.0.0.1:8001`.
-
-## Estado das midias
-
-**A identidade visual oficial ainda precisa ser validada pelo proprietario.** O Instagram nao ficou acessivel na consulta publica. O arquivo local contem imagens de outras marcas e imagens com nomes indicando geracao por IA. Nenhuma foi reapresentada como fotografia oficial da VRAS.
-
-- Os dados originais dos 12 produtos foram preservados integralmente no backup versionado; os novos Poedagar ocupam `data/products.json` em rascunho.
-- As fotos legadas estao bloqueadas, nao apagadas. Nao sao servidas pelo finder local nem incluidas no `collectstatic`.
-- Nao ha videos, logotipo VRAS confirmado ou posts com procedencia confirmada no repositorio.
-- Hero, editorial, campanha, previews e galeria social aceitam midias autorizadas. Sem ofertas aprovadas, o hero e tipografico e a vitrine mostra a coleção em preparação, sem expor rascunhos ou feed fictício.
-- Os textos editoriais novos sao propostas baseadas no briefing, nao transcricoes da bio oficial.
-- Leia [o registro de midias](docs/INSTAGRAM_MEDIA.md), [o inventario completo](docs/MEDIA_INVENTORY.csv) e [a analise inicial](docs/ANALYSIS.md).
-
-## Tecnologias
-
-- Python 3.12+; Django 6.0.6 (versao instalada e testada).
-- Pillow 13.0.0 para preparar fotografias WebP e perfis de cor no importador offline.
-- SQLite para desenvolvimento; sessoes Django no banco.
-- HTML5, CSS responsivo, JavaScript nativo, IntersectionObserver e dialog.
-- Node 22+ e Chrome/Chromium apenas para QA opcional. O site nao precisa de Node.
-
-## Executar Localmente
-
-Abra **a pasta que contem `manage.py`** no VS Code. No seu computador:
+Na pasta que contém `manage.py`, com Python 3.12+:
 
 ```powershell
-cd C:\Users\mathe\Downloads\saveweb2zip-com-usevoxo-com-br\vras-watches
+cd C:\Projetos\vras-watches
 python -m venv .venv
-.\.venv\Scripts\Activate.ps1
-python -m pip install -r requirements.txt
-python manage.py migrate
-python manage.py runserver 127.0.0.1:8001
+.\.venv\Scripts\python.exe -m pip install -r requirements.txt
+.\.venv\Scripts\python.exe manage.py check
+.\.venv\Scripts\python.exe manage.py runserver 127.0.0.1:8001
 ```
 
-Se o PowerShell bloquear a ativacao, use `.\.venv\Scripts\python.exe` diretamente em lugar de `python`, sem mudar a politica de execucao do sistema.
+Dependências fixadas: Django 6.0.6 e Pillow 13.0.0. Node 22+ e Chrome/Chromium são
+usados apenas nos testes de navegador; a loja não precisa de npm ou bundler.
+Em uma instalação nova, execute `python manage.py migrate` para criar as tabelas
+Django. No banco existente, esse comando aplica apenas migrações pendentes.
+A refatoração não exige novas migrações nem recriação de `db.sqlite3`.
 
-Acesse http://127.0.0.1:8001/. Pare com Ctrl+C no terminal do servidor. O servidor de desenvolvimento nao deve ser exposto na internet.
+`.env.example` documenta as variáveis; Django não carrega `.env` automaticamente.
+Configure o ambiente do processo. Em produção, defina `DJANGO_DEBUG=false`,
+`DJANGO_SECRET_KEY` persistente e `DJANGO_ALLOWED_HOSTS`. Uma chave persistente
+preserva a autenticação entre reinicializações; a chave de desenvolvimento gerada
+quando a variável está ausente é efêmera, como antes da refatoração.
+`SITE_URL` recebe uma origem HTTP(S) sem caminho; sem ela, não são inventados
+canonical ou URLs absolutas de sitemap. Consulte também `HTTPS_ENABLED` e
+`DJANGO_CSRF_TRUSTED_ORIGINS` em `.env.example`.
 
-## Rotas e Comportamento
+## Rotas preservadas
 
-| Rota | Funcao |
+| Rota | Comportamento |
 | --- | --- |
-| `/` | Destaques, editorial, colecoes e acesso ao Instagram |
-| `/produtos/` | Busca, categoria e ordenacao |
-| `/produto/<id>/` | Galeria, zoom, videos opcionais, compartilhamento e relacionados |
-| `/carrinho/` | Quantidades, remocao de linha e total calculado com Decimal |
+| `/` | Home, editorial, coleções e mídias aprovadas |
+| `/produtos/` | Busca, categoria e ordenação de ofertas publicadas |
+| `/produto/<id>/` | Detalhes, galeria, zoom e variantes confirmadas |
+| `/carrinho/` | Quantidades, subtotais e total calculados com Decimal |
 | `/carrinho/adicionar/<id>/` | POST: adiciona uma unidade |
-| `/carrinho/remover/<id>/` | POST: diminui uma unidade (compatibilidade original) |
-| `/carrinho/atualizar/<id>/` | POST: `quantity` de 0 a 99; zero remove a linha |
-| `/robots.txt`, `/sitemap.xml` | SEO configuravel por SITE_URL |
+| `/carrinho/remover/<id>/` | POST: diminui uma unidade |
+| `/carrinho/atualizar/<id>/` | POST: quantidade de 0 a 99; zero remove |
+| `/gestao/entrar/` | Login administrativo |
+| `/gestao/catalogo/` | Painel do proprietário |
+| `/gestao/catalogo/<id>/` | Confirmações e upload pelo navegador |
+| `/admin/` | Administração Django |
+| `/robots.txt`, `/sitemap.xml` | Metadados de indexação |
 
-Filtros: `?categoria=Poedagar&q=Army&ordem=preco_asc`. Ordenacoes: `destaques`, `preco_asc`, `preco_desc`, `nome`, `nome_desc`. Busca ignora caixa e acentos e considera apenas ofertas publicadas. Carrinho funciona sem JavaScript e oferece feedback incremental quando JS esta disponivel. Links dos antigos IDs 1–12 redirecionam para o catálogo; rascunhos não têm detalhes públicos.
+Todos os nomes `loja:...` foram mantidos. Filtros usam `categoria`, `q` e `ordem`;
+a busca ignora caixa e acentos. Rascunhos não aparecem na busca, detalhes públicos
+ou sitemap. IDs aposentados 1–12 redirecionam ao catálogo; os Poedagar mantêm
+os IDs 13–24. O carrinho preserva suas chaves de sessão e remove ofertas que
+ficaram indisponíveis ou mudaram de referência/variante, sem apagar o login.
 
-**Nao existe checkout ou gateway de pagamento.** O botao de contato nao cria um pedido, nao transmite automaticamente o carrinho e nao cobra o cliente. O popup antigo de cadastro, que nao persistia e-mails, foi desativado. Nao foi implementado um cadastro ficticio.
+Não existe checkout, gateway de pagamento ou criação de pedidos pelo contato.
 
-## Estrutura
+## Painel, fotografias e publicação
 
-```text
-config/                     Configuracao Django e URLs
-loja/services.py            Catalogo, filtros, Decimal e carrinho
-loja/media.py               Validacao de midias locais autorizadas
-loja/staticfiles.py         Publicacao restrita a midias aprovadas
-loja/views.py               Paginas, POSTs, robots e sitemap
-loja/management/commands/   Auditoria e inventario de midias
-loja/templates/             Templates novos e arquivos legados preservados
-loja/tests.py               Testes de catalogo, carrinho, midias e deploy
-data/products.json          12 modelos Poedagar, inicialmente em rascunho
-data/backups/               Dados originais versionados antes da migração
-data/media.json             Manifesto de midias aprovadas e links institucionais
-static/css/premium.css      Estilo ativo
-static/js/storefront.js     Interacoes ativas
-static/fonts/               Fontes locais preexistentes
-static/img/products/        Arquivo original preservado, bloqueado por padrao
-docs/                       Analise, procedencia e validacao
-scripts/browser_qa.mjs      QA opcional com Chrome DevTools Protocol
-artifacts/                  Relatorios e screenshots locais, ignorados pelo Git
-staticfiles/                Saida de collectstatic, ignorada pelo Git
+Acesse http://127.0.0.1:8001/gestao/catalogo/ usando uma conta administrativa
+ativa existente. Se ainda não houver conta, crie uma com
+`python manage.py createsuperuser`. Não há credenciais padrão.
+
+1. Selecione o modelo e confira no produto real a referência e a documentação.
+2. Selecione a variante correspondente e confirme as cores e a pulseira.
+3. Envie até oito fotos por envio, em JPG, PNG, WebP ou AVIF, com até 20 MB e
+   40 megapixels por arquivo. Registre autor/fornecedor e autorização comercial.
+4. Confirme a disponibilidade real e registre como ela foi verificada.
+5. Salve. O painel preserva os originais, gera WebP responsivo e publica
+   automaticamente somente se todos os requisitos forem satisfeitos.
+
+Dados parciais continuam em rascunho. Preços aprovados não são editáveis nesse
+formulário. Ao trocar de variante, substitua a galeria para evitar fotos de outro
+SKU. Uma troca de referência ou variante revisa a oferta e invalida suas linhas
+antigas no carrinho. Cada recebimento mantém autor, horário, comprovantes,
+originais, cópias anteriores e resultado em `midias-instagram/recebidos/`, fora
+de `static/` e do Git. O serviço mantém o bloqueio de recebimentos simultâneos
+e verifica alterações concorrentes antes de gravar os arquivos.
+
+A importação em lote continua disponível:
+
+```powershell
+python manage.py import_store_media
+python manage.py import_store_media --apply
+python manage.py publish_ready_products
+python manage.py publish_ready_products --apply
 ```
 
-Os arquivos antigos `theme.css`, `style.css`, `swiper-reviews.min.css`, `welcome-modal.css`, `welcome-modal.js` e `_welcome_modal.html` foram preservados como arquivo, mas nao sao carregados. CSS/JS legados tambem sao excluidos da coleta de estaticos. O banco local continua no disco, mas saiu do rastreamento Git; o historico anterior nao foi reescrito.
-
-## Adicionar Produtos
-
-Edite o array `data/products.json`, mantendo IDs positivos únicos e nunca reutilizando os antigos 1–12. Use `catalog_generation: poedagar-v1`, `status: rascunho`, nome, marca/modelo, descrição própria e categoria sustentada por evidência. Sem aprovação, `preco` é `null`; `imagem` também é nula até existir mídia correspondente. A categoria inicial é Poedagar; classificações de material, estilo ou lançamento não foram inferidas.
-
-`identificacao` e `variante` exigem confirmação e fonte; cada especificação exige `valor`, `fonte` e `confirmada`. A aprovação do preço guarda valor exato, data, registro e `source_variant_id`. A variante precisa existir em `variantes_fonte`, e referência/marca/modelo precisam coincidir com os campos do produto. Prefira importar as mídias com o comando próprio para gravar os vínculos de SKU. Consulte o contrato completo em `docs/POEDAGAR_MIGRATION.md`.
-
-Execute `python manage.py audit_storefront` depois da edicao.
-
-## Cadastrar Fotos e Videos
-
-Crie somente as pastas necessarias quando receber os arquivos originais:
-
-```text
-static/img/brand/            Logotipo raster oficial
-static/img/campaigns/        Posters e fotos editoriais
-static/img/products/         Fotos de produto
-static/img/instagram/        Miniaturas sociais
-static/videos/hero/          Videos de abertura e editoriais
-static/videos/products/      Videos por modelo
-static/videos/instagram/     Reels autorizados
-```
-
-Todos os caminhos sao relativos a `static/`. Cada midia requer `src`, `origem` e `autorizado: true`. Isso registra a confirmacao humana do proprietario; nao prova direitos automaticamente. Use `alt` descritivo. Imagens: JPG, PNG, WebP ou AVIF. Videos: MP4 ou WebM, obrigatoriamente com poster local autorizado.
-
-Prefira `python manage.py import_store_media --apply` para processar os originais autorizados de `midias-instagram/manifest.json`. O exemplo atualizado fica em `midias-instagram/manifest.example.json`, sem permissões fictícias. Para produtos, informe o novo `produto_id` e o `variante_fonte_id` correspondente à fotografia. O importador grava também modelo e geração em imagens, vídeos e posters; todos precisam coincidir com o produto para liberar a publicação. Não cadastrar as novas fotos nos IDs 1-12.
-
-Após conferir identidade, variante, mídia e disponibilidade reais, execute
-`python manage.py publish_ready_products` para simular e acrescente `--apply`
-para publicar somente ofertas completas. Esse comando preserva preços e aprovações;
-não é necessário reaplicar preços para retirar produtos aptos do rascunho.
-Veja os [requisitos e resultado da publicação](docs/POEDAGAR_PUBLICATION.md).
-
-### Receber fotos e preparar ofertas pelo navegador
-
-Acesse [Gestão do catálogo](http://127.0.0.1:8001/gestao/catalogo/). No primeiro
-acesso, crie sua conta com `python manage.py createsuperuser` e entre com ela.
-O painel exige uma conta administrativa ativa; nenhum usuário/senha padrão foi criado.
-Selecione o modelo, confira sua referência e variante, envie as fotos autorizadas
-e registre a disponibilidade real da VRAS. Não é necessário editar JSON.
-O formulário gera o manifesto, preserva os originais, cria WebP responsivo e
-executa o publicador existente. Dados parciais permanecem em rascunho.
-Ao trocar de variante, use a substituição da galeria para não manter fotos da
-variante anterior. Alterar a referência ou variante gera uma nova revisão da
-oferta; itens antigos incompatíveis são retirados do carrinho. Os preços aprovados não são editáveis.
-Os originais, comprovantes e backups do recebimento ficam em
-`midias-instagram/recebidos/`, fora da área pública e ignorados pelo Git.
-
-Mescle as entradas no manifesto existente; nao substitua outras secoes. `brand.logo` recebe um objeto de imagem. `hero`, `editorial` e `campaign` recebem `image` e/ou `video`. A primeira imagem vira capa; a segunda aparece no hover. Multiplos videos aparecem na galeria do produto. Um poster tambem pode servir como capa quando so ha video.
-
-Videos decorativos sao silenciosos e em loop, carregados por visibilidade; previews so iniciam com mouse. Videos interativos tem controles nativos. Apenas um video reproduz por vez, ha pausa fora da tela e com aba oculta, suporte a movimento reduzido e fallback em erro. Videos com fala precisam de legendas locais `.vtt`: cadastre um objeto autorizado em `captions`. Versoes para conexao lenta, audio/legendas, codec e enquadramento devem ser validados com os arquivos reais.
-
-Prefira exportacoes WebP/AVIF compactas e MP4 H.264 ou WebM compativel, com metadados de reproducao progressiva. Nao gere imagens falsas do produto. Nao duplique variantes so para preencher a galeria.
-
-## Atualizar o Instagram
-
-Adicione a `instagram` uma lista de objetos com `permalink` da publicacao oficial e `image` e/ou `video` no mesmo formato acima. So sao aceitos links HTTPS de `/p/`, `/reel/` ou `/tv/` do Instagram. O caminho nao comprova que o post pertence a @usevras: confira manualmente a conta e a autorizacao. Todas as midias ficam locais; nao ha scraping, token, feed ao vivo nem dependencia da API. Sem posts autorizados, a secao mostra apenas o convite para o perfil, nunca uma galeria inventada.
-
-Cadastre em `policies` apenas links HTTPS aprovados pelo proprietario, por exemplo chaves `Politica de Privacidade`, `Trocas e Devolucoes`, `Termos de Uso`. Sem documentos, os links ficam ausentes. Contatos anteriores foram preservados; sua titularidade externa ainda precisa de confirmacao.
-
-## Variaveis de Ambiente
-
-`.env.example` e uma referencia. O Django **nao carrega `.env` automaticamente**. Configure o ambiente do processo ou do provedor. Nao versione segredos.
-
-| Variavel | Desenvolvimento | Producao |
-| --- | --- | --- |
-| `DJANGO_DEBUG` | `true` por padrao | Definir `false` explicitamente |
-| `DJANGO_SECRET_KEY` | Chave efemera por processo se ausente | Obrigatoria, aleatoria, persistente e secreta |
-| `DJANGO_ALLOWED_HOSTS` | `127.0.0.1,localhost` | Lista dos hosts reais, obrigatoria |
-| `SITE_URL` | Vazio | Origem oficial completa, sem caminho |
-| `HTTPS_ENABLED` | `false` | `true` por padrao com DEBUG=false |
-| `DJANGO_CSRF_TRUSTED_ORIGINS` | Vazio | Origens HTTPS confiaveis quando necessario |
-
-No PowerShell, use `$env:DJANGO_DEBUG='true'`. Gere a chave com `python -c "import secrets; print(secrets.token_urlsafe(64))"` em um terminal privado. Nao cole credenciais em commits. A configuracao falha em producao sem chave ou hosts. Cookies seguros, redirecionamento HTTPS, HSTS de um ano, anti-clickjacking e CSRF sao mantidos. HSTS de subdominios e preload ficam desativados de proposito ate haver auditoria do dominio.
-
-Sem `SITE_URL`, canonical e sitemap com URLs absolutas ficam omitidos; nenhum dominio de producao e inventado. JSON-LD Product so e emitido com URL configurada e fotografia autorizada, sem avaliacoes, estoque ou garantias presumidos. HTML personalizado pelo carrinho nao recebe cache compartilhado; robots/sitemap recebem cache de uma hora.
+Sem `--apply`, os comandos simulam. O importador lê
+`midias-instagram/manifest.json`; use o exemplo existente nessa pasta e informe
+produto e variante correspondentes. O publicador preserva preços e aprovações.
+Consulte [importação](docs/MEDIA_IMPORT.md), [mídias](docs/MEDIA_GUIDELINES.md) e
+[publicação](docs/POEDAGAR_PUBLICATION.md). O comando `apply_reference_prices`
+continua exigindo evidência recente e autorização expressa; não é necessário
+reaplicar preços para cadastrar fotos ou publicar uma oferta já aprovada.
 
 ## Testes
 
-A pesquisa Poedagar de 07/11/2026 está em [docs/POEDAGAR_PRICES.md](docs/POEDAGAR_PRICES.md),
-com 18 anúncios e 82 variantes. A [tabela de correspondência](docs/POEDAGAR_CATALOG.md)
-documenta os 12 produtos preservados e as pendências. Nenhum preço ou foto do
-concorrente é publicado automaticamente. Os metadados de consulta não são carregados
-pelas views. `python scripts/review_poedagar.py` regenera os relatórios offline;
-`--refresh` atualiza apenas a pesquisa por HTTP público, sem baixar fotografias.
-O [relatório de entrega](docs/POEDAGAR_DELIVERY.md) reúne arquivos, testes, commits e aprovações pendentes.
-
-As galerias têm miniaturas, zoom, setas, Home/End e suporte a movimento reduzido.
-O contrato para cadastrar identidade, variantes e especificações confirmadas está
-em [docs/POEDAGAR_CATALOG.md](docs/POEDAGAR_CATALOG.md). A seleção de cor/pulseira
-usa IDs próprios e preserva preço, fotografia e carrinho de cada SKU.
-
 ```powershell
 python manage.py check
-python manage.py test --verbosity 2
-python manage.py audit_storefront --write-inventory
+python manage.py test
+python manage.py audit_storefront
 node --check static/js/storefront.js
+node --check static/js/catalog-manager.js
 ```
 
-O comando de inventario gera `docs/MEDIA_INVENTORY.csv`, incluindo hash SHA-256, formato, tamanho, associacao conhecida, origem, destino e status de cada arquivo. Valida referencias, autorizacao, IDs e precos. Nao certifica autoria, conteudo, codec ou integridade visual automaticamente.
+Os testes de domínio ficam em `loja/tests/`. Os dois testes de navegador são
+habilitados com `VRAS_BROWSER_QA=1` e usam arquivos e usuários fictícios isolados:
 
-QA de navegador opcional, sem dependencias npm: inicie Chrome/Chromium com perfil **isolado** e depuracao restrita a `127.0.0.1:9333`, mantenha Django na porta 8000 e execute `node scripts/browser_qa.mjs`. Configure `QA_BASE_URL` e `QA_DEBUG_URL` para outras portas. Nunca exponha a porta de depuracao nem reutilize seu perfil pessoal. O script salva screenshots e relatorio em `artifacts/`, testa cinco larguras e o fluxo de carrinho, menu, teclado e movimento reduzido. Veja limites e resultados em [VALIDATION.md](docs/VALIDATION.md).
+```powershell
+$env:VRAS_BROWSER_QA='1'
+python manage.py test loja.tests.catalog.test_variants.GalleryBrowserTests loja.tests.management_portal.test_browser.CatalogReceiptBrowserTests
+Remove-Item Env:VRAS_BROWSER_QA
+```
 
-Para testar galerias e variantes com fixtures fictícias isoladas, mantenha o Chrome
-de QA ativo e execute `$env:VRAS_BROWSER_QA='1'` e `python manage.py test loja.test_poedagar.GalleryBrowserTests`.
-Esse teste inicia seu próprio servidor Django, usa duas imagens sólidas temporárias
-e registros fictícios somente no processo de teste, e remove os arquivos ao terminar.
-Não modifica o catálogo ou o manifesto publicados. O teste é pulado por padrão
-quando `VRAS_BROWSER_QA` não está habilitado. `QA_DEBUG_URL` configura a porta CDP.
+Eles exigem um Chrome de QA com perfil isolado e CDP local na porta 9333.
+O QA da vitrine existente usa `node scripts/browser_qa.mjs` com Django ativo;
+`QA_BASE_URL` e `QA_DEBUG_URL` configuram os endereços. Veja os comandos completos,
+os testes por domínio e limites no [guia de testes](docs/TESTING_GUIDE.md).
+Os relatórios e screenshots ficam em `artifacts/`, ignorado pelo Git.
 
-## Preparar Deploy
+## Estáticos e publicação
 
-1. Confirmar dominio, identidade, contatos, catalogo, direitos de midia e politicas antes de vender.
-2. Definir as variaveis de producao e instalar as dependencias em ambiente virtual. Atualizar patches de seguranca e repetir os testes antes de publicar.
-3. Executar `python manage.py migrate`, `python manage.py check --deploy`, `python manage.py test` e `python manage.py audit_storefront`.
-4. Executar `python manage.py collectstatic --noinput` em um diretorio de build novo. Caso reutilize uma saida de build, conferir o caminho absoluto de `STATIC_ROOT` antes de usar `--clear`. O finder inclui apenas midias aprovadas, fontes, CSS/JS ativos e estaticos administrativos do Django.
-5. Servir `config.wsgi:application` ou `config.asgi:application` com servidor de aplicacao apropriado ao provedor e proxy reverso HTTPS. `runserver` nao serve para producao. Nao ha servidor WSGI de producao incluido nas dependencias.
-6. Configurar Nginx/CDN para servir **somente `STATIC_ROOT`**, nunca a pasta de arquivo `static/`. Habilitar compressao e cache longo/immutable para arquivos com hash. Videos precisam de content-type correto e suporte a byte ranges.
-7. Manter banco, backups, logs, segredos e perfis de QA fora da area publica. Nao fazer cache compartilhado de HTML com estado de sessao. Configurar monitoramento, backups e permissoes no host.
+CSS ativo: `premium.css` e `catalog-manager.css`. JavaScript ativo:
+`storefront.js` e `catalog-manager.js`. Fontes locais, fotos, nomes e caminhos
+existentes foram preservados. Arquivos legados permanecem arquivados, sem serem
+incluídos automaticamente na interface ou na coleta de estáticos.
 
-Se TLS terminar no proxy, configure o reconhecimento de HTTPS apenas depois de garantir que o proxy remove cabecalhos externos e injeta o cabecalho confiavel. Nao foi adicionado `SECURE_PROXY_SSL_HEADER` incondicional. Os dois avisos de `check --deploy` sobre HSTS de subdominios/preload sao esperados ate essa decisao. Nao ha deploy ou push automatico neste trabalho.
+O finder `loja.media.staticfiles.ApprovedMediaFinder` continua bloqueando imagens
+e vídeos sem autorização. Em produção, execute
+`python manage.py collectstatic --noinput` e sirva somente `STATIC_ROOT`
+(`staticfiles/`), nunca toda a pasta de arquivo `static/`. Use um servidor
+WSGI/ASGI apropriado com `config.wsgi:application` ou `config.asgi:application`.
+Banco, comprovantes, originais e segredos ficam fora da área pública.
+Confira [o checklist](docs/RELEASE_CHECKLIST.md) antes de disponibilizar ofertas.
 
+## English
 
-## Documentacao tecnica
+This Django MTV storefront keeps the `loja` app identity and existing public
+URLs. Internal packages separate catalog queries, price approval, publication,
+session cart, owner intake and authorized media processing. JSON remains the
+catalog storage; SQLite retains accounts and sessions. All twelve Poedagar
+models retain their approved prices and current draft state.
 
-O projeto possui guias complementares em `docs/` para
-arquitetura, catalogo Poedagar, variantes, precos, midias,
-vitrine, carrinho, responsividade, acessibilidade,
-desempenho, SEO, seguranca, testes e publicacao.
-
-Esses documentos descrevem processos e requisitos.
-A existencia de um guia nao significa que todas as
-funcionalidades estejam concluidas.
-
-### Estado do catalogo
-
-Os 12 modelos Poedagar possuem precos cadastrados.
-A publicacao comercial depende da confirmacao de
-variantes, fotografias autorizadas e disponibilidade.
-
-Consulte `docs/RELEASE_CHECKLIST.md` antes de
-disponibilizar novos produtos para compra.
+Install with `python -m pip install -r requirements.txt`, run
+`python manage.py runserver 127.0.0.1:8001`, and validate with
+`python manage.py check`, `python manage.py test` and
+`python manage.py audit_storefront`. Owners use `/gestao/catalogo/` to confirm
+real variants, upload authorized photos and publish complete offers. See the
+[architecture](docs/ARCHITECTURE.md), [test guide](docs/TESTING_GUIDE.md) and
+[refactor report](docs/REFACTOR_REPORT.md) for boundaries, validation and limitations.

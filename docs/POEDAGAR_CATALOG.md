@@ -57,7 +57,7 @@ e os 12 produtos legados continuam com pendência de fotos para uso nessa atuali
 
 ## Cadastro de identidade, variantes e especificações
 
-O contrato em `loja/services.py` exige identificação com `confirmada: true`,
+O contrato em `loja/catalog/validation.py` exige identificação com `confirmada: true`,
 `marca`, `modelo`, `referencia` e `fonte` HTTPS. Esse sinalizador registra uma
 conferência humana; uma URL isoladamente não comprova um produto.
 
