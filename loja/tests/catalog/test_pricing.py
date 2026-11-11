@@ -24,7 +24,7 @@ PNG = base64.b64decode("iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR4
 
 
 def inputs():
-    return (json.loads((ROOT / "data/products.json").read_text(encoding="utf-8")),
+    return ([p for p in json.loads((ROOT / "data/products.json").read_text(encoding="utf-8")) if not p.get("reference_import")],
             json.loads((ROOT / "data/poedagar_price_verification.json").read_text(encoding="utf-8")))
 
 
@@ -194,6 +194,17 @@ class PriceApplicationCommandTests(SimpleTestCase):
         self.assertEqual(result["published_products"], [])
         updated = json.loads(self.path.read_text(encoding="utf-8"))
         self.assertTrue(all(p["preco"] is not None and p["status"] == "rascunho" for p in updated))
+
+    def test_legacy_price_command_preserves_imports_from_other_reference(self):
+        from loja.tests.reference.test_import import observation
+        from loja.catalog.reference_import import prepare_catalog
+        imported, _ = prepare_catalog([], [observation()])
+        self.catalog.extend(imported)
+        self.path.write_text(json.dumps(self.catalog), encoding="utf-8")
+        result = self.execute(apply=True)
+        self.assertEqual(result["updated_prices"], 12)
+        self.assertEqual(result["skipped_other_source"], [25, 26, 27])
+        self.assertEqual(json.loads(self.path.read_bytes())[-3:], imported)
 
     def test_unconfirmed_price_stays_unpriced_and_other_models_update(self):
         self.report["products"][0]["verified"] = False

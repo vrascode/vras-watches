@@ -29,7 +29,7 @@ class PublicationWorkflowTests(TestCase):
         self.source.mkdir()
         self.path = self.root / "data/products.json"
         self.media_path = self.root / "data/media.json"
-        self.catalog = json.loads((ROOT / "data/products.json").read_text(encoding="utf-8"))
+        self.catalog = [p for p in json.loads((ROOT / "data/products.json").read_text(encoding="utf-8")) if not p.get("reference_import")]
         self.save_catalog()
         self.media_path.write_text('{"products": {}}\n', encoding="utf-8")
         for context in (override_settings(BASE_DIR=self.root),

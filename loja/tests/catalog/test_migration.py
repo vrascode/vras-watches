@@ -18,7 +18,7 @@ from loja.catalog import pricing, services
 
 class CatalogMigrationTests(TestCase):
     def test_twelve_distinct_real_commercial_models_replace_legacy_ids(self):
-        catalog = services.get_products(include_drafts=True)
+        catalog = [p for p in services.get_products(include_drafts=True) if not p.get("reference_import")]
         self.assertEqual([p["id"] for p in catalog], list(range(13, 25)))
         self.assertEqual(len({p["slug"] for p in catalog}), 12)
         self.assertEqual({p["modelo"] for p in catalog}, {

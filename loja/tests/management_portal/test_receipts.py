@@ -26,7 +26,7 @@ class ReceiptWorkspace:
         self.root = Path(directory.name)
         (self.root / "data").mkdir()
         (self.root / "static").mkdir()
-        self.catalog = json.loads((ROOT / "data/products.json").read_text(encoding="utf-8"))
+        self.catalog = [p for p in json.loads((ROOT / "data/products.json").read_text(encoding="utf-8")) if not p.get("reference_import")]
         self.path = self.root / "data/products.json"
         self.path.write_text(json.dumps(self.catalog), encoding="utf-8")
         self.media_path = self.root / "data/media.json"
