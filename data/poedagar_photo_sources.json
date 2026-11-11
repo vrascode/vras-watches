@@ -1,0 +1,322 @@
+{
+  "schema_version": 1,
+  "checked_at": "2026-11-10",
+  "scope": "45 color-labelled images observed via public product page swatches; Montelux's 3 labelled images already exist in reference_media_inventory.json. Observed links do not assert successful downloads or VRAS stock.",
+  "photos": [
+    {
+      "model": "Signature",
+      "variant": "Verde",
+      "url": "https://poedagareco.com/cdn/shop/files/relogio-poedagar-signature-verde-665b8c34c1416-medium.png?v=1726756646",
+      "observed_source": "https://poedagareco.com/products/relogio-poedagar-signature",
+      "association_basis": "labelled_color_swatch"
+    },
+    {
+      "model": "Signature",
+      "variant": "Branco",
+      "url": "https://poedagareco.com/cdn/shop/files/Oak_-_3.png?v=1762816474",
+      "observed_source": "https://poedagareco.com/products/relogio-poedagar-signature",
+      "association_basis": "labelled_color_swatch"
+    },
+    {
+      "model": "Signature",
+      "variant": "Preto",
+      "url": "https://poedagareco.com/cdn/shop/files/Oak_-_4.png?v=1762816474",
+      "observed_source": "https://poedagareco.com/products/relogio-poedagar-signature",
+      "association_basis": "labelled_color_swatch"
+    },
+    {
+      "model": "Signature",
+      "variant": "Azul",
+      "url": "https://poedagareco.com/cdn/shop/files/Oak_-_2.png?v=1762816474",
+      "observed_source": "https://poedagareco.com/products/relogio-poedagar-signature",
+      "association_basis": "labelled_color_swatch"
+    },
+    {
+      "model": "Latittude",
+      "variant": "Prata e Azul",
+      "url": "https://poedagareco.com/cdn/shop/files/relogio-poedagar-latittude-prata-e-azul-65c835db195f5-medium.png?v=1726756640",
+      "observed_source": "https://poedagareco.com/products/relogio-poedagar-army",
+      "association_basis": "labelled_color_swatch"
+    },
+    {
+      "model": "Latittude",
+      "variant": "Preto e Verde",
+      "url": "https://poedagareco.com/cdn/shop/files/Latittude-prataeverde.webp?v=1759843370",
+      "observed_source": "https://poedagareco.com/products/relogio-poedagar-army",
+      "association_basis": "labelled_color_swatch"
+    },
+    {
+      "model": "Latittude",
+      "variant": "Prata e Preto",
+      "url": "https://poedagareco.com/cdn/shop/files/Latittude-prataepreto.webp?v=1759843370",
+      "observed_source": "https://poedagareco.com/products/relogio-poedagar-army",
+      "association_basis": "labelled_color_swatch"
+    },
+    {
+      "model": "Horizont",
+      "variant": "Azul e Dourado",
+      "url": "https://poedagareco.com/cdn/shop/files/relogio-poedagar-horizont-azul-e-dourado-64dbd990dc931-medium.png?v=1726756636",
+      "observed_source": "https://poedagareco.com/products/relogio-poedagar-army",
+      "association_basis": "labelled_color_swatch"
+    },
+    {
+      "model": "Horizont",
+      "variant": "Branco e Dourado",
+      "url": "https://poedagareco.com/cdn/shop/files/Horizont-branco.webp?v=1741735992",
+      "observed_source": "https://poedagareco.com/products/relogio-poedagar-army",
+      "association_basis": "labelled_color_swatch"
+    },
+    {
+      "model": "Horizont",
+      "variant": "Preto e Dourado",
+      "url": "https://poedagareco.com/cdn/shop/files/Horizont-preto.webp?v=1741735992",
+      "observed_source": "https://poedagareco.com/products/relogio-poedagar-army",
+      "association_basis": "labelled_color_swatch"
+    },
+    {
+      "model": "Horizont",
+      "variant": "Verde e Dourado",
+      "url": "https://poedagareco.com/cdn/shop/files/Horizont-verde.webp?v=1741735989",
+      "observed_source": "https://poedagareco.com/products/relogio-poedagar-army",
+      "association_basis": "labelled_color_swatch"
+    },
+    {
+      "model": "Quartz Luxury",
+      "variant": "Preto e Dourado",
+      "url": "https://poedagareco.com/cdn/shop/files/relogio-poedagar-quartz-luxury-preto-e-dourado-648a703029fd3-medium.jpg?v=1726756609",
+      "observed_source": "https://poedagareco.com/products/relogio-poedagar-army",
+      "association_basis": "labelled_color_swatch"
+    },
+    {
+      "model": "Quartz Luxury",
+      "variant": "Branco e Dourado",
+      "url": "https://poedagareco.com/cdn/shop/files/Luxury-branco_e_dourado.jpg?v=1741736823",
+      "observed_source": "https://poedagareco.com/products/relogio-poedagar-army",
+      "association_basis": "labelled_color_swatch"
+    },
+    {
+      "model": "Quartz Luxury",
+      "variant": "Azul e Dourado",
+      "url": "https://poedagareco.com/cdn/shop/files/Luxury-azul_e_dourado.jpg?v=1741736823",
+      "observed_source": "https://poedagareco.com/products/relogio-poedagar-army",
+      "association_basis": "labelled_color_swatch"
+    },
+    {
+      "model": "Quartz Luxury",
+      "variant": "Azul e Prata",
+      "url": "https://poedagareco.com/cdn/shop/files/variant-image-8.jpg?v=1741736823",
+      "observed_source": "https://poedagareco.com/products/relogio-poedagar-army",
+      "association_basis": "labelled_color_swatch"
+    },
+    {
+      "model": "Deluxe Edition",
+      "variant": "Azul",
+      "url": "https://poedagareco.com/cdn/shop/files/relogio-poedagar-deluxe-edition-azul-6636d694cd503-medium.jpg?v=1726756643",
+      "observed_source": "https://poedagareco.com/products/relogio-poedagar-army",
+      "association_basis": "labelled_color_swatch"
+    },
+    {
+      "model": "Deluxe Edition",
+      "variant": "Branco",
+      "url": "https://poedagareco.com/cdn/shop/files/deluxe-branco.webp?v=1769277973",
+      "observed_source": "https://poedagareco.com/products/relogio-poedagar-army",
+      "association_basis": "labelled_color_swatch"
+    },
+    {
+      "model": "Deluxe Edition",
+      "variant": "Preto",
+      "url": "https://poedagareco.com/cdn/shop/files/deluxe-preto.webp?v=1769277973",
+      "observed_source": "https://poedagareco.com/products/relogio-poedagar-army",
+      "association_basis": "labelled_color_swatch"
+    },
+    {
+      "model": "Deluxe Edition",
+      "variant": "Verde",
+      "url": "https://poedagareco.com/cdn/shop/files/deluxe-verde.webp?v=1769277973",
+      "observed_source": "https://poedagareco.com/products/relogio-poedagar-army",
+      "association_basis": "labelled_color_swatch"
+    },
+    {
+      "model": "GoldenStar",
+      "variant": "Preto",
+      "url": "https://poedagareco.com/cdn/shop/files/GoldenStar-preto.webp?v=1750906204",
+      "observed_source": "https://poedagareco.com/products/relogio-poedagar-army",
+      "association_basis": "labelled_color_swatch"
+    },
+    {
+      "model": "GoldenStar",
+      "variant": "Branco",
+      "url": "https://poedagareco.com/cdn/shop/files/GoldenStar-branco.webp?v=1755293388",
+      "observed_source": "https://poedagareco.com/products/relogio-poedagar-army",
+      "association_basis": "labelled_color_swatch"
+    },
+    {
+      "model": "GoldenStar",
+      "variant": "Azul",
+      "url": "https://poedagareco.com/cdn/shop/files/relogio-poedagar-goldenstar-azul-667f5a9d3d56c-medium.png?v=1755293388",
+      "observed_source": "https://poedagareco.com/products/relogio-poedagar-army",
+      "association_basis": "labelled_color_swatch"
+    },
+    {
+      "model": "GoldenStar",
+      "variant": "Verde",
+      "url": "https://poedagareco.com/cdn/shop/files/GoldenStar-verde.webp?v=1755293388",
+      "observed_source": "https://poedagareco.com/products/relogio-poedagar-army",
+      "association_basis": "labelled_color_swatch"
+    },
+    {
+      "model": "Chronoforge",
+      "variant": "Tradicional Bronze",
+      "url": "https://poedagareco.com/cdn/shop/files/relogio-poedagar-chronoforge-tradicional-bronze-648e2f78b2413-medium.png?v=1726756606",
+      "observed_source": "https://poedagareco.com/products/relogio-poedagar-army",
+      "association_basis": "labelled_color_swatch"
+    },
+    {
+      "model": "Chronoforge",
+      "variant": "Preto",
+      "url": "https://poedagareco.com/cdn/shop/files/Chronoforge-preto.jpg?v=1759843170",
+      "observed_source": "https://poedagareco.com/products/relogio-poedagar-army",
+      "association_basis": "labelled_color_swatch"
+    },
+    {
+      "model": "Chronoforge",
+      "variant": "Preto e Prata",
+      "url": "https://poedagareco.com/cdn/shop/files/Chronoforge-pretoeprata.jpg?v=1759843170",
+      "observed_source": "https://poedagareco.com/products/relogio-poedagar-army",
+      "association_basis": "labelled_color_swatch"
+    },
+    {
+      "model": "Dellicate",
+      "variant": "Full Rosé",
+      "url": "https://poedagareco.com/cdn/shop/files/8.png?v=1728251926",
+      "observed_source": "https://poedagareco.com/products/relogio-poedagar-army",
+      "association_basis": "labelled_color_swatch"
+    },
+    {
+      "model": "Dellicate",
+      "variant": "Preto",
+      "url": "https://poedagareco.com/cdn/shop/files/2.png?v=1762194336",
+      "observed_source": "https://poedagareco.com/products/relogio-poedagar-army",
+      "association_basis": "labelled_color_swatch"
+    },
+    {
+      "model": "Dellicate",
+      "variant": "Azul",
+      "url": "https://poedagareco.com/cdn/shop/files/4.png?v=1762194336",
+      "observed_source": "https://poedagareco.com/products/relogio-poedagar-army",
+      "association_basis": "labelled_color_swatch"
+    },
+    {
+      "model": "Dellicate",
+      "variant": "Rosé White",
+      "url": "https://poedagareco.com/cdn/shop/files/7.png?v=1762194336",
+      "observed_source": "https://poedagareco.com/products/relogio-poedagar-army",
+      "association_basis": "labelled_color_swatch"
+    },
+    {
+      "model": "Nautilus",
+      "variant": "Preto",
+      "url": "https://poedagareco.com/cdn/shop/files/relogio-poedagar-nautilus-preto-667cfbf2a1119-medium.png?v=1726756652",
+      "observed_source": "https://poedagareco.com/products/relogio-poedagar-army",
+      "association_basis": "labelled_color_swatch"
+    },
+    {
+      "model": "Nautilus",
+      "variant": "Azul",
+      "url": "https://poedagareco.com/cdn/shop/files/Nautilus-azul.webp?v=1753886533",
+      "observed_source": "https://poedagareco.com/products/relogio-poedagar-army",
+      "association_basis": "labelled_color_swatch"
+    },
+    {
+      "model": "Nautilus",
+      "variant": "Dourado e Azul",
+      "url": "https://poedagareco.com/cdn/shop/files/Nautilus-dourado.png?v=1753886533",
+      "observed_source": "https://poedagareco.com/products/relogio-poedagar-army",
+      "association_basis": "labelled_color_swatch"
+    },
+    {
+      "model": "Nautilus",
+      "variant": "Full Black",
+      "url": "https://poedagareco.com/cdn/shop/files/Nautilus-fullblack.webp?v=1753886533",
+      "observed_source": "https://poedagareco.com/products/relogio-poedagar-army",
+      "association_basis": "labelled_color_swatch"
+    },
+    {
+      "model": "Vintage",
+      "variant": "Tradicional",
+      "url": "https://poedagareco.com/cdn/shop/files/relogio-poedagar-vintage-tradicional-6661e8629ea7b-medium.png?v=1726756649",
+      "observed_source": "https://poedagareco.com/products/relogio-poedagar-army",
+      "association_basis": "labelled_color_swatch"
+    },
+    {
+      "model": "Vintage",
+      "variant": "Branco",
+      "url": "https://poedagareco.com/cdn/shop/files/Vintage-branco.jpg?v=1759843780",
+      "observed_source": "https://poedagareco.com/products/relogio-poedagar-army",
+      "association_basis": "labelled_color_swatch"
+    },
+    {
+      "model": "Vintage",
+      "variant": "Azul",
+      "url": "https://poedagareco.com/cdn/shop/files/Vintage-azul.jpg?v=1759843780",
+      "observed_source": "https://poedagareco.com/products/relogio-poedagar-army",
+      "association_basis": "labelled_color_swatch"
+    },
+    {
+      "model": "Vintage",
+      "variant": "Preto",
+      "url": "https://poedagareco.com/cdn/shop/files/Vintage-preto.jpg?v=1759843780",
+      "observed_source": "https://poedagareco.com/products/relogio-poedagar-army",
+      "association_basis": "labelled_color_swatch"
+    },
+    {
+      "model": "Seraphim",
+      "variant": "Rosé",
+      "url": "https://poedagareco.com/cdn/shop/files/relogio-poedagar-seraphim-rose-648fb71c53656-medium.jpg?v=1726756624",
+      "observed_source": "https://poedagareco.com/products/relogio-poedagar-army",
+      "association_basis": "labelled_color_swatch"
+    },
+    {
+      "model": "Seraphim",
+      "variant": "Branco",
+      "url": "https://poedagareco.com/cdn/shop/files/Seraphim-branco.jpg?v=1764678955",
+      "observed_source": "https://poedagareco.com/products/relogio-poedagar-army",
+      "association_basis": "labelled_color_swatch"
+    },
+    {
+      "model": "Seraphim",
+      "variant": "Preto",
+      "url": "https://poedagareco.com/cdn/shop/files/Seraphim-preto.jpg?v=1764678955",
+      "observed_source": "https://poedagareco.com/products/relogio-poedagar-army",
+      "association_basis": "labelled_color_swatch"
+    },
+    {
+      "model": "Seraphim",
+      "variant": "Rosa Claro",
+      "url": "https://poedagareco.com/cdn/shop/files/Seraphim-rosa_claro.jpg?v=1764678955",
+      "observed_source": "https://poedagareco.com/products/relogio-poedagar-army",
+      "association_basis": "labelled_color_swatch"
+    },
+    {
+      "model": "Woman Elegancy",
+      "variant": "Roxo e Dourado",
+      "url": "https://poedagareco.com/cdn/shop/files/relogio-feminino-em-aco-inoxidavel-poedagar-oficial-roxo-dourado-647e9ea010313-medium.jpg?v=1726756593",
+      "observed_source": "https://poedagareco.com/products/relogio-poedagar-army",
+      "association_basis": "labelled_color_swatch"
+    },
+    {
+      "model": "Woman Elegancy",
+      "variant": "Azul e Dourado",
+      "url": "https://poedagareco.com/cdn/shop/files/Elegancy-azul_e_dourado.jpg?v=1752375654",
+      "observed_source": "https://poedagareco.com/products/relogio-poedagar-army",
+      "association_basis": "labelled_color_swatch"
+    },
+    {
+      "model": "Woman Elegancy",
+      "variant": "Vinho Tinto e Dourado",
+      "url": "https://poedagareco.com/cdn/shop/files/Elegancy-vinho_tinto_e_dourado.jpg?v=1752375654",
+      "observed_source": "https://poedagareco.com/products/relogio-poedagar-army",
+      "association_basis": "labelled_color_swatch"
+    }
+  ]
+}

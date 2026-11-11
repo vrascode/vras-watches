@@ -1,0 +1,2044 @@
+{
+  "schema_version": 1,
+  "items": [
+    {
+      "id": "bf6c0ad2202a304e",
+      "original_url": "https://poedagareco.com/cdn/shop/files/ChatGPTImage2dejun.de2026_09_25_56.png?v=1780403226",
+      "filename": "ChatGPTImage2dejun.de2026_09_25_56.png",
+      "product": "Montelux",
+      "variant": "Prata",
+      "type": "image",
+      "role": "product",
+      "resolution": null,
+      "resolution_status": "pending_file_inspection",
+      "commercial_authorization": {
+        "status": "owner_authorized_unverified_rightsholder",
+        "record": "Proprietário da VRAS autorizou download e uso comercial nesta solicitação em 2026-11-10.",
+        "rightsholder_verified": false
+      },
+      "download_status": "error",
+      "sha256": null,
+      "original_path": null,
+      "optimized_paths": [],
+      "processing_status": "error",
+      "error": "<urlopen error [WinError 10013] Foi feita uma tentativa de acesso a um soquete de uma maneira que é proibida pelas permissões de acesso>",
+      "failure": {
+        "code": "environment_network_denied",
+        "stage": "download",
+        "http_status": null,
+        "errno": 13,
+        "winerror": 10013,
+        "retryable_without_access_change": false
+      },
+      "last_attempt_at": "2026-11-10T17:12:29.254318+00:00"
+    },
+    {
+      "id": "62ffa383efbe90a2",
+      "original_url": "https://poedagareco.com/cdn/shop/files/hf_20260827_030137_0066e252-cfa1-429f-8666-ed60621b5a79.png?v=1787848729",
+      "filename": "hf_20260827_030137_0066e252-cfa1-429f-8666-ed60621b5a79.png",
+      "product": "Montelux",
+      "variant": null,
+      "type": "image",
+      "role": "product",
+      "resolution": null,
+      "resolution_status": "pending_file_inspection",
+      "commercial_authorization": {
+        "status": "owner_authorized_unverified_rightsholder",
+        "record": "Proprietário da VRAS autorizou download e uso comercial nesta solicitação em 2026-11-10.",
+        "rightsholder_verified": false
+      },
+      "download_status": "error",
+      "sha256": null,
+      "original_path": null,
+      "optimized_paths": [],
+      "processing_status": "error",
+      "error": "<urlopen error [WinError 10013] Foi feita uma tentativa de acesso a um soquete de uma maneira que é proibida pelas permissões de acesso>",
+      "failure": {
+        "code": "environment_network_denied",
+        "stage": "download",
+        "http_status": null,
+        "errno": 13,
+        "winerror": 10013,
+        "retryable_without_access_change": false
+      },
+      "last_attempt_at": "2026-11-10T17:12:29.270976+00:00"
+    },
+    {
+      "id": "4f39358c179faa23",
+      "original_url": "https://poedagareco.com/cdn/shop/files/ChatGPT_Image_2_de_jun._de_2026_09_29_44.png?v=1780403495",
+      "filename": "ChatGPT_Image_2_de_jun._de_2026_09_29_44.png",
+      "product": "Montelux",
+      "variant": null,
+      "type": "image",
+      "role": "product",
+      "resolution": null,
+      "resolution_status": "pending_file_inspection",
+      "commercial_authorization": {
+        "status": "owner_authorized_unverified_rightsholder",
+        "record": "Proprietário da VRAS autorizou download e uso comercial nesta solicitação em 2026-11-10.",
+        "rightsholder_verified": false
+      },
+      "download_status": "error",
+      "sha256": null,
+      "original_path": null,
+      "optimized_paths": [],
+      "processing_status": "error",
+      "error": "<urlopen error [WinError 10013] Foi feita uma tentativa de acesso a um soquete de uma maneira que é proibida pelas permissões de acesso>",
+      "failure": {
+        "code": "environment_network_denied",
+        "stage": "download",
+        "http_status": null,
+        "errno": 13,
+        "winerror": 10013,
+        "retryable_without_access_change": false
+      },
+      "last_attempt_at": "2026-11-10T17:12:29.287601+00:00"
+    },
+    {
+      "id": "7e3292e9f0721d59",
+      "original_url": "https://poedagareco.com/cdn/shop/files/ChatGPT_Image_2_de_jun._de_2026_09_31_13.png?v=1780403495",
+      "filename": "ChatGPT_Image_2_de_jun._de_2026_09_31_13.png",
+      "product": "Montelux",
+      "variant": null,
+      "type": "image",
+      "role": "product",
+      "resolution": null,
+      "resolution_status": "pending_file_inspection",
+      "commercial_authorization": {
+        "status": "owner_authorized_unverified_rightsholder",
+        "record": "Proprietário da VRAS autorizou download e uso comercial nesta solicitação em 2026-11-10.",
+        "rightsholder_verified": false
+      },
+      "download_status": "error",
+      "sha256": null,
+      "original_path": null,
+      "optimized_paths": [],
+      "processing_status": "error",
+      "error": "<urlopen error [WinError 10013] Foi feita uma tentativa de acesso a um soquete de uma maneira que é proibida pelas permissões de acesso>",
+      "failure": {
+        "code": "environment_network_denied",
+        "stage": "download",
+        "http_status": null,
+        "errno": 13,
+        "winerror": 10013,
+        "retryable_without_access_change": false
+      },
+      "last_attempt_at": "2026-11-10T17:12:29.331373+00:00"
+    },
+    {
+      "id": "558fc90e24ad32e7",
+      "original_url": "https://poedagareco.com/cdn/shop/files/hf_20260827_025726_d665073d-6e81-48e4-b269-05975bbbb3c5.png?v=1787848733",
+      "filename": "hf_20260827_025726_d665073d-6e81-48e4-b269-05975bbbb3c5.png",
+      "product": "Montelux",
+      "variant": null,
+      "type": "image",
+      "role": "product",
+      "resolution": null,
+      "resolution_status": "pending_file_inspection",
+      "commercial_authorization": {
+        "status": "owner_authorized_unverified_rightsholder",
+        "record": "Proprietário da VRAS autorizou download e uso comercial nesta solicitação em 2026-11-10.",
+        "rightsholder_verified": false
+      },
+      "download_status": "error",
+      "sha256": null,
+      "original_path": null,
+      "optimized_paths": [],
+      "processing_status": "error",
+      "error": "<urlopen error [WinError 10013] Foi feita uma tentativa de acesso a um soquete de uma maneira que é proibida pelas permissões de acesso>",
+      "failure": {
+        "code": "environment_network_denied",
+        "stage": "download",
+        "http_status": null,
+        "errno": 13,
+        "winerror": 10013,
+        "retryable_without_access_change": false
+      },
+      "last_attempt_at": "2026-11-10T17:12:29.363086+00:00"
+    },
+    {
+      "id": "d8dd2509de479afb",
+      "original_url": "https://poedagareco.com/cdn/shop/files/ChatGPT_Image_2_de_jun._de_2026_09_59_02.png?v=1780405259",
+      "filename": "ChatGPT_Image_2_de_jun._de_2026_09_59_02.png",
+      "product": "Montelux",
+      "variant": "Azul",
+      "type": "image",
+      "role": "product",
+      "resolution": null,
+      "resolution_status": "pending_file_inspection",
+      "commercial_authorization": {
+        "status": "owner_authorized_unverified_rightsholder",
+        "record": "Proprietário da VRAS autorizou download e uso comercial nesta solicitação em 2026-11-10.",
+        "rightsholder_verified": false
+      },
+      "download_status": "error",
+      "sha256": null,
+      "original_path": null,
+      "optimized_paths": [],
+      "processing_status": "error",
+      "error": "<urlopen error [WinError 10013] Foi feita uma tentativa de acesso a um soquete de uma maneira que é proibida pelas permissões de acesso>",
+      "failure": {
+        "code": "environment_network_denied",
+        "stage": "download",
+        "http_status": null,
+        "errno": 13,
+        "winerror": 10013,
+        "retryable_without_access_change": false
+      },
+      "last_attempt_at": "2026-11-10T17:12:29.379292+00:00"
+    },
+    {
+      "id": "28d3f19aae4eb13c",
+      "original_url": "https://poedagareco.com/cdn/shop/files/ChatGPT_Image_2_de_jun._de_2026_10_44_59.png?v=1780407931",
+      "filename": "ChatGPT_Image_2_de_jun._de_2026_10_44_59.png",
+      "product": "Montelux",
+      "variant": "Preto",
+      "type": "image",
+      "role": "product",
+      "resolution": null,
+      "resolution_status": "pending_file_inspection",
+      "commercial_authorization": {
+        "status": "owner_authorized_unverified_rightsholder",
+        "record": "Proprietário da VRAS autorizou download e uso comercial nesta solicitação em 2026-11-10.",
+        "rightsholder_verified": false
+      },
+      "download_status": "error",
+      "sha256": null,
+      "original_path": null,
+      "optimized_paths": [],
+      "processing_status": "error",
+      "error": "<urlopen error [WinError 10013] Foi feita uma tentativa de acesso a um soquete de uma maneira que é proibida pelas permissões de acesso>",
+      "failure": {
+        "code": "environment_network_denied",
+        "stage": "download",
+        "http_status": null,
+        "errno": 13,
+        "winerror": 10013,
+        "retryable_without_access_change": false
+      },
+      "last_attempt_at": "2026-11-10T17:12:29.395311+00:00"
+    },
+    {
+      "id": "18a5642e1911e638",
+      "original_url": "https://poedagareco.com/cdn/shop/files/hf_20260827_025711_4b088966-661c-47d6-a0c2-d8618adda1f1.png?v=1787848733",
+      "filename": "hf_20260827_025711_4b088966-661c-47d6-a0c2-d8618adda1f1.png",
+      "product": "Montelux",
+      "variant": null,
+      "type": "image",
+      "role": "product",
+      "resolution": null,
+      "resolution_status": "pending_file_inspection",
+      "commercial_authorization": {
+        "status": "owner_authorized_unverified_rightsholder",
+        "record": "Proprietário da VRAS autorizou download e uso comercial nesta solicitação em 2026-11-10.",
+        "rightsholder_verified": false
+      },
+      "download_status": "error",
+      "sha256": null,
+      "original_path": null,
+      "optimized_paths": [],
+      "processing_status": "error",
+      "error": "<urlopen error [WinError 10013] Foi feita uma tentativa de acesso a um soquete de uma maneira que é proibida pelas permissões de acesso>",
+      "failure": {
+        "code": "environment_network_denied",
+        "stage": "download",
+        "http_status": null,
+        "errno": 13,
+        "winerror": 10013,
+        "retryable_without_access_change": false
+      },
+      "last_attempt_at": "2026-11-10T17:12:29.413534+00:00"
+    },
+    {
+      "id": "b1cee39983916435",
+      "original_url": "https://poedagareco.com/cdn/shop/files/hf_20260827_025652_2341f77e-4a05-4ef2-9036-67049eaeca96.png?v=1787848733",
+      "filename": "hf_20260827_025652_2341f77e-4a05-4ef2-9036-67049eaeca96.png",
+      "product": "Montelux",
+      "variant": null,
+      "type": "image",
+      "role": "product",
+      "resolution": null,
+      "resolution_status": "pending_file_inspection",
+      "commercial_authorization": {
+        "status": "owner_authorized_unverified_rightsholder",
+        "record": "Proprietário da VRAS autorizou download e uso comercial nesta solicitação em 2026-11-10.",
+        "rightsholder_verified": false
+      },
+      "download_status": "error",
+      "sha256": null,
+      "original_path": null,
+      "optimized_paths": [],
+      "processing_status": "error",
+      "error": "<urlopen error [WinError 10013] Foi feita uma tentativa de acesso a um soquete de uma maneira que é proibida pelas permissões de acesso>",
+      "failure": {
+        "code": "environment_network_denied",
+        "stage": "download",
+        "http_status": null,
+        "errno": 13,
+        "winerror": 10013,
+        "retryable_without_access_change": false
+      },
+      "last_attempt_at": "2026-11-10T17:12:29.429224+00:00"
+    },
+    {
+      "id": "04bb7887d8a9f39a",
+      "original_url": "https://poedagareco.com/cdn/shop/files/hf_20260827_025726_cfd887cf-f951-4acf-8e19-982007088235.png?v=1787848734",
+      "filename": "hf_20260827_025726_cfd887cf-f951-4acf-8e19-982007088235.png",
+      "product": "Montelux",
+      "variant": null,
+      "type": "image",
+      "role": "product",
+      "resolution": null,
+      "resolution_status": "pending_file_inspection",
+      "commercial_authorization": {
+        "status": "owner_authorized_unverified_rightsholder",
+        "record": "Proprietário da VRAS autorizou download e uso comercial nesta solicitação em 2026-11-10.",
+        "rightsholder_verified": false
+      },
+      "download_status": "error",
+      "sha256": null,
+      "original_path": null,
+      "optimized_paths": [],
+      "processing_status": "error",
+      "error": "<urlopen error [WinError 10013] Foi feita uma tentativa de acesso a um soquete de uma maneira que é proibida pelas permissões de acesso>",
+      "failure": {
+        "code": "environment_network_denied",
+        "stage": "download",
+        "http_status": null,
+        "errno": 13,
+        "winerror": 10013,
+        "retryable_without_access_change": false
+      },
+      "last_attempt_at": "2026-11-10T17:12:29.455627+00:00"
+    },
+    {
+      "id": "5f64352c0432d564",
+      "original_url": "https://poedagareco.com/cdn/shop/files/IMG-8745.png?v=1783549756",
+      "filename": "IMG-8745.png",
+      "product": "Montelux",
+      "variant": null,
+      "type": "image",
+      "role": "product",
+      "resolution": null,
+      "resolution_status": "pending_file_inspection",
+      "commercial_authorization": {
+        "status": "owner_authorized_unverified_rightsholder",
+        "record": "Proprietário da VRAS autorizou download e uso comercial nesta solicitação em 2026-11-10.",
+        "rightsholder_verified": false
+      },
+      "download_status": "error",
+      "sha256": null,
+      "original_path": null,
+      "optimized_paths": [],
+      "processing_status": "error",
+      "error": "<urlopen error [WinError 10013] Foi feita uma tentativa de acesso a um soquete de uma maneira que é proibida pelas permissões de acesso>",
+      "failure": {
+        "code": "environment_network_denied",
+        "stage": "download",
+        "http_status": null,
+        "errno": 13,
+        "winerror": 10013,
+        "retryable_without_access_change": false
+      },
+      "last_attempt_at": "2026-11-10T17:12:29.471341+00:00"
+    },
+    {
+      "id": "d92f8e50bcf2fd37",
+      "original_url": "https://poedagareco.com/cdn/shop/files/ChatGPT_Image_2_de_jun._de_2026_10_32_41.png?v=1780407180",
+      "filename": "ChatGPT_Image_2_de_jun._de_2026_10_32_41.png",
+      "product": "Montelux",
+      "variant": null,
+      "type": "image",
+      "role": "editorial",
+      "resolution": null,
+      "resolution_status": "pending_file_inspection",
+      "commercial_authorization": {
+        "status": "owner_authorized_unverified_rightsholder",
+        "record": "Proprietário da VRAS autorizou download e uso comercial nesta solicitação em 2026-11-10.",
+        "rightsholder_verified": false
+      },
+      "download_status": "error",
+      "sha256": null,
+      "original_path": null,
+      "optimized_paths": [],
+      "processing_status": "error",
+      "error": "<urlopen error [WinError 10013] Foi feita uma tentativa de acesso a um soquete de uma maneira que é proibida pelas permissões de acesso>",
+      "failure": {
+        "code": "environment_network_denied",
+        "stage": "download",
+        "http_status": null,
+        "errno": 13,
+        "winerror": 10013,
+        "retryable_without_access_change": false
+      },
+      "last_attempt_at": "2026-11-10T17:12:29.502685+00:00"
+    },
+    {
+      "id": "d28dedf7d5f6ae8a",
+      "original_url": "https://poedagareco.com/cdn/shop/files/relogio-poedagar-signature-verde-665b8c34c1416-medium.png?v=1726756646",
+      "observed_urls": [
+        "https://poedagareco.com/cdn/shop/files/relogio-poedagar-signature-verde-665b8c34c1416-medium.png?v=1726756646"
+      ],
+      "filename": "relogio-poedagar-signature-verde-665b8c34c1416-medium.png",
+      "product": "Signature",
+      "variant": "Verde",
+      "type": "image",
+      "role": "product",
+      "resolution": null,
+      "resolution_status": "pending_file_inspection",
+      "commercial_authorization": {
+        "status": "owner_authorized_unverified_rightsholder",
+        "record": "Proprietário da VRAS autorizou download e uso comercial nesta solicitação em 2026-11-10.",
+        "rightsholder_verified": false
+      },
+      "download_status": "error",
+      "sha256": null,
+      "original_path": null,
+      "optimized_paths": [],
+      "source_page": "https://poedagareco.com/products/relogio-poedagar-signature",
+      "association_basis": "labelled_color_swatch",
+      "observed_at": "2026-11-10",
+      "processing_status": "error",
+      "failure": {
+        "code": "environment_network_denied",
+        "stage": "download",
+        "http_status": null,
+        "errno": 13,
+        "winerror": 10013,
+        "retryable_without_access_change": false
+      },
+      "last_attempt_at": "2026-11-10T17:12:29.533293+00:00",
+      "error": "<urlopen error [WinError 10013] Foi feita uma tentativa de acesso a um soquete de uma maneira que é proibida pelas permissões de acesso>"
+    },
+    {
+      "id": "97981695a515b3d7",
+      "original_url": "https://poedagareco.com/cdn/shop/files/Oak_-_3.png?v=1762816474",
+      "observed_urls": [
+        "https://poedagareco.com/cdn/shop/files/Oak_-_3.png?v=1762816474"
+      ],
+      "filename": "Oak_-_3.png",
+      "product": "Signature",
+      "variant": "Branco",
+      "type": "image",
+      "role": "product",
+      "resolution": null,
+      "resolution_status": "pending_file_inspection",
+      "commercial_authorization": {
+        "status": "owner_authorized_unverified_rightsholder",
+        "record": "Proprietário da VRAS autorizou download e uso comercial nesta solicitação em 2026-11-10.",
+        "rightsholder_verified": false
+      },
+      "download_status": "error",
+      "sha256": null,
+      "original_path": null,
+      "optimized_paths": [],
+      "source_page": "https://poedagareco.com/products/relogio-poedagar-signature",
+      "association_basis": "labelled_color_swatch",
+      "observed_at": "2026-11-10",
+      "processing_status": "error",
+      "failure": {
+        "code": "environment_network_denied",
+        "stage": "download",
+        "http_status": null,
+        "errno": 13,
+        "winerror": 10013,
+        "retryable_without_access_change": false
+      },
+      "last_attempt_at": "2026-11-10T17:12:29.564370+00:00",
+      "error": "<urlopen error [WinError 10013] Foi feita uma tentativa de acesso a um soquete de uma maneira que é proibida pelas permissões de acesso>"
+    },
+    {
+      "id": "03b2c0c78d1565f6",
+      "original_url": "https://poedagareco.com/cdn/shop/files/Oak_-_4.png?v=1762816474",
+      "observed_urls": [
+        "https://poedagareco.com/cdn/shop/files/Oak_-_4.png?v=1762816474"
+      ],
+      "filename": "Oak_-_4.png",
+      "product": "Signature",
+      "variant": "Preto",
+      "type": "image",
+      "role": "product",
+      "resolution": null,
+      "resolution_status": "pending_file_inspection",
+      "commercial_authorization": {
+        "status": "owner_authorized_unverified_rightsholder",
+        "record": "Proprietário da VRAS autorizou download e uso comercial nesta solicitação em 2026-11-10.",
+        "rightsholder_verified": false
+      },
+      "download_status": "error",
+      "sha256": null,
+      "original_path": null,
+      "optimized_paths": [],
+      "source_page": "https://poedagareco.com/products/relogio-poedagar-signature",
+      "association_basis": "labelled_color_swatch",
+      "observed_at": "2026-11-10",
+      "processing_status": "error",
+      "failure": {
+        "code": "environment_network_denied",
+        "stage": "download",
+        "http_status": null,
+        "errno": 13,
+        "winerror": 10013,
+        "retryable_without_access_change": false
+      },
+      "last_attempt_at": "2026-11-10T17:12:29.594836+00:00",
+      "error": "<urlopen error [WinError 10013] Foi feita uma tentativa de acesso a um soquete de uma maneira que é proibida pelas permissões de acesso>"
+    },
+    {
+      "id": "730aa565bf7d581a",
+      "original_url": "https://poedagareco.com/cdn/shop/files/Oak_-_2.png?v=1762816474",
+      "observed_urls": [
+        "https://poedagareco.com/cdn/shop/files/Oak_-_2.png?v=1762816474"
+      ],
+      "filename": "Oak_-_2.png",
+      "product": "Signature",
+      "variant": "Azul",
+      "type": "image",
+      "role": "product",
+      "resolution": null,
+      "resolution_status": "pending_file_inspection",
+      "commercial_authorization": {
+        "status": "owner_authorized_unverified_rightsholder",
+        "record": "Proprietário da VRAS autorizou download e uso comercial nesta solicitação em 2026-11-10.",
+        "rightsholder_verified": false
+      },
+      "download_status": "error",
+      "sha256": null,
+      "original_path": null,
+      "optimized_paths": [],
+      "source_page": "https://poedagareco.com/products/relogio-poedagar-signature",
+      "association_basis": "labelled_color_swatch",
+      "observed_at": "2026-11-10",
+      "processing_status": "error",
+      "failure": {
+        "code": "environment_network_denied",
+        "stage": "download",
+        "http_status": null,
+        "errno": 13,
+        "winerror": 10013,
+        "retryable_without_access_change": false
+      },
+      "last_attempt_at": "2026-11-10T17:12:29.610055+00:00",
+      "error": "<urlopen error [WinError 10013] Foi feita uma tentativa de acesso a um soquete de uma maneira que é proibida pelas permissões de acesso>"
+    },
+    {
+      "id": "6a7d38b8c14c5d1b",
+      "original_url": "https://poedagareco.com/cdn/shop/files/relogio-poedagar-latittude-prata-e-azul-65c835db195f5-medium.png?v=1726756640",
+      "observed_urls": [
+        "https://poedagareco.com/cdn/shop/files/relogio-poedagar-latittude-prata-e-azul-65c835db195f5-medium.png?v=1726756640"
+      ],
+      "filename": "relogio-poedagar-latittude-prata-e-azul-65c835db195f5-medium.png",
+      "product": "Latittude",
+      "variant": "Prata e Azul",
+      "type": "image",
+      "role": "product",
+      "resolution": null,
+      "resolution_status": "pending_file_inspection",
+      "commercial_authorization": {
+        "status": "owner_authorized_unverified_rightsholder",
+        "record": "Proprietário da VRAS autorizou download e uso comercial nesta solicitação em 2026-11-10.",
+        "rightsholder_verified": false
+      },
+      "download_status": "error",
+      "sha256": null,
+      "original_path": null,
+      "optimized_paths": [],
+      "source_page": "https://poedagareco.com/products/relogio-poedagar-army",
+      "association_basis": "labelled_color_swatch",
+      "observed_at": "2026-11-10",
+      "processing_status": "error",
+      "failure": {
+        "code": "environment_network_denied",
+        "stage": "download",
+        "http_status": null,
+        "errno": 13,
+        "winerror": 10013,
+        "retryable_without_access_change": false
+      },
+      "last_attempt_at": "2026-11-10T17:12:29.625541+00:00",
+      "error": "<urlopen error [WinError 10013] Foi feita uma tentativa de acesso a um soquete de uma maneira que é proibida pelas permissões de acesso>"
+    },
+    {
+      "id": "e3c7d63dc9d38c92",
+      "original_url": "https://poedagareco.com/cdn/shop/files/Latittude-prataeverde.webp?v=1759843370",
+      "observed_urls": [
+        "https://poedagareco.com/cdn/shop/files/Latittude-prataeverde.webp?v=1759843370"
+      ],
+      "filename": "Latittude-prataeverde.webp",
+      "product": "Latittude",
+      "variant": "Preto e Verde",
+      "type": "image",
+      "role": "product",
+      "resolution": null,
+      "resolution_status": "pending_file_inspection",
+      "commercial_authorization": {
+        "status": "owner_authorized_unverified_rightsholder",
+        "record": "Proprietário da VRAS autorizou download e uso comercial nesta solicitação em 2026-11-10.",
+        "rightsholder_verified": false
+      },
+      "download_status": "error",
+      "sha256": null,
+      "original_path": null,
+      "optimized_paths": [],
+      "source_page": "https://poedagareco.com/products/relogio-poedagar-army",
+      "association_basis": "labelled_color_swatch",
+      "observed_at": "2026-11-10",
+      "processing_status": "error",
+      "failure": {
+        "code": "environment_network_denied",
+        "stage": "download",
+        "http_status": null,
+        "errno": 13,
+        "winerror": 10013,
+        "retryable_without_access_change": false
+      },
+      "last_attempt_at": "2026-11-10T17:12:29.642069+00:00",
+      "error": "<urlopen error [WinError 10013] Foi feita uma tentativa de acesso a um soquete de uma maneira que é proibida pelas permissões de acesso>"
+    },
+    {
+      "id": "613f0cf6f302bd0f",
+      "original_url": "https://poedagareco.com/cdn/shop/files/Latittude-prataepreto.webp?v=1759843370",
+      "observed_urls": [
+        "https://poedagareco.com/cdn/shop/files/Latittude-prataepreto.webp?v=1759843370"
+      ],
+      "filename": "Latittude-prataepreto.webp",
+      "product": "Latittude",
+      "variant": "Prata e Preto",
+      "type": "image",
+      "role": "product",
+      "resolution": null,
+      "resolution_status": "pending_file_inspection",
+      "commercial_authorization": {
+        "status": "owner_authorized_unverified_rightsholder",
+        "record": "Proprietário da VRAS autorizou download e uso comercial nesta solicitação em 2026-11-10.",
+        "rightsholder_verified": false
+      },
+      "download_status": "error",
+      "sha256": null,
+      "original_path": null,
+      "optimized_paths": [],
+      "source_page": "https://poedagareco.com/products/relogio-poedagar-army",
+      "association_basis": "labelled_color_swatch",
+      "observed_at": "2026-11-10",
+      "processing_status": "error",
+      "failure": {
+        "code": "environment_network_denied",
+        "stage": "download",
+        "http_status": null,
+        "errno": 13,
+        "winerror": 10013,
+        "retryable_without_access_change": false
+      },
+      "last_attempt_at": "2026-11-10T17:12:29.672064+00:00",
+      "error": "<urlopen error [WinError 10013] Foi feita uma tentativa de acesso a um soquete de uma maneira que é proibida pelas permissões de acesso>"
+    },
+    {
+      "id": "649c94a5e2819023",
+      "original_url": "https://poedagareco.com/cdn/shop/files/relogio-poedagar-horizont-azul-e-dourado-64dbd990dc931-medium.png?v=1726756636",
+      "observed_urls": [
+        "https://poedagareco.com/cdn/shop/files/relogio-poedagar-horizont-azul-e-dourado-64dbd990dc931-medium.png?v=1726756636"
+      ],
+      "filename": "relogio-poedagar-horizont-azul-e-dourado-64dbd990dc931-medium.png",
+      "product": "Horizont",
+      "variant": "Azul e Dourado",
+      "type": "image",
+      "role": "product",
+      "resolution": null,
+      "resolution_status": "pending_file_inspection",
+      "commercial_authorization": {
+        "status": "owner_authorized_unverified_rightsholder",
+        "record": "Proprietário da VRAS autorizou download e uso comercial nesta solicitação em 2026-11-10.",
+        "rightsholder_verified": false
+      },
+      "download_status": "error",
+      "sha256": null,
+      "original_path": null,
+      "optimized_paths": [],
+      "source_page": "https://poedagareco.com/products/relogio-poedagar-army",
+      "association_basis": "labelled_color_swatch",
+      "observed_at": "2026-11-10",
+      "processing_status": "error",
+      "failure": {
+        "code": "environment_network_denied",
+        "stage": "download",
+        "http_status": null,
+        "errno": 13,
+        "winerror": 10013,
+        "retryable_without_access_change": false
+      },
+      "last_attempt_at": "2026-11-10T17:12:29.687950+00:00",
+      "error": "<urlopen error [WinError 10013] Foi feita uma tentativa de acesso a um soquete de uma maneira que é proibida pelas permissões de acesso>"
+    },
+    {
+      "id": "a0e580cb68b1f64f",
+      "original_url": "https://poedagareco.com/cdn/shop/files/Horizont-branco.webp?v=1741735992",
+      "observed_urls": [
+        "https://poedagareco.com/cdn/shop/files/Horizont-branco.webp?v=1741735992"
+      ],
+      "filename": "Horizont-branco.webp",
+      "product": "Horizont",
+      "variant": "Branco e Dourado",
+      "type": "image",
+      "role": "product",
+      "resolution": null,
+      "resolution_status": "pending_file_inspection",
+      "commercial_authorization": {
+        "status": "owner_authorized_unverified_rightsholder",
+        "record": "Proprietário da VRAS autorizou download e uso comercial nesta solicitação em 2026-11-10.",
+        "rightsholder_verified": false
+      },
+      "download_status": "error",
+      "sha256": null,
+      "original_path": null,
+      "optimized_paths": [],
+      "source_page": "https://poedagareco.com/products/relogio-poedagar-army",
+      "association_basis": "labelled_color_swatch",
+      "observed_at": "2026-11-10",
+      "processing_status": "error",
+      "failure": {
+        "code": "environment_network_denied",
+        "stage": "download",
+        "http_status": null,
+        "errno": 13,
+        "winerror": 10013,
+        "retryable_without_access_change": false
+      },
+      "last_attempt_at": "2026-11-10T17:12:29.718297+00:00",
+      "error": "<urlopen error [WinError 10013] Foi feita uma tentativa de acesso a um soquete de uma maneira que é proibida pelas permissões de acesso>"
+    },
+    {
+      "id": "bae931832ca5f370",
+      "original_url": "https://poedagareco.com/cdn/shop/files/Horizont-preto.webp?v=1741735992",
+      "observed_urls": [
+        "https://poedagareco.com/cdn/shop/files/Horizont-preto.webp?v=1741735992"
+      ],
+      "filename": "Horizont-preto.webp",
+      "product": "Horizont",
+      "variant": "Preto e Dourado",
+      "type": "image",
+      "role": "product",
+      "resolution": null,
+      "resolution_status": "pending_file_inspection",
+      "commercial_authorization": {
+        "status": "owner_authorized_unverified_rightsholder",
+        "record": "Proprietário da VRAS autorizou download e uso comercial nesta solicitação em 2026-11-10.",
+        "rightsholder_verified": false
+      },
+      "download_status": "error",
+      "sha256": null,
+      "original_path": null,
+      "optimized_paths": [],
+      "source_page": "https://poedagareco.com/products/relogio-poedagar-army",
+      "association_basis": "labelled_color_swatch",
+      "observed_at": "2026-11-10",
+      "processing_status": "error",
+      "failure": {
+        "code": "environment_network_denied",
+        "stage": "download",
+        "http_status": null,
+        "errno": 13,
+        "winerror": 10013,
+        "retryable_without_access_change": false
+      },
+      "last_attempt_at": "2026-11-10T17:12:29.735425+00:00",
+      "error": "<urlopen error [WinError 10013] Foi feita uma tentativa de acesso a um soquete de uma maneira que é proibida pelas permissões de acesso>"
+    },
+    {
+      "id": "cf7d550bebccd0c6",
+      "original_url": "https://poedagareco.com/cdn/shop/files/Horizont-verde.webp?v=1741735989",
+      "observed_urls": [
+        "https://poedagareco.com/cdn/shop/files/Horizont-verde.webp?v=1741735989"
+      ],
+      "filename": "Horizont-verde.webp",
+      "product": "Horizont",
+      "variant": "Verde e Dourado",
+      "type": "image",
+      "role": "product",
+      "resolution": null,
+      "resolution_status": "pending_file_inspection",
+      "commercial_authorization": {
+        "status": "owner_authorized_unverified_rightsholder",
+        "record": "Proprietário da VRAS autorizou download e uso comercial nesta solicitação em 2026-11-10.",
+        "rightsholder_verified": false
+      },
+      "download_status": "error",
+      "sha256": null,
+      "original_path": null,
+      "optimized_paths": [],
+      "source_page": "https://poedagareco.com/products/relogio-poedagar-army",
+      "association_basis": "labelled_color_swatch",
+      "observed_at": "2026-11-10",
+      "processing_status": "error",
+      "failure": {
+        "code": "environment_network_denied",
+        "stage": "download",
+        "http_status": null,
+        "errno": 13,
+        "winerror": 10013,
+        "retryable_without_access_change": false
+      },
+      "last_attempt_at": "2026-11-10T17:12:29.765184+00:00",
+      "error": "<urlopen error [WinError 10013] Foi feita uma tentativa de acesso a um soquete de uma maneira que é proibida pelas permissões de acesso>"
+    },
+    {
+      "id": "3c989375fec6b923",
+      "original_url": "https://poedagareco.com/cdn/shop/files/relogio-poedagar-quartz-luxury-preto-e-dourado-648a703029fd3-medium.jpg?v=1726756609",
+      "observed_urls": [
+        "https://poedagareco.com/cdn/shop/files/relogio-poedagar-quartz-luxury-preto-e-dourado-648a703029fd3-medium.jpg?v=1726756609"
+      ],
+      "filename": "relogio-poedagar-quartz-luxury-preto-e-dourado-648a703029fd3-medium.jpg",
+      "product": "Quartz Luxury",
+      "variant": "Preto e Dourado",
+      "type": "image",
+      "role": "product",
+      "resolution": null,
+      "resolution_status": "pending_file_inspection",
+      "commercial_authorization": {
+        "status": "owner_authorized_unverified_rightsholder",
+        "record": "Proprietário da VRAS autorizou download e uso comercial nesta solicitação em 2026-11-10.",
+        "rightsholder_verified": false
+      },
+      "download_status": "error",
+      "sha256": null,
+      "original_path": null,
+      "optimized_paths": [],
+      "source_page": "https://poedagareco.com/products/relogio-poedagar-army",
+      "association_basis": "labelled_color_swatch",
+      "observed_at": "2026-11-10",
+      "processing_status": "error",
+      "failure": {
+        "code": "environment_network_denied",
+        "stage": "download",
+        "http_status": null,
+        "errno": 13,
+        "winerror": 10013,
+        "retryable_without_access_change": false
+      },
+      "last_attempt_at": "2026-11-10T17:12:29.796683+00:00",
+      "error": "<urlopen error [WinError 10013] Foi feita uma tentativa de acesso a um soquete de uma maneira que é proibida pelas permissões de acesso>"
+    },
+    {
+      "id": "3d6429e747274efe",
+      "original_url": "https://poedagareco.com/cdn/shop/files/Luxury-branco_e_dourado.jpg?v=1741736823",
+      "observed_urls": [
+        "https://poedagareco.com/cdn/shop/files/Luxury-branco_e_dourado.jpg?v=1741736823"
+      ],
+      "filename": "Luxury-branco_e_dourado.jpg",
+      "product": "Quartz Luxury",
+      "variant": "Branco e Dourado",
+      "type": "image",
+      "role": "product",
+      "resolution": null,
+      "resolution_status": "pending_file_inspection",
+      "commercial_authorization": {
+        "status": "owner_authorized_unverified_rightsholder",
+        "record": "Proprietário da VRAS autorizou download e uso comercial nesta solicitação em 2026-11-10.",
+        "rightsholder_verified": false
+      },
+      "download_status": "error",
+      "sha256": null,
+      "original_path": null,
+      "optimized_paths": [],
+      "source_page": "https://poedagareco.com/products/relogio-poedagar-army",
+      "association_basis": "labelled_color_swatch",
+      "observed_at": "2026-11-10",
+      "processing_status": "error",
+      "failure": {
+        "code": "environment_network_denied",
+        "stage": "download",
+        "http_status": null,
+        "errno": 13,
+        "winerror": 10013,
+        "retryable_without_access_change": false
+      },
+      "last_attempt_at": "2026-11-10T17:12:29.832420+00:00",
+      "error": "<urlopen error [WinError 10013] Foi feita uma tentativa de acesso a um soquete de uma maneira que é proibida pelas permissões de acesso>"
+    },
+    {
+      "id": "3648bd1cc6febd1d",
+      "original_url": "https://poedagareco.com/cdn/shop/files/Luxury-azul_e_dourado.jpg?v=1741736823",
+      "observed_urls": [
+        "https://poedagareco.com/cdn/shop/files/Luxury-azul_e_dourado.jpg?v=1741736823"
+      ],
+      "filename": "Luxury-azul_e_dourado.jpg",
+      "product": "Quartz Luxury",
+      "variant": "Azul e Dourado",
+      "type": "image",
+      "role": "product",
+      "resolution": null,
+      "resolution_status": "pending_file_inspection",
+      "commercial_authorization": {
+        "status": "owner_authorized_unverified_rightsholder",
+        "record": "Proprietário da VRAS autorizou download e uso comercial nesta solicitação em 2026-11-10.",
+        "rightsholder_verified": false
+      },
+      "download_status": "error",
+      "sha256": null,
+      "original_path": null,
+      "optimized_paths": [],
+      "source_page": "https://poedagareco.com/products/relogio-poedagar-army",
+      "association_basis": "labelled_color_swatch",
+      "observed_at": "2026-11-10",
+      "processing_status": "error",
+      "failure": {
+        "code": "environment_network_denied",
+        "stage": "download",
+        "http_status": null,
+        "errno": 13,
+        "winerror": 10013,
+        "retryable_without_access_change": false
+      },
+      "last_attempt_at": "2026-11-10T17:12:29.848628+00:00",
+      "error": "<urlopen error [WinError 10013] Foi feita uma tentativa de acesso a um soquete de uma maneira que é proibida pelas permissões de acesso>"
+    },
+    {
+      "id": "fd5eae74e7faab6a",
+      "original_url": "https://poedagareco.com/cdn/shop/files/variant-image-8.jpg?v=1741736823",
+      "observed_urls": [
+        "https://poedagareco.com/cdn/shop/files/variant-image-8.jpg?v=1741736823"
+      ],
+      "filename": "variant-image-8.jpg",
+      "product": "Quartz Luxury",
+      "variant": "Azul e Prata",
+      "type": "image",
+      "role": "product",
+      "resolution": null,
+      "resolution_status": "pending_file_inspection",
+      "commercial_authorization": {
+        "status": "owner_authorized_unverified_rightsholder",
+        "record": "Proprietário da VRAS autorizou download e uso comercial nesta solicitação em 2026-11-10.",
+        "rightsholder_verified": false
+      },
+      "download_status": "error",
+      "sha256": null,
+      "original_path": null,
+      "optimized_paths": [],
+      "source_page": "https://poedagareco.com/products/relogio-poedagar-army",
+      "association_basis": "labelled_color_swatch",
+      "observed_at": "2026-11-10",
+      "processing_status": "error",
+      "failure": {
+        "code": "environment_network_denied",
+        "stage": "download",
+        "http_status": null,
+        "errno": 13,
+        "winerror": 10013,
+        "retryable_without_access_change": false
+      },
+      "last_attempt_at": "2026-11-10T17:12:29.874288+00:00",
+      "error": "<urlopen error [WinError 10013] Foi feita uma tentativa de acesso a um soquete de uma maneira que é proibida pelas permissões de acesso>"
+    },
+    {
+      "id": "910494824ed74298",
+      "original_url": "https://poedagareco.com/cdn/shop/files/relogio-poedagar-deluxe-edition-azul-6636d694cd503-medium.jpg?v=1726756643",
+      "observed_urls": [
+        "https://poedagareco.com/cdn/shop/files/relogio-poedagar-deluxe-edition-azul-6636d694cd503-medium.jpg?v=1726756643"
+      ],
+      "filename": "relogio-poedagar-deluxe-edition-azul-6636d694cd503-medium.jpg",
+      "product": "Deluxe Edition",
+      "variant": "Azul",
+      "type": "image",
+      "role": "product",
+      "resolution": null,
+      "resolution_status": "pending_file_inspection",
+      "commercial_authorization": {
+        "status": "owner_authorized_unverified_rightsholder",
+        "record": "Proprietário da VRAS autorizou download e uso comercial nesta solicitação em 2026-11-10.",
+        "rightsholder_verified": false
+      },
+      "download_status": "error",
+      "sha256": null,
+      "original_path": null,
+      "optimized_paths": [],
+      "source_page": "https://poedagareco.com/products/relogio-poedagar-army",
+      "association_basis": "labelled_color_swatch",
+      "observed_at": "2026-11-10",
+      "processing_status": "error",
+      "failure": {
+        "code": "environment_network_denied",
+        "stage": "download",
+        "http_status": null,
+        "errno": 13,
+        "winerror": 10013,
+        "retryable_without_access_change": false
+      },
+      "last_attempt_at": "2026-11-10T17:12:29.905621+00:00",
+      "error": "<urlopen error [WinError 10013] Foi feita uma tentativa de acesso a um soquete de uma maneira que é proibida pelas permissões de acesso>"
+    },
+    {
+      "id": "fe5c4dd157e186a9",
+      "original_url": "https://poedagareco.com/cdn/shop/files/deluxe-branco.webp?v=1769277973",
+      "observed_urls": [
+        "https://poedagareco.com/cdn/shop/files/deluxe-branco.webp?v=1769277973"
+      ],
+      "filename": "deluxe-branco.webp",
+      "product": "Deluxe Edition",
+      "variant": "Branco",
+      "type": "image",
+      "role": "product",
+      "resolution": null,
+      "resolution_status": "pending_file_inspection",
+      "commercial_authorization": {
+        "status": "owner_authorized_unverified_rightsholder",
+        "record": "Proprietário da VRAS autorizou download e uso comercial nesta solicitação em 2026-11-10.",
+        "rightsholder_verified": false
+      },
+      "download_status": "error",
+      "sha256": null,
+      "original_path": null,
+      "optimized_paths": [],
+      "source_page": "https://poedagareco.com/products/relogio-poedagar-army",
+      "association_basis": "labelled_color_swatch",
+      "observed_at": "2026-11-10",
+      "processing_status": "error",
+      "failure": {
+        "code": "environment_network_denied",
+        "stage": "download",
+        "http_status": null,
+        "errno": 13,
+        "winerror": 10013,
+        "retryable_without_access_change": false
+      },
+      "last_attempt_at": "2026-11-10T17:12:29.936630+00:00",
+      "error": "<urlopen error [WinError 10013] Foi feita uma tentativa de acesso a um soquete de uma maneira que é proibida pelas permissões de acesso>"
+    },
+    {
+      "id": "fb42d1388227bfca",
+      "original_url": "https://poedagareco.com/cdn/shop/files/deluxe-preto.webp?v=1769277973",
+      "observed_urls": [
+        "https://poedagareco.com/cdn/shop/files/deluxe-preto.webp?v=1769277973"
+      ],
+      "filename": "deluxe-preto.webp",
+      "product": "Deluxe Edition",
+      "variant": "Preto",
+      "type": "image",
+      "role": "product",
+      "resolution": null,
+      "resolution_status": "pending_file_inspection",
+      "commercial_authorization": {
+        "status": "owner_authorized_unverified_rightsholder",
+        "record": "Proprietário da VRAS autorizou download e uso comercial nesta solicitação em 2026-11-10.",
+        "rightsholder_verified": false
+      },
+      "download_status": "error",
+      "sha256": null,
+      "original_path": null,
+      "optimized_paths": [],
+      "source_page": "https://poedagareco.com/products/relogio-poedagar-army",
+      "association_basis": "labelled_color_swatch",
+      "observed_at": "2026-11-10",
+      "processing_status": "error",
+      "failure": {
+        "code": "environment_network_denied",
+        "stage": "download",
+        "http_status": null,
+        "errno": 13,
+        "winerror": 10013,
+        "retryable_without_access_change": false
+      },
+      "last_attempt_at": "2026-11-10T17:12:29.967920+00:00",
+      "error": "<urlopen error [WinError 10013] Foi feita uma tentativa de acesso a um soquete de uma maneira que é proibida pelas permissões de acesso>"
+    },
+    {
+      "id": "7d752eb11407c143",
+      "original_url": "https://poedagareco.com/cdn/shop/files/deluxe-verde.webp?v=1769277973",
+      "observed_urls": [
+        "https://poedagareco.com/cdn/shop/files/deluxe-verde.webp?v=1769277973"
+      ],
+      "filename": "deluxe-verde.webp",
+      "product": "Deluxe Edition",
+      "variant": "Verde",
+      "type": "image",
+      "role": "product",
+      "resolution": null,
+      "resolution_status": "pending_file_inspection",
+      "commercial_authorization": {
+        "status": "owner_authorized_unverified_rightsholder",
+        "record": "Proprietário da VRAS autorizou download e uso comercial nesta solicitação em 2026-11-10.",
+        "rightsholder_verified": false
+      },
+      "download_status": "error",
+      "sha256": null,
+      "original_path": null,
+      "optimized_paths": [],
+      "source_page": "https://poedagareco.com/products/relogio-poedagar-army",
+      "association_basis": "labelled_color_swatch",
+      "observed_at": "2026-11-10",
+      "processing_status": "error",
+      "failure": {
+        "code": "environment_network_denied",
+        "stage": "download",
+        "http_status": null,
+        "errno": 13,
+        "winerror": 10013,
+        "retryable_without_access_change": false
+      },
+      "last_attempt_at": "2026-11-10T17:12:29.998686+00:00",
+      "error": "<urlopen error [WinError 10013] Foi feita uma tentativa de acesso a um soquete de uma maneira que é proibida pelas permissões de acesso>"
+    },
+    {
+      "id": "8ed5b1a0a1df1e3d",
+      "original_url": "https://poedagareco.com/cdn/shop/files/GoldenStar-preto.webp?v=1750906204",
+      "observed_urls": [
+        "https://poedagareco.com/cdn/shop/files/GoldenStar-preto.webp?v=1750906204"
+      ],
+      "filename": "GoldenStar-preto.webp",
+      "product": "GoldenStar",
+      "variant": "Preto",
+      "type": "image",
+      "role": "product",
+      "resolution": null,
+      "resolution_status": "pending_file_inspection",
+      "commercial_authorization": {
+        "status": "owner_authorized_unverified_rightsholder",
+        "record": "Proprietário da VRAS autorizou download e uso comercial nesta solicitação em 2026-11-10.",
+        "rightsholder_verified": false
+      },
+      "download_status": "error",
+      "sha256": null,
+      "original_path": null,
+      "optimized_paths": [],
+      "source_page": "https://poedagareco.com/products/relogio-poedagar-army",
+      "association_basis": "labelled_color_swatch",
+      "observed_at": "2026-11-10",
+      "processing_status": "error",
+      "failure": {
+        "code": "environment_network_denied",
+        "stage": "download",
+        "http_status": null,
+        "errno": 13,
+        "winerror": 10013,
+        "retryable_without_access_change": false
+      },
+      "last_attempt_at": "2026-11-10T17:12:30.014003+00:00",
+      "error": "<urlopen error [WinError 10013] Foi feita uma tentativa de acesso a um soquete de uma maneira que é proibida pelas permissões de acesso>"
+    },
+    {
+      "id": "d2b307a300ecba36",
+      "original_url": "https://poedagareco.com/cdn/shop/files/GoldenStar-branco.webp?v=1755293388",
+      "observed_urls": [
+        "https://poedagareco.com/cdn/shop/files/GoldenStar-branco.webp?v=1755293388"
+      ],
+      "filename": "GoldenStar-branco.webp",
+      "product": "GoldenStar",
+      "variant": "Branco",
+      "type": "image",
+      "role": "product",
+      "resolution": null,
+      "resolution_status": "pending_file_inspection",
+      "commercial_authorization": {
+        "status": "owner_authorized_unverified_rightsholder",
+        "record": "Proprietário da VRAS autorizou download e uso comercial nesta solicitação em 2026-11-10.",
+        "rightsholder_verified": false
+      },
+      "download_status": "error",
+      "sha256": null,
+      "original_path": null,
+      "optimized_paths": [],
+      "source_page": "https://poedagareco.com/products/relogio-poedagar-army",
+      "association_basis": "labelled_color_swatch",
+      "observed_at": "2026-11-10",
+      "processing_status": "error",
+      "failure": {
+        "code": "environment_network_denied",
+        "stage": "download",
+        "http_status": null,
+        "errno": 13,
+        "winerror": 10013,
+        "retryable_without_access_change": false
+      },
+      "last_attempt_at": "2026-11-10T17:12:30.029201+00:00",
+      "error": "<urlopen error [WinError 10013] Foi feita uma tentativa de acesso a um soquete de uma maneira que é proibida pelas permissões de acesso>"
+    },
+    {
+      "id": "0c14ae7824b91131",
+      "original_url": "https://poedagareco.com/cdn/shop/files/relogio-poedagar-goldenstar-azul-667f5a9d3d56c-medium.png?v=1755293388",
+      "observed_urls": [
+        "https://poedagareco.com/cdn/shop/files/relogio-poedagar-goldenstar-azul-667f5a9d3d56c-medium.png?v=1755293388"
+      ],
+      "filename": "relogio-poedagar-goldenstar-azul-667f5a9d3d56c-medium.png",
+      "product": "GoldenStar",
+      "variant": "Azul",
+      "type": "image",
+      "role": "product",
+      "resolution": null,
+      "resolution_status": "pending_file_inspection",
+      "commercial_authorization": {
+        "status": "owner_authorized_unverified_rightsholder",
+        "record": "Proprietário da VRAS autorizou download e uso comercial nesta solicitação em 2026-11-10.",
+        "rightsholder_verified": false
+      },
+      "download_status": "error",
+      "sha256": null,
+      "original_path": null,
+      "optimized_paths": [],
+      "source_page": "https://poedagareco.com/products/relogio-poedagar-army",
+      "association_basis": "labelled_color_swatch",
+      "observed_at": "2026-11-10",
+      "processing_status": "error",
+      "failure": {
+        "code": "environment_network_denied",
+        "stage": "download",
+        "http_status": null,
+        "errno": 13,
+        "winerror": 10013,
+        "retryable_without_access_change": false
+      },
+      "last_attempt_at": "2026-11-10T17:12:30.045671+00:00",
+      "error": "<urlopen error [WinError 10013] Foi feita uma tentativa de acesso a um soquete de uma maneira que é proibida pelas permissões de acesso>"
+    },
+    {
+      "id": "e5330e25456be15b",
+      "original_url": "https://poedagareco.com/cdn/shop/files/GoldenStar-verde.webp?v=1755293388",
+      "observed_urls": [
+        "https://poedagareco.com/cdn/shop/files/GoldenStar-verde.webp?v=1755293388"
+      ],
+      "filename": "GoldenStar-verde.webp",
+      "product": "GoldenStar",
+      "variant": "Verde",
+      "type": "image",
+      "role": "product",
+      "resolution": null,
+      "resolution_status": "pending_file_inspection",
+      "commercial_authorization": {
+        "status": "owner_authorized_unverified_rightsholder",
+        "record": "Proprietário da VRAS autorizou download e uso comercial nesta solicitação em 2026-11-10.",
+        "rightsholder_verified": false
+      },
+      "download_status": "error",
+      "sha256": null,
+      "original_path": null,
+      "optimized_paths": [],
+      "source_page": "https://poedagareco.com/products/relogio-poedagar-army",
+      "association_basis": "labelled_color_swatch",
+      "observed_at": "2026-11-10",
+      "processing_status": "error",
+      "failure": {
+        "code": "environment_network_denied",
+        "stage": "download",
+        "http_status": null,
+        "errno": 13,
+        "winerror": 10013,
+        "retryable_without_access_change": false
+      },
+      "last_attempt_at": "2026-11-10T17:12:30.060836+00:00",
+      "error": "<urlopen error [WinError 10013] Foi feita uma tentativa de acesso a um soquete de uma maneira que é proibida pelas permissões de acesso>"
+    },
+    {
+      "id": "110dbba749d8cc87",
+      "original_url": "https://poedagareco.com/cdn/shop/files/relogio-poedagar-chronoforge-tradicional-bronze-648e2f78b2413-medium.png?v=1726756606",
+      "observed_urls": [
+        "https://poedagareco.com/cdn/shop/files/relogio-poedagar-chronoforge-tradicional-bronze-648e2f78b2413-medium.png?v=1726756606"
+      ],
+      "filename": "relogio-poedagar-chronoforge-tradicional-bronze-648e2f78b2413-medium.png",
+      "product": "Chronoforge",
+      "variant": "Tradicional Bronze",
+      "type": "image",
+      "role": "product",
+      "resolution": null,
+      "resolution_status": "pending_file_inspection",
+      "commercial_authorization": {
+        "status": "owner_authorized_unverified_rightsholder",
+        "record": "Proprietário da VRAS autorizou download e uso comercial nesta solicitação em 2026-11-10.",
+        "rightsholder_verified": false
+      },
+      "download_status": "error",
+      "sha256": null,
+      "original_path": null,
+      "optimized_paths": [],
+      "source_page": "https://poedagareco.com/products/relogio-poedagar-army",
+      "association_basis": "labelled_color_swatch",
+      "observed_at": "2026-11-10",
+      "processing_status": "error",
+      "failure": {
+        "code": "environment_network_denied",
+        "stage": "download",
+        "http_status": null,
+        "errno": 13,
+        "winerror": 10013,
+        "retryable_without_access_change": false
+      },
+      "last_attempt_at": "2026-11-10T17:12:30.075934+00:00",
+      "error": "<urlopen error [WinError 10013] Foi feita uma tentativa de acesso a um soquete de uma maneira que é proibida pelas permissões de acesso>"
+    },
+    {
+      "id": "70919e35623fc6aa",
+      "original_url": "https://poedagareco.com/cdn/shop/files/Chronoforge-preto.jpg?v=1759843170",
+      "observed_urls": [
+        "https://poedagareco.com/cdn/shop/files/Chronoforge-preto.jpg?v=1759843170"
+      ],
+      "filename": "Chronoforge-preto.jpg",
+      "product": "Chronoforge",
+      "variant": "Preto",
+      "type": "image",
+      "role": "product",
+      "resolution": null,
+      "resolution_status": "pending_file_inspection",
+      "commercial_authorization": {
+        "status": "owner_authorized_unverified_rightsholder",
+        "record": "Proprietário da VRAS autorizou download e uso comercial nesta solicitação em 2026-11-10.",
+        "rightsholder_verified": false
+      },
+      "download_status": "error",
+      "sha256": null,
+      "original_path": null,
+      "optimized_paths": [],
+      "source_page": "https://poedagareco.com/products/relogio-poedagar-army",
+      "association_basis": "labelled_color_swatch",
+      "observed_at": "2026-11-10",
+      "processing_status": "error",
+      "failure": {
+        "code": "environment_network_denied",
+        "stage": "download",
+        "http_status": null,
+        "errno": 13,
+        "winerror": 10013,
+        "retryable_without_access_change": false
+      },
+      "last_attempt_at": "2026-11-10T17:12:30.091784+00:00",
+      "error": "<urlopen error [WinError 10013] Foi feita uma tentativa de acesso a um soquete de uma maneira que é proibida pelas permissões de acesso>"
+    },
+    {
+      "id": "44ae668008eb36d8",
+      "original_url": "https://poedagareco.com/cdn/shop/files/Chronoforge-pretoeprata.jpg?v=1759843170",
+      "observed_urls": [
+        "https://poedagareco.com/cdn/shop/files/Chronoforge-pretoeprata.jpg?v=1759843170"
+      ],
+      "filename": "Chronoforge-pretoeprata.jpg",
+      "product": "Chronoforge",
+      "variant": "Preto e Prata",
+      "type": "image",
+      "role": "product",
+      "resolution": null,
+      "resolution_status": "pending_file_inspection",
+      "commercial_authorization": {
+        "status": "owner_authorized_unverified_rightsholder",
+        "record": "Proprietário da VRAS autorizou download e uso comercial nesta solicitação em 2026-11-10.",
+        "rightsholder_verified": false
+      },
+      "download_status": "error",
+      "sha256": null,
+      "original_path": null,
+      "optimized_paths": [],
+      "source_page": "https://poedagareco.com/products/relogio-poedagar-army",
+      "association_basis": "labelled_color_swatch",
+      "observed_at": "2026-11-10",
+      "processing_status": "error",
+      "failure": {
+        "code": "environment_network_denied",
+        "stage": "download",
+        "http_status": null,
+        "errno": 13,
+        "winerror": 10013,
+        "retryable_without_access_change": false
+      },
+      "last_attempt_at": "2026-11-10T17:12:30.107913+00:00",
+      "error": "<urlopen error [WinError 10013] Foi feita uma tentativa de acesso a um soquete de uma maneira que é proibida pelas permissões de acesso>"
+    },
+    {
+      "id": "34ddd763381bb93c",
+      "original_url": "https://poedagareco.com/cdn/shop/files/8.png?v=1728251926",
+      "observed_urls": [
+        "https://poedagareco.com/cdn/shop/files/8.png?v=1728251926"
+      ],
+      "filename": "8.png",
+      "product": "Dellicate",
+      "variant": "Full Rosé",
+      "type": "image",
+      "role": "product",
+      "resolution": null,
+      "resolution_status": "pending_file_inspection",
+      "commercial_authorization": {
+        "status": "owner_authorized_unverified_rightsholder",
+        "record": "Proprietário da VRAS autorizou download e uso comercial nesta solicitação em 2026-11-10.",
+        "rightsholder_verified": false
+      },
+      "download_status": "error",
+      "sha256": null,
+      "original_path": null,
+      "optimized_paths": [],
+      "source_page": "https://poedagareco.com/products/relogio-poedagar-army",
+      "association_basis": "labelled_color_swatch",
+      "observed_at": "2026-11-10",
+      "processing_status": "error",
+      "failure": {
+        "code": "environment_network_denied",
+        "stage": "download",
+        "http_status": null,
+        "errno": 13,
+        "winerror": 10013,
+        "retryable_without_access_change": false
+      },
+      "last_attempt_at": "2026-11-10T17:12:30.123122+00:00",
+      "error": "<urlopen error [WinError 10013] Foi feita uma tentativa de acesso a um soquete de uma maneira que é proibida pelas permissões de acesso>"
+    },
+    {
+      "id": "63b10fb859d236a7",
+      "original_url": "https://poedagareco.com/cdn/shop/files/2.png?v=1762194336",
+      "observed_urls": [
+        "https://poedagareco.com/cdn/shop/files/2.png?v=1762194336"
+      ],
+      "filename": "2.png",
+      "product": "Dellicate",
+      "variant": "Preto",
+      "type": "image",
+      "role": "product",
+      "resolution": null,
+      "resolution_status": "pending_file_inspection",
+      "commercial_authorization": {
+        "status": "owner_authorized_unverified_rightsholder",
+        "record": "Proprietário da VRAS autorizou download e uso comercial nesta solicitação em 2026-11-10.",
+        "rightsholder_verified": false
+      },
+      "download_status": "error",
+      "sha256": null,
+      "original_path": null,
+      "optimized_paths": [],
+      "source_page": "https://poedagareco.com/products/relogio-poedagar-army",
+      "association_basis": "labelled_color_swatch",
+      "observed_at": "2026-11-10",
+      "processing_status": "error",
+      "failure": {
+        "code": "environment_network_denied",
+        "stage": "download",
+        "http_status": null,
+        "errno": 13,
+        "winerror": 10013,
+        "retryable_without_access_change": false
+      },
+      "last_attempt_at": "2026-11-10T17:12:30.139305+00:00",
+      "error": "<urlopen error [WinError 10013] Foi feita uma tentativa de acesso a um soquete de uma maneira que é proibida pelas permissões de acesso>"
+    },
+    {
+      "id": "f01f17ad71972bad",
+      "original_url": "https://poedagareco.com/cdn/shop/files/4.png?v=1762194336",
+      "observed_urls": [
+        "https://poedagareco.com/cdn/shop/files/4.png?v=1762194336"
+      ],
+      "filename": "4.png",
+      "product": "Dellicate",
+      "variant": "Azul",
+      "type": "image",
+      "role": "product",
+      "resolution": null,
+      "resolution_status": "pending_file_inspection",
+      "commercial_authorization": {
+        "status": "owner_authorized_unverified_rightsholder",
+        "record": "Proprietário da VRAS autorizou download e uso comercial nesta solicitação em 2026-11-10.",
+        "rightsholder_verified": false
+      },
+      "download_status": "error",
+      "sha256": null,
+      "original_path": null,
+      "optimized_paths": [],
+      "source_page": "https://poedagareco.com/products/relogio-poedagar-army",
+      "association_basis": "labelled_color_swatch",
+      "observed_at": "2026-11-10",
+      "processing_status": "error",
+      "failure": {
+        "code": "environment_network_denied",
+        "stage": "download",
+        "http_status": null,
+        "errno": 13,
+        "winerror": 10013,
+        "retryable_without_access_change": false
+      },
+      "last_attempt_at": "2026-11-10T17:12:30.154420+00:00",
+      "error": "<urlopen error [WinError 10013] Foi feita uma tentativa de acesso a um soquete de uma maneira que é proibida pelas permissões de acesso>"
+    },
+    {
+      "id": "98a713360ac74ecc",
+      "original_url": "https://poedagareco.com/cdn/shop/files/7.png?v=1762194336",
+      "observed_urls": [
+        "https://poedagareco.com/cdn/shop/files/7.png?v=1762194336"
+      ],
+      "filename": "7.png",
+      "product": "Dellicate",
+      "variant": "Rosé White",
+      "type": "image",
+      "role": "product",
+      "resolution": null,
+      "resolution_status": "pending_file_inspection",
+      "commercial_authorization": {
+        "status": "owner_authorized_unverified_rightsholder",
+        "record": "Proprietário da VRAS autorizou download e uso comercial nesta solicitação em 2026-11-10.",
+        "rightsholder_verified": false
+      },
+      "download_status": "error",
+      "sha256": null,
+      "original_path": null,
+      "optimized_paths": [],
+      "source_page": "https://poedagareco.com/products/relogio-poedagar-army",
+      "association_basis": "labelled_color_swatch",
+      "observed_at": "2026-11-10",
+      "processing_status": "error",
+      "failure": {
+        "code": "environment_network_denied",
+        "stage": "download",
+        "http_status": null,
+        "errno": 13,
+        "winerror": 10013,
+        "retryable_without_access_change": false
+      },
+      "last_attempt_at": "2026-11-10T17:12:30.173675+00:00",
+      "error": "<urlopen error [WinError 10013] Foi feita uma tentativa de acesso a um soquete de uma maneira que é proibida pelas permissões de acesso>"
+    },
+    {
+      "id": "0b9ea4beb1a2eca4",
+      "original_url": "https://poedagareco.com/cdn/shop/files/relogio-poedagar-nautilus-preto-667cfbf2a1119-medium.png?v=1726756652",
+      "observed_urls": [
+        "https://poedagareco.com/cdn/shop/files/relogio-poedagar-nautilus-preto-667cfbf2a1119-medium.png?v=1726756652"
+      ],
+      "filename": "relogio-poedagar-nautilus-preto-667cfbf2a1119-medium.png",
+      "product": "Nautilus",
+      "variant": "Preto",
+      "type": "image",
+      "role": "product",
+      "resolution": null,
+      "resolution_status": "pending_file_inspection",
+      "commercial_authorization": {
+        "status": "owner_authorized_unverified_rightsholder",
+        "record": "Proprietário da VRAS autorizou download e uso comercial nesta solicitação em 2026-11-10.",
+        "rightsholder_verified": false
+      },
+      "download_status": "error",
+      "sha256": null,
+      "original_path": null,
+      "optimized_paths": [],
+      "source_page": "https://poedagareco.com/products/relogio-poedagar-army",
+      "association_basis": "labelled_color_swatch",
+      "observed_at": "2026-11-10",
+      "processing_status": "error",
+      "failure": {
+        "code": "environment_network_denied",
+        "stage": "download",
+        "http_status": null,
+        "errno": 13,
+        "winerror": 10013,
+        "retryable_without_access_change": false
+      },
+      "last_attempt_at": "2026-11-10T17:12:30.190323+00:00",
+      "error": "<urlopen error [WinError 10013] Foi feita uma tentativa de acesso a um soquete de uma maneira que é proibida pelas permissões de acesso>"
+    },
+    {
+      "id": "a772896c03f8fe94",
+      "original_url": "https://poedagareco.com/cdn/shop/files/Nautilus-azul.webp?v=1753886533",
+      "observed_urls": [
+        "https://poedagareco.com/cdn/shop/files/Nautilus-azul.webp?v=1753886533"
+      ],
+      "filename": "Nautilus-azul.webp",
+      "product": "Nautilus",
+      "variant": "Azul",
+      "type": "image",
+      "role": "product",
+      "resolution": null,
+      "resolution_status": "pending_file_inspection",
+      "commercial_authorization": {
+        "status": "owner_authorized_unverified_rightsholder",
+        "record": "Proprietário da VRAS autorizou download e uso comercial nesta solicitação em 2026-11-10.",
+        "rightsholder_verified": false
+      },
+      "download_status": "error",
+      "sha256": null,
+      "original_path": null,
+      "optimized_paths": [],
+      "source_page": "https://poedagareco.com/products/relogio-poedagar-army",
+      "association_basis": "labelled_color_swatch",
+      "observed_at": "2026-11-10",
+      "processing_status": "error",
+      "failure": {
+        "code": "environment_network_denied",
+        "stage": "download",
+        "http_status": null,
+        "errno": 13,
+        "winerror": 10013,
+        "retryable_without_access_change": false
+      },
+      "last_attempt_at": "2026-11-10T17:12:30.229974+00:00",
+      "error": "<urlopen error [WinError 10013] Foi feita uma tentativa de acesso a um soquete de uma maneira que é proibida pelas permissões de acesso>"
+    },
+    {
+      "id": "c67ea02bf5e94986",
+      "original_url": "https://poedagareco.com/cdn/shop/files/Nautilus-dourado.png?v=1753886533",
+      "observed_urls": [
+        "https://poedagareco.com/cdn/shop/files/Nautilus-dourado.png?v=1753886533"
+      ],
+      "filename": "Nautilus-dourado.png",
+      "product": "Nautilus",
+      "variant": "Dourado e Azul",
+      "type": "image",
+      "role": "product",
+      "resolution": null,
+      "resolution_status": "pending_file_inspection",
+      "commercial_authorization": {
+        "status": "owner_authorized_unverified_rightsholder",
+        "record": "Proprietário da VRAS autorizou download e uso comercial nesta solicitação em 2026-11-10.",
+        "rightsholder_verified": false
+      },
+      "download_status": "error",
+      "sha256": null,
+      "original_path": null,
+      "optimized_paths": [],
+      "source_page": "https://poedagareco.com/products/relogio-poedagar-army",
+      "association_basis": "labelled_color_swatch",
+      "observed_at": "2026-11-10",
+      "processing_status": "error",
+      "failure": {
+        "code": "environment_network_denied",
+        "stage": "download",
+        "http_status": null,
+        "errno": 13,
+        "winerror": 10013,
+        "retryable_without_access_change": false
+      },
+      "last_attempt_at": "2026-11-10T17:12:30.246248+00:00",
+      "error": "<urlopen error [WinError 10013] Foi feita uma tentativa de acesso a um soquete de uma maneira que é proibida pelas permissões de acesso>"
+    },
+    {
+      "id": "d0667d67562552e4",
+      "original_url": "https://poedagareco.com/cdn/shop/files/Nautilus-fullblack.webp?v=1753886533",
+      "observed_urls": [
+        "https://poedagareco.com/cdn/shop/files/Nautilus-fullblack.webp?v=1753886533"
+      ],
+      "filename": "Nautilus-fullblack.webp",
+      "product": "Nautilus",
+      "variant": "Full Black",
+      "type": "image",
+      "role": "product",
+      "resolution": null,
+      "resolution_status": "pending_file_inspection",
+      "commercial_authorization": {
+        "status": "owner_authorized_unverified_rightsholder",
+        "record": "Proprietário da VRAS autorizou download e uso comercial nesta solicitação em 2026-11-10.",
+        "rightsholder_verified": false
+      },
+      "download_status": "error",
+      "sha256": null,
+      "original_path": null,
+      "optimized_paths": [],
+      "source_page": "https://poedagareco.com/products/relogio-poedagar-army",
+      "association_basis": "labelled_color_swatch",
+      "observed_at": "2026-11-10",
+      "processing_status": "error",
+      "failure": {
+        "code": "environment_network_denied",
+        "stage": "download",
+        "http_status": null,
+        "errno": 13,
+        "winerror": 10013,
+        "retryable_without_access_change": false
+      },
+      "last_attempt_at": "2026-11-10T17:12:30.277299+00:00",
+      "error": "<urlopen error [WinError 10013] Foi feita uma tentativa de acesso a um soquete de uma maneira que é proibida pelas permissões de acesso>"
+    },
+    {
+      "id": "95d5cfa843f721e8",
+      "original_url": "https://poedagareco.com/cdn/shop/files/relogio-poedagar-vintage-tradicional-6661e8629ea7b-medium.png?v=1726756649",
+      "observed_urls": [
+        "https://poedagareco.com/cdn/shop/files/relogio-poedagar-vintage-tradicional-6661e8629ea7b-medium.png?v=1726756649"
+      ],
+      "filename": "relogio-poedagar-vintage-tradicional-6661e8629ea7b-medium.png",
+      "product": "Vintage",
+      "variant": "Tradicional",
+      "type": "image",
+      "role": "product",
+      "resolution": null,
+      "resolution_status": "pending_file_inspection",
+      "commercial_authorization": {
+        "status": "owner_authorized_unverified_rightsholder",
+        "record": "Proprietário da VRAS autorizou download e uso comercial nesta solicitação em 2026-11-10.",
+        "rightsholder_verified": false
+      },
+      "download_status": "error",
+      "sha256": null,
+      "original_path": null,
+      "optimized_paths": [],
+      "source_page": "https://poedagareco.com/products/relogio-poedagar-army",
+      "association_basis": "labelled_color_swatch",
+      "observed_at": "2026-11-10",
+      "processing_status": "error",
+      "failure": {
+        "code": "environment_network_denied",
+        "stage": "download",
+        "http_status": null,
+        "errno": 13,
+        "winerror": 10013,
+        "retryable_without_access_change": false
+      },
+      "last_attempt_at": "2026-11-10T17:12:30.308532+00:00",
+      "error": "<urlopen error [WinError 10013] Foi feita uma tentativa de acesso a um soquete de uma maneira que é proibida pelas permissões de acesso>"
+    },
+    {
+      "id": "e21152644eac68c2",
+      "original_url": "https://poedagareco.com/cdn/shop/files/Vintage-branco.jpg?v=1759843780",
+      "observed_urls": [
+        "https://poedagareco.com/cdn/shop/files/Vintage-branco.jpg?v=1759843780"
+      ],
+      "filename": "Vintage-branco.jpg",
+      "product": "Vintage",
+      "variant": "Branco",
+      "type": "image",
+      "role": "product",
+      "resolution": null,
+      "resolution_status": "pending_file_inspection",
+      "commercial_authorization": {
+        "status": "owner_authorized_unverified_rightsholder",
+        "record": "Proprietário da VRAS autorizou download e uso comercial nesta solicitação em 2026-11-10.",
+        "rightsholder_verified": false
+      },
+      "download_status": "error",
+      "sha256": null,
+      "original_path": null,
+      "optimized_paths": [],
+      "source_page": "https://poedagareco.com/products/relogio-poedagar-army",
+      "association_basis": "labelled_color_swatch",
+      "observed_at": "2026-11-10",
+      "processing_status": "error",
+      "failure": {
+        "code": "environment_network_denied",
+        "stage": "download",
+        "http_status": null,
+        "errno": 13,
+        "winerror": 10013,
+        "retryable_without_access_change": false
+      },
+      "last_attempt_at": "2026-11-10T17:12:30.339895+00:00",
+      "error": "<urlopen error [WinError 10013] Foi feita uma tentativa de acesso a um soquete de uma maneira que é proibida pelas permissões de acesso>"
+    },
+    {
+      "id": "0706fac03a24a256",
+      "original_url": "https://poedagareco.com/cdn/shop/files/Vintage-azul.jpg?v=1759843780",
+      "observed_urls": [
+        "https://poedagareco.com/cdn/shop/files/Vintage-azul.jpg?v=1759843780"
+      ],
+      "filename": "Vintage-azul.jpg",
+      "product": "Vintage",
+      "variant": "Azul",
+      "type": "image",
+      "role": "product",
+      "resolution": null,
+      "resolution_status": "pending_file_inspection",
+      "commercial_authorization": {
+        "status": "owner_authorized_unverified_rightsholder",
+        "record": "Proprietário da VRAS autorizou download e uso comercial nesta solicitação em 2026-11-10.",
+        "rightsholder_verified": false
+      },
+      "download_status": "error",
+      "sha256": null,
+      "original_path": null,
+      "optimized_paths": [],
+      "source_page": "https://poedagareco.com/products/relogio-poedagar-army",
+      "association_basis": "labelled_color_swatch",
+      "observed_at": "2026-11-10",
+      "processing_status": "error",
+      "failure": {
+        "code": "environment_network_denied",
+        "stage": "download",
+        "http_status": null,
+        "errno": 13,
+        "winerror": 10013,
+        "retryable_without_access_change": false
+      },
+      "last_attempt_at": "2026-11-10T17:12:30.371097+00:00",
+      "error": "<urlopen error [WinError 10013] Foi feita uma tentativa de acesso a um soquete de uma maneira que é proibida pelas permissões de acesso>"
+    },
+    {
+      "id": "27c09ea621b1bdb9",
+      "original_url": "https://poedagareco.com/cdn/shop/files/Vintage-preto.jpg?v=1759843780",
+      "observed_urls": [
+        "https://poedagareco.com/cdn/shop/files/Vintage-preto.jpg?v=1759843780"
+      ],
+      "filename": "Vintage-preto.jpg",
+      "product": "Vintage",
+      "variant": "Preto",
+      "type": "image",
+      "role": "product",
+      "resolution": null,
+      "resolution_status": "pending_file_inspection",
+      "commercial_authorization": {
+        "status": "owner_authorized_unverified_rightsholder",
+        "record": "Proprietário da VRAS autorizou download e uso comercial nesta solicitação em 2026-11-10.",
+        "rightsholder_verified": false
+      },
+      "download_status": "error",
+      "sha256": null,
+      "original_path": null,
+      "optimized_paths": [],
+      "source_page": "https://poedagareco.com/products/relogio-poedagar-army",
+      "association_basis": "labelled_color_swatch",
+      "observed_at": "2026-11-10",
+      "processing_status": "error",
+      "failure": {
+        "code": "environment_network_denied",
+        "stage": "download",
+        "http_status": null,
+        "errno": 13,
+        "winerror": 10013,
+        "retryable_without_access_change": false
+      },
+      "last_attempt_at": "2026-11-10T17:12:30.403659+00:00",
+      "error": "<urlopen error [WinError 10013] Foi feita uma tentativa de acesso a um soquete de uma maneira que é proibida pelas permissões de acesso>"
+    },
+    {
+      "id": "9761d7ebd59597c2",
+      "original_url": "https://poedagareco.com/cdn/shop/files/relogio-poedagar-seraphim-rose-648fb71c53656-medium.jpg?v=1726756624",
+      "observed_urls": [
+        "https://poedagareco.com/cdn/shop/files/relogio-poedagar-seraphim-rose-648fb71c53656-medium.jpg?v=1726756624"
+      ],
+      "filename": "relogio-poedagar-seraphim-rose-648fb71c53656-medium.jpg",
+      "product": "Seraphim",
+      "variant": "Rosé",
+      "type": "image",
+      "role": "product",
+      "resolution": null,
+      "resolution_status": "pending_file_inspection",
+      "commercial_authorization": {
+        "status": "owner_authorized_unverified_rightsholder",
+        "record": "Proprietário da VRAS autorizou download e uso comercial nesta solicitação em 2026-11-10.",
+        "rightsholder_verified": false
+      },
+      "download_status": "error",
+      "sha256": null,
+      "original_path": null,
+      "optimized_paths": [],
+      "source_page": "https://poedagareco.com/products/relogio-poedagar-army",
+      "association_basis": "labelled_color_swatch",
+      "observed_at": "2026-11-10",
+      "processing_status": "error",
+      "failure": {
+        "code": "environment_network_denied",
+        "stage": "download",
+        "http_status": null,
+        "errno": 13,
+        "winerror": 10013,
+        "retryable_without_access_change": false
+      },
+      "last_attempt_at": "2026-11-10T17:12:30.434624+00:00",
+      "error": "<urlopen error [WinError 10013] Foi feita uma tentativa de acesso a um soquete de uma maneira que é proibida pelas permissões de acesso>"
+    },
+    {
+      "id": "8430e34dab7a313c",
+      "original_url": "https://poedagareco.com/cdn/shop/files/Seraphim-branco.jpg?v=1764678955",
+      "observed_urls": [
+        "https://poedagareco.com/cdn/shop/files/Seraphim-branco.jpg?v=1764678955"
+      ],
+      "filename": "Seraphim-branco.jpg",
+      "product": "Seraphim",
+      "variant": "Branco",
+      "type": "image",
+      "role": "product",
+      "resolution": null,
+      "resolution_status": "pending_file_inspection",
+      "commercial_authorization": {
+        "status": "owner_authorized_unverified_rightsholder",
+        "record": "Proprietário da VRAS autorizou download e uso comercial nesta solicitação em 2026-11-10.",
+        "rightsholder_verified": false
+      },
+      "download_status": "error",
+      "sha256": null,
+      "original_path": null,
+      "optimized_paths": [],
+      "source_page": "https://poedagareco.com/products/relogio-poedagar-army",
+      "association_basis": "labelled_color_swatch",
+      "observed_at": "2026-11-10",
+      "processing_status": "error",
+      "failure": {
+        "code": "environment_network_denied",
+        "stage": "download",
+        "http_status": null,
+        "errno": 13,
+        "winerror": 10013,
+        "retryable_without_access_change": false
+      },
+      "last_attempt_at": "2026-11-10T17:12:30.465528+00:00",
+      "error": "<urlopen error [WinError 10013] Foi feita uma tentativa de acesso a um soquete de uma maneira que é proibida pelas permissões de acesso>"
+    },
+    {
+      "id": "17a04b21a3399c6d",
+      "original_url": "https://poedagareco.com/cdn/shop/files/Seraphim-preto.jpg?v=1764678955",
+      "observed_urls": [
+        "https://poedagareco.com/cdn/shop/files/Seraphim-preto.jpg?v=1764678955"
+      ],
+      "filename": "Seraphim-preto.jpg",
+      "product": "Seraphim",
+      "variant": "Preto",
+      "type": "image",
+      "role": "product",
+      "resolution": null,
+      "resolution_status": "pending_file_inspection",
+      "commercial_authorization": {
+        "status": "owner_authorized_unverified_rightsholder",
+        "record": "Proprietário da VRAS autorizou download e uso comercial nesta solicitação em 2026-11-10.",
+        "rightsholder_verified": false
+      },
+      "download_status": "error",
+      "sha256": null,
+      "original_path": null,
+      "optimized_paths": [],
+      "source_page": "https://poedagareco.com/products/relogio-poedagar-army",
+      "association_basis": "labelled_color_swatch",
+      "observed_at": "2026-11-10",
+      "processing_status": "error",
+      "failure": {
+        "code": "environment_network_denied",
+        "stage": "download",
+        "http_status": null,
+        "errno": 13,
+        "winerror": 10013,
+        "retryable_without_access_change": false
+      },
+      "last_attempt_at": "2026-11-10T17:12:30.496693+00:00",
+      "error": "<urlopen error [WinError 10013] Foi feita uma tentativa de acesso a um soquete de uma maneira que é proibida pelas permissões de acesso>"
+    },
+    {
+      "id": "6e8adc1f3f9606f4",
+      "original_url": "https://poedagareco.com/cdn/shop/files/Seraphim-rosa_claro.jpg?v=1764678955",
+      "observed_urls": [
+        "https://poedagareco.com/cdn/shop/files/Seraphim-rosa_claro.jpg?v=1764678955"
+      ],
+      "filename": "Seraphim-rosa_claro.jpg",
+      "product": "Seraphim",
+      "variant": "Rosa Claro",
+      "type": "image",
+      "role": "product",
+      "resolution": null,
+      "resolution_status": "pending_file_inspection",
+      "commercial_authorization": {
+        "status": "owner_authorized_unverified_rightsholder",
+        "record": "Proprietário da VRAS autorizou download e uso comercial nesta solicitação em 2026-11-10.",
+        "rightsholder_verified": false
+      },
+      "download_status": "error",
+      "sha256": null,
+      "original_path": null,
+      "optimized_paths": [],
+      "source_page": "https://poedagareco.com/products/relogio-poedagar-army",
+      "association_basis": "labelled_color_swatch",
+      "observed_at": "2026-11-10",
+      "processing_status": "error",
+      "failure": {
+        "code": "environment_network_denied",
+        "stage": "download",
+        "http_status": null,
+        "errno": 13,
+        "winerror": 10013,
+        "retryable_without_access_change": false
+      },
+      "last_attempt_at": "2026-11-10T17:12:30.528302+00:00",
+      "error": "<urlopen error [WinError 10013] Foi feita uma tentativa de acesso a um soquete de uma maneira que é proibida pelas permissões de acesso>"
+    },
+    {
+      "id": "75a601c0f2a1ff2d",
+      "original_url": "https://poedagareco.com/cdn/shop/files/relogio-feminino-em-aco-inoxidavel-poedagar-oficial-roxo-dourado-647e9ea010313-medium.jpg?v=1726756593",
+      "observed_urls": [
+        "https://poedagareco.com/cdn/shop/files/relogio-feminino-em-aco-inoxidavel-poedagar-oficial-roxo-dourado-647e9ea010313-medium.jpg?v=1726756593"
+      ],
+      "filename": "relogio-feminino-em-aco-inoxidavel-poedagar-oficial-roxo-dourado-647e9ea010313-medium.jpg",
+      "product": "Woman Elegancy",
+      "variant": "Roxo e Dourado",
+      "type": "image",
+      "role": "product",
+      "resolution": null,
+      "resolution_status": "pending_file_inspection",
+      "commercial_authorization": {
+        "status": "owner_authorized_unverified_rightsholder",
+        "record": "Proprietário da VRAS autorizou download e uso comercial nesta solicitação em 2026-11-10.",
+        "rightsholder_verified": false
+      },
+      "download_status": "error",
+      "sha256": null,
+      "original_path": null,
+      "optimized_paths": [],
+      "source_page": "https://poedagareco.com/products/relogio-poedagar-army",
+      "association_basis": "labelled_color_swatch",
+      "observed_at": "2026-11-10",
+      "processing_status": "error",
+      "failure": {
+        "code": "environment_network_denied",
+        "stage": "download",
+        "http_status": null,
+        "errno": 13,
+        "winerror": 10013,
+        "retryable_without_access_change": false
+      },
+      "last_attempt_at": "2026-11-10T17:12:30.558906+00:00",
+      "error": "<urlopen error [WinError 10013] Foi feita uma tentativa de acesso a um soquete de uma maneira que é proibida pelas permissões de acesso>"
+    },
+    {
+      "id": "a64c7f64815bf918",
+      "original_url": "https://poedagareco.com/cdn/shop/files/Elegancy-azul_e_dourado.jpg?v=1752375654",
+      "observed_urls": [
+        "https://poedagareco.com/cdn/shop/files/Elegancy-azul_e_dourado.jpg?v=1752375654"
+      ],
+      "filename": "Elegancy-azul_e_dourado.jpg",
+      "product": "Woman Elegancy",
+      "variant": "Azul e Dourado",
+      "type": "image",
+      "role": "product",
+      "resolution": null,
+      "resolution_status": "pending_file_inspection",
+      "commercial_authorization": {
+        "status": "owner_authorized_unverified_rightsholder",
+        "record": "Proprietário da VRAS autorizou download e uso comercial nesta solicitação em 2026-11-10.",
+        "rightsholder_verified": false
+      },
+      "download_status": "error",
+      "sha256": null,
+      "original_path": null,
+      "optimized_paths": [],
+      "source_page": "https://poedagareco.com/products/relogio-poedagar-army",
+      "association_basis": "labelled_color_swatch",
+      "observed_at": "2026-11-10",
+      "processing_status": "error",
+      "failure": {
+        "code": "environment_network_denied",
+        "stage": "download",
+        "http_status": null,
+        "errno": 13,
+        "winerror": 10013,
+        "retryable_without_access_change": false
+      },
+      "last_attempt_at": "2026-11-10T17:12:30.590261+00:00",
+      "error": "<urlopen error [WinError 10013] Foi feita uma tentativa de acesso a um soquete de uma maneira que é proibida pelas permissões de acesso>"
+    },
+    {
+      "id": "c0c64f962da2c1bb",
+      "original_url": "https://poedagareco.com/cdn/shop/files/Elegancy-vinho_tinto_e_dourado.jpg?v=1752375654",
+      "observed_urls": [
+        "https://poedagareco.com/cdn/shop/files/Elegancy-vinho_tinto_e_dourado.jpg?v=1752375654"
+      ],
+      "filename": "Elegancy-vinho_tinto_e_dourado.jpg",
+      "product": "Woman Elegancy",
+      "variant": "Vinho Tinto e Dourado",
+      "type": "image",
+      "role": "product",
+      "resolution": null,
+      "resolution_status": "pending_file_inspection",
+      "commercial_authorization": {
+        "status": "owner_authorized_unverified_rightsholder",
+        "record": "Proprietário da VRAS autorizou download e uso comercial nesta solicitação em 2026-11-10.",
+        "rightsholder_verified": false
+      },
+      "download_status": "error",
+      "sha256": null,
+      "original_path": null,
+      "optimized_paths": [],
+      "source_page": "https://poedagareco.com/products/relogio-poedagar-army",
+      "association_basis": "labelled_color_swatch",
+      "observed_at": "2026-11-10",
+      "processing_status": "error",
+      "failure": {
+        "code": "environment_network_denied",
+        "stage": "download",
+        "http_status": null,
+        "errno": 13,
+        "winerror": 10013,
+        "retryable_without_access_change": false
+      },
+      "last_attempt_at": "2026-11-10T17:12:30.621495+00:00",
+      "error": "<urlopen error [WinError 10013] Foi feita uma tentativa de acesso a um soquete de uma maneira que é proibida pelas permissões de acesso>"
+    }
+  ],
+  "checked_at": "2026-11-10",
+  "discovery_status": "48 labelled colors across 13 models; 9 additional Montelux images unassigned. Coverage limited to existing catalog colors."
+}
