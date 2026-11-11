@@ -5,7 +5,7 @@ from io import BytesIO
 from PIL import Image, ImageCms, ImageOps
 
 
-def optimize_image(path, prefix, provenance, alt, outputs):
+def optimize_image(path, prefix, provenance, alt, outputs, *, widths=(480, 800, 1200, 1920)):
     """Keep proportions, orientation, transparency and color; never crop/upscale."""
     with Image.open(path) as original:
         if getattr(original, "n_frames", 1) != 1:
@@ -23,7 +23,7 @@ def optimize_image(path, prefix, provenance, alt, outputs):
             photo = photo.convert("RGBA" if "A" in photo.getbands() or "transparency" in photo.info else "RGB")
         photo.thumbnail((1920, 1920), Image.Resampling.LANCZOS)
         renditions = []
-        for width in sorted({min(size, photo.width) for size in (480, 800, 1200, 1920)}):
+        for width in sorted({min(size, photo.width) for size in widths}):
             resized = photo.resize((width, max(1, round(photo.height * width / photo.width))), Image.Resampling.LANCZOS)
             buffer = BytesIO()
             resized.save(buffer, format="WEBP", quality=88, method=6, icc_profile=profile or b"")
