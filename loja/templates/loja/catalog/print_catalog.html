@@ -1,0 +1,52 @@
+{% load static %}<!doctype html>
+<html lang="pt-BR">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="noindex,follow">
+    <title>Catálogo Poedagar{% if catalog_model %} · {{ catalog_model }}{% endif %} | VRAS Watches</title>
+    {% if catalog_css %}<style>{{ catalog_css|safe }}</style>{% else %}<link rel="stylesheet" href="{% static 'css/poedagar-catalog.css' %}">{% endif %}
+</head>
+<body>
+    <div class="toolbar">
+        <a class="wordmark" href="{% if standalone %}index.html{% else %}{% url 'loja:products' %}{% endif %}">VRAS <span>WATCHES</span></a>
+        <div class="toolbar-actions">
+            {% if catalog_model %}<a href="{% if standalone %}index.html{% else %}{% url 'loja:poedagar_catalog' %}{% endif %}">Todos os modelos</a>{% endif %}
+            <button type="button" data-print-catalog>Imprimir / Salvar PDF ↗</button>
+        </div>
+    </div>
+    <header class="catalog-intro">
+        <p class="eyebrow">A seleção VRAS Watches</p>
+        <h1>Seu tempo.<br><em>Seu estilo.</em></h1>
+        <div class="intro-bottom"><p>Catálogo Poedagar{% if catalog_model %} · {{ catalog_model }}{% endif %}</p><p>{{ model_count }} modelo{{ model_count|pluralize }} · {{ color_count }} cores</p></div>
+        <p class="print-status" data-print-status role="status" aria-live="polite">Escolha um modelo ou imprima a seleção completa.</p>
+        <nav class="model-index" aria-label="Modelos do catálogo">{% for section in catalog_sections %}<a href="#{{ section.slug }}">{{ section.name }}</a>{% endfor %}</nav>
+    </header>
+    <main>
+        {% for section in catalog_sections %}
+        <section class="catalog-sheet" id="{{ section.slug }}" aria-labelledby="title-{{ section.slug }}">
+            <div class="sheet-header"><span class="wordmark">VRAS <span>WATCHES</span></span><span>POEDAGAR / {{ forloop.counter|stringformat:"02d" }}</span></div>
+            <div class="model-heading">
+                <div><p class="eyebrow">Poedagar · Seleção VRAS</p><h2 id="title-{{ section.slug }}">{{ section.name }}</h2></div>
+                {% if not catalog_model %}<a class="single-model" href="{% if standalone %}{{ section.slug }}.html{% else %}{% url 'loja:poedagar_catalog' %}?modelo={{ section.name|urlencode }}{% endif %}">Catálogo deste modelo ↗</a>{% endif %}
+            </div>
+            <div class="variant-grid">
+                {% for product in section.variants %}
+                <article class="variant-card">
+                    <figure>
+                        {% if product.cover %}<img src="{{ product.cover.url }}" alt="Poedagar {{ product.modelo }} · {{ product.selected_color }}" width="1000" height="1000" decoding="async">{% endif %}
+                        <figcaption class="photo-fallback" {% if product.cover %}hidden{% endif %}>Fotografia indisponível</figcaption>
+                    </figure>
+                    <div class="variant-caption"><div><p class="eyebrow">Poedagar {{ product.modelo }}</p><h3>{{ product.selected_color }}</h3></div>{% if product.display_price %}<p class="price">{{ product.preco_brl }}</p>{% endif %}</div>
+                    <p class="availability">{% if product.can_purchase %}Consulte condições com a VRAS{% else %}Consulte disponibilidade{% endif %}</p>
+                </article>
+                {% endfor %}
+            </div>
+            <footer class="sheet-footer"><span>Marca Poedagar · Seleção e atendimento VRAS Watches<br><a href="https://wa.me/5563992254787">(63) 99225-4787</a> · <a href="https://www.instagram.com/usevras/">@usevras</a></span><span>Fotos de referência: <a href="https://poedagareco.com" target="_blank" rel="noopener noreferrer">Poedagar&amp;Co.</a></span></footer>
+        </section>
+        {% endfor %}
+    </main>
+    <footer class="catalog-footer"><p>Preços cadastrados na VRAS. Confirme disponibilidade e condições antes da compra.</p><p>Fotografias de referência consultadas em 10/11/2026.</p></footer>
+    {% if catalog_js %}<script>{{ catalog_js|safe }}</script>{% else %}<script src="{% static 'js/poedagar-catalog.js' %}" defer></script>{% endif %}
+</body>
+</html>
