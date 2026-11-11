@@ -1,0 +1,17 @@
+{% if reference_models %}
+<section class="section wrap" aria-labelledby="reference-models-title">
+    <div class="section-heading"><div><p class="eyebrow">Novos modelos / Poedagar</p><h2 id="reference-models-title">Um novo olhar sobre o tempo.</h2></div></div>
+    <div class="product-grid">
+    {% for product in reference_models %}
+    <article class="reference-card">
+        <a class="product-visual" href="{{ product.showcase_url }}" aria-label="Conhecer Poedagar {{ product.modelo }}">
+            {% if product.cover %}{% include 'components/responsive_image.html' with image=product.cover alt=product.nome sizes='(max-width: 600px) 46vw, 30vw' %}
+            {% else %}<div class="media-unavailable"><span class="media-monogram" aria-hidden="true">VRAS</span><span>Poedagar {{ product.modelo }}</span></div>{% endif %}
+            <span class="visual-link" aria-hidden="true">Conhecer modelo &#8599;</span>
+        </a>
+        <div class="product-card-info"><p class="eyebrow">Marca Poedagar / Seleção VRAS</p><h3><a href="{{ product.showcase_url }}">Poedagar {{ product.modelo }}</a></h3><p class="product-price">{{ product.preco_brl }}</p><p class="card-variant">{{ product.color_count }} cores observadas · Consulte disponibilidade</p></div>
+    </article>
+    {% endfor %}
+    </div>
+</section>
+{% endif %}
