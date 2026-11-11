@@ -2,7 +2,7 @@
     <div class="gallery-track" id="product-gallery-track" data-gallery-track tabindex="0" aria-label="Galeria de {{ product.nome }}">
         {% for slide in product.gallery_items %}
             {% if slide.video %}
-            <div class="gallery-slide" role="group" aria-label="V&iacute;deo {{ forloop.counter }} de {{ product.gallery_items|length }}">{% include 'components/video.html' with video=slide.video %}</div>
+            <div class="gallery-slide" role="group" aria-label="V&iacute;deo {{ forloop.counter }} de {{ product.gallery_items|length }}">{% include 'components/video.html' with video=slide.video demonstration=True %}</div>
             {% else %}
             <button class="gallery-slide photo-slide" type="button" data-zoom="{{ slide.image.url }}" aria-label="Ampliar {{ product.nome }}, fotografia {{ forloop.counter }} de {{ product.gallery_items|length }}" title="Ampliar fotografia">
                 {% include 'components/responsive_image.html' with image=slide.image alt=product.nome priority=forloop.first sizes='(max-width: 600px) 100vw, 55vw' %}
@@ -28,4 +28,5 @@
         {% endfor %}
     </div>
     {% endif %}
+    {% if product.external_photo_source %}<p class="product-provenance">Fotos de referência: <a href="{{ product.external_photo_source }}" target="_blank" rel="noopener noreferrer">Poedagar&amp;Co.</a></p>{% endif %}
 </div>

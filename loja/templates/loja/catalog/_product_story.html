@@ -1,0 +1,15 @@
+{% if product.modelo == 'Montelux' %}
+<section class="product-story wrap" data-reveal>
+    <div class="story-grid">
+        <div><p class="eyebrow">O olhar VRAS / Poedagar Montelux</p><h2>Linhas fortes.<br><em>Escolha pessoal.</em></h2><p>A caixa geométrica e a pulseira de silicone compõem uma leitura esportiva. Prata, preto ou azul: encontre a combinação que faz sentido no seu pulso.</p></div>
+        <div class="story-panel"><strong>42 mm</strong><p>Diâmetro de caixa declarado pela referência. Perfil de 12 mm e peso informado de 88 g para ajudar a comparar as proporções antes de escolher.</p></div>
+    </div>
+</section>
+{% endif %}
+<section class="product-faq wrap" aria-labelledby="product-faq-title">
+    <p class="eyebrow">Antes de escolher</p><h2 id="product-faq-title">Os detalhes fazem a diferença.</h2>
+    <details><summary>Qual é a marca do relógio?</summary><p>O relógio é da marca Poedagar. A VRAS Watches é a loja que seleciona e comercializa os modelos; a fabricação permanece identificada com a marca original.</p></details>
+    {% if product.specifications %}<details><summary>Como consultar as medidas e os materiais?</summary><p>As características informadas estão na ficha técnica desta página. Elas foram registradas a partir da descrição pública do modelo; compare diâmetro, espessura e pulseira com um relógio que você já usa.</p></details>{% endif %}
+    {% if product.modelo == 'Montelux' %}<details><summary>O que significa a indicação de 3 ATM?</summary><p>É a classificação de resistência à pressão informada para o modelo. Antes de expor o relógio à água, consulte as orientações do fabricante e evite acionar os botões quando estiver molhado.</p></details>{% endif %}
+    <details><summary>Como tirar dúvidas sobre disponibilidade e entrega?</summary><p>Fale com a equipe VRAS pelo link de atendimento desta página para confirmar a disponibilidade, os itens que acompanham o modelo e as condições da sua compra.</p></details>
+</section>

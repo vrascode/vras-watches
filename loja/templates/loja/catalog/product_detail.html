@@ -3,38 +3,39 @@
 {% block title %}{{ product.nome }} | VRAS Watches{% endblock %}
 {% block body_class %}product-page{% endblock %}
 {% block content %}
-<nav class="breadcrumbs wrap" aria-label="Caminho da p&aacute;gina"><a href="{% url 'loja:home' %}">In&iacute;cio</a><span aria-hidden="true">/</span><a href="{% url 'loja:products' %}">Rel&oacute;gios</a><span aria-hidden="true">/</span><span>{{ product.nome }}</span></nav>
+<nav class="breadcrumbs wrap" aria-label="Caminho da página"><a href="{% url 'loja:home' %}">Início</a><span aria-hidden="true">/</span><a href="{% url 'loja:products' %}">Relógios</a><span aria-hidden="true">/</span><span>{{ product.modelo|default:product.nome }}</span></nav>
 <section class="product-detail wrap">
     {% include 'loja/catalog/_product_gallery.html' %}
     <div class="product-info">
-        <p class="eyebrow">{{ product.category_label }}{% if product.is_new %} / Lan&ccedil;amento{% endif %}</p>
+        <p class="eyebrow">Seleção VRAS Watches / {{ product.marca|default:'Poedagar' }}</p>
         <h1>{{ product.nome }}</h1>
         {% if product.verified_identity %}<p class="model-reference">{{ product.verified_identity.marca }} / {{ product.verified_identity.modelo }} / Ref. {{ product.verified_identity.referencia }}</p>{% endif %}
-        {% if product.can_purchase %}<p class="detail-price">{{ product.preco_brl }}</p>{% endif %}
+        {% if product.can_purchase or product.display_price %}<p class="detail-price">{{ product.preco_brl }}</p>{% endif %}
         <p class="detail-description">{{ product.descricao_detalhada|default:product.descricao }}</p>
-        {% if product.verified_variant %}
+        <p class="product-provenance">Marca original {{ product.marca|default:'Poedagar' }}. Seleção e atendimento VRAS Watches.</p>
+        {% if product.variant_options %}
         <div class="product-variants">
-            <p class="eyebrow">Cor e pulseira</p>
-            <p>{{ product.verified_variant.cor }} / {{ product.verified_variant.pulseira }}</p>
-            {% if product.variant_options|length > 1 %}
+            <p class="eyebrow">Escolha a cor <span aria-hidden="true">/</span> <span data-selected-color>{% if product.selected_color %}{{ product.selected_color }}{% else %}{{ product.verified_variant.cor }}{% endif %}</span></p>
             <nav class="variant-options" aria-label="Escolher cor e pulseira">
-                {% for option in product.variant_options %}<a href="{% url 'loja:product_detail' option.id %}" {% if option.selected %}aria-current="page"{% endif %}>{{ option.label }}</a>{% endfor %}
+                {% for option in product.variant_options %}<a href="{% if option.url %}{{ option.url }}{% else %}{% url 'loja:product_detail' option.id %}{% endif %}" {% if option.selected %}aria-current="page"{% endif %} data-variant-link data-variant-color="{{ option.label }}">{% if option.swatch %}<span class="variant-swatch" style="--swatch: {{ option.swatch }}" aria-hidden="true"></span>{% endif %}{{ option.label }}</a>{% endfor %}
             </nav>
-            {% endif %}
         </div>
-        {% endif %}
+        {% elif product.verified_variant %}<p class="product-provenance">{{ product.verified_variant.cor }} / {{ product.verified_variant.pulseira }}</p>{% endif %}
         {% if product.can_purchase %}<form class="detail-purchase" action="{% url 'loja:add_to_cart' product.id %}" method="post" data-add-cart>
             {% csrf_token %}<input type="hidden" name="next" value="{{ request.path }}">
             <span class="mobile-purchase-price" aria-hidden="true">{{ product.preco_brl }}</span><button class="button button-dark full-width" type="submit">Adicionar ao carrinho <span aria-hidden="true">+</span></button>
-        </form>{% endif %}
+        </form>{% elif product.is_reference_showcase %}<aside class="availability-note"><strong>Disponibilidade em breve</strong><p>Conheça as cores e os detalhes do modelo. Fale com a VRAS para consultar a disponibilidade.</p></aside>{% endif %}
         <div class="product-secondary-actions"><a href="{% url 'loja:cart' %}" class="text-link">Ver carrinho &#8594;</a><button class="text-link" type="button" data-share data-share-title="{{ product.nome }}" title="Compartilhar produto">Compartilhar &#8599;</button></div>
+        {% if product.is_reference_showcase %}<p><a class="text-link" href="{% url 'loja:poedagar_catalog' %}?modelo={{ product.modelo|urlencode }}">Imprimir catálogo deste modelo &#8599;</a></p>{% endif %}
+        {% if product.key_specs %}<dl class="key-specs">{% for spec in product.key_specs %}<div><dt>{{ spec.label }}</dt><dd>{{ spec.value }}</dd></div>{% endfor %}</dl>{% endif %}
         <details class="product-details" open>
-            <summary>Sobre o modelo</summary><p>{{ product.descricao }}</p>
-            <dl><div><dt>Cole&ccedil;&atilde;o</dt><dd>{{ product.category_label }}</dd></div>{% for key,value in product.specifications.items %}<div><dt>{{ key }}</dt><dd>{{ value }}</dd></div>{% endfor %}</dl>
+            <summary>Especificações técnicas</summary>
+            <dl><div><dt>Marca</dt><dd>{{ product.marca|default:'Poedagar' }}</dd></div><div><dt>Modelo</dt><dd>{{ product.modelo|default:product.nome }}</dd></div>{% for key,value in product.specifications.items %}<div><dt>{{ key }}</dt><dd>{{ value }}</dd></div>{% endfor %}</dl>
         </details>
         <a class="contact-link" href="https://wa.me/5563992254787" target="_blank" rel="noopener noreferrer">Fale com a VRAS sobre este modelo &#8599;</a>
     </div>
 </section>
-<section class="section wrap related"><div class="section-heading"><div><p class="eyebrow">Continue explorando</p><h2>Outros ritmos. Seu estilo.</h2></div><a class="text-link" href="{% url 'loja:products' %}">Ver todos &#8599;</a></div><div class="product-grid">{% for product in related_products %}{% include 'loja/catalog/_product_card.html' %}{% endfor %}</div></section>
+{% include 'loja/catalog/_product_story.html' %}
+{% if related_products %}<section class="section wrap related"><div class="section-heading"><div><p class="eyebrow">Continue explorando</p><h2>Outros ritmos. Seu estilo.</h2></div><a class="text-link" href="{% url 'loja:products' %}">Ver todos &#8599;</a></div><div class="product-grid">{% for product in related_products %}{% include 'loja/catalog/_product_card.html' %}{% endfor %}</div></section>{% endif %}
 {% if product_schema %}{% product_json_ld product_schema %}{% endif %}
 {% endblock %}
