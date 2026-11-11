@@ -36,8 +36,12 @@ class Command(BaseCommand):
         except (KeyError, ValueError, TypeError) as error:
             raise CommandError("Refaça scripts/verify_poedagar_prices.py antes de aplicar preços.") from error
         local_day = now.astimezone(ZoneInfo("America/Sao_Paulo")).date().isoformat()
-        updated, errors = [], []
+        updated, errors, skipped = [], [], []
         for product in catalog:
+            if product.get("reference_import"):
+                updated.append(copy.deepcopy(product))
+                skipped.append(product["id"])
+                continue
             try:
                 item = price_update(product, evidence.get(product["id"], {}), options["approval_record"], local_day)
                 updated.append(item)
@@ -63,7 +67,8 @@ class Command(BaseCommand):
                     published.append(product["id"])
             if published:
                 self.write_catalog(target, updated)
-        self.stdout.write(json.dumps({"applied": options["apply"], "updated_prices": len(updated) - len(errors),
+        self.stdout.write(json.dumps({"applied": options["apply"], "updated_prices": len(updated) - len(errors) - len(skipped),
+                                     "skipped_other_source": skipped,
                                      "published_products": published, "pending": errors}, ensure_ascii=True))
 
     @staticmethod

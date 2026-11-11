@@ -2986,5 +2986,3492 @@
       "fotografias originais autorizadas por variante",
       "confirmação da oferta VRAS sem inferir estoque da fonte"
     ]
+  },
+  {
+    "id": 25,
+    "status": "rascunho",
+    "oferta_confirmada": false,
+    "galeria": [],
+    "videos": [],
+    "imagem": null,
+    "variante": {
+      "confirmada": false,
+      "source_variant_id": 244529414451648,
+      "cor": "Prata",
+      "pulseira": "",
+      "fonte": "https://poedagareco.com/products/relogio-poedagar-montelux%C2%AE"
+    },
+    "identificacao": {
+      "confirmada": false
+    },
+    "referencia": null,
+    "reference_key": "https://poedagareco.com/products/relogio-poedagar-montelux%C2%AE#prata",
+    "reference_import": true,
+    "source_model_url": "https://poedagareco.com/products/relogio-poedagar-montelux%C2%AE",
+    "source_id_kind": "derived_observation_id",
+    "slug": "montelux-prata",
+    "nome": "Poedagar Montelux — Prata",
+    "marca": "Poedagar",
+    "modelo": "Montelux",
+    "catalog_generation": "poedagar-v1",
+    "preco": 259.0,
+    "categoria": "Poedagar",
+    "destaque": true,
+    "descricao": "Geometria marcante, caixa de aço e pulseira de silicone. Um Poedagar de linhas esportivas, escolhido para a seleção VRAS Watches.",
+    "reference_color": "Prata",
+    "source_available": null,
+    "fontes": {
+      "url_modelo_e_preco": "https://poedagareco.com/products/relogio-poedagar-montelux%C2%AE",
+      "consulta_UTC": "2026-11-10",
+      "nome_comercial_verificado": true,
+      "referencia_fabricante_verificada": false
+    },
+    "variantes_fonte": [
+      {
+        "source_sku_id": 244529414451648,
+        "title": "Prata",
+        "price_brl": 259.0,
+        "source_available": null
+      }
+    ],
+    "especificacoes": {
+      "Movimento": {
+        "valor": "Quartzo",
+        "fonte": "https://poedagareco.com/products/relogio-poedagar-montelux%C2%AE",
+        "confirmada": true,
+        "verification_scope": "retailer_statement"
+      },
+      "Material da caixa": {
+        "valor": "Aço inoxidável",
+        "fonte": "https://poedagareco.com/products/relogio-poedagar-montelux%C2%AE",
+        "confirmada": true,
+        "verification_scope": "retailer_statement"
+      },
+      "Resistência à água": {
+        "valor": "3 ATM",
+        "fonte": "https://poedagareco.com/products/relogio-poedagar-montelux%C2%AE",
+        "confirmada": true,
+        "verification_scope": "retailer_statement"
+      },
+      "Diâmetro da caixa": {
+        "valor": "42 mm",
+        "fonte": "https://poedagareco.com/products/relogio-poedagar-montelux%C2%AE",
+        "confirmada": true,
+        "verification_scope": "retailer_statement"
+      },
+      "Espessura da caixa": {
+        "valor": "12 mm",
+        "fonte": "https://poedagareco.com/products/relogio-poedagar-montelux%C2%AE",
+        "confirmada": true,
+        "verification_scope": "retailer_statement"
+      },
+      "Peso": {
+        "valor": "88 g",
+        "fonte": "https://poedagareco.com/products/relogio-poedagar-montelux%C2%AE",
+        "confirmada": true,
+        "verification_scope": "retailer_statement"
+      },
+      "Material da pulseira": {
+        "valor": "Silicone",
+        "fonte": "https://poedagareco.com/products/relogio-poedagar-montelux%C2%AE",
+        "confirmada": true,
+        "verification_scope": "retailer_statement"
+      },
+      "Vidro": {
+        "valor": "Hardlex",
+        "fonte": "https://poedagareco.com/products/relogio-poedagar-montelux%C2%AE",
+        "confirmada": true,
+        "verification_scope": "retailer_statement"
+      },
+      "Fecho": {
+        "valor": "Fivela",
+        "fonte": "https://poedagareco.com/products/relogio-poedagar-montelux%C2%AE",
+        "confirmada": true,
+        "verification_scope": "retailer_statement"
+      },
+      "Formato da caixa": {
+        "valor": "Geométrico / quadrado",
+        "fonte": "https://poedagareco.com/products/relogio-poedagar-montelux%C2%AE",
+        "confirmada": true,
+        "verification_scope": "retailer_statement"
+      },
+      "Largura da pulseira": {
+        "valor": "26 mm",
+        "fonte": "https://poedagareco.com/products/relogio-poedagar-montelux%C2%AE",
+        "confirmada": true,
+        "verification_scope": "retailer_statement"
+      },
+      "Comprimento da pulseira": {
+        "valor": "24 cm",
+        "fonte": "https://poedagareco.com/products/relogio-poedagar-montelux%C2%AE",
+        "confirmada": true,
+        "verification_scope": "retailer_statement"
+      }
+    },
+    "aprovacao_preco": {
+      "aprovado": true,
+      "valor": "259.00",
+      "data": "2026-11-10",
+      "registro": "Solicitação expressa do proprietário em 2026-11-10: aplicar o preço unitário público da referência à VRAS Watches.",
+      "source_variant_id": 244529414451648,
+      "fonte": "https://poedagareco.com/products/relogio-poedagar-montelux%C2%AE",
+      "consulta_UTC": "2026-11-10"
+    },
+    "pendencias": [
+      "Confirmar referência e variante do produto fornecido",
+      "Importar mídias correspondentes",
+      "Confirmar atendimento da oferta VRAS"
+    ],
+    "source_handle": "relogio-poedagar-montelux®"
+  },
+  {
+    "id": 26,
+    "status": "rascunho",
+    "oferta_confirmada": false,
+    "galeria": [],
+    "videos": [],
+    "imagem": null,
+    "variante": {
+      "confirmada": false,
+      "source_variant_id": 96154525093039,
+      "cor": "Preto",
+      "pulseira": "",
+      "fonte": "https://poedagareco.com/products/relogio-poedagar-montelux%C2%AE"
+    },
+    "identificacao": {
+      "confirmada": false
+    },
+    "referencia": null,
+    "reference_key": "https://poedagareco.com/products/relogio-poedagar-montelux%C2%AE#preto",
+    "reference_import": true,
+    "source_model_url": "https://poedagareco.com/products/relogio-poedagar-montelux%C2%AE",
+    "source_id_kind": "derived_observation_id",
+    "slug": "montelux-preto",
+    "nome": "Poedagar Montelux — Preto",
+    "marca": "Poedagar",
+    "modelo": "Montelux",
+    "catalog_generation": "poedagar-v1",
+    "preco": 259.0,
+    "categoria": "Poedagar",
+    "destaque": true,
+    "descricao": "Geometria marcante, caixa de aço e pulseira de silicone. Um Poedagar de linhas esportivas, escolhido para a seleção VRAS Watches.",
+    "reference_color": "Preto",
+    "source_available": null,
+    "fontes": {
+      "url_modelo_e_preco": "https://poedagareco.com/products/relogio-poedagar-montelux%C2%AE",
+      "consulta_UTC": "2026-11-10",
+      "nome_comercial_verificado": true,
+      "referencia_fabricante_verificada": false
+    },
+    "variantes_fonte": [
+      {
+        "source_sku_id": 96154525093039,
+        "title": "Preto",
+        "price_brl": 259.0,
+        "source_available": null
+      }
+    ],
+    "especificacoes": {
+      "Movimento": {
+        "valor": "Quartzo",
+        "fonte": "https://poedagareco.com/products/relogio-poedagar-montelux%C2%AE",
+        "confirmada": true,
+        "verification_scope": "retailer_statement"
+      },
+      "Material da caixa": {
+        "valor": "Aço inoxidável",
+        "fonte": "https://poedagareco.com/products/relogio-poedagar-montelux%C2%AE",
+        "confirmada": true,
+        "verification_scope": "retailer_statement"
+      },
+      "Resistência à água": {
+        "valor": "3 ATM",
+        "fonte": "https://poedagareco.com/products/relogio-poedagar-montelux%C2%AE",
+        "confirmada": true,
+        "verification_scope": "retailer_statement"
+      },
+      "Diâmetro da caixa": {
+        "valor": "42 mm",
+        "fonte": "https://poedagareco.com/products/relogio-poedagar-montelux%C2%AE",
+        "confirmada": true,
+        "verification_scope": "retailer_statement"
+      },
+      "Espessura da caixa": {
+        "valor": "12 mm",
+        "fonte": "https://poedagareco.com/products/relogio-poedagar-montelux%C2%AE",
+        "confirmada": true,
+        "verification_scope": "retailer_statement"
+      },
+      "Peso": {
+        "valor": "88 g",
+        "fonte": "https://poedagareco.com/products/relogio-poedagar-montelux%C2%AE",
+        "confirmada": true,
+        "verification_scope": "retailer_statement"
+      },
+      "Material da pulseira": {
+        "valor": "Silicone",
+        "fonte": "https://poedagareco.com/products/relogio-poedagar-montelux%C2%AE",
+        "confirmada": true,
+        "verification_scope": "retailer_statement"
+      },
+      "Vidro": {
+        "valor": "Hardlex",
+        "fonte": "https://poedagareco.com/products/relogio-poedagar-montelux%C2%AE",
+        "confirmada": true,
+        "verification_scope": "retailer_statement"
+      },
+      "Fecho": {
+        "valor": "Fivela",
+        "fonte": "https://poedagareco.com/products/relogio-poedagar-montelux%C2%AE",
+        "confirmada": true,
+        "verification_scope": "retailer_statement"
+      },
+      "Formato da caixa": {
+        "valor": "Geométrico / quadrado",
+        "fonte": "https://poedagareco.com/products/relogio-poedagar-montelux%C2%AE",
+        "confirmada": true,
+        "verification_scope": "retailer_statement"
+      },
+      "Largura da pulseira": {
+        "valor": "26 mm",
+        "fonte": "https://poedagareco.com/products/relogio-poedagar-montelux%C2%AE",
+        "confirmada": true,
+        "verification_scope": "retailer_statement"
+      },
+      "Comprimento da pulseira": {
+        "valor": "24 cm",
+        "fonte": "https://poedagareco.com/products/relogio-poedagar-montelux%C2%AE",
+        "confirmada": true,
+        "verification_scope": "retailer_statement"
+      }
+    },
+    "aprovacao_preco": {
+      "aprovado": true,
+      "valor": "259.00",
+      "data": "2026-11-10",
+      "registro": "Solicitação expressa do proprietário em 2026-11-10: aplicar o preço unitário público da referência à VRAS Watches.",
+      "source_variant_id": 96154525093039,
+      "fonte": "https://poedagareco.com/products/relogio-poedagar-montelux%C2%AE",
+      "consulta_UTC": "2026-11-10"
+    },
+    "pendencias": [
+      "Confirmar referência e variante do produto fornecido",
+      "Importar mídias correspondentes",
+      "Confirmar atendimento da oferta VRAS"
+    ],
+    "source_handle": "relogio-poedagar-montelux®"
+  },
+  {
+    "id": 27,
+    "status": "rascunho",
+    "oferta_confirmada": false,
+    "galeria": [],
+    "videos": [],
+    "imagem": null,
+    "variante": {
+      "confirmada": false,
+      "source_variant_id": 202252870261216,
+      "cor": "Azul",
+      "pulseira": "",
+      "fonte": "https://poedagareco.com/products/relogio-poedagar-montelux%C2%AE"
+    },
+    "identificacao": {
+      "confirmada": false
+    },
+    "referencia": null,
+    "reference_key": "https://poedagareco.com/products/relogio-poedagar-montelux%C2%AE#azul",
+    "reference_import": true,
+    "source_model_url": "https://poedagareco.com/products/relogio-poedagar-montelux%C2%AE",
+    "source_id_kind": "derived_observation_id",
+    "slug": "montelux-azul",
+    "nome": "Poedagar Montelux — Azul",
+    "marca": "Poedagar",
+    "modelo": "Montelux",
+    "catalog_generation": "poedagar-v1",
+    "preco": 259.0,
+    "categoria": "Poedagar",
+    "destaque": true,
+    "descricao": "Geometria marcante, caixa de aço e pulseira de silicone. Um Poedagar de linhas esportivas, escolhido para a seleção VRAS Watches.",
+    "reference_color": "Azul",
+    "source_available": null,
+    "fontes": {
+      "url_modelo_e_preco": "https://poedagareco.com/products/relogio-poedagar-montelux%C2%AE",
+      "consulta_UTC": "2026-11-10",
+      "nome_comercial_verificado": true,
+      "referencia_fabricante_verificada": false
+    },
+    "variantes_fonte": [
+      {
+        "source_sku_id": 202252870261216,
+        "title": "Azul",
+        "price_brl": 259.0,
+        "source_available": null
+      }
+    ],
+    "especificacoes": {
+      "Movimento": {
+        "valor": "Quartzo",
+        "fonte": "https://poedagareco.com/products/relogio-poedagar-montelux%C2%AE",
+        "confirmada": true,
+        "verification_scope": "retailer_statement"
+      },
+      "Material da caixa": {
+        "valor": "Aço inoxidável",
+        "fonte": "https://poedagareco.com/products/relogio-poedagar-montelux%C2%AE",
+        "confirmada": true,
+        "verification_scope": "retailer_statement"
+      },
+      "Resistência à água": {
+        "valor": "3 ATM",
+        "fonte": "https://poedagareco.com/products/relogio-poedagar-montelux%C2%AE",
+        "confirmada": true,
+        "verification_scope": "retailer_statement"
+      },
+      "Diâmetro da caixa": {
+        "valor": "42 mm",
+        "fonte": "https://poedagareco.com/products/relogio-poedagar-montelux%C2%AE",
+        "confirmada": true,
+        "verification_scope": "retailer_statement"
+      },
+      "Espessura da caixa": {
+        "valor": "12 mm",
+        "fonte": "https://poedagareco.com/products/relogio-poedagar-montelux%C2%AE",
+        "confirmada": true,
+        "verification_scope": "retailer_statement"
+      },
+      "Peso": {
+        "valor": "88 g",
+        "fonte": "https://poedagareco.com/products/relogio-poedagar-montelux%C2%AE",
+        "confirmada": true,
+        "verification_scope": "retailer_statement"
+      },
+      "Material da pulseira": {
+        "valor": "Silicone",
+        "fonte": "https://poedagareco.com/products/relogio-poedagar-montelux%C2%AE",
+        "confirmada": true,
+        "verification_scope": "retailer_statement"
+      },
+      "Vidro": {
+        "valor": "Hardlex",
+        "fonte": "https://poedagareco.com/products/relogio-poedagar-montelux%C2%AE",
+        "confirmada": true,
+        "verification_scope": "retailer_statement"
+      },
+      "Fecho": {
+        "valor": "Fivela",
+        "fonte": "https://poedagareco.com/products/relogio-poedagar-montelux%C2%AE",
+        "confirmada": true,
+        "verification_scope": "retailer_statement"
+      },
+      "Formato da caixa": {
+        "valor": "Geométrico / quadrado",
+        "fonte": "https://poedagareco.com/products/relogio-poedagar-montelux%C2%AE",
+        "confirmada": true,
+        "verification_scope": "retailer_statement"
+      },
+      "Largura da pulseira": {
+        "valor": "26 mm",
+        "fonte": "https://poedagareco.com/products/relogio-poedagar-montelux%C2%AE",
+        "confirmada": true,
+        "verification_scope": "retailer_statement"
+      },
+      "Comprimento da pulseira": {
+        "valor": "24 cm",
+        "fonte": "https://poedagareco.com/products/relogio-poedagar-montelux%C2%AE",
+        "confirmada": true,
+        "verification_scope": "retailer_statement"
+      }
+    },
+    "aprovacao_preco": {
+      "aprovado": true,
+      "valor": "259.00",
+      "data": "2026-11-10",
+      "registro": "Solicitação expressa do proprietário em 2026-11-10: aplicar o preço unitário público da referência à VRAS Watches.",
+      "source_variant_id": 202252870261216,
+      "fonte": "https://poedagareco.com/products/relogio-poedagar-montelux%C2%AE",
+      "consulta_UTC": "2026-11-10"
+    },
+    "pendencias": [
+      "Confirmar referência e variante do produto fornecido",
+      "Importar mídias correspondentes",
+      "Confirmar atendimento da oferta VRAS"
+    ],
+    "source_handle": "relogio-poedagar-montelux®"
+  },
+  {
+    "id": 28,
+    "status": "rascunho",
+    "oferta_confirmada": false,
+    "galeria": [],
+    "videos": [],
+    "imagem": null,
+    "variante": {
+      "confirmada": false,
+      "source_variant_id": 115457936395488,
+      "cor": "Verde",
+      "pulseira": "",
+      "fonte": "https://poedagareco.com/products/relogio-poedagar-signature"
+    },
+    "identificacao": {
+      "confirmada": false
+    },
+    "referencia": null,
+    "reference_key": "https://poedagareco.com/products/relogio-poedagar-signature#verde",
+    "reference_import": true,
+    "source_model_url": "https://poedagareco.com/products/relogio-poedagar-signature",
+    "source_id_kind": "derived_observation_id",
+    "slug": "signature-verde",
+    "nome": "Poedagar Signature — Verde",
+    "marca": "Poedagar",
+    "modelo": "Signature",
+    "catalog_generation": "poedagar-v1",
+    "preco": 249.0,
+    "categoria": "Poedagar",
+    "destaque": false,
+    "descricao": "Linhas clássicas e mostradores em diferentes cores. Conheça o Poedagar Signature na seleção VRAS Watches.",
+    "reference_color": "Verde",
+    "source_available": null,
+    "fontes": {
+      "url_modelo_e_preco": "https://poedagareco.com/products/relogio-poedagar-signature",
+      "consulta_UTC": "2026-11-10",
+      "nome_comercial_verificado": true,
+      "referencia_fabricante_verificada": false
+    },
+    "variantes_fonte": [
+      {
+        "source_sku_id": 115457936395488,
+        "title": "Verde",
+        "price_brl": 249.0,
+        "source_available": null
+      }
+    ],
+    "especificacoes": {
+      "Movimento": {
+        "valor": "Quartzo",
+        "fonte": "https://poedagareco.com/products/relogio-poedagar-signature",
+        "confirmada": true,
+        "verification_scope": "retailer_statement"
+      },
+      "Material da caixa": {
+        "valor": "Aço inoxidável",
+        "fonte": "https://poedagareco.com/products/relogio-poedagar-signature",
+        "confirmada": true,
+        "verification_scope": "retailer_statement"
+      },
+      "Material da pulseira": {
+        "valor": "Aço inoxidável",
+        "fonte": "https://poedagareco.com/products/relogio-poedagar-signature",
+        "confirmada": true,
+        "verification_scope": "retailer_statement"
+      },
+      "Vidro": {
+        "valor": "Hardlex",
+        "fonte": "https://poedagareco.com/products/relogio-poedagar-signature",
+        "confirmada": true,
+        "verification_scope": "retailer_statement"
+      },
+      "Diâmetro da caixa": {
+        "valor": "40 mm",
+        "fonte": "https://poedagareco.com/products/relogio-poedagar-signature",
+        "confirmada": true,
+        "verification_scope": "retailer_statement"
+      },
+      "Espessura da caixa": {
+        "valor": "11 mm",
+        "fonte": "https://poedagareco.com/products/relogio-poedagar-signature",
+        "confirmada": true,
+        "verification_scope": "retailer_statement"
+      },
+      "Largura da pulseira": {
+        "valor": "20 mm",
+        "fonte": "https://poedagareco.com/products/relogio-poedagar-signature",
+        "confirmada": true,
+        "verification_scope": "retailer_statement"
+      },
+      "Comprimento da pulseira": {
+        "valor": "24 cm",
+        "fonte": "https://poedagareco.com/products/relogio-poedagar-signature",
+        "confirmada": true,
+        "verification_scope": "retailer_statement"
+      }
+    },
+    "aprovacao_preco": {
+      "aprovado": true,
+      "valor": "249.00",
+      "data": "2026-11-10",
+      "registro": "Solicitação expressa do proprietário em 2026-11-10: aplicar o preço unitário público da referência à VRAS Watches.",
+      "source_variant_id": 115457936395488,
+      "fonte": "https://poedagareco.com/products/relogio-poedagar-signature",
+      "consulta_UTC": "2026-11-10"
+    },
+    "pendencias": [
+      "Confirmar referência e variante do produto fornecido",
+      "Importar mídias correspondentes",
+      "Confirmar atendimento da oferta VRAS"
+    ],
+    "source_handle": "relogio-poedagar-signature"
+  },
+  {
+    "id": 29,
+    "status": "rascunho",
+    "oferta_confirmada": false,
+    "galeria": [],
+    "videos": [],
+    "imagem": null,
+    "variante": {
+      "confirmada": false,
+      "source_variant_id": 226689935345613,
+      "cor": "Branco",
+      "pulseira": "",
+      "fonte": "https://poedagareco.com/products/relogio-poedagar-signature"
+    },
+    "identificacao": {
+      "confirmada": false
+    },
+    "referencia": null,
+    "reference_key": "https://poedagareco.com/products/relogio-poedagar-signature#branco",
+    "reference_import": true,
+    "source_model_url": "https://poedagareco.com/products/relogio-poedagar-signature",
+    "source_id_kind": "derived_observation_id",
+    "slug": "signature-branco",
+    "nome": "Poedagar Signature — Branco",
+    "marca": "Poedagar",
+    "modelo": "Signature",
+    "catalog_generation": "poedagar-v1",
+    "preco": 249.0,
+    "categoria": "Poedagar",
+    "destaque": false,
+    "descricao": "Linhas clássicas e mostradores em diferentes cores. Conheça o Poedagar Signature na seleção VRAS Watches.",
+    "reference_color": "Branco",
+    "source_available": null,
+    "fontes": {
+      "url_modelo_e_preco": "https://poedagareco.com/products/relogio-poedagar-signature",
+      "consulta_UTC": "2026-11-10",
+      "nome_comercial_verificado": true,
+      "referencia_fabricante_verificada": false
+    },
+    "variantes_fonte": [
+      {
+        "source_sku_id": 226689935345613,
+        "title": "Branco",
+        "price_brl": 249.0,
+        "source_available": null
+      }
+    ],
+    "especificacoes": {
+      "Movimento": {
+        "valor": "Quartzo",
+        "fonte": "https://poedagareco.com/products/relogio-poedagar-signature",
+        "confirmada": true,
+        "verification_scope": "retailer_statement"
+      },
+      "Material da caixa": {
+        "valor": "Aço inoxidável",
+        "fonte": "https://poedagareco.com/products/relogio-poedagar-signature",
+        "confirmada": true,
+        "verification_scope": "retailer_statement"
+      },
+      "Material da pulseira": {
+        "valor": "Aço inoxidável",
+        "fonte": "https://poedagareco.com/products/relogio-poedagar-signature",
+        "confirmada": true,
+        "verification_scope": "retailer_statement"
+      },
+      "Vidro": {
+        "valor": "Hardlex",
+        "fonte": "https://poedagareco.com/products/relogio-poedagar-signature",
+        "confirmada": true,
+        "verification_scope": "retailer_statement"
+      },
+      "Diâmetro da caixa": {
+        "valor": "40 mm",
+        "fonte": "https://poedagareco.com/products/relogio-poedagar-signature",
+        "confirmada": true,
+        "verification_scope": "retailer_statement"
+      },
+      "Espessura da caixa": {
+        "valor": "11 mm",
+        "fonte": "https://poedagareco.com/products/relogio-poedagar-signature",
+        "confirmada": true,
+        "verification_scope": "retailer_statement"
+      },
+      "Largura da pulseira": {
+        "valor": "20 mm",
+        "fonte": "https://poedagareco.com/products/relogio-poedagar-signature",
+        "confirmada": true,
+        "verification_scope": "retailer_statement"
+      },
+      "Comprimento da pulseira": {
+        "valor": "24 cm",
+        "fonte": "https://poedagareco.com/products/relogio-poedagar-signature",
+        "confirmada": true,
+        "verification_scope": "retailer_statement"
+      }
+    },
+    "aprovacao_preco": {
+      "aprovado": true,
+      "valor": "249.00",
+      "data": "2026-11-10",
+      "registro": "Solicitação expressa do proprietário em 2026-11-10: aplicar o preço unitário público da referência à VRAS Watches.",
+      "source_variant_id": 226689935345613,
+      "fonte": "https://poedagareco.com/products/relogio-poedagar-signature",
+      "consulta_UTC": "2026-11-10"
+    },
+    "pendencias": [
+      "Confirmar referência e variante do produto fornecido",
+      "Importar mídias correspondentes",
+      "Confirmar atendimento da oferta VRAS"
+    ],
+    "source_handle": "relogio-poedagar-signature"
+  },
+  {
+    "id": 30,
+    "status": "rascunho",
+    "oferta_confirmada": false,
+    "galeria": [],
+    "videos": [],
+    "imagem": null,
+    "variante": {
+      "confirmada": false,
+      "source_variant_id": 90149075728623,
+      "cor": "Preto",
+      "pulseira": "",
+      "fonte": "https://poedagareco.com/products/relogio-poedagar-signature"
+    },
+    "identificacao": {
+      "confirmada": false
+    },
+    "referencia": null,
+    "reference_key": "https://poedagareco.com/products/relogio-poedagar-signature#preto",
+    "reference_import": true,
+    "source_model_url": "https://poedagareco.com/products/relogio-poedagar-signature",
+    "source_id_kind": "derived_observation_id",
+    "slug": "signature-preto",
+    "nome": "Poedagar Signature — Preto",
+    "marca": "Poedagar",
+    "modelo": "Signature",
+    "catalog_generation": "poedagar-v1",
+    "preco": 249.0,
+    "categoria": "Poedagar",
+    "destaque": false,
+    "descricao": "Linhas clássicas e mostradores em diferentes cores. Conheça o Poedagar Signature na seleção VRAS Watches.",
+    "reference_color": "Preto",
+    "source_available": null,
+    "fontes": {
+      "url_modelo_e_preco": "https://poedagareco.com/products/relogio-poedagar-signature",
+      "consulta_UTC": "2026-11-10",
+      "nome_comercial_verificado": true,
+      "referencia_fabricante_verificada": false
+    },
+    "variantes_fonte": [
+      {
+        "source_sku_id": 90149075728623,
+        "title": "Preto",
+        "price_brl": 249.0,
+        "source_available": null
+      }
+    ],
+    "especificacoes": {
+      "Movimento": {
+        "valor": "Quartzo",
+        "fonte": "https://poedagareco.com/products/relogio-poedagar-signature",
+        "confirmada": true,
+        "verification_scope": "retailer_statement"
+      },
+      "Material da caixa": {
+        "valor": "Aço inoxidável",
+        "fonte": "https://poedagareco.com/products/relogio-poedagar-signature",
+        "confirmada": true,
+        "verification_scope": "retailer_statement"
+      },
+      "Material da pulseira": {
+        "valor": "Aço inoxidável",
+        "fonte": "https://poedagareco.com/products/relogio-poedagar-signature",
+        "confirmada": true,
+        "verification_scope": "retailer_statement"
+      },
+      "Vidro": {
+        "valor": "Hardlex",
+        "fonte": "https://poedagareco.com/products/relogio-poedagar-signature",
+        "confirmada": true,
+        "verification_scope": "retailer_statement"
+      },
+      "Diâmetro da caixa": {
+        "valor": "40 mm",
+        "fonte": "https://poedagareco.com/products/relogio-poedagar-signature",
+        "confirmada": true,
+        "verification_scope": "retailer_statement"
+      },
+      "Espessura da caixa": {
+        "valor": "11 mm",
+        "fonte": "https://poedagareco.com/products/relogio-poedagar-signature",
+        "confirmada": true,
+        "verification_scope": "retailer_statement"
+      },
+      "Largura da pulseira": {
+        "valor": "20 mm",
+        "fonte": "https://poedagareco.com/products/relogio-poedagar-signature",
+        "confirmada": true,
+        "verification_scope": "retailer_statement"
+      },
+      "Comprimento da pulseira": {
+        "valor": "24 cm",
+        "fonte": "https://poedagareco.com/products/relogio-poedagar-signature",
+        "confirmada": true,
+        "verification_scope": "retailer_statement"
+      }
+    },
+    "aprovacao_preco": {
+      "aprovado": true,
+      "valor": "249.00",
+      "data": "2026-11-10",
+      "registro": "Solicitação expressa do proprietário em 2026-11-10: aplicar o preço unitário público da referência à VRAS Watches.",
+      "source_variant_id": 90149075728623,
+      "fonte": "https://poedagareco.com/products/relogio-poedagar-signature",
+      "consulta_UTC": "2026-11-10"
+    },
+    "pendencias": [
+      "Confirmar referência e variante do produto fornecido",
+      "Importar mídias correspondentes",
+      "Confirmar atendimento da oferta VRAS"
+    ],
+    "source_handle": "relogio-poedagar-signature"
+  },
+  {
+    "id": 31,
+    "status": "rascunho",
+    "oferta_confirmada": false,
+    "galeria": [],
+    "videos": [],
+    "imagem": null,
+    "variante": {
+      "confirmada": false,
+      "source_variant_id": 215574113901918,
+      "cor": "Azul",
+      "pulseira": "",
+      "fonte": "https://poedagareco.com/products/relogio-poedagar-signature"
+    },
+    "identificacao": {
+      "confirmada": false
+    },
+    "referencia": null,
+    "reference_key": "https://poedagareco.com/products/relogio-poedagar-signature#azul",
+    "reference_import": true,
+    "source_model_url": "https://poedagareco.com/products/relogio-poedagar-signature",
+    "source_id_kind": "derived_observation_id",
+    "slug": "signature-azul",
+    "nome": "Poedagar Signature — Azul",
+    "marca": "Poedagar",
+    "modelo": "Signature",
+    "catalog_generation": "poedagar-v1",
+    "preco": 249.0,
+    "categoria": "Poedagar",
+    "destaque": false,
+    "descricao": "Linhas clássicas e mostradores em diferentes cores. Conheça o Poedagar Signature na seleção VRAS Watches.",
+    "reference_color": "Azul",
+    "source_available": null,
+    "fontes": {
+      "url_modelo_e_preco": "https://poedagareco.com/products/relogio-poedagar-signature",
+      "consulta_UTC": "2026-11-10",
+      "nome_comercial_verificado": true,
+      "referencia_fabricante_verificada": false
+    },
+    "variantes_fonte": [
+      {
+        "source_sku_id": 215574113901918,
+        "title": "Azul",
+        "price_brl": 249.0,
+        "source_available": null
+      }
+    ],
+    "especificacoes": {
+      "Movimento": {
+        "valor": "Quartzo",
+        "fonte": "https://poedagareco.com/products/relogio-poedagar-signature",
+        "confirmada": true,
+        "verification_scope": "retailer_statement"
+      },
+      "Material da caixa": {
+        "valor": "Aço inoxidável",
+        "fonte": "https://poedagareco.com/products/relogio-poedagar-signature",
+        "confirmada": true,
+        "verification_scope": "retailer_statement"
+      },
+      "Material da pulseira": {
+        "valor": "Aço inoxidável",
+        "fonte": "https://poedagareco.com/products/relogio-poedagar-signature",
+        "confirmada": true,
+        "verification_scope": "retailer_statement"
+      },
+      "Vidro": {
+        "valor": "Hardlex",
+        "fonte": "https://poedagareco.com/products/relogio-poedagar-signature",
+        "confirmada": true,
+        "verification_scope": "retailer_statement"
+      },
+      "Diâmetro da caixa": {
+        "valor": "40 mm",
+        "fonte": "https://poedagareco.com/products/relogio-poedagar-signature",
+        "confirmada": true,
+        "verification_scope": "retailer_statement"
+      },
+      "Espessura da caixa": {
+        "valor": "11 mm",
+        "fonte": "https://poedagareco.com/products/relogio-poedagar-signature",
+        "confirmada": true,
+        "verification_scope": "retailer_statement"
+      },
+      "Largura da pulseira": {
+        "valor": "20 mm",
+        "fonte": "https://poedagareco.com/products/relogio-poedagar-signature",
+        "confirmada": true,
+        "verification_scope": "retailer_statement"
+      },
+      "Comprimento da pulseira": {
+        "valor": "24 cm",
+        "fonte": "https://poedagareco.com/products/relogio-poedagar-signature",
+        "confirmada": true,
+        "verification_scope": "retailer_statement"
+      }
+    },
+    "aprovacao_preco": {
+      "aprovado": true,
+      "valor": "249.00",
+      "data": "2026-11-10",
+      "registro": "Solicitação expressa do proprietário em 2026-11-10: aplicar o preço unitário público da referência à VRAS Watches.",
+      "source_variant_id": 215574113901918,
+      "fonte": "https://poedagareco.com/products/relogio-poedagar-signature",
+      "consulta_UTC": "2026-11-10"
+    },
+    "pendencias": [
+      "Confirmar referência e variante do produto fornecido",
+      "Importar mídias correspondentes",
+      "Confirmar atendimento da oferta VRAS"
+    ],
+    "source_handle": "relogio-poedagar-signature"
+  },
+  {
+    "id": 32,
+    "status": "rascunho",
+    "oferta_confirmada": false,
+    "galeria": [],
+    "videos": [],
+    "imagem": null,
+    "variante": {
+      "confirmada": false,
+      "source_variant_id": 104292918688468,
+      "cor": "Prata e Azul",
+      "pulseira": "",
+      "fonte": "https://poedagareco.com/products/relogio-poedagar-latittude"
+    },
+    "identificacao": {
+      "confirmada": false
+    },
+    "referencia": null,
+    "reference_key": "https://poedagareco.com/products/relogio-poedagar-latittude#prata e azul",
+    "reference_import": true,
+    "source_model_url": "https://poedagareco.com/products/relogio-poedagar-latittude",
+    "source_id_kind": "derived_observation_id",
+    "slug": "latittude-prata-e-azul",
+    "nome": "Poedagar Latittude — Prata e Azul",
+    "marca": "Poedagar",
+    "modelo": "Latittude",
+    "catalog_generation": "poedagar-v1",
+    "preco": 249.0,
+    "categoria": "Poedagar",
+    "destaque": false,
+    "descricao": "Combinações de cores para uma escolha pessoal. Explore o Poedagar Latittude com o olhar da VRAS Watches.",
+    "reference_color": "Prata e Azul",
+    "source_available": null,
+    "fontes": {
+      "url_modelo_e_preco": "https://poedagareco.com/products/relogio-poedagar-latittude",
+      "consulta_UTC": "2026-11-10",
+      "nome_comercial_verificado": true,
+      "referencia_fabricante_verificada": false
+    },
+    "variantes_fonte": [
+      {
+        "source_sku_id": 104292918688468,
+        "title": "Prata e Azul",
+        "price_brl": 249.0,
+        "source_available": null
+      }
+    ],
+    "especificacoes": {},
+    "aprovacao_preco": {
+      "aprovado": true,
+      "valor": "249.00",
+      "data": "2026-11-10",
+      "registro": "Solicitação expressa do proprietário em 2026-11-10: aplicar o preço unitário público da referência à VRAS Watches.",
+      "source_variant_id": 104292918688468,
+      "fonte": "https://poedagareco.com/products/relogio-poedagar-latittude",
+      "consulta_UTC": "2026-11-10"
+    },
+    "pendencias": [
+      "Confirmar referência e variante do produto fornecido",
+      "Importar mídias correspondentes",
+      "Confirmar atendimento da oferta VRAS"
+    ],
+    "source_handle": "relogio-poedagar-latittude"
+  },
+  {
+    "id": 33,
+    "status": "rascunho",
+    "oferta_confirmada": false,
+    "galeria": [],
+    "videos": [],
+    "imagem": null,
+    "variante": {
+      "confirmada": false,
+      "source_variant_id": 14350011330247,
+      "cor": "Preto e Verde",
+      "pulseira": "",
+      "fonte": "https://poedagareco.com/products/relogio-poedagar-latittude"
+    },
+    "identificacao": {
+      "confirmada": false
+    },
+    "referencia": null,
+    "reference_key": "https://poedagareco.com/products/relogio-poedagar-latittude#preto e verde",
+    "reference_import": true,
+    "source_model_url": "https://poedagareco.com/products/relogio-poedagar-latittude",
+    "source_id_kind": "derived_observation_id",
+    "slug": "latittude-preto-e-verde",
+    "nome": "Poedagar Latittude — Preto e Verde",
+    "marca": "Poedagar",
+    "modelo": "Latittude",
+    "catalog_generation": "poedagar-v1",
+    "preco": 249.0,
+    "categoria": "Poedagar",
+    "destaque": false,
+    "descricao": "Combinações de cores para uma escolha pessoal. Explore o Poedagar Latittude com o olhar da VRAS Watches.",
+    "reference_color": "Preto e Verde",
+    "source_available": null,
+    "fontes": {
+      "url_modelo_e_preco": "https://poedagareco.com/products/relogio-poedagar-latittude",
+      "consulta_UTC": "2026-11-10",
+      "nome_comercial_verificado": true,
+      "referencia_fabricante_verificada": false
+    },
+    "variantes_fonte": [
+      {
+        "source_sku_id": 14350011330247,
+        "title": "Preto e Verde",
+        "price_brl": 249.0,
+        "source_available": null
+      }
+    ],
+    "especificacoes": {},
+    "aprovacao_preco": {
+      "aprovado": true,
+      "valor": "249.00",
+      "data": "2026-11-10",
+      "registro": "Solicitação expressa do proprietário em 2026-11-10: aplicar o preço unitário público da referência à VRAS Watches.",
+      "source_variant_id": 14350011330247,
+      "fonte": "https://poedagareco.com/products/relogio-poedagar-latittude",
+      "consulta_UTC": "2026-11-10"
+    },
+    "pendencias": [
+      "Confirmar referência e variante do produto fornecido",
+      "Importar mídias correspondentes",
+      "Confirmar atendimento da oferta VRAS"
+    ],
+    "source_handle": "relogio-poedagar-latittude"
+  },
+  {
+    "id": 34,
+    "status": "rascunho",
+    "oferta_confirmada": false,
+    "galeria": [],
+    "videos": [],
+    "imagem": null,
+    "variante": {
+      "confirmada": false,
+      "source_variant_id": 231490361904086,
+      "cor": "Prata e Preto",
+      "pulseira": "",
+      "fonte": "https://poedagareco.com/products/relogio-poedagar-latittude"
+    },
+    "identificacao": {
+      "confirmada": false
+    },
+    "referencia": null,
+    "reference_key": "https://poedagareco.com/products/relogio-poedagar-latittude#prata e preto",
+    "reference_import": true,
+    "source_model_url": "https://poedagareco.com/products/relogio-poedagar-latittude",
+    "source_id_kind": "derived_observation_id",
+    "slug": "latittude-prata-e-preto",
+    "nome": "Poedagar Latittude — Prata e Preto",
+    "marca": "Poedagar",
+    "modelo": "Latittude",
+    "catalog_generation": "poedagar-v1",
+    "preco": 249.0,
+    "categoria": "Poedagar",
+    "destaque": false,
+    "descricao": "Combinações de cores para uma escolha pessoal. Explore o Poedagar Latittude com o olhar da VRAS Watches.",
+    "reference_color": "Prata e Preto",
+    "source_available": null,
+    "fontes": {
+      "url_modelo_e_preco": "https://poedagareco.com/products/relogio-poedagar-latittude",
+      "consulta_UTC": "2026-11-10",
+      "nome_comercial_verificado": true,
+      "referencia_fabricante_verificada": false
+    },
+    "variantes_fonte": [
+      {
+        "source_sku_id": 231490361904086,
+        "title": "Prata e Preto",
+        "price_brl": 249.0,
+        "source_available": null
+      }
+    ],
+    "especificacoes": {},
+    "aprovacao_preco": {
+      "aprovado": true,
+      "valor": "249.00",
+      "data": "2026-11-10",
+      "registro": "Solicitação expressa do proprietário em 2026-11-10: aplicar o preço unitário público da referência à VRAS Watches.",
+      "source_variant_id": 231490361904086,
+      "fonte": "https://poedagareco.com/products/relogio-poedagar-latittude",
+      "consulta_UTC": "2026-11-10"
+    },
+    "pendencias": [
+      "Confirmar referência e variante do produto fornecido",
+      "Importar mídias correspondentes",
+      "Confirmar atendimento da oferta VRAS"
+    ],
+    "source_handle": "relogio-poedagar-latittude"
+  },
+  {
+    "id": 35,
+    "status": "rascunho",
+    "oferta_confirmada": false,
+    "galeria": [],
+    "videos": [],
+    "imagem": null,
+    "variante": {
+      "confirmada": false,
+      "source_variant_id": 242511326256971,
+      "cor": "Azul e Dourado",
+      "pulseira": "",
+      "fonte": "https://poedagareco.com/products/relogio-poedagar-horizont"
+    },
+    "identificacao": {
+      "confirmada": false
+    },
+    "referencia": null,
+    "reference_key": "https://poedagareco.com/products/relogio-poedagar-horizont#azul e dourado",
+    "reference_import": true,
+    "source_model_url": "https://poedagareco.com/products/relogio-poedagar-horizont",
+    "source_id_kind": "derived_observation_id",
+    "slug": "horizont-azul-e-dourado",
+    "nome": "Poedagar Horizont — Azul e Dourado",
+    "marca": "Poedagar",
+    "modelo": "Horizont",
+    "catalog_generation": "poedagar-v1",
+    "preco": 269.0,
+    "categoria": "Poedagar",
+    "destaque": false,
+    "descricao": "Contrastes e detalhes que acompanham seu estilo. Conheça as combinações do Poedagar Horizont.",
+    "reference_color": "Azul e Dourado",
+    "source_available": null,
+    "fontes": {
+      "url_modelo_e_preco": "https://poedagareco.com/products/relogio-poedagar-horizont",
+      "consulta_UTC": "2026-11-10",
+      "nome_comercial_verificado": true,
+      "referencia_fabricante_verificada": false
+    },
+    "variantes_fonte": [
+      {
+        "source_sku_id": 242511326256971,
+        "title": "Azul e Dourado",
+        "price_brl": 269.0,
+        "source_available": null
+      }
+    ],
+    "especificacoes": {},
+    "aprovacao_preco": {
+      "aprovado": true,
+      "valor": "269.00",
+      "data": "2026-11-10",
+      "registro": "Solicitação expressa do proprietário em 2026-11-10: aplicar o preço unitário público da referência à VRAS Watches.",
+      "source_variant_id": 242511326256971,
+      "fonte": "https://poedagareco.com/products/relogio-poedagar-horizont",
+      "consulta_UTC": "2026-11-10"
+    },
+    "pendencias": [
+      "Confirmar referência e variante do produto fornecido",
+      "Importar mídias correspondentes",
+      "Confirmar atendimento da oferta VRAS"
+    ],
+    "source_handle": "relogio-poedagar-horizont"
+  },
+  {
+    "id": 36,
+    "status": "rascunho",
+    "oferta_confirmada": false,
+    "galeria": [],
+    "videos": [],
+    "imagem": null,
+    "variante": {
+      "confirmada": false,
+      "source_variant_id": 20901543170989,
+      "cor": "Branco e Dourado",
+      "pulseira": "",
+      "fonte": "https://poedagareco.com/products/relogio-poedagar-horizont"
+    },
+    "identificacao": {
+      "confirmada": false
+    },
+    "referencia": null,
+    "reference_key": "https://poedagareco.com/products/relogio-poedagar-horizont#branco e dourado",
+    "reference_import": true,
+    "source_model_url": "https://poedagareco.com/products/relogio-poedagar-horizont",
+    "source_id_kind": "derived_observation_id",
+    "slug": "horizont-branco-e-dourado",
+    "nome": "Poedagar Horizont — Branco e Dourado",
+    "marca": "Poedagar",
+    "modelo": "Horizont",
+    "catalog_generation": "poedagar-v1",
+    "preco": 269.0,
+    "categoria": "Poedagar",
+    "destaque": false,
+    "descricao": "Contrastes e detalhes que acompanham seu estilo. Conheça as combinações do Poedagar Horizont.",
+    "reference_color": "Branco e Dourado",
+    "source_available": null,
+    "fontes": {
+      "url_modelo_e_preco": "https://poedagareco.com/products/relogio-poedagar-horizont",
+      "consulta_UTC": "2026-11-10",
+      "nome_comercial_verificado": true,
+      "referencia_fabricante_verificada": false
+    },
+    "variantes_fonte": [
+      {
+        "source_sku_id": 20901543170989,
+        "title": "Branco e Dourado",
+        "price_brl": 269.0,
+        "source_available": null
+      }
+    ],
+    "especificacoes": {},
+    "aprovacao_preco": {
+      "aprovado": true,
+      "valor": "269.00",
+      "data": "2026-11-10",
+      "registro": "Solicitação expressa do proprietário em 2026-11-10: aplicar o preço unitário público da referência à VRAS Watches.",
+      "source_variant_id": 20901543170989,
+      "fonte": "https://poedagareco.com/products/relogio-poedagar-horizont",
+      "consulta_UTC": "2026-11-10"
+    },
+    "pendencias": [
+      "Confirmar referência e variante do produto fornecido",
+      "Importar mídias correspondentes",
+      "Confirmar atendimento da oferta VRAS"
+    ],
+    "source_handle": "relogio-poedagar-horizont"
+  },
+  {
+    "id": 37,
+    "status": "rascunho",
+    "oferta_confirmada": false,
+    "galeria": [],
+    "videos": [],
+    "imagem": null,
+    "variante": {
+      "confirmada": false,
+      "source_variant_id": 106576455131723,
+      "cor": "Preto e Dourado",
+      "pulseira": "",
+      "fonte": "https://poedagareco.com/products/relogio-poedagar-horizont"
+    },
+    "identificacao": {
+      "confirmada": false
+    },
+    "referencia": null,
+    "reference_key": "https://poedagareco.com/products/relogio-poedagar-horizont#preto e dourado",
+    "reference_import": true,
+    "source_model_url": "https://poedagareco.com/products/relogio-poedagar-horizont",
+    "source_id_kind": "derived_observation_id",
+    "slug": "horizont-preto-e-dourado",
+    "nome": "Poedagar Horizont — Preto e Dourado",
+    "marca": "Poedagar",
+    "modelo": "Horizont",
+    "catalog_generation": "poedagar-v1",
+    "preco": 269.0,
+    "categoria": "Poedagar",
+    "destaque": false,
+    "descricao": "Contrastes e detalhes que acompanham seu estilo. Conheça as combinações do Poedagar Horizont.",
+    "reference_color": "Preto e Dourado",
+    "source_available": null,
+    "fontes": {
+      "url_modelo_e_preco": "https://poedagareco.com/products/relogio-poedagar-horizont",
+      "consulta_UTC": "2026-11-10",
+      "nome_comercial_verificado": true,
+      "referencia_fabricante_verificada": false
+    },
+    "variantes_fonte": [
+      {
+        "source_sku_id": 106576455131723,
+        "title": "Preto e Dourado",
+        "price_brl": 269.0,
+        "source_available": null
+      }
+    ],
+    "especificacoes": {},
+    "aprovacao_preco": {
+      "aprovado": true,
+      "valor": "269.00",
+      "data": "2026-11-10",
+      "registro": "Solicitação expressa do proprietário em 2026-11-10: aplicar o preço unitário público da referência à VRAS Watches.",
+      "source_variant_id": 106576455131723,
+      "fonte": "https://poedagareco.com/products/relogio-poedagar-horizont",
+      "consulta_UTC": "2026-11-10"
+    },
+    "pendencias": [
+      "Confirmar referência e variante do produto fornecido",
+      "Importar mídias correspondentes",
+      "Confirmar atendimento da oferta VRAS"
+    ],
+    "source_handle": "relogio-poedagar-horizont"
+  },
+  {
+    "id": 38,
+    "status": "rascunho",
+    "oferta_confirmada": false,
+    "galeria": [],
+    "videos": [],
+    "imagem": null,
+    "variante": {
+      "confirmada": false,
+      "source_variant_id": 138167565862224,
+      "cor": "Verde e Dourado",
+      "pulseira": "",
+      "fonte": "https://poedagareco.com/products/relogio-poedagar-horizont"
+    },
+    "identificacao": {
+      "confirmada": false
+    },
+    "referencia": null,
+    "reference_key": "https://poedagareco.com/products/relogio-poedagar-horizont#verde e dourado",
+    "reference_import": true,
+    "source_model_url": "https://poedagareco.com/products/relogio-poedagar-horizont",
+    "source_id_kind": "derived_observation_id",
+    "slug": "horizont-verde-e-dourado",
+    "nome": "Poedagar Horizont — Verde e Dourado",
+    "marca": "Poedagar",
+    "modelo": "Horizont",
+    "catalog_generation": "poedagar-v1",
+    "preco": 269.0,
+    "categoria": "Poedagar",
+    "destaque": false,
+    "descricao": "Contrastes e detalhes que acompanham seu estilo. Conheça as combinações do Poedagar Horizont.",
+    "reference_color": "Verde e Dourado",
+    "source_available": null,
+    "fontes": {
+      "url_modelo_e_preco": "https://poedagareco.com/products/relogio-poedagar-horizont",
+      "consulta_UTC": "2026-11-10",
+      "nome_comercial_verificado": true,
+      "referencia_fabricante_verificada": false
+    },
+    "variantes_fonte": [
+      {
+        "source_sku_id": 138167565862224,
+        "title": "Verde e Dourado",
+        "price_brl": 269.0,
+        "source_available": null
+      }
+    ],
+    "especificacoes": {},
+    "aprovacao_preco": {
+      "aprovado": true,
+      "valor": "269.00",
+      "data": "2026-11-10",
+      "registro": "Solicitação expressa do proprietário em 2026-11-10: aplicar o preço unitário público da referência à VRAS Watches.",
+      "source_variant_id": 138167565862224,
+      "fonte": "https://poedagareco.com/products/relogio-poedagar-horizont",
+      "consulta_UTC": "2026-11-10"
+    },
+    "pendencias": [
+      "Confirmar referência e variante do produto fornecido",
+      "Importar mídias correspondentes",
+      "Confirmar atendimento da oferta VRAS"
+    ],
+    "source_handle": "relogio-poedagar-horizont"
+  },
+  {
+    "id": 39,
+    "status": "rascunho",
+    "oferta_confirmada": false,
+    "galeria": [],
+    "videos": [],
+    "imagem": null,
+    "variante": {
+      "confirmada": false,
+      "source_variant_id": 137860907999346,
+      "cor": "Preto e Dourado",
+      "pulseira": "",
+      "fonte": "https://poedagareco.com/products/relogio-poedagar-quartz-luxury"
+    },
+    "identificacao": {
+      "confirmada": false
+    },
+    "referencia": null,
+    "reference_key": "https://poedagareco.com/products/relogio-poedagar-quartz-luxury#preto e dourado",
+    "reference_import": true,
+    "source_model_url": "https://poedagareco.com/products/relogio-poedagar-quartz-luxury",
+    "source_id_kind": "derived_observation_id",
+    "slug": "quartz-luxury-preto-e-dourado",
+    "nome": "Poedagar Quartz Luxury — Preto e Dourado",
+    "marca": "Poedagar",
+    "modelo": "Quartz Luxury",
+    "catalog_generation": "poedagar-v1",
+    "preco": 219.0,
+    "categoria": "Poedagar",
+    "destaque": false,
+    "descricao": "Uma seleção de cores para o seu dia a dia. Descubra o Poedagar Quartz Luxury na VRAS Watches.",
+    "reference_color": "Preto e Dourado",
+    "source_available": null,
+    "fontes": {
+      "url_modelo_e_preco": "https://poedagareco.com/products/relogio-poedagar-quartz-luxury",
+      "consulta_UTC": "2026-11-10",
+      "nome_comercial_verificado": true,
+      "referencia_fabricante_verificada": false
+    },
+    "variantes_fonte": [
+      {
+        "source_sku_id": 137860907999346,
+        "title": "Preto e Dourado",
+        "price_brl": 219.0,
+        "source_available": null
+      }
+    ],
+    "especificacoes": {},
+    "aprovacao_preco": {
+      "aprovado": true,
+      "valor": "219.00",
+      "data": "2026-11-10",
+      "registro": "Solicitação expressa do proprietário em 2026-11-10: aplicar o preço unitário público da referência à VRAS Watches.",
+      "source_variant_id": 137860907999346,
+      "fonte": "https://poedagareco.com/products/relogio-poedagar-quartz-luxury",
+      "consulta_UTC": "2026-11-10"
+    },
+    "pendencias": [
+      "Confirmar referência e variante do produto fornecido",
+      "Importar mídias correspondentes",
+      "Confirmar atendimento da oferta VRAS"
+    ],
+    "source_handle": "relogio-poedagar-quartz-luxury"
+  },
+  {
+    "id": 40,
+    "status": "rascunho",
+    "oferta_confirmada": false,
+    "galeria": [],
+    "videos": [],
+    "imagem": null,
+    "variante": {
+      "confirmada": false,
+      "source_variant_id": 123329745201040,
+      "cor": "Branco e Dourado",
+      "pulseira": "",
+      "fonte": "https://poedagareco.com/products/relogio-poedagar-quartz-luxury"
+    },
+    "identificacao": {
+      "confirmada": false
+    },
+    "referencia": null,
+    "reference_key": "https://poedagareco.com/products/relogio-poedagar-quartz-luxury#branco e dourado",
+    "reference_import": true,
+    "source_model_url": "https://poedagareco.com/products/relogio-poedagar-quartz-luxury",
+    "source_id_kind": "derived_observation_id",
+    "slug": "quartz-luxury-branco-e-dourado",
+    "nome": "Poedagar Quartz Luxury — Branco e Dourado",
+    "marca": "Poedagar",
+    "modelo": "Quartz Luxury",
+    "catalog_generation": "poedagar-v1",
+    "preco": 219.0,
+    "categoria": "Poedagar",
+    "destaque": false,
+    "descricao": "Uma seleção de cores para o seu dia a dia. Descubra o Poedagar Quartz Luxury na VRAS Watches.",
+    "reference_color": "Branco e Dourado",
+    "source_available": null,
+    "fontes": {
+      "url_modelo_e_preco": "https://poedagareco.com/products/relogio-poedagar-quartz-luxury",
+      "consulta_UTC": "2026-11-10",
+      "nome_comercial_verificado": true,
+      "referencia_fabricante_verificada": false
+    },
+    "variantes_fonte": [
+      {
+        "source_sku_id": 123329745201040,
+        "title": "Branco e Dourado",
+        "price_brl": 219.0,
+        "source_available": null
+      }
+    ],
+    "especificacoes": {},
+    "aprovacao_preco": {
+      "aprovado": true,
+      "valor": "219.00",
+      "data": "2026-11-10",
+      "registro": "Solicitação expressa do proprietário em 2026-11-10: aplicar o preço unitário público da referência à VRAS Watches.",
+      "source_variant_id": 123329745201040,
+      "fonte": "https://poedagareco.com/products/relogio-poedagar-quartz-luxury",
+      "consulta_UTC": "2026-11-10"
+    },
+    "pendencias": [
+      "Confirmar referência e variante do produto fornecido",
+      "Importar mídias correspondentes",
+      "Confirmar atendimento da oferta VRAS"
+    ],
+    "source_handle": "relogio-poedagar-quartz-luxury"
+  },
+  {
+    "id": 41,
+    "status": "rascunho",
+    "oferta_confirmada": false,
+    "galeria": [],
+    "videos": [],
+    "imagem": null,
+    "variante": {
+      "confirmada": false,
+      "source_variant_id": 157673076407166,
+      "cor": "Azul e Dourado",
+      "pulseira": "",
+      "fonte": "https://poedagareco.com/products/relogio-poedagar-quartz-luxury"
+    },
+    "identificacao": {
+      "confirmada": false
+    },
+    "referencia": null,
+    "reference_key": "https://poedagareco.com/products/relogio-poedagar-quartz-luxury#azul e dourado",
+    "reference_import": true,
+    "source_model_url": "https://poedagareco.com/products/relogio-poedagar-quartz-luxury",
+    "source_id_kind": "derived_observation_id",
+    "slug": "quartz-luxury-azul-e-dourado",
+    "nome": "Poedagar Quartz Luxury — Azul e Dourado",
+    "marca": "Poedagar",
+    "modelo": "Quartz Luxury",
+    "catalog_generation": "poedagar-v1",
+    "preco": 219.0,
+    "categoria": "Poedagar",
+    "destaque": false,
+    "descricao": "Uma seleção de cores para o seu dia a dia. Descubra o Poedagar Quartz Luxury na VRAS Watches.",
+    "reference_color": "Azul e Dourado",
+    "source_available": null,
+    "fontes": {
+      "url_modelo_e_preco": "https://poedagareco.com/products/relogio-poedagar-quartz-luxury",
+      "consulta_UTC": "2026-11-10",
+      "nome_comercial_verificado": true,
+      "referencia_fabricante_verificada": false
+    },
+    "variantes_fonte": [
+      {
+        "source_sku_id": 157673076407166,
+        "title": "Azul e Dourado",
+        "price_brl": 219.0,
+        "source_available": null
+      }
+    ],
+    "especificacoes": {},
+    "aprovacao_preco": {
+      "aprovado": true,
+      "valor": "219.00",
+      "data": "2026-11-10",
+      "registro": "Solicitação expressa do proprietário em 2026-11-10: aplicar o preço unitário público da referência à VRAS Watches.",
+      "source_variant_id": 157673076407166,
+      "fonte": "https://poedagareco.com/products/relogio-poedagar-quartz-luxury",
+      "consulta_UTC": "2026-11-10"
+    },
+    "pendencias": [
+      "Confirmar referência e variante do produto fornecido",
+      "Importar mídias correspondentes",
+      "Confirmar atendimento da oferta VRAS"
+    ],
+    "source_handle": "relogio-poedagar-quartz-luxury"
+  },
+  {
+    "id": 42,
+    "status": "rascunho",
+    "oferta_confirmada": false,
+    "galeria": [],
+    "videos": [],
+    "imagem": null,
+    "variante": {
+      "confirmada": false,
+      "source_variant_id": 209657927663954,
+      "cor": "Azul e Prata",
+      "pulseira": "",
+      "fonte": "https://poedagareco.com/products/relogio-poedagar-quartz-luxury"
+    },
+    "identificacao": {
+      "confirmada": false
+    },
+    "referencia": null,
+    "reference_key": "https://poedagareco.com/products/relogio-poedagar-quartz-luxury#azul e prata",
+    "reference_import": true,
+    "source_model_url": "https://poedagareco.com/products/relogio-poedagar-quartz-luxury",
+    "source_id_kind": "derived_observation_id",
+    "slug": "quartz-luxury-azul-e-prata",
+    "nome": "Poedagar Quartz Luxury — Azul e Prata",
+    "marca": "Poedagar",
+    "modelo": "Quartz Luxury",
+    "catalog_generation": "poedagar-v1",
+    "preco": 219.0,
+    "categoria": "Poedagar",
+    "destaque": false,
+    "descricao": "Uma seleção de cores para o seu dia a dia. Descubra o Poedagar Quartz Luxury na VRAS Watches.",
+    "reference_color": "Azul e Prata",
+    "source_available": null,
+    "fontes": {
+      "url_modelo_e_preco": "https://poedagareco.com/products/relogio-poedagar-quartz-luxury",
+      "consulta_UTC": "2026-11-10",
+      "nome_comercial_verificado": true,
+      "referencia_fabricante_verificada": false
+    },
+    "variantes_fonte": [
+      {
+        "source_sku_id": 209657927663954,
+        "title": "Azul e Prata",
+        "price_brl": 219.0,
+        "source_available": null
+      }
+    ],
+    "especificacoes": {},
+    "aprovacao_preco": {
+      "aprovado": true,
+      "valor": "219.00",
+      "data": "2026-11-10",
+      "registro": "Solicitação expressa do proprietário em 2026-11-10: aplicar o preço unitário público da referência à VRAS Watches.",
+      "source_variant_id": 209657927663954,
+      "fonte": "https://poedagareco.com/products/relogio-poedagar-quartz-luxury",
+      "consulta_UTC": "2026-11-10"
+    },
+    "pendencias": [
+      "Confirmar referência e variante do produto fornecido",
+      "Importar mídias correspondentes",
+      "Confirmar atendimento da oferta VRAS"
+    ],
+    "source_handle": "relogio-poedagar-quartz-luxury"
+  },
+  {
+    "id": 43,
+    "status": "rascunho",
+    "oferta_confirmada": false,
+    "galeria": [],
+    "videos": [],
+    "imagem": null,
+    "variante": {
+      "confirmada": false,
+      "source_variant_id": 174985982825258,
+      "cor": "Azul",
+      "pulseira": "",
+      "fonte": "https://poedagareco.com/products/relogio-poedagar-deluxe-edition"
+    },
+    "identificacao": {
+      "confirmada": false
+    },
+    "referencia": null,
+    "reference_key": "https://poedagareco.com/products/relogio-poedagar-deluxe-edition#azul",
+    "reference_import": true,
+    "source_model_url": "https://poedagareco.com/products/relogio-poedagar-deluxe-edition",
+    "source_id_kind": "derived_observation_id",
+    "slug": "deluxe-edition-azul",
+    "nome": "Poedagar Deluxe Edition — Azul",
+    "marca": "Poedagar",
+    "modelo": "Deluxe Edition",
+    "catalog_generation": "poedagar-v1",
+    "preco": 249.0,
+    "categoria": "Poedagar",
+    "destaque": false,
+    "descricao": "Escolha o mostrador que combina com o seu ritmo. O Poedagar Deluxe Edition integra a seleção VRAS Watches.",
+    "reference_color": "Azul",
+    "source_available": null,
+    "fontes": {
+      "url_modelo_e_preco": "https://poedagareco.com/products/relogio-poedagar-deluxe-edition",
+      "consulta_UTC": "2026-11-10",
+      "nome_comercial_verificado": true,
+      "referencia_fabricante_verificada": false
+    },
+    "variantes_fonte": [
+      {
+        "source_sku_id": 174985982825258,
+        "title": "Azul",
+        "price_brl": 249.0,
+        "source_available": null
+      }
+    ],
+    "especificacoes": {},
+    "aprovacao_preco": {
+      "aprovado": true,
+      "valor": "249.00",
+      "data": "2026-11-10",
+      "registro": "Solicitação expressa do proprietário em 2026-11-10: aplicar o preço unitário público da referência à VRAS Watches.",
+      "source_variant_id": 174985982825258,
+      "fonte": "https://poedagareco.com/products/relogio-poedagar-deluxe-edition",
+      "consulta_UTC": "2026-11-10"
+    },
+    "pendencias": [
+      "Confirmar referência e variante do produto fornecido",
+      "Importar mídias correspondentes",
+      "Confirmar atendimento da oferta VRAS"
+    ],
+    "source_handle": "relogio-poedagar-deluxe-edition"
+  },
+  {
+    "id": 44,
+    "status": "rascunho",
+    "oferta_confirmada": false,
+    "galeria": [],
+    "videos": [],
+    "imagem": null,
+    "variante": {
+      "confirmada": false,
+      "source_variant_id": 83542821647480,
+      "cor": "Branco",
+      "pulseira": "",
+      "fonte": "https://poedagareco.com/products/relogio-poedagar-deluxe-edition"
+    },
+    "identificacao": {
+      "confirmada": false
+    },
+    "referencia": null,
+    "reference_key": "https://poedagareco.com/products/relogio-poedagar-deluxe-edition#branco",
+    "reference_import": true,
+    "source_model_url": "https://poedagareco.com/products/relogio-poedagar-deluxe-edition",
+    "source_id_kind": "derived_observation_id",
+    "slug": "deluxe-edition-branco",
+    "nome": "Poedagar Deluxe Edition — Branco",
+    "marca": "Poedagar",
+    "modelo": "Deluxe Edition",
+    "catalog_generation": "poedagar-v1",
+    "preco": 249.0,
+    "categoria": "Poedagar",
+    "destaque": false,
+    "descricao": "Escolha o mostrador que combina com o seu ritmo. O Poedagar Deluxe Edition integra a seleção VRAS Watches.",
+    "reference_color": "Branco",
+    "source_available": null,
+    "fontes": {
+      "url_modelo_e_preco": "https://poedagareco.com/products/relogio-poedagar-deluxe-edition",
+      "consulta_UTC": "2026-11-10",
+      "nome_comercial_verificado": true,
+      "referencia_fabricante_verificada": false
+    },
+    "variantes_fonte": [
+      {
+        "source_sku_id": 83542821647480,
+        "title": "Branco",
+        "price_brl": 249.0,
+        "source_available": null
+      }
+    ],
+    "especificacoes": {},
+    "aprovacao_preco": {
+      "aprovado": true,
+      "valor": "249.00",
+      "data": "2026-11-10",
+      "registro": "Solicitação expressa do proprietário em 2026-11-10: aplicar o preço unitário público da referência à VRAS Watches.",
+      "source_variant_id": 83542821647480,
+      "fonte": "https://poedagareco.com/products/relogio-poedagar-deluxe-edition",
+      "consulta_UTC": "2026-11-10"
+    },
+    "pendencias": [
+      "Confirmar referência e variante do produto fornecido",
+      "Importar mídias correspondentes",
+      "Confirmar atendimento da oferta VRAS"
+    ],
+    "source_handle": "relogio-poedagar-deluxe-edition"
+  },
+  {
+    "id": 45,
+    "status": "rascunho",
+    "oferta_confirmada": false,
+    "galeria": [],
+    "videos": [],
+    "imagem": null,
+    "variante": {
+      "confirmada": false,
+      "source_variant_id": 82364341765554,
+      "cor": "Preto",
+      "pulseira": "",
+      "fonte": "https://poedagareco.com/products/relogio-poedagar-deluxe-edition"
+    },
+    "identificacao": {
+      "confirmada": false
+    },
+    "referencia": null,
+    "reference_key": "https://poedagareco.com/products/relogio-poedagar-deluxe-edition#preto",
+    "reference_import": true,
+    "source_model_url": "https://poedagareco.com/products/relogio-poedagar-deluxe-edition",
+    "source_id_kind": "derived_observation_id",
+    "slug": "deluxe-edition-preto",
+    "nome": "Poedagar Deluxe Edition — Preto",
+    "marca": "Poedagar",
+    "modelo": "Deluxe Edition",
+    "catalog_generation": "poedagar-v1",
+    "preco": 249.0,
+    "categoria": "Poedagar",
+    "destaque": false,
+    "descricao": "Escolha o mostrador que combina com o seu ritmo. O Poedagar Deluxe Edition integra a seleção VRAS Watches.",
+    "reference_color": "Preto",
+    "source_available": null,
+    "fontes": {
+      "url_modelo_e_preco": "https://poedagareco.com/products/relogio-poedagar-deluxe-edition",
+      "consulta_UTC": "2026-11-10",
+      "nome_comercial_verificado": true,
+      "referencia_fabricante_verificada": false
+    },
+    "variantes_fonte": [
+      {
+        "source_sku_id": 82364341765554,
+        "title": "Preto",
+        "price_brl": 249.0,
+        "source_available": null
+      }
+    ],
+    "especificacoes": {},
+    "aprovacao_preco": {
+      "aprovado": true,
+      "valor": "249.00",
+      "data": "2026-11-10",
+      "registro": "Solicitação expressa do proprietário em 2026-11-10: aplicar o preço unitário público da referência à VRAS Watches.",
+      "source_variant_id": 82364341765554,
+      "fonte": "https://poedagareco.com/products/relogio-poedagar-deluxe-edition",
+      "consulta_UTC": "2026-11-10"
+    },
+    "pendencias": [
+      "Confirmar referência e variante do produto fornecido",
+      "Importar mídias correspondentes",
+      "Confirmar atendimento da oferta VRAS"
+    ],
+    "source_handle": "relogio-poedagar-deluxe-edition"
+  },
+  {
+    "id": 46,
+    "status": "rascunho",
+    "oferta_confirmada": false,
+    "galeria": [],
+    "videos": [],
+    "imagem": null,
+    "variante": {
+      "confirmada": false,
+      "source_variant_id": 73736862916842,
+      "cor": "Verde",
+      "pulseira": "",
+      "fonte": "https://poedagareco.com/products/relogio-poedagar-deluxe-edition"
+    },
+    "identificacao": {
+      "confirmada": false
+    },
+    "referencia": null,
+    "reference_key": "https://poedagareco.com/products/relogio-poedagar-deluxe-edition#verde",
+    "reference_import": true,
+    "source_model_url": "https://poedagareco.com/products/relogio-poedagar-deluxe-edition",
+    "source_id_kind": "derived_observation_id",
+    "slug": "deluxe-edition-verde",
+    "nome": "Poedagar Deluxe Edition — Verde",
+    "marca": "Poedagar",
+    "modelo": "Deluxe Edition",
+    "catalog_generation": "poedagar-v1",
+    "preco": 249.0,
+    "categoria": "Poedagar",
+    "destaque": false,
+    "descricao": "Escolha o mostrador que combina com o seu ritmo. O Poedagar Deluxe Edition integra a seleção VRAS Watches.",
+    "reference_color": "Verde",
+    "source_available": null,
+    "fontes": {
+      "url_modelo_e_preco": "https://poedagareco.com/products/relogio-poedagar-deluxe-edition",
+      "consulta_UTC": "2026-11-10",
+      "nome_comercial_verificado": true,
+      "referencia_fabricante_verificada": false
+    },
+    "variantes_fonte": [
+      {
+        "source_sku_id": 73736862916842,
+        "title": "Verde",
+        "price_brl": 249.0,
+        "source_available": null
+      }
+    ],
+    "especificacoes": {},
+    "aprovacao_preco": {
+      "aprovado": true,
+      "valor": "249.00",
+      "data": "2026-11-10",
+      "registro": "Solicitação expressa do proprietário em 2026-11-10: aplicar o preço unitário público da referência à VRAS Watches.",
+      "source_variant_id": 73736862916842,
+      "fonte": "https://poedagareco.com/products/relogio-poedagar-deluxe-edition",
+      "consulta_UTC": "2026-11-10"
+    },
+    "pendencias": [
+      "Confirmar referência e variante do produto fornecido",
+      "Importar mídias correspondentes",
+      "Confirmar atendimento da oferta VRAS"
+    ],
+    "source_handle": "relogio-poedagar-deluxe-edition"
+  },
+  {
+    "id": 47,
+    "status": "rascunho",
+    "oferta_confirmada": false,
+    "galeria": [],
+    "videos": [],
+    "imagem": null,
+    "variante": {
+      "confirmada": false,
+      "source_variant_id": 13842057041600,
+      "cor": "Preto",
+      "pulseira": "",
+      "fonte": "https://poedagareco.com/products/relogio-poedagar-goldenstar"
+    },
+    "identificacao": {
+      "confirmada": false
+    },
+    "referencia": null,
+    "reference_key": "https://poedagareco.com/products/relogio-poedagar-goldenstar#preto",
+    "reference_import": true,
+    "source_model_url": "https://poedagareco.com/products/relogio-poedagar-goldenstar",
+    "source_id_kind": "derived_observation_id",
+    "slug": "goldenstar-preto",
+    "nome": "Poedagar GoldenStar — Preto",
+    "marca": "Poedagar",
+    "modelo": "GoldenStar",
+    "catalog_generation": "poedagar-v1",
+    "preco": 269.0,
+    "categoria": "Poedagar",
+    "destaque": false,
+    "descricao": "Cores para compor diferentes estilos. Explore as variantes observadas do Poedagar GoldenStar.",
+    "reference_color": "Preto",
+    "source_available": null,
+    "fontes": {
+      "url_modelo_e_preco": "https://poedagareco.com/products/relogio-poedagar-goldenstar",
+      "consulta_UTC": "2026-11-10",
+      "nome_comercial_verificado": true,
+      "referencia_fabricante_verificada": false
+    },
+    "variantes_fonte": [
+      {
+        "source_sku_id": 13842057041600,
+        "title": "Preto",
+        "price_brl": 269.0,
+        "source_available": null
+      }
+    ],
+    "especificacoes": {},
+    "aprovacao_preco": {
+      "aprovado": true,
+      "valor": "269.00",
+      "data": "2026-11-10",
+      "registro": "Solicitação expressa do proprietário em 2026-11-10: aplicar o preço unitário público da referência à VRAS Watches.",
+      "source_variant_id": 13842057041600,
+      "fonte": "https://poedagareco.com/products/relogio-poedagar-goldenstar",
+      "consulta_UTC": "2026-11-10"
+    },
+    "pendencias": [
+      "Confirmar referência e variante do produto fornecido",
+      "Importar mídias correspondentes",
+      "Confirmar atendimento da oferta VRAS"
+    ],
+    "source_handle": "relogio-poedagar-goldenstar"
+  },
+  {
+    "id": 48,
+    "status": "rascunho",
+    "oferta_confirmada": false,
+    "galeria": [],
+    "videos": [],
+    "imagem": null,
+    "variante": {
+      "confirmada": false,
+      "source_variant_id": 268009124628754,
+      "cor": "Branco",
+      "pulseira": "",
+      "fonte": "https://poedagareco.com/products/relogio-poedagar-goldenstar"
+    },
+    "identificacao": {
+      "confirmada": false
+    },
+    "referencia": null,
+    "reference_key": "https://poedagareco.com/products/relogio-poedagar-goldenstar#branco",
+    "reference_import": true,
+    "source_model_url": "https://poedagareco.com/products/relogio-poedagar-goldenstar",
+    "source_id_kind": "derived_observation_id",
+    "slug": "goldenstar-branco",
+    "nome": "Poedagar GoldenStar — Branco",
+    "marca": "Poedagar",
+    "modelo": "GoldenStar",
+    "catalog_generation": "poedagar-v1",
+    "preco": 269.0,
+    "categoria": "Poedagar",
+    "destaque": false,
+    "descricao": "Cores para compor diferentes estilos. Explore as variantes observadas do Poedagar GoldenStar.",
+    "reference_color": "Branco",
+    "source_available": null,
+    "fontes": {
+      "url_modelo_e_preco": "https://poedagareco.com/products/relogio-poedagar-goldenstar",
+      "consulta_UTC": "2026-11-10",
+      "nome_comercial_verificado": true,
+      "referencia_fabricante_verificada": false
+    },
+    "variantes_fonte": [
+      {
+        "source_sku_id": 268009124628754,
+        "title": "Branco",
+        "price_brl": 269.0,
+        "source_available": null
+      }
+    ],
+    "especificacoes": {},
+    "aprovacao_preco": {
+      "aprovado": true,
+      "valor": "269.00",
+      "data": "2026-11-10",
+      "registro": "Solicitação expressa do proprietário em 2026-11-10: aplicar o preço unitário público da referência à VRAS Watches.",
+      "source_variant_id": 268009124628754,
+      "fonte": "https://poedagareco.com/products/relogio-poedagar-goldenstar",
+      "consulta_UTC": "2026-11-10"
+    },
+    "pendencias": [
+      "Confirmar referência e variante do produto fornecido",
+      "Importar mídias correspondentes",
+      "Confirmar atendimento da oferta VRAS"
+    ],
+    "source_handle": "relogio-poedagar-goldenstar"
+  },
+  {
+    "id": 49,
+    "status": "rascunho",
+    "oferta_confirmada": false,
+    "galeria": [],
+    "videos": [],
+    "imagem": null,
+    "variante": {
+      "confirmada": false,
+      "source_variant_id": 208630094259127,
+      "cor": "Azul",
+      "pulseira": "",
+      "fonte": "https://poedagareco.com/products/relogio-poedagar-goldenstar"
+    },
+    "identificacao": {
+      "confirmada": false
+    },
+    "referencia": null,
+    "reference_key": "https://poedagareco.com/products/relogio-poedagar-goldenstar#azul",
+    "reference_import": true,
+    "source_model_url": "https://poedagareco.com/products/relogio-poedagar-goldenstar",
+    "source_id_kind": "derived_observation_id",
+    "slug": "goldenstar-azul",
+    "nome": "Poedagar GoldenStar — Azul",
+    "marca": "Poedagar",
+    "modelo": "GoldenStar",
+    "catalog_generation": "poedagar-v1",
+    "preco": 269.0,
+    "categoria": "Poedagar",
+    "destaque": false,
+    "descricao": "Cores para compor diferentes estilos. Explore as variantes observadas do Poedagar GoldenStar.",
+    "reference_color": "Azul",
+    "source_available": null,
+    "fontes": {
+      "url_modelo_e_preco": "https://poedagareco.com/products/relogio-poedagar-goldenstar",
+      "consulta_UTC": "2026-11-10",
+      "nome_comercial_verificado": true,
+      "referencia_fabricante_verificada": false
+    },
+    "variantes_fonte": [
+      {
+        "source_sku_id": 208630094259127,
+        "title": "Azul",
+        "price_brl": 269.0,
+        "source_available": null
+      }
+    ],
+    "especificacoes": {},
+    "aprovacao_preco": {
+      "aprovado": true,
+      "valor": "269.00",
+      "data": "2026-11-10",
+      "registro": "Solicitação expressa do proprietário em 2026-11-10: aplicar o preço unitário público da referência à VRAS Watches.",
+      "source_variant_id": 208630094259127,
+      "fonte": "https://poedagareco.com/products/relogio-poedagar-goldenstar",
+      "consulta_UTC": "2026-11-10"
+    },
+    "pendencias": [
+      "Confirmar referência e variante do produto fornecido",
+      "Importar mídias correspondentes",
+      "Confirmar atendimento da oferta VRAS"
+    ],
+    "source_handle": "relogio-poedagar-goldenstar"
+  },
+  {
+    "id": 50,
+    "status": "rascunho",
+    "oferta_confirmada": false,
+    "galeria": [],
+    "videos": [],
+    "imagem": null,
+    "variante": {
+      "confirmada": false,
+      "source_variant_id": 189976369225628,
+      "cor": "Verde",
+      "pulseira": "",
+      "fonte": "https://poedagareco.com/products/relogio-poedagar-goldenstar"
+    },
+    "identificacao": {
+      "confirmada": false
+    },
+    "referencia": null,
+    "reference_key": "https://poedagareco.com/products/relogio-poedagar-goldenstar#verde",
+    "reference_import": true,
+    "source_model_url": "https://poedagareco.com/products/relogio-poedagar-goldenstar",
+    "source_id_kind": "derived_observation_id",
+    "slug": "goldenstar-verde",
+    "nome": "Poedagar GoldenStar — Verde",
+    "marca": "Poedagar",
+    "modelo": "GoldenStar",
+    "catalog_generation": "poedagar-v1",
+    "preco": 269.0,
+    "categoria": "Poedagar",
+    "destaque": false,
+    "descricao": "Cores para compor diferentes estilos. Explore as variantes observadas do Poedagar GoldenStar.",
+    "reference_color": "Verde",
+    "source_available": null,
+    "fontes": {
+      "url_modelo_e_preco": "https://poedagareco.com/products/relogio-poedagar-goldenstar",
+      "consulta_UTC": "2026-11-10",
+      "nome_comercial_verificado": true,
+      "referencia_fabricante_verificada": false
+    },
+    "variantes_fonte": [
+      {
+        "source_sku_id": 189976369225628,
+        "title": "Verde",
+        "price_brl": 269.0,
+        "source_available": null
+      }
+    ],
+    "especificacoes": {},
+    "aprovacao_preco": {
+      "aprovado": true,
+      "valor": "269.00",
+      "data": "2026-11-10",
+      "registro": "Solicitação expressa do proprietário em 2026-11-10: aplicar o preço unitário público da referência à VRAS Watches.",
+      "source_variant_id": 189976369225628,
+      "fonte": "https://poedagareco.com/products/relogio-poedagar-goldenstar",
+      "consulta_UTC": "2026-11-10"
+    },
+    "pendencias": [
+      "Confirmar referência e variante do produto fornecido",
+      "Importar mídias correspondentes",
+      "Confirmar atendimento da oferta VRAS"
+    ],
+    "source_handle": "relogio-poedagar-goldenstar"
+  },
+  {
+    "id": 51,
+    "status": "rascunho",
+    "oferta_confirmada": false,
+    "galeria": [],
+    "videos": [],
+    "imagem": null,
+    "variante": {
+      "confirmada": false,
+      "source_variant_id": 6177093974877,
+      "cor": "Tradicional Bronze",
+      "pulseira": "",
+      "fonte": "https://poedagareco.com/products/relogio-poedagar-chronoforge"
+    },
+    "identificacao": {
+      "confirmada": false
+    },
+    "referencia": null,
+    "reference_key": "https://poedagareco.com/products/relogio-poedagar-chronoforge#tradicional bronze",
+    "reference_import": true,
+    "source_model_url": "https://poedagareco.com/products/relogio-poedagar-chronoforge",
+    "source_id_kind": "derived_observation_id",
+    "slug": "chronoforge-tradicional-bronze",
+    "nome": "Poedagar Chronoforge — Tradicional Bronze",
+    "marca": "Poedagar",
+    "modelo": "Chronoforge",
+    "catalog_generation": "poedagar-v1",
+    "preco": 249.0,
+    "categoria": "Poedagar",
+    "destaque": false,
+    "descricao": "Tons de bronze, preto e prata em uma seleção de personalidade. Conheça o Poedagar Chronoforge.",
+    "reference_color": "Tradicional Bronze",
+    "source_available": null,
+    "fontes": {
+      "url_modelo_e_preco": "https://poedagareco.com/products/relogio-poedagar-chronoforge",
+      "consulta_UTC": "2026-11-10",
+      "nome_comercial_verificado": true,
+      "referencia_fabricante_verificada": false
+    },
+    "variantes_fonte": [
+      {
+        "source_sku_id": 6177093974877,
+        "title": "Tradicional Bronze",
+        "price_brl": 249.0,
+        "source_available": null
+      }
+    ],
+    "especificacoes": {},
+    "aprovacao_preco": {
+      "aprovado": true,
+      "valor": "249.00",
+      "data": "2026-11-10",
+      "registro": "Solicitação expressa do proprietário em 2026-11-10: aplicar o preço unitário público da referência à VRAS Watches.",
+      "source_variant_id": 6177093974877,
+      "fonte": "https://poedagareco.com/products/relogio-poedagar-chronoforge",
+      "consulta_UTC": "2026-11-10"
+    },
+    "pendencias": [
+      "Confirmar referência e variante do produto fornecido",
+      "Importar mídias correspondentes",
+      "Confirmar atendimento da oferta VRAS"
+    ],
+    "source_handle": "relogio-poedagar-chronoforge"
+  },
+  {
+    "id": 52,
+    "status": "rascunho",
+    "oferta_confirmada": false,
+    "galeria": [],
+    "videos": [],
+    "imagem": null,
+    "variante": {
+      "confirmada": false,
+      "source_variant_id": 36213574815689,
+      "cor": "Preto",
+      "pulseira": "",
+      "fonte": "https://poedagareco.com/products/relogio-poedagar-chronoforge"
+    },
+    "identificacao": {
+      "confirmada": false
+    },
+    "referencia": null,
+    "reference_key": "https://poedagareco.com/products/relogio-poedagar-chronoforge#preto",
+    "reference_import": true,
+    "source_model_url": "https://poedagareco.com/products/relogio-poedagar-chronoforge",
+    "source_id_kind": "derived_observation_id",
+    "slug": "chronoforge-preto",
+    "nome": "Poedagar Chronoforge — Preto",
+    "marca": "Poedagar",
+    "modelo": "Chronoforge",
+    "catalog_generation": "poedagar-v1",
+    "preco": 249.0,
+    "categoria": "Poedagar",
+    "destaque": false,
+    "descricao": "Tons de bronze, preto e prata em uma seleção de personalidade. Conheça o Poedagar Chronoforge.",
+    "reference_color": "Preto",
+    "source_available": null,
+    "fontes": {
+      "url_modelo_e_preco": "https://poedagareco.com/products/relogio-poedagar-chronoforge",
+      "consulta_UTC": "2026-11-10",
+      "nome_comercial_verificado": true,
+      "referencia_fabricante_verificada": false
+    },
+    "variantes_fonte": [
+      {
+        "source_sku_id": 36213574815689,
+        "title": "Preto",
+        "price_brl": 249.0,
+        "source_available": null
+      }
+    ],
+    "especificacoes": {},
+    "aprovacao_preco": {
+      "aprovado": true,
+      "valor": "249.00",
+      "data": "2026-11-10",
+      "registro": "Solicitação expressa do proprietário em 2026-11-10: aplicar o preço unitário público da referência à VRAS Watches.",
+      "source_variant_id": 36213574815689,
+      "fonte": "https://poedagareco.com/products/relogio-poedagar-chronoforge",
+      "consulta_UTC": "2026-11-10"
+    },
+    "pendencias": [
+      "Confirmar referência e variante do produto fornecido",
+      "Importar mídias correspondentes",
+      "Confirmar atendimento da oferta VRAS"
+    ],
+    "source_handle": "relogio-poedagar-chronoforge"
+  },
+  {
+    "id": 53,
+    "status": "rascunho",
+    "oferta_confirmada": false,
+    "galeria": [],
+    "videos": [],
+    "imagem": null,
+    "variante": {
+      "confirmada": false,
+      "source_variant_id": 2761045669060,
+      "cor": "Preto e Prata",
+      "pulseira": "",
+      "fonte": "https://poedagareco.com/products/relogio-poedagar-chronoforge"
+    },
+    "identificacao": {
+      "confirmada": false
+    },
+    "referencia": null,
+    "reference_key": "https://poedagareco.com/products/relogio-poedagar-chronoforge#preto e prata",
+    "reference_import": true,
+    "source_model_url": "https://poedagareco.com/products/relogio-poedagar-chronoforge",
+    "source_id_kind": "derived_observation_id",
+    "slug": "chronoforge-preto-e-prata",
+    "nome": "Poedagar Chronoforge — Preto e Prata",
+    "marca": "Poedagar",
+    "modelo": "Chronoforge",
+    "catalog_generation": "poedagar-v1",
+    "preco": 249.0,
+    "categoria": "Poedagar",
+    "destaque": false,
+    "descricao": "Tons de bronze, preto e prata em uma seleção de personalidade. Conheça o Poedagar Chronoforge.",
+    "reference_color": "Preto e Prata",
+    "source_available": null,
+    "fontes": {
+      "url_modelo_e_preco": "https://poedagareco.com/products/relogio-poedagar-chronoforge",
+      "consulta_UTC": "2026-11-10",
+      "nome_comercial_verificado": true,
+      "referencia_fabricante_verificada": false
+    },
+    "variantes_fonte": [
+      {
+        "source_sku_id": 2761045669060,
+        "title": "Preto e Prata",
+        "price_brl": 249.0,
+        "source_available": null
+      }
+    ],
+    "especificacoes": {},
+    "aprovacao_preco": {
+      "aprovado": true,
+      "valor": "249.00",
+      "data": "2026-11-10",
+      "registro": "Solicitação expressa do proprietário em 2026-11-10: aplicar o preço unitário público da referência à VRAS Watches.",
+      "source_variant_id": 2761045669060,
+      "fonte": "https://poedagareco.com/products/relogio-poedagar-chronoforge",
+      "consulta_UTC": "2026-11-10"
+    },
+    "pendencias": [
+      "Confirmar referência e variante do produto fornecido",
+      "Importar mídias correspondentes",
+      "Confirmar atendimento da oferta VRAS"
+    ],
+    "source_handle": "relogio-poedagar-chronoforge"
+  },
+  {
+    "id": 54,
+    "status": "rascunho",
+    "oferta_confirmada": false,
+    "galeria": [],
+    "videos": [],
+    "imagem": null,
+    "variante": {
+      "confirmada": false,
+      "source_variant_id": 173963423839694,
+      "cor": "Full Rosé",
+      "pulseira": "",
+      "fonte": "https://poedagareco.com/products/relogio-poedagar-dellicate"
+    },
+    "identificacao": {
+      "confirmada": false
+    },
+    "referencia": null,
+    "reference_key": "https://poedagareco.com/products/relogio-poedagar-dellicate#full rosé",
+    "reference_import": true,
+    "source_model_url": "https://poedagareco.com/products/relogio-poedagar-dellicate",
+    "source_id_kind": "derived_observation_id",
+    "slug": "dellicate-full-rose",
+    "nome": "Poedagar Dellicate — Full Rosé",
+    "marca": "Poedagar",
+    "modelo": "Dellicate",
+    "catalog_generation": "poedagar-v1",
+    "preco": 237.0,
+    "categoria": "Poedagar",
+    "destaque": false,
+    "descricao": "Tons delicados e combinações expressivas. Conheça o Poedagar Dellicate na seleção VRAS Watches.",
+    "reference_color": "Full Rosé",
+    "source_available": null,
+    "fontes": {
+      "url_modelo_e_preco": "https://poedagareco.com/products/relogio-poedagar-dellicate",
+      "consulta_UTC": "2026-11-10",
+      "nome_comercial_verificado": true,
+      "referencia_fabricante_verificada": false
+    },
+    "variantes_fonte": [
+      {
+        "source_sku_id": 173963423839694,
+        "title": "Full Rosé",
+        "price_brl": 237.0,
+        "source_available": null
+      }
+    ],
+    "especificacoes": {},
+    "aprovacao_preco": {
+      "aprovado": true,
+      "valor": "237.00",
+      "data": "2026-11-10",
+      "registro": "Solicitação expressa do proprietário em 2026-11-10: aplicar o preço unitário público da referência à VRAS Watches.",
+      "source_variant_id": 173963423839694,
+      "fonte": "https://poedagareco.com/products/relogio-poedagar-dellicate",
+      "consulta_UTC": "2026-11-10"
+    },
+    "pendencias": [
+      "Confirmar referência e variante do produto fornecido",
+      "Importar mídias correspondentes",
+      "Confirmar atendimento da oferta VRAS"
+    ],
+    "source_handle": "relogio-poedagar-dellicate"
+  },
+  {
+    "id": 55,
+    "status": "rascunho",
+    "oferta_confirmada": false,
+    "galeria": [],
+    "videos": [],
+    "imagem": null,
+    "variante": {
+      "confirmada": false,
+      "source_variant_id": 1939274287376,
+      "cor": "Preto",
+      "pulseira": "",
+      "fonte": "https://poedagareco.com/products/relogio-poedagar-dellicate"
+    },
+    "identificacao": {
+      "confirmada": false
+    },
+    "referencia": null,
+    "reference_key": "https://poedagareco.com/products/relogio-poedagar-dellicate#preto",
+    "reference_import": true,
+    "source_model_url": "https://poedagareco.com/products/relogio-poedagar-dellicate",
+    "source_id_kind": "derived_observation_id",
+    "slug": "dellicate-preto",
+    "nome": "Poedagar Dellicate — Preto",
+    "marca": "Poedagar",
+    "modelo": "Dellicate",
+    "catalog_generation": "poedagar-v1",
+    "preco": 237.0,
+    "categoria": "Poedagar",
+    "destaque": false,
+    "descricao": "Tons delicados e combinações expressivas. Conheça o Poedagar Dellicate na seleção VRAS Watches.",
+    "reference_color": "Preto",
+    "source_available": null,
+    "fontes": {
+      "url_modelo_e_preco": "https://poedagareco.com/products/relogio-poedagar-dellicate",
+      "consulta_UTC": "2026-11-10",
+      "nome_comercial_verificado": true,
+      "referencia_fabricante_verificada": false
+    },
+    "variantes_fonte": [
+      {
+        "source_sku_id": 1939274287376,
+        "title": "Preto",
+        "price_brl": 237.0,
+        "source_available": null
+      }
+    ],
+    "especificacoes": {},
+    "aprovacao_preco": {
+      "aprovado": true,
+      "valor": "237.00",
+      "data": "2026-11-10",
+      "registro": "Solicitação expressa do proprietário em 2026-11-10: aplicar o preço unitário público da referência à VRAS Watches.",
+      "source_variant_id": 1939274287376,
+      "fonte": "https://poedagareco.com/products/relogio-poedagar-dellicate",
+      "consulta_UTC": "2026-11-10"
+    },
+    "pendencias": [
+      "Confirmar referência e variante do produto fornecido",
+      "Importar mídias correspondentes",
+      "Confirmar atendimento da oferta VRAS"
+    ],
+    "source_handle": "relogio-poedagar-dellicate"
+  },
+  {
+    "id": 56,
+    "status": "rascunho",
+    "oferta_confirmada": false,
+    "galeria": [],
+    "videos": [],
+    "imagem": null,
+    "variante": {
+      "confirmada": false,
+      "source_variant_id": 237914528234804,
+      "cor": "Azul",
+      "pulseira": "",
+      "fonte": "https://poedagareco.com/products/relogio-poedagar-dellicate"
+    },
+    "identificacao": {
+      "confirmada": false
+    },
+    "referencia": null,
+    "reference_key": "https://poedagareco.com/products/relogio-poedagar-dellicate#azul",
+    "reference_import": true,
+    "source_model_url": "https://poedagareco.com/products/relogio-poedagar-dellicate",
+    "source_id_kind": "derived_observation_id",
+    "slug": "dellicate-azul",
+    "nome": "Poedagar Dellicate — Azul",
+    "marca": "Poedagar",
+    "modelo": "Dellicate",
+    "catalog_generation": "poedagar-v1",
+    "preco": 237.0,
+    "categoria": "Poedagar",
+    "destaque": false,
+    "descricao": "Tons delicados e combinações expressivas. Conheça o Poedagar Dellicate na seleção VRAS Watches.",
+    "reference_color": "Azul",
+    "source_available": null,
+    "fontes": {
+      "url_modelo_e_preco": "https://poedagareco.com/products/relogio-poedagar-dellicate",
+      "consulta_UTC": "2026-11-10",
+      "nome_comercial_verificado": true,
+      "referencia_fabricante_verificada": false
+    },
+    "variantes_fonte": [
+      {
+        "source_sku_id": 237914528234804,
+        "title": "Azul",
+        "price_brl": 237.0,
+        "source_available": null
+      }
+    ],
+    "especificacoes": {},
+    "aprovacao_preco": {
+      "aprovado": true,
+      "valor": "237.00",
+      "data": "2026-11-10",
+      "registro": "Solicitação expressa do proprietário em 2026-11-10: aplicar o preço unitário público da referência à VRAS Watches.",
+      "source_variant_id": 237914528234804,
+      "fonte": "https://poedagareco.com/products/relogio-poedagar-dellicate",
+      "consulta_UTC": "2026-11-10"
+    },
+    "pendencias": [
+      "Confirmar referência e variante do produto fornecido",
+      "Importar mídias correspondentes",
+      "Confirmar atendimento da oferta VRAS"
+    ],
+    "source_handle": "relogio-poedagar-dellicate"
+  },
+  {
+    "id": 57,
+    "status": "rascunho",
+    "oferta_confirmada": false,
+    "galeria": [],
+    "videos": [],
+    "imagem": null,
+    "variante": {
+      "confirmada": false,
+      "source_variant_id": 226775587214650,
+      "cor": "Rosé White",
+      "pulseira": "",
+      "fonte": "https://poedagareco.com/products/relogio-poedagar-dellicate"
+    },
+    "identificacao": {
+      "confirmada": false
+    },
+    "referencia": null,
+    "reference_key": "https://poedagareco.com/products/relogio-poedagar-dellicate#rosé white",
+    "reference_import": true,
+    "source_model_url": "https://poedagareco.com/products/relogio-poedagar-dellicate",
+    "source_id_kind": "derived_observation_id",
+    "slug": "dellicate-rose-white",
+    "nome": "Poedagar Dellicate — Rosé White",
+    "marca": "Poedagar",
+    "modelo": "Dellicate",
+    "catalog_generation": "poedagar-v1",
+    "preco": 237.0,
+    "categoria": "Poedagar",
+    "destaque": false,
+    "descricao": "Tons delicados e combinações expressivas. Conheça o Poedagar Dellicate na seleção VRAS Watches.",
+    "reference_color": "Rosé White",
+    "source_available": null,
+    "fontes": {
+      "url_modelo_e_preco": "https://poedagareco.com/products/relogio-poedagar-dellicate",
+      "consulta_UTC": "2026-11-10",
+      "nome_comercial_verificado": true,
+      "referencia_fabricante_verificada": false
+    },
+    "variantes_fonte": [
+      {
+        "source_sku_id": 226775587214650,
+        "title": "Rosé White",
+        "price_brl": 237.0,
+        "source_available": null
+      }
+    ],
+    "especificacoes": {},
+    "aprovacao_preco": {
+      "aprovado": true,
+      "valor": "237.00",
+      "data": "2026-11-10",
+      "registro": "Solicitação expressa do proprietário em 2026-11-10: aplicar o preço unitário público da referência à VRAS Watches.",
+      "source_variant_id": 226775587214650,
+      "fonte": "https://poedagareco.com/products/relogio-poedagar-dellicate",
+      "consulta_UTC": "2026-11-10"
+    },
+    "pendencias": [
+      "Confirmar referência e variante do produto fornecido",
+      "Importar mídias correspondentes",
+      "Confirmar atendimento da oferta VRAS"
+    ],
+    "source_handle": "relogio-poedagar-dellicate"
+  },
+  {
+    "id": 58,
+    "status": "rascunho",
+    "oferta_confirmada": false,
+    "galeria": [],
+    "videos": [],
+    "imagem": null,
+    "variante": {
+      "confirmada": false,
+      "source_variant_id": 125601305319303,
+      "cor": "Preto",
+      "pulseira": "",
+      "fonte": "https://poedagareco.com/products/relogio-poedagar-nautilus"
+    },
+    "identificacao": {
+      "confirmada": false
+    },
+    "referencia": null,
+    "reference_key": "https://poedagareco.com/products/relogio-poedagar-nautilus#preto",
+    "reference_import": true,
+    "source_model_url": "https://poedagareco.com/products/relogio-poedagar-nautilus",
+    "source_id_kind": "derived_observation_id",
+    "slug": "nautilus-preto",
+    "nome": "Poedagar Nautilus — Preto",
+    "marca": "Poedagar",
+    "modelo": "Nautilus",
+    "catalog_generation": "poedagar-v1",
+    "preco": 259.0,
+    "categoria": "Poedagar",
+    "destaque": false,
+    "descricao": "Uma escolha entre contrastes escuros e tons de azul. Explore o Poedagar Nautilus na VRAS Watches.",
+    "reference_color": "Preto",
+    "source_available": null,
+    "fontes": {
+      "url_modelo_e_preco": "https://poedagareco.com/products/relogio-poedagar-nautilus",
+      "consulta_UTC": "2026-11-10",
+      "nome_comercial_verificado": true,
+      "referencia_fabricante_verificada": false
+    },
+    "variantes_fonte": [
+      {
+        "source_sku_id": 125601305319303,
+        "title": "Preto",
+        "price_brl": 259.0,
+        "source_available": null
+      }
+    ],
+    "especificacoes": {},
+    "aprovacao_preco": {
+      "aprovado": true,
+      "valor": "259.00",
+      "data": "2026-11-10",
+      "registro": "Solicitação expressa do proprietário em 2026-11-10: aplicar o preço unitário público da referência à VRAS Watches.",
+      "source_variant_id": 125601305319303,
+      "fonte": "https://poedagareco.com/products/relogio-poedagar-nautilus",
+      "consulta_UTC": "2026-11-10"
+    },
+    "pendencias": [
+      "Confirmar referência e variante do produto fornecido",
+      "Importar mídias correspondentes",
+      "Confirmar atendimento da oferta VRAS"
+    ],
+    "source_handle": "relogio-poedagar-nautilus"
+  },
+  {
+    "id": 59,
+    "status": "rascunho",
+    "oferta_confirmada": false,
+    "galeria": [],
+    "videos": [],
+    "imagem": null,
+    "variante": {
+      "confirmada": false,
+      "source_variant_id": 198122593664549,
+      "cor": "Full Black",
+      "pulseira": "",
+      "fonte": "https://poedagareco.com/products/relogio-poedagar-nautilus"
+    },
+    "identificacao": {
+      "confirmada": false
+    },
+    "referencia": null,
+    "reference_key": "https://poedagareco.com/products/relogio-poedagar-nautilus#full black",
+    "reference_import": true,
+    "source_model_url": "https://poedagareco.com/products/relogio-poedagar-nautilus",
+    "source_id_kind": "derived_observation_id",
+    "slug": "nautilus-full-black",
+    "nome": "Poedagar Nautilus — Full Black",
+    "marca": "Poedagar",
+    "modelo": "Nautilus",
+    "catalog_generation": "poedagar-v1",
+    "preco": 259.0,
+    "categoria": "Poedagar",
+    "destaque": false,
+    "descricao": "Uma escolha entre contrastes escuros e tons de azul. Explore o Poedagar Nautilus na VRAS Watches.",
+    "reference_color": "Full Black",
+    "source_available": null,
+    "fontes": {
+      "url_modelo_e_preco": "https://poedagareco.com/products/relogio-poedagar-nautilus",
+      "consulta_UTC": "2026-11-10",
+      "nome_comercial_verificado": true,
+      "referencia_fabricante_verificada": false
+    },
+    "variantes_fonte": [
+      {
+        "source_sku_id": 198122593664549,
+        "title": "Full Black",
+        "price_brl": 259.0,
+        "source_available": null
+      }
+    ],
+    "especificacoes": {},
+    "aprovacao_preco": {
+      "aprovado": true,
+      "valor": "259.00",
+      "data": "2026-11-10",
+      "registro": "Solicitação expressa do proprietário em 2026-11-10: aplicar o preço unitário público da referência à VRAS Watches.",
+      "source_variant_id": 198122593664549,
+      "fonte": "https://poedagareco.com/products/relogio-poedagar-nautilus",
+      "consulta_UTC": "2026-11-10"
+    },
+    "pendencias": [
+      "Confirmar referência e variante do produto fornecido",
+      "Importar mídias correspondentes",
+      "Confirmar atendimento da oferta VRAS"
+    ],
+    "source_handle": "relogio-poedagar-nautilus"
+  },
+  {
+    "id": 60,
+    "status": "rascunho",
+    "oferta_confirmada": false,
+    "galeria": [],
+    "videos": [],
+    "imagem": null,
+    "variante": {
+      "confirmada": false,
+      "source_variant_id": 111437226208156,
+      "cor": "Azul",
+      "pulseira": "",
+      "fonte": "https://poedagareco.com/products/relogio-poedagar-nautilus"
+    },
+    "identificacao": {
+      "confirmada": false
+    },
+    "referencia": null,
+    "reference_key": "https://poedagareco.com/products/relogio-poedagar-nautilus#azul",
+    "reference_import": true,
+    "source_model_url": "https://poedagareco.com/products/relogio-poedagar-nautilus",
+    "source_id_kind": "derived_observation_id",
+    "slug": "nautilus-azul",
+    "nome": "Poedagar Nautilus — Azul",
+    "marca": "Poedagar",
+    "modelo": "Nautilus",
+    "catalog_generation": "poedagar-v1",
+    "preco": 259.0,
+    "categoria": "Poedagar",
+    "destaque": false,
+    "descricao": "Uma escolha entre contrastes escuros e tons de azul. Explore o Poedagar Nautilus na VRAS Watches.",
+    "reference_color": "Azul",
+    "source_available": null,
+    "fontes": {
+      "url_modelo_e_preco": "https://poedagareco.com/products/relogio-poedagar-nautilus",
+      "consulta_UTC": "2026-11-10",
+      "nome_comercial_verificado": true,
+      "referencia_fabricante_verificada": false
+    },
+    "variantes_fonte": [
+      {
+        "source_sku_id": 111437226208156,
+        "title": "Azul",
+        "price_brl": 259.0,
+        "source_available": null
+      }
+    ],
+    "especificacoes": {},
+    "aprovacao_preco": {
+      "aprovado": true,
+      "valor": "259.00",
+      "data": "2026-11-10",
+      "registro": "Solicitação expressa do proprietário em 2026-11-10: aplicar o preço unitário público da referência à VRAS Watches.",
+      "source_variant_id": 111437226208156,
+      "fonte": "https://poedagareco.com/products/relogio-poedagar-nautilus",
+      "consulta_UTC": "2026-11-10"
+    },
+    "pendencias": [
+      "Confirmar referência e variante do produto fornecido",
+      "Importar mídias correspondentes",
+      "Confirmar atendimento da oferta VRAS"
+    ],
+    "source_handle": "relogio-poedagar-nautilus"
+  },
+  {
+    "id": 61,
+    "status": "rascunho",
+    "oferta_confirmada": false,
+    "galeria": [],
+    "videos": [],
+    "imagem": null,
+    "variante": {
+      "confirmada": false,
+      "source_variant_id": 31513229052318,
+      "cor": "Dourado e Azul",
+      "pulseira": "",
+      "fonte": "https://poedagareco.com/products/relogio-poedagar-nautilus"
+    },
+    "identificacao": {
+      "confirmada": false
+    },
+    "referencia": null,
+    "reference_key": "https://poedagareco.com/products/relogio-poedagar-nautilus#dourado e azul",
+    "reference_import": true,
+    "source_model_url": "https://poedagareco.com/products/relogio-poedagar-nautilus",
+    "source_id_kind": "derived_observation_id",
+    "slug": "nautilus-dourado-e-azul",
+    "nome": "Poedagar Nautilus — Dourado e Azul",
+    "marca": "Poedagar",
+    "modelo": "Nautilus",
+    "catalog_generation": "poedagar-v1",
+    "preco": 259.0,
+    "categoria": "Poedagar",
+    "destaque": false,
+    "descricao": "Uma escolha entre contrastes escuros e tons de azul. Explore o Poedagar Nautilus na VRAS Watches.",
+    "reference_color": "Dourado e Azul",
+    "source_available": null,
+    "fontes": {
+      "url_modelo_e_preco": "https://poedagareco.com/products/relogio-poedagar-nautilus",
+      "consulta_UTC": "2026-11-10",
+      "nome_comercial_verificado": true,
+      "referencia_fabricante_verificada": false
+    },
+    "variantes_fonte": [
+      {
+        "source_sku_id": 31513229052318,
+        "title": "Dourado e Azul",
+        "price_brl": 259.0,
+        "source_available": null
+      }
+    ],
+    "especificacoes": {},
+    "aprovacao_preco": {
+      "aprovado": true,
+      "valor": "259.00",
+      "data": "2026-11-10",
+      "registro": "Solicitação expressa do proprietário em 2026-11-10: aplicar o preço unitário público da referência à VRAS Watches.",
+      "source_variant_id": 31513229052318,
+      "fonte": "https://poedagareco.com/products/relogio-poedagar-nautilus",
+      "consulta_UTC": "2026-11-10"
+    },
+    "pendencias": [
+      "Confirmar referência e variante do produto fornecido",
+      "Importar mídias correspondentes",
+      "Confirmar atendimento da oferta VRAS"
+    ],
+    "source_handle": "relogio-poedagar-nautilus"
+  },
+  {
+    "id": 62,
+    "status": "rascunho",
+    "oferta_confirmada": false,
+    "galeria": [],
+    "videos": [],
+    "imagem": null,
+    "variante": {
+      "confirmada": false,
+      "source_variant_id": 85701857119973,
+      "cor": "Tradicional",
+      "pulseira": "",
+      "fonte": "https://poedagareco.com/products/relogio-poedagar-vintage"
+    },
+    "identificacao": {
+      "confirmada": false
+    },
+    "referencia": null,
+    "reference_key": "https://poedagareco.com/products/relogio-poedagar-vintage#tradicional",
+    "reference_import": true,
+    "source_model_url": "https://poedagareco.com/products/relogio-poedagar-vintage",
+    "source_id_kind": "derived_observation_id",
+    "slug": "vintage-tradicional",
+    "nome": "Poedagar Vintage — Tradicional",
+    "marca": "Poedagar",
+    "modelo": "Vintage",
+    "catalog_generation": "poedagar-v1",
+    "preco": 227.0,
+    "categoria": "Poedagar",
+    "destaque": false,
+    "descricao": "Uma leitura clássica em diferentes cores. Descubra o Poedagar Vintage na seleção VRAS Watches.",
+    "reference_color": "Tradicional",
+    "source_available": null,
+    "fontes": {
+      "url_modelo_e_preco": "https://poedagareco.com/products/relogio-poedagar-vintage",
+      "consulta_UTC": "2026-11-10",
+      "nome_comercial_verificado": true,
+      "referencia_fabricante_verificada": false
+    },
+    "variantes_fonte": [
+      {
+        "source_sku_id": 85701857119973,
+        "title": "Tradicional",
+        "price_brl": 227.0,
+        "source_available": null
+      }
+    ],
+    "especificacoes": {},
+    "aprovacao_preco": {
+      "aprovado": true,
+      "valor": "227.00",
+      "data": "2026-11-10",
+      "registro": "Solicitação expressa do proprietário em 2026-11-10: aplicar o preço unitário público da referência à VRAS Watches.",
+      "source_variant_id": 85701857119973,
+      "fonte": "https://poedagareco.com/products/relogio-poedagar-vintage",
+      "consulta_UTC": "2026-11-10"
+    },
+    "pendencias": [
+      "Confirmar referência e variante do produto fornecido",
+      "Importar mídias correspondentes",
+      "Confirmar atendimento da oferta VRAS"
+    ],
+    "source_handle": "relogio-poedagar-vintage"
+  },
+  {
+    "id": 63,
+    "status": "rascunho",
+    "oferta_confirmada": false,
+    "galeria": [],
+    "videos": [],
+    "imagem": null,
+    "variante": {
+      "confirmada": false,
+      "source_variant_id": 42057750465003,
+      "cor": "Branco",
+      "pulseira": "",
+      "fonte": "https://poedagareco.com/products/relogio-poedagar-vintage"
+    },
+    "identificacao": {
+      "confirmada": false
+    },
+    "referencia": null,
+    "reference_key": "https://poedagareco.com/products/relogio-poedagar-vintage#branco",
+    "reference_import": true,
+    "source_model_url": "https://poedagareco.com/products/relogio-poedagar-vintage",
+    "source_id_kind": "derived_observation_id",
+    "slug": "vintage-branco",
+    "nome": "Poedagar Vintage — Branco",
+    "marca": "Poedagar",
+    "modelo": "Vintage",
+    "catalog_generation": "poedagar-v1",
+    "preco": 227.0,
+    "categoria": "Poedagar",
+    "destaque": false,
+    "descricao": "Uma leitura clássica em diferentes cores. Descubra o Poedagar Vintage na seleção VRAS Watches.",
+    "reference_color": "Branco",
+    "source_available": null,
+    "fontes": {
+      "url_modelo_e_preco": "https://poedagareco.com/products/relogio-poedagar-vintage",
+      "consulta_UTC": "2026-11-10",
+      "nome_comercial_verificado": true,
+      "referencia_fabricante_verificada": false
+    },
+    "variantes_fonte": [
+      {
+        "source_sku_id": 42057750465003,
+        "title": "Branco",
+        "price_brl": 227.0,
+        "source_available": null
+      }
+    ],
+    "especificacoes": {},
+    "aprovacao_preco": {
+      "aprovado": true,
+      "valor": "227.00",
+      "data": "2026-11-10",
+      "registro": "Solicitação expressa do proprietário em 2026-11-10: aplicar o preço unitário público da referência à VRAS Watches.",
+      "source_variant_id": 42057750465003,
+      "fonte": "https://poedagareco.com/products/relogio-poedagar-vintage",
+      "consulta_UTC": "2026-11-10"
+    },
+    "pendencias": [
+      "Confirmar referência e variante do produto fornecido",
+      "Importar mídias correspondentes",
+      "Confirmar atendimento da oferta VRAS"
+    ],
+    "source_handle": "relogio-poedagar-vintage"
+  },
+  {
+    "id": 64,
+    "status": "rascunho",
+    "oferta_confirmada": false,
+    "galeria": [],
+    "videos": [],
+    "imagem": null,
+    "variante": {
+      "confirmada": false,
+      "source_variant_id": 166646841309258,
+      "cor": "Azul",
+      "pulseira": "",
+      "fonte": "https://poedagareco.com/products/relogio-poedagar-vintage"
+    },
+    "identificacao": {
+      "confirmada": false
+    },
+    "referencia": null,
+    "reference_key": "https://poedagareco.com/products/relogio-poedagar-vintage#azul",
+    "reference_import": true,
+    "source_model_url": "https://poedagareco.com/products/relogio-poedagar-vintage",
+    "source_id_kind": "derived_observation_id",
+    "slug": "vintage-azul",
+    "nome": "Poedagar Vintage — Azul",
+    "marca": "Poedagar",
+    "modelo": "Vintage",
+    "catalog_generation": "poedagar-v1",
+    "preco": 227.0,
+    "categoria": "Poedagar",
+    "destaque": false,
+    "descricao": "Uma leitura clássica em diferentes cores. Descubra o Poedagar Vintage na seleção VRAS Watches.",
+    "reference_color": "Azul",
+    "source_available": null,
+    "fontes": {
+      "url_modelo_e_preco": "https://poedagareco.com/products/relogio-poedagar-vintage",
+      "consulta_UTC": "2026-11-10",
+      "nome_comercial_verificado": true,
+      "referencia_fabricante_verificada": false
+    },
+    "variantes_fonte": [
+      {
+        "source_sku_id": 166646841309258,
+        "title": "Azul",
+        "price_brl": 227.0,
+        "source_available": null
+      }
+    ],
+    "especificacoes": {},
+    "aprovacao_preco": {
+      "aprovado": true,
+      "valor": "227.00",
+      "data": "2026-11-10",
+      "registro": "Solicitação expressa do proprietário em 2026-11-10: aplicar o preço unitário público da referência à VRAS Watches.",
+      "source_variant_id": 166646841309258,
+      "fonte": "https://poedagareco.com/products/relogio-poedagar-vintage",
+      "consulta_UTC": "2026-11-10"
+    },
+    "pendencias": [
+      "Confirmar referência e variante do produto fornecido",
+      "Importar mídias correspondentes",
+      "Confirmar atendimento da oferta VRAS"
+    ],
+    "source_handle": "relogio-poedagar-vintage"
+  },
+  {
+    "id": 65,
+    "status": "rascunho",
+    "oferta_confirmada": false,
+    "galeria": [],
+    "videos": [],
+    "imagem": null,
+    "variante": {
+      "confirmada": false,
+      "source_variant_id": 66888029366932,
+      "cor": "Preto",
+      "pulseira": "",
+      "fonte": "https://poedagareco.com/products/relogio-poedagar-vintage"
+    },
+    "identificacao": {
+      "confirmada": false
+    },
+    "referencia": null,
+    "reference_key": "https://poedagareco.com/products/relogio-poedagar-vintage#preto",
+    "reference_import": true,
+    "source_model_url": "https://poedagareco.com/products/relogio-poedagar-vintage",
+    "source_id_kind": "derived_observation_id",
+    "slug": "vintage-preto",
+    "nome": "Poedagar Vintage — Preto",
+    "marca": "Poedagar",
+    "modelo": "Vintage",
+    "catalog_generation": "poedagar-v1",
+    "preco": 227.0,
+    "categoria": "Poedagar",
+    "destaque": false,
+    "descricao": "Uma leitura clássica em diferentes cores. Descubra o Poedagar Vintage na seleção VRAS Watches.",
+    "reference_color": "Preto",
+    "source_available": null,
+    "fontes": {
+      "url_modelo_e_preco": "https://poedagareco.com/products/relogio-poedagar-vintage",
+      "consulta_UTC": "2026-11-10",
+      "nome_comercial_verificado": true,
+      "referencia_fabricante_verificada": false
+    },
+    "variantes_fonte": [
+      {
+        "source_sku_id": 66888029366932,
+        "title": "Preto",
+        "price_brl": 227.0,
+        "source_available": null
+      }
+    ],
+    "especificacoes": {},
+    "aprovacao_preco": {
+      "aprovado": true,
+      "valor": "227.00",
+      "data": "2026-11-10",
+      "registro": "Solicitação expressa do proprietário em 2026-11-10: aplicar o preço unitário público da referência à VRAS Watches.",
+      "source_variant_id": 66888029366932,
+      "fonte": "https://poedagareco.com/products/relogio-poedagar-vintage",
+      "consulta_UTC": "2026-11-10"
+    },
+    "pendencias": [
+      "Confirmar referência e variante do produto fornecido",
+      "Importar mídias correspondentes",
+      "Confirmar atendimento da oferta VRAS"
+    ],
+    "source_handle": "relogio-poedagar-vintage"
+  },
+  {
+    "id": 66,
+    "status": "rascunho",
+    "oferta_confirmada": false,
+    "galeria": [],
+    "videos": [],
+    "imagem": null,
+    "variante": {
+      "confirmada": false,
+      "source_variant_id": 218164811737676,
+      "cor": "Rosé",
+      "pulseira": "",
+      "fonte": "https://poedagareco.com/products/relogio-poedagar-seraphim"
+    },
+    "identificacao": {
+      "confirmada": false
+    },
+    "referencia": null,
+    "reference_key": "https://poedagareco.com/products/relogio-poedagar-seraphim#rosé",
+    "reference_import": true,
+    "source_model_url": "https://poedagareco.com/products/relogio-poedagar-seraphim",
+    "source_id_kind": "derived_observation_id",
+    "slug": "seraphim-rose",
+    "nome": "Poedagar Seraphim — Rosé",
+    "marca": "Poedagar",
+    "modelo": "Seraphim",
+    "catalog_generation": "poedagar-v1",
+    "preco": 229.0,
+    "categoria": "Poedagar",
+    "destaque": false,
+    "descricao": "Uma paleta de cores para escolher com calma. Conheça o Poedagar Seraphim na VRAS Watches.",
+    "reference_color": "Rosé",
+    "source_available": null,
+    "fontes": {
+      "url_modelo_e_preco": "https://poedagareco.com/products/relogio-poedagar-seraphim",
+      "consulta_UTC": "2026-11-10",
+      "nome_comercial_verificado": true,
+      "referencia_fabricante_verificada": false
+    },
+    "variantes_fonte": [
+      {
+        "source_sku_id": 218164811737676,
+        "title": "Rosé",
+        "price_brl": 229.0,
+        "source_available": null
+      }
+    ],
+    "especificacoes": {},
+    "aprovacao_preco": {
+      "aprovado": true,
+      "valor": "229.00",
+      "data": "2026-11-10",
+      "registro": "Solicitação expressa do proprietário em 2026-11-10: aplicar o preço unitário público da referência à VRAS Watches.",
+      "source_variant_id": 218164811737676,
+      "fonte": "https://poedagareco.com/products/relogio-poedagar-seraphim",
+      "consulta_UTC": "2026-11-10"
+    },
+    "pendencias": [
+      "Confirmar referência e variante do produto fornecido",
+      "Importar mídias correspondentes",
+      "Confirmar atendimento da oferta VRAS"
+    ],
+    "source_handle": "relogio-poedagar-seraphim"
+  },
+  {
+    "id": 67,
+    "status": "rascunho",
+    "oferta_confirmada": false,
+    "galeria": [],
+    "videos": [],
+    "imagem": null,
+    "variante": {
+      "confirmada": false,
+      "source_variant_id": 56320998354673,
+      "cor": "Branco",
+      "pulseira": "",
+      "fonte": "https://poedagareco.com/products/relogio-poedagar-seraphim"
+    },
+    "identificacao": {
+      "confirmada": false
+    },
+    "referencia": null,
+    "reference_key": "https://poedagareco.com/products/relogio-poedagar-seraphim#branco",
+    "reference_import": true,
+    "source_model_url": "https://poedagareco.com/products/relogio-poedagar-seraphim",
+    "source_id_kind": "derived_observation_id",
+    "slug": "seraphim-branco",
+    "nome": "Poedagar Seraphim — Branco",
+    "marca": "Poedagar",
+    "modelo": "Seraphim",
+    "catalog_generation": "poedagar-v1",
+    "preco": 229.0,
+    "categoria": "Poedagar",
+    "destaque": false,
+    "descricao": "Uma paleta de cores para escolher com calma. Conheça o Poedagar Seraphim na VRAS Watches.",
+    "reference_color": "Branco",
+    "source_available": null,
+    "fontes": {
+      "url_modelo_e_preco": "https://poedagareco.com/products/relogio-poedagar-seraphim",
+      "consulta_UTC": "2026-11-10",
+      "nome_comercial_verificado": true,
+      "referencia_fabricante_verificada": false
+    },
+    "variantes_fonte": [
+      {
+        "source_sku_id": 56320998354673,
+        "title": "Branco",
+        "price_brl": 229.0,
+        "source_available": null
+      }
+    ],
+    "especificacoes": {},
+    "aprovacao_preco": {
+      "aprovado": true,
+      "valor": "229.00",
+      "data": "2026-11-10",
+      "registro": "Solicitação expressa do proprietário em 2026-11-10: aplicar o preço unitário público da referência à VRAS Watches.",
+      "source_variant_id": 56320998354673,
+      "fonte": "https://poedagareco.com/products/relogio-poedagar-seraphim",
+      "consulta_UTC": "2026-11-10"
+    },
+    "pendencias": [
+      "Confirmar referência e variante do produto fornecido",
+      "Importar mídias correspondentes",
+      "Confirmar atendimento da oferta VRAS"
+    ],
+    "source_handle": "relogio-poedagar-seraphim"
+  },
+  {
+    "id": 68,
+    "status": "rascunho",
+    "oferta_confirmada": false,
+    "galeria": [],
+    "videos": [],
+    "imagem": null,
+    "variante": {
+      "confirmada": false,
+      "source_variant_id": 81539493876374,
+      "cor": "Preto",
+      "pulseira": "",
+      "fonte": "https://poedagareco.com/products/relogio-poedagar-seraphim"
+    },
+    "identificacao": {
+      "confirmada": false
+    },
+    "referencia": null,
+    "reference_key": "https://poedagareco.com/products/relogio-poedagar-seraphim#preto",
+    "reference_import": true,
+    "source_model_url": "https://poedagareco.com/products/relogio-poedagar-seraphim",
+    "source_id_kind": "derived_observation_id",
+    "slug": "seraphim-preto",
+    "nome": "Poedagar Seraphim — Preto",
+    "marca": "Poedagar",
+    "modelo": "Seraphim",
+    "catalog_generation": "poedagar-v1",
+    "preco": 229.0,
+    "categoria": "Poedagar",
+    "destaque": false,
+    "descricao": "Uma paleta de cores para escolher com calma. Conheça o Poedagar Seraphim na VRAS Watches.",
+    "reference_color": "Preto",
+    "source_available": null,
+    "fontes": {
+      "url_modelo_e_preco": "https://poedagareco.com/products/relogio-poedagar-seraphim",
+      "consulta_UTC": "2026-11-10",
+      "nome_comercial_verificado": true,
+      "referencia_fabricante_verificada": false
+    },
+    "variantes_fonte": [
+      {
+        "source_sku_id": 81539493876374,
+        "title": "Preto",
+        "price_brl": 229.0,
+        "source_available": null
+      }
+    ],
+    "especificacoes": {},
+    "aprovacao_preco": {
+      "aprovado": true,
+      "valor": "229.00",
+      "data": "2026-11-10",
+      "registro": "Solicitação expressa do proprietário em 2026-11-10: aplicar o preço unitário público da referência à VRAS Watches.",
+      "source_variant_id": 81539493876374,
+      "fonte": "https://poedagareco.com/products/relogio-poedagar-seraphim",
+      "consulta_UTC": "2026-11-10"
+    },
+    "pendencias": [
+      "Confirmar referência e variante do produto fornecido",
+      "Importar mídias correspondentes",
+      "Confirmar atendimento da oferta VRAS"
+    ],
+    "source_handle": "relogio-poedagar-seraphim"
+  },
+  {
+    "id": 69,
+    "status": "rascunho",
+    "oferta_confirmada": false,
+    "galeria": [],
+    "videos": [],
+    "imagem": null,
+    "variante": {
+      "confirmada": false,
+      "source_variant_id": 239468924574734,
+      "cor": "Rosa Claro",
+      "pulseira": "",
+      "fonte": "https://poedagareco.com/products/relogio-poedagar-seraphim"
+    },
+    "identificacao": {
+      "confirmada": false
+    },
+    "referencia": null,
+    "reference_key": "https://poedagareco.com/products/relogio-poedagar-seraphim#rosa claro",
+    "reference_import": true,
+    "source_model_url": "https://poedagareco.com/products/relogio-poedagar-seraphim",
+    "source_id_kind": "derived_observation_id",
+    "slug": "seraphim-rosa-claro",
+    "nome": "Poedagar Seraphim — Rosa Claro",
+    "marca": "Poedagar",
+    "modelo": "Seraphim",
+    "catalog_generation": "poedagar-v1",
+    "preco": 229.0,
+    "categoria": "Poedagar",
+    "destaque": false,
+    "descricao": "Uma paleta de cores para escolher com calma. Conheça o Poedagar Seraphim na VRAS Watches.",
+    "reference_color": "Rosa Claro",
+    "source_available": null,
+    "fontes": {
+      "url_modelo_e_preco": "https://poedagareco.com/products/relogio-poedagar-seraphim",
+      "consulta_UTC": "2026-11-10",
+      "nome_comercial_verificado": true,
+      "referencia_fabricante_verificada": false
+    },
+    "variantes_fonte": [
+      {
+        "source_sku_id": 239468924574734,
+        "title": "Rosa Claro",
+        "price_brl": 229.0,
+        "source_available": null
+      }
+    ],
+    "especificacoes": {},
+    "aprovacao_preco": {
+      "aprovado": true,
+      "valor": "229.00",
+      "data": "2026-11-10",
+      "registro": "Solicitação expressa do proprietário em 2026-11-10: aplicar o preço unitário público da referência à VRAS Watches.",
+      "source_variant_id": 239468924574734,
+      "fonte": "https://poedagareco.com/products/relogio-poedagar-seraphim",
+      "consulta_UTC": "2026-11-10"
+    },
+    "pendencias": [
+      "Confirmar referência e variante do produto fornecido",
+      "Importar mídias correspondentes",
+      "Confirmar atendimento da oferta VRAS"
+    ],
+    "source_handle": "relogio-poedagar-seraphim"
+  },
+  {
+    "id": 70,
+    "status": "rascunho",
+    "oferta_confirmada": false,
+    "galeria": [],
+    "videos": [],
+    "imagem": null,
+    "variante": {
+      "confirmada": false,
+      "source_variant_id": 118182648302985,
+      "cor": "Roxo e Dourado",
+      "pulseira": "",
+      "fonte": "https://poedagareco.com/products/relogio-poedagar-woman-elegancy"
+    },
+    "identificacao": {
+      "confirmada": false
+    },
+    "referencia": null,
+    "reference_key": "https://poedagareco.com/products/relogio-poedagar-woman-elegancy#roxo e dourado",
+    "reference_import": true,
+    "source_model_url": "https://poedagareco.com/products/relogio-poedagar-woman-elegancy",
+    "source_id_kind": "derived_observation_id",
+    "slug": "woman-elegancy-roxo-e-dourado",
+    "nome": "Poedagar Woman Elegancy — Roxo e Dourado",
+    "marca": "Poedagar",
+    "modelo": "Woman Elegancy",
+    "catalog_generation": "poedagar-v1",
+    "preco": 167.0,
+    "categoria": "Poedagar",
+    "destaque": false,
+    "descricao": "Combinações de cores e detalhes dourados. Explore o Poedagar Woman Elegancy na VRAS Watches.",
+    "reference_color": "Roxo e Dourado",
+    "source_available": null,
+    "fontes": {
+      "url_modelo_e_preco": "https://poedagareco.com/products/relogio-poedagar-woman-elegancy",
+      "consulta_UTC": "2026-11-10",
+      "nome_comercial_verificado": true,
+      "referencia_fabricante_verificada": false
+    },
+    "variantes_fonte": [
+      {
+        "source_sku_id": 118182648302985,
+        "title": "Roxo e Dourado",
+        "price_brl": 167.0,
+        "source_available": null
+      }
+    ],
+    "especificacoes": {},
+    "aprovacao_preco": {
+      "aprovado": true,
+      "valor": "167.00",
+      "data": "2026-11-10",
+      "registro": "Solicitação expressa do proprietário em 2026-11-10: aplicar o preço unitário público da referência à VRAS Watches.",
+      "source_variant_id": 118182648302985,
+      "fonte": "https://poedagareco.com/products/relogio-poedagar-woman-elegancy",
+      "consulta_UTC": "2026-11-10"
+    },
+    "pendencias": [
+      "Confirmar referência e variante do produto fornecido",
+      "Importar mídias correspondentes",
+      "Confirmar atendimento da oferta VRAS"
+    ],
+    "source_handle": "relogio-poedagar-woman-elegancy"
+  },
+  {
+    "id": 71,
+    "status": "rascunho",
+    "oferta_confirmada": false,
+    "galeria": [],
+    "videos": [],
+    "imagem": null,
+    "variante": {
+      "confirmada": false,
+      "source_variant_id": 220790434113619,
+      "cor": "Azul e Dourado",
+      "pulseira": "",
+      "fonte": "https://poedagareco.com/products/relogio-poedagar-woman-elegancy"
+    },
+    "identificacao": {
+      "confirmada": false
+    },
+    "referencia": null,
+    "reference_key": "https://poedagareco.com/products/relogio-poedagar-woman-elegancy#azul e dourado",
+    "reference_import": true,
+    "source_model_url": "https://poedagareco.com/products/relogio-poedagar-woman-elegancy",
+    "source_id_kind": "derived_observation_id",
+    "slug": "woman-elegancy-azul-e-dourado",
+    "nome": "Poedagar Woman Elegancy — Azul e Dourado",
+    "marca": "Poedagar",
+    "modelo": "Woman Elegancy",
+    "catalog_generation": "poedagar-v1",
+    "preco": 167.0,
+    "categoria": "Poedagar",
+    "destaque": false,
+    "descricao": "Combinações de cores e detalhes dourados. Explore o Poedagar Woman Elegancy na VRAS Watches.",
+    "reference_color": "Azul e Dourado",
+    "source_available": null,
+    "fontes": {
+      "url_modelo_e_preco": "https://poedagareco.com/products/relogio-poedagar-woman-elegancy",
+      "consulta_UTC": "2026-11-10",
+      "nome_comercial_verificado": true,
+      "referencia_fabricante_verificada": false
+    },
+    "variantes_fonte": [
+      {
+        "source_sku_id": 220790434113619,
+        "title": "Azul e Dourado",
+        "price_brl": 167.0,
+        "source_available": null
+      }
+    ],
+    "especificacoes": {},
+    "aprovacao_preco": {
+      "aprovado": true,
+      "valor": "167.00",
+      "data": "2026-11-10",
+      "registro": "Solicitação expressa do proprietário em 2026-11-10: aplicar o preço unitário público da referência à VRAS Watches.",
+      "source_variant_id": 220790434113619,
+      "fonte": "https://poedagareco.com/products/relogio-poedagar-woman-elegancy",
+      "consulta_UTC": "2026-11-10"
+    },
+    "pendencias": [
+      "Confirmar referência e variante do produto fornecido",
+      "Importar mídias correspondentes",
+      "Confirmar atendimento da oferta VRAS"
+    ],
+    "source_handle": "relogio-poedagar-woman-elegancy"
+  },
+  {
+    "id": 72,
+    "status": "rascunho",
+    "oferta_confirmada": false,
+    "galeria": [],
+    "videos": [],
+    "imagem": null,
+    "variante": {
+      "confirmada": false,
+      "source_variant_id": 86324079724207,
+      "cor": "Vinho Tinto e Dourado",
+      "pulseira": "",
+      "fonte": "https://poedagareco.com/products/relogio-poedagar-woman-elegancy"
+    },
+    "identificacao": {
+      "confirmada": false
+    },
+    "referencia": null,
+    "reference_key": "https://poedagareco.com/products/relogio-poedagar-woman-elegancy#vinho tinto e dourado",
+    "reference_import": true,
+    "source_model_url": "https://poedagareco.com/products/relogio-poedagar-woman-elegancy",
+    "source_id_kind": "derived_observation_id",
+    "slug": "woman-elegancy-vinho-tinto-e-dourado",
+    "nome": "Poedagar Woman Elegancy — Vinho Tinto e Dourado",
+    "marca": "Poedagar",
+    "modelo": "Woman Elegancy",
+    "catalog_generation": "poedagar-v1",
+    "preco": 167.0,
+    "categoria": "Poedagar",
+    "destaque": false,
+    "descricao": "Combinações de cores e detalhes dourados. Explore o Poedagar Woman Elegancy na VRAS Watches.",
+    "reference_color": "Vinho Tinto e Dourado",
+    "source_available": null,
+    "fontes": {
+      "url_modelo_e_preco": "https://poedagareco.com/products/relogio-poedagar-woman-elegancy",
+      "consulta_UTC": "2026-11-10",
+      "nome_comercial_verificado": true,
+      "referencia_fabricante_verificada": false
+    },
+    "variantes_fonte": [
+      {
+        "source_sku_id": 86324079724207,
+        "title": "Vinho Tinto e Dourado",
+        "price_brl": 167.0,
+        "source_available": null
+      }
+    ],
+    "especificacoes": {},
+    "aprovacao_preco": {
+      "aprovado": true,
+      "valor": "167.00",
+      "data": "2026-11-10",
+      "registro": "Solicitação expressa do proprietário em 2026-11-10: aplicar o preço unitário público da referência à VRAS Watches.",
+      "source_variant_id": 86324079724207,
+      "fonte": "https://poedagareco.com/products/relogio-poedagar-woman-elegancy",
+      "consulta_UTC": "2026-11-10"
+    },
+    "pendencias": [
+      "Confirmar referência e variante do produto fornecido",
+      "Importar mídias correspondentes",
+      "Confirmar atendimento da oferta VRAS"
+    ],
+    "source_handle": "relogio-poedagar-woman-elegancy"
   }
 ]
