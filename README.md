@@ -1,5 +1,31 @@
 # VRAS Watches
 
+## Atualização do catálogo / Catalog update — 10/11/2026
+
+A loja recebeu tema escuro próprio da VRAS, páginas por modelo/cor e importação
+incremental Poedagar. Os 12 produtos anteriores foram preservados; 48 variantes
+observadas foram acrescentadas. Montelux está cadastrado a R$ 259,00.
+
+Guia atual de importação, originais, WebP, vídeos, administração, testes e
+limitações: [docs/PREMIUM_CATALOG.md](docs/PREMIUM_CATALOG.md).
+Dados e evidências: [docs/REFERENCE_ANALYSIS.md](docs/REFERENCE_ANALYSIS.md).
+
+```powershell
+python manage.py import_reference_catalog
+python manage.py audit_reference_catalog
+python manage.py runserver
+```
+
+Página: /colecao/montelux/. Painel protegido: /admin/catalogo-referencia/.
+Mídias externas, commits e push estão pendentes por restrições deste ambiente.
+Ofertas incompletas são apresentadas com disponibilidade pendente, sem compra.
+Consulte o guia atual antes de usar os comandos históricos abaixo.
+
+English: original VRAS design, additive Poedagar variant imports and protected
+media provenance dashboard. Existing products are preserved. External downloads,
+Git writes and push could not complete in this restricted environment.
+
+
 Loja Django com templates renderizados no servidor, catálogo JSON e carrinho
 persistido em sessões Django. A arquitetura MTV mantém um único app `loja`,
 organizado internamente por domínio, sem alterar o banco, permissões ou URLs.
