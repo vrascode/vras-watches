@@ -8,6 +8,7 @@ from django.views.decorators.cache import never_cache
 from django.views.decorators.http import require_safe
 
 from loja.catalog import services
+from loja.catalog.presentation import reference_cards
 from loja.media import assets as media
 
 
@@ -18,6 +19,7 @@ def home(request):
     catalog = services.get_products()
     return render(request, "loja/storefront/home.html", {
         "catalog_pending": not catalog,
+        "reference_models": reference_cards()[:4],
         "featured_products": services.get_featured_products(catalog) or catalog[:4],
         "new_products": services.get_new_products(catalog),
         "collections": services.get_collections(catalog),

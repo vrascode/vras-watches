@@ -1,5 +1,5 @@
 <div class="video-shell {% if decorative %}video-decorative{% endif %}" data-video-shell>
-    <video {% if decorative %}autoplay muted loop data-autoplay{% else %}controls{% endif %} playsinline preload="none" poster="{{ video.poster.url }}" width="{{ video.poster.width|default:900 }}" height="{{ video.poster.height|default:1100 }}" data-video {% if preview %}data-preview{% endif %} aria-label="{{ video.alt|default:'V&iacute;deo VRAS Watches' }}">
+    <video {% if decorative %}autoplay muted loop data-autoplay{% elif demonstration %}controls autoplay muted loop data-autoplay{% else %}controls{% endif %} playsinline preload="none" poster="{{ video.poster.url }}" width="{{ video.poster.width|default:900 }}" height="{{ video.poster.height|default:1100 }}" data-video {% if preview %}data-preview{% endif %} aria-label="{{ video.alt|default:'V&iacute;deo VRAS Watches' }}">
         <source data-src="{{ video.url }}" type="{{ video.mime }}">
         {% if video.captions %}<track kind="captions" src="{{ video.captions.url }}" srclang="pt-BR" label="Portugu&ecirc;s">{% endif %}
     </video>

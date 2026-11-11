@@ -254,12 +254,25 @@
             if (previous) previous.disabled = current === 0;
             if (next) next.disabled = current >= track.children.length - 1;
             thumbnails.forEach((thumbnail, index) => {
+                thumbnail.tabIndex = index === current ? 0 : -1;
                 if (index === current) thumbnail.setAttribute("aria-current", "true");
                 else thumbnail.removeAttribute("aria-current");
             });
         };
         gallery.classList.add("gallery-enhanced");
-        thumbnails.forEach(thumbnail => thumbnail.addEventListener("click", () => select(Number(thumbnail.dataset.galleryIndex))));
+        thumbnails.forEach((thumbnail, index) => {
+            thumbnail.addEventListener("click", () => select(index));
+            thumbnail.addEventListener("keydown", event => {
+                if (!["ArrowLeft", "ArrowRight", "Home", "End"].includes(event.key)) return;
+                event.preventDefault();
+                const direction = event.key === "ArrowRight" ? 1 : -1;
+                const target = event.key === "Home" ? 0 : event.key === "End" ? thumbnails.length - 1
+                    : Math.max(0, Math.min(index + direction, thumbnails.length - 1));
+                select(target);
+                thumbnails[target].focus({ preventScroll: true });
+                thumbnails[target].scrollIntoView({ block: "nearest", inline: "nearest", behavior: "instant" });
+            });
+        });
         previous?.addEventListener("click", () => move(-1));
         next?.addEventListener("click", () => move(1));
         track.addEventListener("scroll", update, { passive: true });
