@@ -1,0 +1,15 @@
+{% extends "admin/base_site.html" %}
+{% block content %}
+<p>Observações de catálogo da marca Poedagar. A VRAS Watches é a revendedora. Números internos derivados não são referências do fabricante.</p>
+<p><a href="{% url 'reference_inventory_csv' %}">Exportar inventário CSV</a> · <a href="{% url 'loja:catalog_manager' %}">Gerenciar ofertas e fotografias</a></p>
+<h2>Modelos e variantes</h2>
+<div style="overflow-x:auto"><table><thead><tr><th>Modelo</th><th>Variantes</th><th>Preço cadastrado</th><th>Ofertas publicadas</th><th>Mídias observadas</th><th>Consulta</th></tr></thead><tbody>
+{% for row in model_rows %}<tr><td>{{ row.model }}</td><td>{{ row.count }}</td><td>{{ row.product.preco_brl }}</td><td>{{ row.published }}</td><td>{{ row.media_count }}</td><td><a href="{{ row.product.source_model_url }}" rel="noopener noreferrer" target="_blank">Origem</a> · <a href="{% url 'loja:catalog_product' row.product.id %}">Conferir</a></td></tr>{% endfor %}
+</tbody></table></div>
+<h2>Inventário de mídias</h2>
+<p>{{ downloaded }} arquivos baixados · {{ errors }} erros · {{ items|length }} entradas. Autorização declarada pelo proprietário da VRAS; titularidade comercial de terceiros não verificada.</p>
+<p>{{ inventory.discovery_status }}</p>
+<div style="overflow-x:auto"><table><thead><tr><th>Arquivo e origem</th><th>Produto / Variante</th><th>Tipo</th><th>Resolução</th><th>Download</th><th>Autorização</th></tr></thead><tbody>
+{% for item in items %}<tr><td><a href="{{ item.original_url }}" rel="noopener noreferrer" target="_blank">{{ item.filename }}</a></td><td>{{ item.product }} / {{ item.variant|default:"Associação pendente" }}</td><td>{{ item.type }}</td><td>{% if item.resolution %}{{ item.resolution.width }} × {{ item.resolution.height }}{% else %}Inspeção pendente{% endif %}</td><td>{{ item.download_status }}{% if item.error %}<br>{{ item.error }}{% endif %}</td><td>{{ item.commercial_authorization.status }}</td></tr>{% endfor %}
+</tbody></table></div>
+{% endblock %}

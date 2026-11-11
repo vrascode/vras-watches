@@ -34,6 +34,7 @@ artifacts/*
 !artifacts/README.md
 node_modules/
 data/.owner-intake.lock
+media-originals/
 
 # Owner-provided originals and private rights records stay local.
 midias-instagram/*

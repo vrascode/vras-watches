@@ -1,0 +1,168 @@
+{
+  "base_commit": "5a047639a7d2e79781fd27683bc254df867a0734",
+  "branch": "main",
+  "remote": "origin",
+  "commits": [
+    {
+      "message": "feat(catalog): add atomic storage and shared import lock",
+      "paths": [
+        "loja/catalog/reference_storage.py"
+      ]
+    },
+    {
+      "message": "feat(catalog): validate Poedagar reference observations",
+      "paths": [
+        "loja/catalog/reference_schema.py"
+      ]
+    },
+    {
+      "message": "feat(media): add bounded public HTTPS downloads",
+      "paths": [
+        "loja/media/public_download.py",
+        "loja/media/download_diagnostics.py"
+      ]
+    },
+    {
+      "message": "feat(catalog): discover public Shopify products and page media",
+      "paths": [
+        "loja/catalog/shopify_source.py"
+      ]
+    },
+    {
+      "message": "feat(catalog): import source prices and variants without duplicates",
+      "paths": [
+        "loja/catalog/reference_import.py"
+      ]
+    },
+    {
+      "message": "feat(media): record provenance and commercial authorization inventory",
+      "paths": [
+        "loja/media/reference_inventory.py",
+        "data/reference_media_inventory.json",
+        "data/reference_media_inventory.csv"
+      ]
+    },
+    {
+      "message": "feat(media): process silent demonstration videos with real posters",
+      "paths": [
+        "loja/media/video_processing.py"
+      ]
+    },
+    {
+      "message": "feat(media): preserve originals and generate responsive WebP assets",
+      "paths": [
+        "loja/media/reference_pipeline.py"
+      ]
+    },
+    {
+      "message": "feat(media): bind imported assets to exact product variants",
+      "paths": [
+        "loja/media/reference_binding.py"
+      ]
+    },
+    {
+      "message": "feat(cli): add repeatable catalog import and integrity audits",
+      "paths": [
+        "loja/management/commands/import_reference_catalog.py",
+        "loja/management/commands/audit_reference_catalog.py",
+        "loja/management/commands/retry_reference_media.py"
+      ]
+    },
+    {
+      "message": "feat(catalog): add Montelux and related observations while preserving existing products",
+      "paths": [
+        "data/reference_catalog.json",
+        "data/products.json",
+        "loja/management/commands/apply_reference_prices.py",
+        "loja/tests/catalog/test_migration.py",
+        "loja/tests/catalog/test_pricing.py",
+        "loja/tests/catalog/test_publication.py",
+        "loja/tests/management_portal/test_receipts.py"
+      ]
+    },
+    {
+      "message": "feat(catalog): present color options and distinct related models",
+      "paths": [
+        "loja/catalog/presentation.py"
+      ]
+    },
+    {
+      "message": "feat(storefront): add public model and color collection pages",
+      "paths": [
+        "loja/catalog/showcase_views.py",
+        "loja/catalog/urls.py"
+      ]
+    },
+    {
+      "message": "feat(product): add branded specifications and original editorial content",
+      "paths": [
+        "loja/catalog/views.py",
+        "loja/templates/loja/catalog/product_detail.html",
+        "loja/templates/loja/catalog/_product_story.html",
+        "loja/templates/loja/catalog/_product_card.html"
+      ]
+    },
+    {
+      "message": "feat(gallery): improve keyboard navigation and silent video playback",
+      "paths": [
+        "static/js/storefront.js",
+        "static/js/product-experience.js",
+        "templates/components/video.html",
+        "loja/templates/loja/catalog/_product_gallery.html"
+      ]
+    },
+    {
+      "message": "feat(storefront): surface reference models in home and filtered catalog",
+      "paths": [
+        "loja/storefront/views.py",
+        "loja/templates/loja/storefront/home.html",
+        "loja/templates/loja/catalog/products.html",
+        "loja/templates/loja/catalog/_reference_models.html"
+      ]
+    },
+    {
+      "message": "feat(design): introduce responsive graphite and champagne VRAS theme",
+      "paths": [
+        "static/css/atelier.css",
+        "templates/base.html"
+      ]
+    },
+    {
+      "message": "feat(admin): add protected source and media inventory dashboard",
+      "paths": [
+        "config/urls.py",
+        "loja/management_portal/reference_admin.py",
+        "templates/admin/base_site.html",
+        "templates/admin/reference_catalog.html",
+        "loja/templates/loja/management_portal/dashboard.html",
+        "loja/templates/loja/management_portal/product.html"
+      ]
+    },
+    {
+      "message": "test(catalog): cover reference imports galleries variants cart and admin",
+      "paths": [
+        "loja/tests/reference/__init__.py",
+        "loja/tests/reference/test_import.py",
+        "loja/tests/reference/test_source.py",
+        "loja/tests/reference/test_media.py",
+        "loja/tests/reference/test_pages.py",
+        "loja/tests/reference/test_binding.py",
+        "loja/tests/reference/test_workflow.py",
+        "loja/tests/reference/test_retry.py"
+      ]
+    },
+    {
+      "message": "docs(release): document source evidence validation and publication workflow",
+      "paths": [
+        ".gitignore",
+        "README.md",
+        "PORTFOLIO_PROGRESS.md",
+        "docs/PREMIUM_CATALOG.md",
+        "docs/REFERENCE_ANALYSIS.md",
+        "docs/premium_commit_plan.json",
+        "scripts/commit_premium_catalog.py",
+        "docs/CATALOG_PUBLICATION_STATUS.md"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+{% extends "admin/base.html" %}
+{% block title %}{{ title }} | VRAS Watches{% endblock %}
+{% block branding %}<div id="site-name"><a href="{% url 'admin:index' %}">VRAS Watches / Administração</a></div>{% endblock %}
+{% block nav-global %}<a style="margin-inline:20px" href="{% url 'reference_admin' %}">Catálogo e mídias</a>{% endblock %}
