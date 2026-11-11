@@ -18,11 +18,13 @@
     <meta name="twitter:card" content="{% if og_image and site_url %}summary_large_image{% else %}summary{% endif %}">
     <meta name="twitter:title" content="{% if product %}{{ product.nome }} | {% endif %}VRAS Watches">
     <meta name="twitter:description" content="{{ meta_description|default:'O tempo &eacute; seu. O estilo tamb&eacute;m.' }}">
-    {% if og_image and site_url %}<meta property="og:image" content="{{ site_url }}{{ og_image.url }}"><meta name="twitter:image" content="{{ site_url }}{{ og_image.url }}">{% endif %}
+    {% if og_image and site_url %}<meta property="og:image" content="{% if not og_image.external %}{{ site_url }}{% endif %}{{ og_image.url }}"><meta name="twitter:image" content="{% if not og_image.external %}{{ site_url }}{% endif %}{{ og_image.url }}">{% endif %}
     <link rel="preload" href="{% static 'fonts/crimsontext_n4.a9a5f5ab47c6f5346e7cd274511a5d08c59fb906.woff2' %}" as="font" type="font/woff2" crossorigin>
     <link rel="stylesheet" href="{% static 'css/premium.css' %}">
+    <link rel="stylesheet" href="{% static 'css/atelier.css' %}">
     {% block head %}{% endblock %}
     <script src="{% static 'js/storefront.js' %}" defer></script>
+    <script src="{% static 'js/product-experience.js' %}" defer></script>
 </head>
 <body class="{% block body_class %}{% endblock %}">
     <a class="skip-link" href="#conteudo">Pular para o conte&uacute;do</a>
